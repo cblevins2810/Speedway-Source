@@ -1,4 +1,5 @@
 SET NOCOUNT ON
+
 select '_' + rsda.name as Name,
 REPLACE(rsda.long_name,',','~') as 'Long Name',
 bu.status_code as 'Satus Code',
