@@ -2,68 +2,75 @@
 
    This procedure should be installed in the main ESO database.
    It accepts two required input parameters, the Business Unit Code
-   and the Name of a node in the Item Hierarchy.
-   It accepts one output parameter.  The qty on hand for the
-   Business Unit and Item Hierarchy will be set to the output parameter.
-   This procedure does not return an error code.  If an invalid 
-   Business Unit Code or Item Hierarchy Name is passed in, the output
-   parameter variable will be set to NULL.
+   and a xml document with a list of items.
+   It returns a result set with the item xref_code, qty on hand,
+   and the weighted average cost of the item. If an invalid 
+   Business Unit Code is passed in, the result set will be
+   empty, if the item xref_code is invalid, no row will be returned
+   for that item.
    
 */   
-IF OBJECT_ID('sp_Get_Qty_On_Hand_By_BU_And_Item_Hierarchy') IS NOT NULL
-    DROP PROCEDURE sp_Get_Qty_On_Hand_By_BU_And_Item_Hierarchy
+IF OBJECT_ID('sp_Get_Qty_On_Hand_And_WAC_by_BU_and_ItemList') IS NOT NULL
+    DROP PROCEDURE sp_Get_Qty_On_Hand_And_WAC_by_BU_and_ItemList
 GO
 
-CREATE PROCEDURE sp_Get_Qty_On_Hand_By_BU_And_Item_Hierarchy
-@BU_Code nvarchar(20),
-@Item_Hierarchy_Name nvarchar(50), 
-@Qty_On_Hand INT OUTPUT
+CREATE PROCEDURE sp_Get_Qty_On_Hand_And_WAC_by_BU_and_ItemList
+@ClientId 	INT,
+@BUCode 	NVARCHAR(20),
+@XMLInput AS NTEXT
 AS
 
 SET NOCOUNT ON
-
-BEGIN
-
-/* Drop the table for the list of items with the Hierarchy.  It should not be there, so this is just a safety measure */
-IF OBJECT_ID('tempdb..#item') IS NOT NULL
-    DROP TABLE #item
-
-DECLARE @Item_Hierarchy_Id INT
-DECLARE @Item_Hierarchy_Level TINYINT
-DECLARE @Highest_Item_Hierarchy_Level TINYINT
-DECLARE @current_datetime DATETIME
-DECLARE @Business_Unit_Id INT
+--
+--   Internal Declarations, Variables and Tables.
+--
+DECLARE @idoc                       INT
+DECLARE @BusinessUnitCode           NVARCHAR(50)
+DECLARE @BusinessUnitId             INT
+DECLARE @CurrentDateTime			DATETIME
 
 /* Always use the current date */
-SET @current_datetime = GETDATE()
+SET @CurrentDateTime = GETDATE()
+
+IF OBJECT_ID('tempdb..#DiscontinuedItem') IS NOT NULL
+    DROP TABLE #DiscontinuedItem
+
+CREATE TABLE #DiscontinuedItem (
+		ItemExternalId    		NVARCHAR(100) NOT NULL,
+		ResolvedItemId			INT NULL,
+		QuantityOnHand			INT NOT NULL DEFAULT 0,
+		WeightedAverageCost     SMALLMONEY NOT NULL DEFAULT 0)
 
 /* Get the id of the Business Unit based upon the Code */
-SELECT @Business_Unit_Id = Data_Accessor_id
-FROM Rad_Sys_Data_Accessor
-WHERE name = @BU_Code
+SELECT 	@BusinessUnitId = Data_Accessor_id
+FROM 	Rad_Sys_Data_Accessor
+WHERE 	name 		= @BUCode
+AND  	client_id 	= @ClientId
 
-/* Get the id of the Item Hierarchy based upon the Name */
-SELECT @Item_Hierarchy_Id = item_hierarchy_id,
-       @Item_Hierarchy_Level = hierarchy_level
-FROM item_hierarchy WHERE name = @Item_Hierarchy_Name
+IF @BusinessUnitId IS NOT NULL
+BEGIN
 
-/* Determine the highest level of the tree (subcategory) */
-SELECT @Highest_Item_Hierarchy_Level = MAX(tree_depth)
-FROM item_hierarchy_level
+	EXEC sp_xml_preparedocument @idoc OUTPUT, @XMLInput
 
-/* Create a list of items within the subcategory */
-SELECT i.item_id INTO #Item
-FROM Item AS i
-JOIN Item_Hierarchy_List AS ihl
-ON ihl.item_hierarchy_id = i.item_hierarchy_id
-WHERE ihl.hierarchy_level = @Highest_Item_Hierarchy_Level
-AND ihl.parent_hierarchy_level = @Item_Hierarchy_Level
-AND ihl.parent_item_hierarchy_id = @Item_Hierarchy_Id
+	INSERT 	#DiscontinuedItem (
+			ItemExternalId)
+	SELECT 	ItemExternalId
+	FROM OPENXML (@iDoc, '/DiscontinuedItemList/Item',2)  
+	WITH  	(ItemExternalId    NVARCHAR(30)	'@ItemExternalID')
 
-/* Get the total Qty on Hand for the items in the Item Hierarchy and the Business Unit */
-SELECT @Qty_On_Hand = SUM(oh.atomic_on_hand_qty / oh.factor) 
-        
-FROM
+	-- Free the xml pointer
+	EXEC sp_xml_removedocument @iDoc  
+
+	UPDATE di
+	SET  ResolvedItemId = i.item_id
+	FROM #DiscontinuedItem AS di
+	JOIN Item As i
+	ON   i.xref_code = di.ItemExternalId
+
+	/* Get the total Qty on Hand for the items in the Item Hierarchy and the Business Unit */
+SELECT i.*, oh.atomic_on_hand_qty / oh.factor 
+FROM #DiscontinuedItem AS i
+LEFT JOIN 
 (
         SELECT  atomic_oh.business_unit_id                                    AS business_unit_id,
                 atomic_oh.inventory_item_id                                   AS inventory_item_id,
@@ -84,32 +91,32 @@ FROM
         
                         LEFT OUTER JOIN inventory_item_bu_on_hand_list        ohl
                         ON      ohl.business_unit_id                          = oh.business_unit_id
-                        AND     ohl.business_unit_id                          = @business_unit_Id
+                        AND     ohl.business_unit_id                          = @BusinessUnitId
                         AND     ohl.inventory_item_id                         = oh.inventory_item_id
                         AND     ohl.begin_date                                >= oh.begin_date
-                        AND     ohl.begin_date                                < @current_datetime                             
+                        AND     ohl.begin_date                                < @CurrentDateTime                             
                       
-                        WHERE   oh.business_unit_id                           = @business_unit_Id
-                        AND     oh.begin_date                                 <= @current_datetime
-                        AND     oh.end_date                                   > @current_datetime
+                        WHERE   oh.business_unit_id                           = @BusinessUnitId
+                        AND     oh.begin_date                                 <= @CurrentDateTime
+                        AND     oh.end_date                                   > @CurrentDateTime
                      
                         GROUP BY oh.business_unit_id, oh.inventory_item_id
                 ) atomic_oh
 
                 JOIN    item                                          itm
                 ON      itm.item_id                                   = atomic_oh.inventory_item_id
-                AND     itm.item_type_code                            = 'i'
-                AND     itm.purge_flag                                <> 'y'
-                AND     itm.track_flag                                = 'y'
-                AND     itm.recipe_flag                               = 'n'
+                --AND     itm.item_type_code                            = 'i'
+                --AND     itm.purge_flag                                <> 'y'
+                --AND     itm.track_flag                                = 'y'
+                --AND     itm.recipe_flag                               = 'n'
 
                 JOIN    inventory_item                                invitm
                 ON      invitm.inventory_item_id                      = atomic_oh.inventory_item_id
-                AND     invitm.exclude_on_hand_tracking_flag          = 'n'
+                --AND     invitm.exclude_on_hand_tracking_flag          = 'n'
               
                 LEFT OUTER JOIN inventory_item_bu_list                iibl
                 ON      iibl.business_unit_id                         = atomic_oh.business_unit_id
-                AND     iibl.business_unit_id                         = @business_unit_Id
+                AND     iibl.business_unit_id                         = @BusinessUnitId
                 AND     iibl.inventory_item_id                        = atomic_oh.inventory_item_id
           
         ) atomic_oh
@@ -123,12 +130,16 @@ FROM
 
 ) oh
 
-/* Only pull items based upon the Hierarchy */
-JOIN #Item AS ifilter
-ON   oh.inventory_item_id = ifilter.item_id
+ON   oh.inventory_item_id = i.ResolvedItemId
 
-/* Drop the table for the list of items with the Hierarchy.  It should not be there, so this is just a safety measure */
-IF OBJECT_ID('tempdb..#item') IS NOT NULL
-    DROP TABLE #item
+SELECT	ItemExternalId,
+		QuantityOnHand,
+		WeightedAverageCost
+FROM 	#DiscontinuedItem
+WHERE   ResolvedItemId IS NOT NULL
 
 END
+
+IF OBJECT_ID('tempdb..#DiscontinuedItem') IS NOT NULL
+    DROP TABLE #DiscontinuedItem
+
