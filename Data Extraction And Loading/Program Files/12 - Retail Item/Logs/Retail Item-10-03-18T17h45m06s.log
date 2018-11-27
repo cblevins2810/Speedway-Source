@@ -1,0 +1,49 @@
+10-03-18T17:45:06: Start Log
+10-03-18T17:45:06: Found Input File: Test.csv
+10-03-18T17:45:06: Department: 
+10-03-18T17:45:08: Item Rows: 10
+10-03-18T17:45:09: Item Rows: 20
+10-03-18T17:45:09: Item Rows: 30
+10-03-18T17:45:10: Item Rows: 40
+10-03-18T17:45:10: Item Rows: 50
+10-03-18T17:45:10: Item Rows: 60
+10-03-18T17:45:11: Item Rows: 70
+10-03-18T17:45:11: Item Rows: 80
+10-03-18T17:45:11: Item Rows: 90
+10-03-18T17:45:12: Item Rows: 100
+10-03-18T17:45:12: Item Rows: 110
+10-03-18T17:45:12: Item Rows: 120
+10-03-18T17:45:13: Item Rows: 130
+10-03-18T17:45:13: Item Rows: 140
+10-03-18T17:45:13: Item Rows: 150
+10-03-18T17:45:14: Item Rows: 160
+10-03-18T17:45:14: Item Rows: 170
+10-03-18T17:45:15: Item Rows: 180
+10-03-18T17:45:15: Item Rows: 190
+10-03-18T17:45:15: Item Rows: 200
+10-03-18T17:45:16: Item Rows: 210
+10-03-18T17:45:16: Item Rows: 220
+10-03-18T17:45:16: Item Rows: 230
+10-03-18T17:45:17: Item Rows: 240
+10-03-18T17:45:17: Item Rows: 250
+10-03-18T17:45:17: Item Rows: 260
+10-03-18T17:45:18: Item Rows: 270
+10-03-18T17:45:18: Item Rows: 280
+10-03-18T17:45:18: Item Rows: 290
+10-03-18T17:45:19: Item Rows: 300
+10-03-18T17:45:19: Item Rows: 310
+10-03-18T17:45:19: Item Rows: 320
+10-03-18T17:45:20: Item Rows: 330
+10-03-18T17:45:20: Item Rows: 340
+10-03-18T17:45:20: Item Rows: 350
+10-03-18T17:45:21: Item Rows: 360
+10-03-18T17:45:21: Item Rows: 370
+10-03-18T17:45:21: Item Rows: 380
+10-03-18T17:45:22: Item Rows: 390
+10-03-18T17:45:22: Item Rows: 400
+10-03-18T17:45:23: Finished Department: 
+10-03-18T17:45:23: Total Items: 403
+10-03-18T17:45:23: File created in working xls folder: Retail Item-Test.xlsx
+10-03-18T17:45:23: Moving file Test.csv to Archive 
+10-03-18T17:45:23: ...
+10-03-18T17:45:23: End Log

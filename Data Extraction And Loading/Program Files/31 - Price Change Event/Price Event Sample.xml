@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<EnterpriseDocument InterfaceName="RetailPriceChangeImport" Version="string" CreationSource="string" CreationTimestamp="2007-10-26">
+  <RetailerReference ClientName="string" ClientIdentifierType="ClientID" ClientIdentifier="string"/>
+  <EventReference eventName="string" startDate="2014-06-09+02:00" endDate="2008-11-15" rmiIdentifierType="ExtID" itemIdentifierType="ExtID" draftEvent="y"/>
+  <ItemList>
+    <!--1 or more repetitions:-->
+    <Item itemXRefID="string" itemName="string" retailStrategy="string">
+      <RetailModifiedItemList>
+        <!--1 or more repetitions:-->
+        <RetailModifiedItem XRefID="string" retailLevelGroup="string">
+          <RetailLevelList>
+            <!--1 or more repetitions:-->
+            <RetailLevel retailLevelName="string" retailType="Secondary" listRetail="1000.000000" maxRetail="1000.000000"/>
+          </RetailLevelList>
+        </RetailModifiedItem>
+      </RetailModifiedItemList>
+    </Item>
+  </ItemList>
+</EnterpriseDocument>
+
+
+<EnterpriseDocument InterfaceName="RetailPriceChangeImport" Version="1.0" CreationSource="SPWY BC" CreationTimestamp="2018-07-29">
+	<RetailerReference ClientIdentifierType="ClientID" ClientIdentifier="1000102"/>
+	<EventReference eventName="Test 1" startDate="2018-07-01" rmiIdentifierType="ExtID" itemIdentifierType="ExtID" draftEvent="n"/>
+	<ItemList>
+		<Item itemXRefId="20001806" retailStrategy="Test">
+			<RetailModifiedItemList>
+				<RetailModifiedItem XRefId="gen-1000182" retailLevelGroup="Test">
+					<RetailLevelList>
+						<RetailLevel retailLevelName="Default" retailType="Primary" listRetail="100.99"/>
+					</RetailLevelList>
+				</RetailModifiedItem>
+			</RetailModifiedItemList>
+		</Item>
+	</ItemList>
+</EnterpriseDocument>

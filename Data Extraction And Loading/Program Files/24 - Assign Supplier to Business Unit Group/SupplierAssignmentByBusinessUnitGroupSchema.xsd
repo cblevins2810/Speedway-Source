@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="InterfaceDocument">
+		<xs:annotation>
+			<xs:documentation>This is a general CDM import which allow for suppliers be assigned a business unit or business unit group.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="InterfaceDocumentType">
+					<xs:sequence>
+						<xs:element name="RetailerReference" type="RetailerReferenceType" />
+						<xs:element name="OrgUnitIdentification" type="IdentifierType">
+							<xs:annotation>
+								<xs:documentation>OrgUnitIdentification allows the user to define if this import will be based on business unit groups or business units AND how each will be identified: Name, Code or the database  ID.  Only one org unit identifier type is permitted per file.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="AssignmentIdentification">
+							<xs:complexType>
+								<xs:sequence />
+								<xs:attribute name="SupplierAssignmentLookupValue" type="LookupValue" />
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="OrgUnitList" maxOccurs="1">
+							<xs:annotation>
+								<xs:documentation>The Org Unit List contains a list of business units or the business unit groups.</xs:documentation>
+							</xs:annotation>
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="OrgUnit" maxOccurs="unbounded">
+										<xs:complexType>
+											<xs:complexContent>
+												<xs:extension base="OrgUnitIndentifierType">
+													<xs:sequence>
+														<xs:element name="AssignmentList" maxOccurs="1">
+															<xs:annotation>
+																<xs:documentation>The CDM List contains a list of suppliers.</xs:documentation>
+															</xs:annotation>
+															<xs:complexType>
+																<xs:sequence>
+																	<xs:element name="Assignment" type="AssignmentType" maxOccurs="unbounded" />
+																</xs:sequence>
+															</xs:complexType>
+															<xs:key name="AssignmentListKey1">
+																<xs:selector xpath=".//SupplierAssignment" />
+																<xs:field xpath="@Value" />
+															</xs:key>
+														</xs:element>
+													</xs:sequence>
+												</xs:extension>
+											</xs:complexContent>
+										</xs:complexType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+							<xs:key name="OrgUnitListKey1">
+								<xs:selector xpath=".//OrgUnit" />
+								<xs:field xpath="@OrgUnitIdentifier" />
+							</xs:key>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="InterfaceDocumentType">
+		<xs:attribute name="InterfaceName" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="SupplierAssignmentImport" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="Mode" use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="Update" />
+					<xs:enumeration value="Complete" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="RetailerReferenceType">
+		<xs:annotation>
+			<xs:documentation>This node is used to identify the client for import</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="ClientName" use="optional">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1" />
+					<xs:maxLength value="50" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="ClientIdentifierType" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="ClientID" />
+					<xs:enumeration value="EDINumber" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="ClientIdentifier" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1" />
+					<xs:maxLength value="255" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="IdentifierType">
+		<xs:attribute name="OrgUnitType" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="BusinessUnit" />
+					<xs:enumeration value="BusinessUnitGroup" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="OrgUnitLookupValue" type="LookupValue" use="required" />
+	</xs:complexType>
+	<xs:complexType name="OrgUnitIndentifierType">
+		<xs:attribute name="OrgUnitIdentifier" type="xs:string" use="required" />
+		<xs:attribute name="StartDate" type="ANSIDate" use="optional" />
+		<xs:attribute name="EndDate" type="ANSIDate" use="optional" />
+	</xs:complexType>
+	<xs:complexType name="AssignmentType">
+		<xs:attribute name="Value" type="xs:string" use="required" />
+		<xs:attribute name="Assign" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="y" />
+					<xs:enumeration value="n" />
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:simpleType name="ANSIDate">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{4}-\d{2}-\d{2}" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="LookupValue">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Name" />
+			<xs:enumeration value="ID" />
+			<xs:enumeration value="XRefID" />
+			<xs:enumeration value="Code" />
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

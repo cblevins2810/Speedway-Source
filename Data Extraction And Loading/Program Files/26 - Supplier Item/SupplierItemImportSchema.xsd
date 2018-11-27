@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by The Chuckster (Blue) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+ <xs:element name="RadiantDocument">
+   <xs:annotation>
+     <xs:documentation>This is the root element of the schema.</xs:documentation>
+   </xs:annotation>
+   <xs:complexType>
+     <xs:complexContent>
+       <xs:extension base="RadiantDocumentType" />
+     </xs:complexContent>
+   </xs:complexType>
+ </xs:element>
+ <xs:complexType name="RadiantDocumentType">
+   <xs:annotation>
+     <xs:documentation>Contains catalog information and supplier item list</xs:documentation>
+   </xs:annotation>
+   <xs:sequence>
+     <xs:element name="CatalogReference" type="CatalogReferenceType" />
+     <xs:element name="SupplierItemList" type="SupplierItemListType" />
+   </xs:sequence>
+   <xs:attribute name="Name" type="xs:string" use="optional" default="RadiantSupplierCatalog" />
+ </xs:complexType>
+ <xs:complexType name="CatalogReferenceType">
+   <xs:annotation>
+     <xs:documentation>Contains catalog information.</xs:documentation>
+   </xs:annotation>
+   <xs:sequence>
+     <xs:element name="SupplierReference" type="SupplierReferenceType" />
+     <xs:element name="RetailerReference" type="RetailerReferenceType" />
+   </xs:sequence>
+   <xs:attribute name="Mode" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:enumeration value="Update" />
+         <xs:enumeration value="Complete" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="DefaultCostStartDate" type="xs:date" use="optional" />
+   <xs:attribute name="DefaultCostEndDate" type="xs:date" use="optional" />
+   <xs:attribute name="DefaultAvailabilityStartDate" type="xs:date" use="optional" />
+   <xs:attribute name="DefaultAvailabilityEndDate" type="xs:date" use="optional" />
+ </xs:complexType>
+ <xs:complexType name="SupplierReferenceType">
+   <xs:annotation>
+     <xs:documentation>Contains supplier identification. </xs:documentation>
+   </xs:annotation>
+   <xs:attribute name="SupplierName" use="optional">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="50" />
+         <xs:minLength value="1" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="SupplierIdentifierType" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:enumeration value="SupplierID" />
+         <xs:enumeration value="XRefID" />
+         <xs:enumeration value="EDINumber" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="SupplierIdentifier" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="255" />
+         <xs:minLength value="1" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+ </xs:complexType>
+ <xs:complexType name="RetailerReferenceType">
+   <xs:annotation>
+     <xs:documentation>Contains retailer identification</xs:documentation>
+   </xs:annotation>
+   <xs:attribute name="ClientName" use="optional">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:minLength value="1" />
+         <xs:maxLength value="50" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="ClientIdentifierType" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:enumeration value="ClientID" />
+         <xs:enumeration value="EDINumber" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="ClientIdentifier" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:minLength value="1" />
+         <xs:maxLength value="255" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+ </xs:complexType>
+ <xs:complexType name="SupplierItemListType">
+   <xs:sequence>
+     <xs:element name="SupplierItem" maxOccurs="unbounded">
+       <xs:complexType>
+         <xs:complexContent>
+           <xs:extension base="SupplierItemType">
+             <xs:sequence>
+               <xs:element name="BarcodeList" minOccurs="0">
+                 <xs:complexType>
+                   <xs:sequence>
+                     <xs:element name="Barcode" type="BarcodeType" maxOccurs="unbounded" />
+                   </xs:sequence>
+                 </xs:complexType>
+               </xs:element>
+               <xs:element name="CostList">
+                 <xs:complexType>
+                   <xs:sequence>
+                     <xs:element name="Cost" type="CostType" maxOccurs="unbounded" />
+                   </xs:sequence>
+                 </xs:complexType>
+               </xs:element>
+             </xs:sequence>
+           </xs:extension>
+         </xs:complexContent>
+       </xs:complexType>
+     </xs:element>
+   </xs:sequence>
+ </xs:complexType>
+ <xs:complexType name="SupplierItemType">
+   <xs:annotation>
+     <xs:documentation>Contains supplier item data</xs:documentation>
+   </xs:annotation>
+   <xs:attribute name="Name" type="xs:string" use="required" />
+   <xs:attribute name="ProductCode" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="50" />
+         <xs:minLength value="1" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="Status" use="optional" default="a">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:length value="1" />
+         <xs:enumeration value="a" />
+         <xs:enumeration value="i" />
+         <xs:enumeration value="u" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="InventoryItemExternalID" use="optional">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="255" />
+         <xs:minLength value="1" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="AvailabilityStartDate" type="xs:date" use="optional" />
+   <xs:attribute name="AvailabilityEndDate" type="xs:date" use="optional" />
+   <xs:attribute name="XRefID" type="xs:string" use="optional" />
+   <xs:attribute name="Description" use="optional">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="50" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="SupplierItemGroupName" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="50" />
+         <xs:minLength value="1" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="SupplierItemGroupDescription" use="optional">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:maxLength value="255" />
+         <xs:minLength value="1" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="SupplierPackageUOM" type="xs:string" use="required" />
+   <xs:attribute name="SupplierWeightUOM" type="xs:string" use="optional">
+     <xs:annotation>
+       <xs:documentation>Applies to variable-weight items which are priced by weight.</xs:documentation>
+     </xs:annotation>
+   </xs:attribute>
+   <xs:attribute name="QuantityFactor" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:float">
+         <xs:minExclusive value="0" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+ </xs:complexType>
+ <xs:complexType name="BarcodeType">
+   <xs:annotation>
+     <xs:documentation>Contains barcode information</xs:documentation>
+   </xs:annotation>
+   <xs:attribute name="TypeCode" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:enumeration value="u" />
+         <xs:enumeration value="e" />
+         <xs:enumeration value="s" />
+         <xs:enumeration value="c" />
+         <xs:enumeration value="g" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+   <xs:attribute name="Number" use="required">
+     <xs:simpleType>
+       <xs:restriction base="xs:string">
+         <xs:minLength value="1" />
+         <xs:maxLength value="128" />
+       </xs:restriction>
+     </xs:simpleType>
+   </xs:attribute>
+ </xs:complexType>
+ <xs:complexType name="CostType">
+   <xs:annotation>
+     <xs:documentation>Contains cost information</xs:documentation>
+   </xs:annotation>
+   <xs:attribute name="CostLevel" type="xs:string" use="required" />
+   <xs:attribute name="PackageCost" type="xs:decimal" use="required" />
+   <xs:attribute name="Allowance" type="xs:decimal" use="optional" />
+   <xs:attribute name="CostStartDate" type="xs:date" use="optional" />
+   <xs:attribute name="CostEndDate" type="xs:date" use="optional" />
+ </xs:complexType>
+</xs:schema>
+
+
+
+
+
+

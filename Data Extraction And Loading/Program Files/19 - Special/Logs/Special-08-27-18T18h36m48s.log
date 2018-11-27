@@ -1,0 +1,11 @@
+08-27-18T18:36:48: Start Log
+08-27-18T18:36:48: Processing File: Special Extract 08-27.xlsx
+08-27-18T18:36:52: File created in final csv folder: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Special\FinalCSV\Special Extract 08-27_xref-1149567.csv
+08-27-18T18:36:54: File created in final csv folder: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Special\FinalCSV\Special Extract 08-27_xref-1152131.csv
+08-27-18T18:36:56: File created in final csv folder: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Special\FinalCSV\Special Extract 08-27_xref-1153465.csv
+08-27-18T18:36:58: File created in final csv folder: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Special\FinalCSV\Special Extract 08-27_xref-1153373.csv
+08-27-18T18:36:58: Deleting File: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Special\FinalCSV\Special Extract 08-27.csv
+08-27-18T18:36:58: ...
+08-27-18T18:36:58: Processing File: ~$Special Extract 08-27.xlsx
+08-27-18T18:36:59: Error --> Excel cannot open the file '~$Special Extract 08-27.xlsx' because the file format or file extension is not valid. Verify that the file has not been corrupted and that the file extension matches the format of the file.
+08-27-18T18:36:59: End Log

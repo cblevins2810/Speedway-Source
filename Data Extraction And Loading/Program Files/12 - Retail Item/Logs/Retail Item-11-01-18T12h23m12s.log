@@ -1,0 +1,16 @@
+11-01-18T12:23:12: Start Log
+11-01-18T12:23:12: Found Input File: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Retail Item\FinalCSV\Miranda.csv
+11-01-18T12:23:12: Items Rows: 10
+11-01-18T12:23:12: Items Rows: 20
+11-01-18T12:23:12: Items Rows: 30
+11-01-18T12:23:12: Items Rows: 40
+11-01-18T12:23:12: Items Rows: 50
+11-01-18T12:23:12: Items Rows: 60
+11-01-18T12:23:12: Items Rows: 70
+11-01-18T12:23:12: Starting XSL Transform, this may take awhile.
+11-01-18T12:23:12: XSL Transform Complete.
+11-01-18T12:23:12: Finished Items
+11-01-18T12:23:12: Total Items: 74
+11-01-18T12:23:12: File created in final xml folder: Miranda.xml
+11-01-18T12:23:12: ...
+11-01-18T12:23:12: End Log

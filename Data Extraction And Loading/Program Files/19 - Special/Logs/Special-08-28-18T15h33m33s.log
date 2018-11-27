@@ -1,0 +1,5 @@
+08-28-18T15:33:33: Start Log
+08-28-18T15:33:33: Found Input File: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Special\FinalCSV\test_xref-1000025.csv
+08-28-18T15:33:33: Starting XSL Transform, this may take awhile.
+08-28-18T15:33:33: Error --> 'Â' is undefined
+08-28-18T15:33:33: End Log

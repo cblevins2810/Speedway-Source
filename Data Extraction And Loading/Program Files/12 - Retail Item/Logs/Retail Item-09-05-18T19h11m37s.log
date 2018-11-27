@@ -1,0 +1,16 @@
+09-05-18T19:11:37: Start Log
+09-05-18T19:11:37: Processing File: Not Sold.xlsx
+09-05-18T19:11:39: Finished File: Not Sold.xlsx
+09-05-18T19:11:39: File created in final csv folder: Not Sold.csv
+09-05-18T19:11:39: ...
+09-05-18T19:11:39: Processing File: Not Sold2.xlsx
+09-05-18T19:11:42: Finished File: Not Sold2.xlsx
+09-05-18T19:11:42: File created in final csv folder: Not Sold2.csv
+09-05-18T19:11:42: ...
+09-05-18T19:11:42: Processing File: Test.xlsx
+09-05-18T19:11:44: Finished File: Test.xlsx
+09-05-18T19:11:44: File created in final csv folder: Test.csv
+09-05-18T19:11:44: ...
+09-05-18T19:11:44: Processing File: ~$Not Sold.xlsx
+09-05-18T19:11:45: Error --> Excel cannot open the file '~$Not Sold.xlsx' because the file format or file extension is not valid. Verify that the file has not been corrupted and that the file extension matches the format of the file.
+09-05-18T19:11:45: End Log
