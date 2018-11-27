@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EnterpriseDocument InterfaceName="ShelfLabelBatchImport" Version="1.0" CreationTimestamp="2007-10-26T08:36:28" CreationSource="string">
+  <ShelfLabelBatchList>
+    <!--1 or more repetitions:-->
+    <ShelfLabelBatch batchName="string" businessUnitCode="string" businessUnitName="string">
+      <!--Optional:-->
+      <RetailItemList>
+        <!--1 or more repetitions:-->
+        <RetailItem retailItemName="string" retailPackExternalID="string" shelfLabelPrintQuantity="1"/>
+      </RetailItemList>
+      <!--Optional:-->
+      <InventoryItemList>
+        <!--1 or more repetitions:-->
+        <InventoryItem itemName="string" ItemExternalID="string" shelfLabelPrintQuantity="1"/>
+      </InventoryItemList>
+    </ShelfLabelBatch>
+  </ShelfLabelBatchList>
+</EnterpriseDocument>

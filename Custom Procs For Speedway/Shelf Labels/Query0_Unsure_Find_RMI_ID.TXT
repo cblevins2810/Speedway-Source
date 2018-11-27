@@ -1,0 +1,3 @@
+SELECT wave_id as retail_modified_item_id , *  --* return all columns added by TV2                                          
+ FROM retail_modified_item_xref (NOLOCK)                                              
+WHERE xref_mapping_state_code = 'x'                                            
