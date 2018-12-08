@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with rebate details based upon a business unit and date.
+   It will include all rebates that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -15,13 +19,6 @@ SET NOCOUNT ON
 
 BEGIN
 
--- Rebate amts from purchase based rebates
-/*INSERT  #f_gen_inv_rebate_accrual_supplier_item_list
-(
-        item_id,
-        non_retroactive_non_withheld_rebate_amt
-)
-*/
 SELECT  rasil.item_id,
         SUM(rasil.rebate_amt)             AS rebate_amt
  
@@ -45,5 +42,7 @@ AND     ra.withheld_flag                  = 'n'
 GROUP BY rasil.item_id
 
 END
+
+GO
 
 

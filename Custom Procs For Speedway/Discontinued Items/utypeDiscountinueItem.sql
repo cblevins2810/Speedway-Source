@@ -1,3 +1,8 @@
+/*
+   Discontinued Item Type.  This type is created to match the XML parameter sent into the stored procedures
+   that retrieve Item WAC and On-Hand by Business Unit.  Creating a type is the only way to pass a table
+   variable into a stored procedure.
+*/
 USE VP60_Spwy
 GO
 

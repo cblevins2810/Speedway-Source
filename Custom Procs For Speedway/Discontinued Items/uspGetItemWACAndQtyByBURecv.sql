@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with receiving details based upon a business unit and date.
+   It will include all receivings that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -204,5 +208,7 @@ GROUP BY recv.inventory_item_id,
         recv.received_date        
 
 END
+
+GO
 
 

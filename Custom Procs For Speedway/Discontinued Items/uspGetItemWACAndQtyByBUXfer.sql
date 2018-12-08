@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with transfer details based upon a business unit and date.
+   It will include all transfers that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -15,17 +19,6 @@ SET NOCOUNT ON
 
 BEGIN
 
--- Transfers
-/*INSERT  #f_gen_inv_transfer
-(
-        inventory_transfer_id,
-        inventory_item_id,
-        timestamp,
-        transfer_type_code,
-        atomic_transfer_qty,
-        atomic_cost
-)
-*/
 SELECT  it.inventory_transfer_id,
         itil.inventory_item_id,
         it.transfer_timestamp,
@@ -52,5 +45,7 @@ AND     it.status_code                  NOT IN ('d', 'a', 'q') -- no draft, acti
 
 
 END
+
+GO
 
 

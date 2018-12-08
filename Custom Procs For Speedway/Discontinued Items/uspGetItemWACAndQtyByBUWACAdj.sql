@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with WAC adjustment details based upon a business unit and date.
+   It will include all WAC adjustments that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -82,7 +86,7 @@ AND 		ihbol.business_unit_id  	= @business_unit_id
 
 WHERE 		w.status_Code in ('p')
 AND 		wl.business_unit_id 		= @business_unit_id
-AND 		wl.active_flag 				= 'a'
+AND 		wl.active_flag 				= 'a'  -- Include only active adjustments
 AND 		wl.atomic_cost 				> 0 
 AND	 		COALESCE(ihbol.valuation_method_code, ih.valuation_method_code, icp.valuation_method_code, 'i') = 'w'
 
@@ -106,4 +110,4 @@ FROM @Inventory_WAC_Adjustment_BU_List
    
 END
 
-
+GO

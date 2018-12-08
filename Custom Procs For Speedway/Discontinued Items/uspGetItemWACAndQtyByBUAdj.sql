@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with adjustment details based upon a business unit and date.
+   It will include all adjustments that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -16,20 +20,6 @@ SET NOCOUNT ON
 BEGIN
 
 -- Adjustments
-/*
-INSERT  #f_gen_inv_adjustment
-(
-        inventory_event_id,
-        inventory_event_list_id,
-        inventory_item_id,
-        timestamp,
-        adjustment_type_code,
-        atomic_event_qty,
-        atomic_cost,
-        production_usage_qty,
-        include_in_gross_margin_report_with_rebates_flag
-)
-*/
 
 SELECT  ie.inventory_event_id, 
         ieil.inventory_event_list_id,
@@ -78,10 +68,11 @@ LEFT OUTER JOIN spwy_eso..reason         r WITH (NOLOCK)
 ON    r.reason_id                        = iel.reason_id
 
 WHERE ie.business_unit_id                = @business_unit_id
-AND   ie.business_date                   >= @business_date
-AND   ie.status_code                     <> 'd'
-AND   ie.status_code                     <> 'w' /* Added by JIB.C2.1: ''w'' is for workflow and should be ignored WIT#1085024*/
-
+AND   ie.business_date                   >= @business_date -- Include everything from the passed in date forward
+AND   ie.status_code                     <> 'd' -- Consider all but draft
+AND   ie.status_code                     <> 'w' -- w is for workflow and should be ignored 
 END
+
+GO
 
 

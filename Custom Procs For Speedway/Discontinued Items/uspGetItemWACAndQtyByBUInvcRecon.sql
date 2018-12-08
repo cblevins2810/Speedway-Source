@@ -1,3 +1,8 @@
+/*
+   This procedure returns a list of items with reconciliation adjustment details based upon a business unit and date.
+   It will include all reconciliation adjustments that are not draft and occurred on or after the business date.
+   This procedure handles both items and items within shipper supplier items.
+*/
 USE VP60_Spwy
 GO
 
@@ -16,15 +21,7 @@ SET NOCOUNT ON
 BEGIN
 
 -- Receivings (non-shipper) which are received and reconciled on different business date
-/*INSERT  #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
-(
-        inventory_item_id,
-        received_id,
-        supplier_item_id,
-        discrepancy_adj_amt,
-        reconciled_date
-) 
-*/
+
 
 SELECT  rsi.inventory_item_id             AS inventory_item_id,
         rd.received_id                    AS received_id,
@@ -80,15 +77,7 @@ AND     NOT EXISTS( SELECT 1                          --not to include receiving
 UNION ALL
                   
 -- Receivings (shipper) which are received and reconciled on different business date
-/*INSERT  #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
-(
-        inventory_item_id,
-        received_id,
-        supplier_item_id,
-        discrepancy_adj_amt,
-        reconciled_date
-) 
-*/
+
 SELECT  ricl.inventory_item_id            AS inventory_item_id,
         rd.received_id                    AS received_id,
         rsi.supplier_item_id              AS supplier_item_id,
@@ -145,5 +134,7 @@ WHERE   ir.business_unit_id               	=  @business_unit_id
                   )
 
 END
+
+GO
 
 

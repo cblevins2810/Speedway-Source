@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with count details based upon a business unit and date.
+   It will include all counts that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -42,11 +46,12 @@ JOIN    @discontinued_item di
 ON		oh.inventory_item_id		= di.resolved_item_id
  
 WHERE   ic.business_unit_id       	= @business_unit_id
-AND     ic.business_date          	>= @business_date
-AND     ic.status_code            	<> 'd'
+AND     ic.business_date          	>= @business_date -- Include all from current date forward
+AND     ic.status_code            	<> 'd' -- Do not include draft counts
 AND     ic.critical_inventory_flag 	= 'n'
 AND     ic.investment_buy_flag 		= 'n'  
 
 END
 
+GO
 

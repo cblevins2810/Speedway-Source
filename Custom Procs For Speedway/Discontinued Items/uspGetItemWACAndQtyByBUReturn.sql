@@ -1,3 +1,7 @@
+/*
+   This procedure returns a list of items with return details based upon a business unit and date.
+   It will include all returns that are not draft and occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -131,4 +135,5 @@ AND     NOT EXISTS( SELECT 1                                -- not to include re
 
 END
 
+GO
 

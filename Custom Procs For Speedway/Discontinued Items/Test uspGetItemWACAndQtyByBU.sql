@@ -1,3 +1,4 @@
+/* Test Script to Call Main Procedure */
 DECLARE @XMLInput AS NVARCHAR(MAX)
 DECLARE @BusinessUnitCode NVARCHAR(50)
 

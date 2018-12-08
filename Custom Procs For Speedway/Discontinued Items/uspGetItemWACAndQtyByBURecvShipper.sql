@@ -1,3 +1,8 @@
+/*
+   This procedure returns a list of items within shipper supplier items with receiving details 
+   based upon a business unit and date.  It will include all receivings that are not draft and
+   occurred on or after the business date.
+*/
 USE VP60_Spwy
 GO
 
@@ -15,18 +20,6 @@ SET NOCOUNT ON
 
 BEGIN
 
--- Receivings (shipper) which are received and reconciled on the same day
-/*INSERT  #f_gen_inv_receive
-(
-        inventory_item_id,
-        received_id,
-        supplier_item_id,
-        recv_date,
-        atomic_qty,
-        atomic_free_quantity,
-        atomic_cost
-)
-*/
 SELECT  ricl.inventory_item_id,
         rd.received_id,
         rsi.supplier_item_id,
@@ -99,5 +92,7 @@ AND     NOT EXISTS( SELECT 1                          --not to include receiving
                   )      
 
 END
+
+GO
 
 
