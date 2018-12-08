@@ -9,12 +9,15 @@
    Business Unit Code or Item Hierarchy Name is passed in, the output
    parameter variable will be set to NULL.
    
-*/   
-IF OBJECT_ID('sp_Get_Qty_On_Hand_By_BU_And_Item_Hierarchy') IS NOT NULL
-    DROP PROCEDURE sp_Get_Qty_On_Hand_By_BU_And_Item_Hierarchy
+*/ 
+USE VP60_Spwy
+GO
+  
+IF OBJECT_ID('uspGetQtyOnHandByBUAndItemHierarchy') IS NOT NULL
+    DROP PROCEDURE uspGetQtyOnHandByBUAndItemHierarchy
 GO
 
-CREATE PROCEDURE sp_Get_Qty_On_Hand_By_BU_And_Item_Hierarchy
+CREATE PROCEDURE uspGetQtyOnHandByBUAndItemHierarchy
 @BU_Code nvarchar(20),
 @Item_Hierarchy_Name nvarchar(50), 
 @Qty_On_Hand INT OUTPUT
@@ -39,22 +42,22 @@ SET @current_datetime = GETDATE()
 
 /* Get the id of the Business Unit based upon the Code */
 SELECT @Business_Unit_Id = Data_Accessor_id
-FROM Rad_Sys_Data_Accessor
+FROM VP60_eso..Rad_Sys_Data_Accessor
 WHERE name = @BU_Code
 
 /* Get the id of the Item Hierarchy based upon the Name */
 SELECT @Item_Hierarchy_Id = item_hierarchy_id,
        @Item_Hierarchy_Level = hierarchy_level
-FROM item_hierarchy WHERE name = @Item_Hierarchy_Name
+FROM VP60_eso..item_hierarchy WHERE name = @Item_Hierarchy_Name
 
 /* Determine the highest level of the tree (subcategory) */
 SELECT @Highest_Item_Hierarchy_Level = MAX(tree_depth)
-FROM item_hierarchy_level
+FROM VP60_eso..item_hierarchy_level
 
 /* Create a list of items within the subcategory */
 SELECT i.item_id INTO #Item
-FROM Item AS i
-JOIN Item_Hierarchy_List AS ihl
+FROM VP60_eso..Item AS i
+JOIN VP60_eso..Item_Hierarchy_List AS ihl
 ON ihl.item_hierarchy_id = i.item_hierarchy_id
 WHERE ihl.hierarchy_level = @Highest_Item_Hierarchy_Level
 AND ihl.parent_hierarchy_level = @Item_Hierarchy_Level
@@ -80,9 +83,9 @@ FROM
                                 oh.inventory_item_id                          AS inventory_item_id,
                                 SUM(COALESCE(ohl.atomic_transaction_quantity, 0)) + MIN(COALESCE(oh.atomic_total_count,0))  AS atomic_on_hand_qty
           
-                        FROM    inventory_item_bu_on_hand                     oh                                
+                        FROM    VP60_eso..inventory_item_bu_on_hand           oh                                
         
-                        LEFT OUTER JOIN inventory_item_bu_on_hand_list        ohl
+                        LEFT OUTER JOIN VP60_eso..inventory_item_bu_on_hand_list        ohl
                         ON      ohl.business_unit_id                          = oh.business_unit_id
                         AND     ohl.business_unit_id                          = @business_unit_Id
                         AND     ohl.inventory_item_id                         = oh.inventory_item_id
@@ -96,28 +99,28 @@ FROM
                         GROUP BY oh.business_unit_id, oh.inventory_item_id
                 ) atomic_oh
 
-                JOIN    item                                          itm
+                JOIN    VP60_eso..item                                          itm
                 ON      itm.item_id                                   = atomic_oh.inventory_item_id
                 AND     itm.item_type_code                            = 'i'
                 AND     itm.purge_flag                                <> 'y'
                 AND     itm.track_flag                                = 'y'
                 AND     itm.recipe_flag                               = 'n'
 
-                JOIN    inventory_item                                invitm
+                JOIN    VP60_eso..inventory_item                                invitm
                 ON      invitm.inventory_item_id                      = atomic_oh.inventory_item_id
                 AND     invitm.exclude_on_hand_tracking_flag          = 'n'
               
-                LEFT OUTER JOIN inventory_item_bu_list                iibl
+                LEFT OUTER JOIN VP60_eso..inventory_item_bu_list                iibl
                 ON      iibl.business_unit_id                         = atomic_oh.business_unit_id
                 AND     iibl.business_unit_id                         = @business_unit_Id
                 AND     iibl.inventory_item_id                        = atomic_oh.inventory_item_id
           
         ) atomic_oh
   
-        JOIN    unit_of_measure                                       uom
+        JOIN    VP60_eso..unit_of_measure                                       uom
         ON      uom.unit_of_measure_id                                = atomic_oh.valuation_uom_id
         
-        LEFT OUTER JOIN item_uom_conversion                           uomcv
+        LEFT OUTER JOIN VP60_eso..item_uom_conversion                           uomcv
         ON      uomcv.item_id                                         = atomic_oh.inventory_item_id
         AND     uomcv.unit_of_measure_class_id                        = uom.unit_of_measure_class_id
 

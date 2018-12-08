@@ -1,38 +1,29 @@
-/*
-IF OBJECT_ID('discontinued_item') IS NOT NULL
-	DROP TYPE discontinued_item 
+USE VP60_Spwy
 GO
 
-CREATE TYPE discontinued_item AS TABLE (
-		xref_code NVARCHAR(100) NOT NULL,
-		resolved_item_id INT NULL)
-GO		
-*/
-DECLARE @current_business_date SMALLDATETIME
+IF OBJECT_ID('uspGetItemWACAndQtyByBU') IS NOT NULL
+    DROP PROCEDURE uspGetItemWACAndQtyByBU
+GO
+
+CREATE PROCEDURE uspGetItemWACAndQtyByBU
+@BusinessUnitCode NVARCHAR(50),
+@XMLInput NVARCHAR(MAX)
+AS
+
+SET NOCOUNT ON
+
+BEGIN
+
+DECLARE @business_date SMALLDATETIME
 DECLARE @Business_Unit_Id INT
+DECLARE @Client_Id INT
 DECLARE @iDoc INT
 DECLARE @discontinued_item discontinued_item 
+DECLARE @data_source_code NCHAR(1)
+DECLARE @item_hierarchy_level_id    INT
+DECLARE @default_valuation_method_code      NCHAR(1)
 
-/*TABLE (
-		xref_code NVARCHAR(100) NOT NULL,
-		resolved_item_id INT NULL)
-*/
-DECLARE @XMLInput AS NVARCHAR(MAX)
-
-IF (OBJECT_ID('tempdb..#new_f_gen_inv_item_activity_bu_day') IS NOT NULL)   DROP TABLE #new_f_gen_inv_item_activity_bu_day
-IF (OBJECT_ID('tempdb..#tmp_bu_day_count') IS NOT NULL)                     DROP TABLE #tmp_bu_day_count
-IF (OBJECT_ID('tempdb..#f_gen_inv_count') IS NOT NULL)                      DROP TABLE #f_gen_inv_count
-IF (OBJECT_ID('tempdb..#f_gen_inv_receive') IS NOT NULL)                    DROP TABLE #f_gen_inv_receive
-IF (OBJECT_ID('tempdb..#f_gen_inv_adjustment') IS NOT NULL)                 DROP TABLE #f_gen_inv_adjustment
-IF (OBJECT_ID('tempdb..#f_gen_inv_transfer') IS NOT NULL)                   DROP TABLE #f_gen_inv_transfer
-IF (OBJECT_ID('tempdb..#f_gen_inv_return') IS NOT NULL)                     DROP TABLE #f_gen_inv_return
-IF (OBJECT_ID('tempdb..#f_gen_inv_rebate_accrual_supplier_item_list') IS NOT NULL) DROP TABLE #f_gen_inv_rebate_accrual_supplier_item_list
-IF (OBJECT_ID('tempdb..#f_gen_inv_rebate_accrual_rmi_list') IS NOT NULL)    DROP TABLE #f_gen_inv_rebate_accrual_rmi_list
-IF (OBJECT_ID('tempdb..#f_gen_sales_item_dest_bu_day') IS NOT NULL)         DROP TABLE #f_gen_sales_item_dest_bu_day
-IF (OBJECT_ID('tempdb..#Inventory_WAC_Adjustment_BU_List') IS NOT NULL)     DROP TABLE #Inventory_WAC_Adjustment_BU_List
-IF (OBJECT_ID('tempdb..#Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC') IS NOT NULL) DROP TABLE #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
-
-CREATE TABLE #new_f_gen_inv_item_activity_bu_day
+DECLARE @new_f_gen_inv_item_activity_bu_day TABLE
 (
         bu_id                               INT NOT NULL,
         start_business_date                 SMALLDATETIME NOT NULL,
@@ -83,7 +74,7 @@ CREATE TABLE #new_f_gen_inv_item_activity_bu_day
         PRIMARY KEY (inventory_item_id, bu_id)
 )
 
-CREATE TABLE #tmp_bu_day_count
+DECLARE @tmp_bu_day_count TABLE
 (
         bu_id                               INT,
         business_date                       SMALLDATETIME,
@@ -95,7 +86,7 @@ CREATE TABLE #tmp_bu_day_count
 )
 
 -- Transactional tables
-CREATE TABLE #f_gen_inv_count
+DECLARE @f_gen_inv_count TABLE
 (
         item_count_id                       INT,
         inventory_item_id                   INT,
@@ -106,7 +97,7 @@ CREATE TABLE #f_gen_inv_count
         PRIMARY KEY (inventory_item_id, item_count_id)
 )
 
-CREATE TABLE #f_gen_inv_receive
+DECLARE @f_gen_inv_receive TABLE
 (
         received_id                         INT,
         supplier_item_id                    INT,
@@ -119,7 +110,7 @@ CREATE TABLE #f_gen_inv_receive
         PRIMARY KEY (inventory_item_id, received_id, supplier_item_id)
 )
 
-CREATE TABLE #f_gen_inv_adjustment
+DECLARE @f_gen_inv_adjustment TABLE
 (
         inventory_event_id                  INT,
         inventory_event_list_id             INT,
@@ -135,7 +126,7 @@ CREATE TABLE #f_gen_inv_adjustment
         PRIMARY KEY (inventory_item_id, inventory_event_id, inventory_event_list_id, row_num)
 )
 
-CREATE TABLE #f_gen_inv_transfer
+DECLARE @f_gen_inv_transfer TABLE
 (
         inventory_transfer_id               INT,
         inventory_item_id                   INT,
@@ -147,7 +138,7 @@ CREATE TABLE #f_gen_inv_transfer
         PRIMARY KEY (inventory_item_id, inventory_transfer_id)
 )
 
-CREATE TABLE #f_gen_inv_return
+DECLARE @f_gen_inv_return TABLE
 (
         return_id                           INT,
         supplier_item_id                    INT,
@@ -158,7 +149,7 @@ CREATE TABLE #f_gen_inv_return
         PRIMARY KEY (inventory_item_id, supplier_item_id, return_id)
 )
 
-CREATE TABLE #f_gen_inv_rebate_accrual_supplier_item_list
+DECLARE @f_gen_inv_rebate_accrual_supplier_item_list TABLE
 (
         item_id                                       INT,
         non_retroactive_non_withheld_rebate_amt       NUMERIC(28,10),
@@ -168,7 +159,7 @@ CREATE TABLE #f_gen_inv_rebate_accrual_supplier_item_list
         PRIMARY KEY (item_id)
 )
 
-CREATE TABLE #f_gen_inv_rebate_accrual_rmi_list
+DECLARE @f_gen_inv_rebate_accrual_rmi_list TABLE
 (
         item_id                                       INT,
         non_withheld_rebate_amt                       NUMERIC(28,10),
@@ -177,7 +168,7 @@ CREATE TABLE #f_gen_inv_rebate_accrual_rmi_list
         PRIMARY KEY (item_id)
 )
 
-CREATE TABLE #f_gen_sales_item_dest_bu_day
+DECLARE @f_gen_sales_item_dest_bu_day TABLE
 (
         item_id                                       INT,
         net_sales_amt                                 NUMERIC(28,10),
@@ -185,7 +176,7 @@ CREATE TABLE #f_gen_sales_item_dest_bu_day
         PRIMARY KEY (item_id)
 )
 
-CREATE TABLE #Inventory_WAC_Adjustment_BU_List
+DECLARE @Inventory_WAC_Adjustment_BU_List TABLE
 (
         wac_adjustment_id int NOT NULL,
         inventory_item_id  INT NOT NULL,
@@ -200,7 +191,7 @@ CREATE TABLE #Inventory_WAC_Adjustment_BU_List
         PRIMARY KEY (wac_adjustment_id, inventory_item_id)
 )
 
-CREATE TABLE #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
+DECLARE @Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC TABLE
 (
         received_id                         INT,
         supplier_item_id                    INT,
@@ -210,198 +201,6 @@ CREATE TABLE #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
 
         PRIMARY KEY (inventory_item_id, received_id, supplier_item_id)
 )
-
--- Test Data Only
-SET @current_business_date = GETDATE()
-SET @Business_Unit_Id = 1000397
-
-SET @XMLInput = N'<DiscontinuedItemList>
-       <Item ItemExternalID="114308"/>
-	   <Item ItemExternalID="114314"/>
-	   <Item ItemExternalID="114322"/>
-</DiscontinuedItemList>'
-
--- Get the xml pointer
-EXEC sp_xml_preparedocument @idoc OUTPUT, @XMLInput
-
--- Load the item external id's into a table var
-INSERT 	@discontinued_item (
-		xref_code)
-SELECT 	xref_code
-FROM OPENXML (@iDoc, '/DiscontinuedItemList/Item',2)  
-WITH  	(xref_code    NVARCHAR(30)	'@ItemExternalID')
-
--- Free the xml pointer
-EXEC sp_xml_removedocument @iDoc  
-
--- Set the actual item id
-UPDATE di
-SET  resolved_item_id = i.item_id
-FROM @discontinued_item AS di
-JOIN Item As i
-ON   i.xref_code = di.xref_code
-
--- Remove any invalid items
-DELETE @discontinued_item
-WHERE  resolved_item_id IS NULL
-
--- Get the counts for the current business date
-INSERT INTO #f_gen_inv_count 
-(
-        item_count_id,
-        inventory_item_id,
-        timestamp,
-        atomic_count_qty,
-        frequency_code  
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Count @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Get last counts of the day
-INSERT  #tmp_bu_day_count 
-(
-        bu_id,
-        business_date,
-        inventory_item_id,
-        bu_date_last_count_timestamp,
-        atomic_count_qty,
-        frequency_code
-)
-SELECT  @business_unit_id, 
-        @business_date, 
-        cnt.inventory_item_id,
-        cnt.timestamp,
-        COALESCE(atomic_count_qty, 0),
-        cnt.frequency_code
-
-FROM    #f_gen_inv_count          cnt WITH (NOLOCK)
-WHERE   cnt.timestamp             = ( SELECT  MAX(cnt2.timestamp)
-                                      FROM    #f_gen_inv_count        cnt2 WITH (NOLOCK)
-                                      WHERE   cnt.inventory_item_id   = cnt2.inventory_item_id 
-
--- Get the receivings for the current business date (non shipper)
-INSERT  #f_gen_inv_receive
-(
-        inventory_item_id,
-        received_id,
-        supplier_item_id,
-        recv_date,
-        atomic_qty,
-        atomic_free_quantity,
-        atomic_cost
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Recv @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Receivings (shipper) which are received and reconciled on the same day
-INSERT  #f_gen_inv_receive
-(
-        inventory_item_id,
-        received_id,
-        supplier_item_id,
-        recv_date,
-        atomic_qty,
-        atomic_free_quantity,
-        atomic_cost
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Recv_Shipper @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Receivings (shipper, non-shipper) which are received and reconciled on different business date
-INSERT  #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
-(
-        inventory_item_id,
-        received_id,
-        supplier_item_id,
-        discrepancy_adj_amt,
-        reconciled_date
-) 
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Invc_Recon @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Adjustments
-INSERT  #f_gen_inv_adjustment
-(
-        inventory_event_id,
-        inventory_event_list_id,
-        inventory_item_id,
-        timestamp,
-        adjustment_type_code,
-        atomic_event_qty,
-        atomic_cost,
-        production_usage_qty,
-        include_in_gross_margin_report_with_rebates_flag
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Adj @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Transfers
-INSERT  #f_gen_inv_transfer
-(
-        inventory_transfer_id,
-        inventory_item_id,
-        timestamp,
-        transfer_type_code,
-        atomic_transfer_qty,
-        atomic_cost
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Xfer @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Returns (non-shipper and shipper)
-INSERT  #f_gen_inv_return
-(
-        return_id,
-        supplier_item_id,
-        inventory_item_id,
-        return_date,
-        atomic_qty
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Return @Business_Unit_Id, @current_business_date, @discontinued_item
-
--- Rebate amts from purchase based rebates
-INSERT  #f_gen_inv_rebate_accrual_supplier_item_list
-(
-        item_id,
-        non_retroactive_non_withheld_rebate_amt
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_Rebate @Business_Unit_Id, @current_business_date, @discontinued_item
-
-INSERT #Inventory_WAC_Adjustment_BU_List
-(
-       wac_adjustment_id,
-       inventory_item_id,
-       atomic_cost,
-       active_flag,
-       valuation_cat_id     
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_WAC_Adj @Business_Unit_Id, @current_business_date, @discontinued_item
-
-INSERT #Inventory_WAC_Adjustment_BU_List
-(
-       wac_adjustment_id,
-       inventory_item_id,
-       atomic_cost,
-       active_flag,
-       valuation_cat_id     
-)
-EXEC sp_Get_Item_WAC_And_Qty_By_BU_WAC_Adj @Business_Unit_Id, @current_business_date, @discontinued_item
-
-
-									  
-------------------------------------------------------------------------------									  
-									  
-select * from @discontinued_item
-select * from #f_gen_inv_count
-select * from #f_gen_inv_receive
-select * from #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
-select * from #f_gen_inv_adjustment
-select * from #f_gen_inv_transfer
-select * from #f_gen_inv_return
-select * from #f_gen_inv_rebate_accrual_supplier_item_list
-
- -----------------------------------------------------------------------------
- 
- /*Applications.Inventory.WaveDO.RadPost.ItemActivityBUDay CollectDaysActivity*/
-DECLARE @item_hierarchy_level_id    INT
-SELECT  @item_hierarchy_level_id    = item_hierarchy_level_id
-FROM    item_hierarchy_level
-WHERE   valuation_level_flag        = 'y'
-AND     client_id                   IN (0, @current_client_id, @template_client_id)
 
 DECLARE @tmp_agg_sum TABLE
 (
@@ -461,11 +260,189 @@ DECLARE @tmp_agg_sum TABLE
         PRIMARY KEY (inventory_iteM_id)
 )
 
-DECLARE @local_bu_datetime DATETIME
+-- Set Initial Variables
+SELECT 	@business_unit_id = org_hierarchy_id,
+		@Client_Id = oh.client_id,
+		@business_date = oh.current_business_date
+FROM   	spwy_eso..Org_Hierarchy oh
+JOIN   	spwy_eso..Rad_Sys_Data_Accessor rsda
+ON     	oh.org_hierarchy_id = rsda.data_accessor_id
+WHERE  	rsda.name = @BusinessUnitCode
 
-SELECT  @local_bu_datetime                    = v.current_bu_local_time
-FROM    PLT_Get_BU_Local_Time_View  v
-WHERE   v.business_unit_id                    = @business_unit_id
+SELECT  @item_hierarchy_level_id    = item_hierarchy_level_id
+FROM    spwy_eso..item_hierarchy_level
+WHERE   valuation_level_flag        = 'y'
+AND     client_id                   = @client_id
+
+SELECT  @default_valuation_method_code      = valuation_method_code
+FROM    spwy_eso..inventory_client_parameters
+WHERE   client_id                           = @client_id
+
+SET     @data_source_code = 'c'
+
+-- Get the xml pointer
+EXEC sp_xml_preparedocument @idoc OUTPUT, @XMLInput
+
+-- Load the item external id's into a table var
+INSERT 	@discontinued_item (
+		xref_code)
+SELECT 	xref_code
+FROM OPENXML (@iDoc, '/DiscontinuedItemList/Item',2)  
+WITH  	(xref_code    NVARCHAR(30)	'@ItemExternalID')
+
+-- Free the xml pointer
+EXEC sp_xml_removedocument @iDoc  
+
+-- Set the actual item id
+UPDATE di
+SET  resolved_item_id = i.item_id
+FROM @discontinued_item AS di
+JOIN spwy_eso..Item As i
+ON   i.xref_code = di.xref_code
+
+-- Remove any invalid items
+DELETE @discontinued_item
+WHERE  resolved_item_id IS NULL
+
+-- Get the counts for the current business date
+INSERT INTO @f_gen_inv_count 
+(
+        item_count_id,
+        inventory_item_id,
+        timestamp,
+        atomic_count_qty,
+        frequency_code  
+)
+EXEC uspGetItemWACAndQtyByBUCount @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Get last counts of the day
+INSERT  @tmp_bu_day_count 
+(
+        bu_id,
+        business_date,
+        inventory_item_id,
+        bu_date_last_count_timestamp,
+        atomic_count_qty,
+        frequency_code
+)
+SELECT  @business_unit_id, 
+        @business_date, 
+        cnt.inventory_item_id,
+        cnt.timestamp,
+        COALESCE(atomic_count_qty, 0),
+        cnt.frequency_code
+
+FROM    @f_gen_inv_count          cnt 
+WHERE   cnt.timestamp             = ( SELECT  MAX(cnt2.timestamp)
+                                      FROM    @f_gen_inv_count        cnt2 
+                                      WHERE   cnt.inventory_item_id   = cnt2.inventory_item_id )
+
+-- Get the receiving for the current business date (non shipper)
+INSERT  @f_gen_inv_receive
+(
+        inventory_item_id,
+        received_id,
+        supplier_item_id,
+        recv_date,
+        atomic_qty,
+        atomic_free_quantity,
+        atomic_cost
+)
+EXEC uspGetItemWACAndQtyByBURecv @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Receiving (shipper) which are received and reconciled on the same day
+INSERT  @f_gen_inv_receive
+(
+        inventory_item_id,
+        received_id,
+        supplier_item_id,
+        recv_date,
+        atomic_qty,
+        atomic_free_quantity,
+        atomic_cost
+)
+EXEC uspGetItemWACAndQtyByBURecvShipper @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Receiving (shipper, non-shipper) which are received and reconciled on different business date
+INSERT  @Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
+(
+        inventory_item_id,
+        received_id,
+        supplier_item_id,
+        discrepancy_adj_amt,
+        reconciled_date
+) 
+EXEC uspGetItemWACAndQtyByBUInvcRecon @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Adjustments
+INSERT  @f_gen_inv_adjustment
+(
+        inventory_event_id,
+        inventory_event_list_id,
+        inventory_item_id,
+        timestamp,
+        adjustment_type_code,
+        atomic_event_qty,
+        atomic_cost,
+        production_usage_qty,
+        include_in_gross_margin_report_with_rebates_flag
+)
+EXEC uspGetItemWACAndQtyByBUAdj @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Transfers
+INSERT  @f_gen_inv_transfer
+(
+        inventory_transfer_id,
+        inventory_item_id,
+        timestamp,
+        transfer_type_code,
+        atomic_transfer_qty,
+        atomic_cost
+)
+EXEC uspGetItemWACAndQtyByBUXfer @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Returns (non-shipper and shipper)
+INSERT  @f_gen_inv_return
+(
+        return_id,
+        supplier_item_id,
+        inventory_item_id,
+        return_date,
+        atomic_qty
+)
+EXEC uspGetItemWACAndQtyByBUReturn @Business_Unit_Id, @business_date, @discontinued_item
+
+-- Rebate amts from purchase based rebates
+INSERT  @f_gen_inv_rebate_accrual_supplier_item_list
+(
+        item_id,
+        non_retroactive_non_withheld_rebate_amt
+)
+EXEC uspGetItemWACAndQtyByBURebate @Business_Unit_Id, @business_date, @discontinued_item
+
+INSERT @Inventory_WAC_Adjustment_BU_List
+(
+       wac_adjustment_id,
+       inventory_item_id,
+       atomic_cost,
+       active_flag,
+       valuation_cat_id     
+)
+EXEC uspGetItemWACAndQtyByBUWACAdj @Business_Unit_Id, @business_date, @discontinued_item
+
+INSERT @Inventory_WAC_Adjustment_BU_List
+(
+       wac_adjustment_id,
+       inventory_item_id,
+       atomic_cost,
+       active_flag,
+       valuation_cat_id     
+)
+EXEC uspGetItemWACAndQtyByBUWACAdj @Business_Unit_Id, @business_date, @discontinued_item
+
+/*---------------------------------------------------------
+Union all of the open day activities into a table variable.
+-----------------------------------------------------------*/
 
 INSERT @tmp_agg_sum 
 (
@@ -516,9 +493,11 @@ INSERT @tmp_agg_sum
         wac_adjustment
 )
 
-SELECT  t.bu_id,
-        t.business_date,
-        t.inventory_item_id,
+SELECT  @business_unit_id,
+--t.bu_id,
+--        t.business_date,
+@business_date,
+        di.resolved_item_id,
         itm.item_hierarchy_id,
         act.start_business_date,
         COALESCE(act.end_onhand_qty, 0),
@@ -543,9 +522,7 @@ SELECT  t.bu_id,
         t.last_count_qty,
         t.last_count_frequency,
         invitm.exclude_on_hand_tracking_flag,
-        
-          invitm.set_variance_to_zero_flag,
-        
+        invitm.set_variance_to_zero_flag,
         itm.atomic_uom_id,
         act.closing_weighted_average_cost,
         t.begin_wac_backout_qty,
@@ -562,10 +539,17 @@ SELECT  t.bu_id,
         t.gross_margin_report_with_rebates_adjust_amt,
         t.wac_adjustment
 
-FROM
-(            
-        SELECT  @business_unit_id                                      AS bu_id,
-                @business_date                    AS business_date,
+FROM  	@Discontinued_Item di
+
+JOIN    spwy_eso_wh..item             	itm
+ON      itm.item_id  				= di.resolved_item_id
+
+JOIN    spwy_eso..inventory_item    invitm
+ON      invitm.inventory_item_id    = di.resolved_item_id
+
+/* Open day Activity */
+LEFT JOIN (     SELECT  @business_unit_id                       AS bu_id,
+                @business_date             				        AS business_date,
                 t.inventory_item_id                             AS inventory_item_id, 
                 SUM(COALESCE(t.receive_qty,0))                  AS receive_qty,
                 SUM(COALESCE(t.negative_receive_qty,0))         AS negative_receive_qty,
@@ -627,7 +611,7 @@ FROM
                         NULL                            As Production_Usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM    #f_gen_inv_count                cnt WITH (NOLOCK)
+                FROM    @f_gen_inv_count                cnt 
                 
                 UNION ALL
                 
@@ -667,7 +651,7 @@ FROM
                         NULL                            AS prodcution_usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM    #f_gen_inv_receive              rcv
+                FROM    @f_gen_inv_receive              rcv
                 
                 UNION ALL 
 
@@ -695,7 +679,7 @@ FROM
                         NULL                            AS prodcution_usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM    #Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC                
+                FROM    @Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC                
 
 
                 UNION ALL
@@ -784,14 +768,14 @@ FROM
                         NULL                            As wac_adjustment
                       
                 
-                FROM            #f_gen_inv_adjustment           adj WITH (NOLOCK)
-                JOIN inventory_event_list  iel WITH (NOLOCK)
+                FROM            @f_gen_inv_adjustment           adj 
+                JOIN spwy_eso..inventory_event_list  iel WITH (NOLOCK)
                 ON adj.inventory_event_id                       =iel.inventory_event_id
                 AND iel.inventory_item_id                       =adj.inventory_item_id
                 AND iel.inventory_event_list_id                 =adj.inventory_event_list_id
-                JOIN inventory_event       ie WITH (NOLOCK)
+                JOIN spwy_eso..inventory_event       ie WITH (NOLOCK)
                 ON ie.inventory_event_id                        =iel.inventory_event_id
-                LEFT OUTER JOIN invoice_reconciliation  ir WITH (NOLOCK)
+                LEFT OUTER JOIN spwy_eso..invoice_reconciliation  ir WITH (NOLOCK)
                 ON ir.invoice_id                                =ie.invoice_id
                 
                 UNION ALL
@@ -839,7 +823,7 @@ FROM
                         NULL                            AS production_usage_qty ,
                         NULL                            As wac_adjustment
                 
-                FROM    #f_gen_inv_transfer             xfer WITH (NOLOCK)
+                FROM    @f_gen_inv_transfer             xfer 
                 
                 UNION ALL 
                 
@@ -867,7 +851,7 @@ FROM
                         NULL                            AS production_usage_qty,
                         NULL                            As wac_adjustment
                                 
-                FROM    #f_gen_inv_return               ret
+                FROM    @f_gen_inv_return               ret
                                 
                 UNION ALL 
                 -- on order qty
@@ -899,15 +883,15 @@ FROM
                 ( 
                         SELECT  po.business_unit_id, 
                                 po.purchase_order_id 
-                        FROM    purchase_order po
+                        FROM    spwy_eso..purchase_order po
                         WHERE   po.business_unit_id     = @business_unit_id
-                        AND     po.order_date           <= @local_bu_datetime
+                        AND     po.order_date           <= @business_date
                         AND     po.hq_order_id          IS NULL
                         AND     po.purge_flag           = 'n'
                         AND     po.status_code          = 's'
                 ) po
                 
-                JOIN    purchase_order_item   poi 
+                JOIN    spwy_eso..purchase_order_item   poi 
                 ON      poi.business_unit_id            = po.business_unit_id
                 AND     poi.purchase_order_id           = po.purchase_order_id
                 AND     poi.item_id                     IS NOT NULL
@@ -967,7 +951,7 @@ FROM
                         NULL                            AS production_usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM    #f_gen_inv_rebate_accrual_supplier_item_list rasil
+                FROM    @f_gen_inv_rebate_accrual_supplier_item_list rasil
 
                 UNION ALL 
 
@@ -993,7 +977,7 @@ FROM
                         NULL                            AS production_usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM    #f_gen_inv_rebate_accrual_rmi_list rarl
+                FROM    @f_gen_inv_rebate_accrual_rmi_list rarl
 
                 UNION ALL 
 
@@ -1019,7 +1003,7 @@ FROM
                         NULL                            AS production_usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM    #f_gen_sales_item_dest_bu_day sidbd
+                FROM    @f_gen_sales_item_dest_bu_day sidbd
 
                 UNION ALL 
 
@@ -1045,38 +1029,35 @@ FROM
                         NULL                            AS production_usage_qty,
                         atomic_cost                     As wac_adjustment                        
                 
-                FROM    #Inventory_WAC_Adjustment_BU_List  wac
+                FROM    @Inventory_WAC_Adjustment_BU_List  wac
                WHERE    business_date IS NOT NULL
 
         ) t
 
-        LEFT OUTER JOIN #tmp_bu_day_count               lastcnt
+        LEFT OUTER JOIN @tmp_bu_day_count               lastcnt
         ON      lastcnt.inventory_item_id               = t.inventory_item_id
 
-        LEFT OUTER JOIN #f_gen_inv_rebate_accrual_supplier_item_list rasil
+        LEFT OUTER JOIN @f_gen_inv_rebate_accrual_supplier_item_list rasil
         ON      rasil.item_id                           = t.inventory_item_id
         
-        LEFT OUTER JOIN #f_gen_inv_rebate_accrual_rmi_list rarl
+        LEFT OUTER JOIN @f_gen_inv_rebate_accrual_rmi_list rarl
         ON      rarl.item_id                            = t.inventory_item_id
 
-        LEFT OUTER JOIN #f_gen_sales_item_dest_bu_day   sidbd
+        LEFT OUTER JOIN @f_gen_sales_item_dest_bu_day   sidbd
         ON      sidbd.item_id                           = t.inventory_item_id
  
         GROUP BY t.inventory_item_id
 ) t
 
-JOIN     spwy_eso_wh..inventory_item                          invitm
-ON      invitm.inventory_item_id                        = t.inventory_item_id
+ON      di.resolved_item_id                             = t.inventory_item_id
 
-JOIN     spwy_eso_wh..item                                    itm
-ON      itm.item_id                                     = t.inventory_item_id
-
+/* Most Recently Closed Day Activity */
 LEFT OUTER JOIN  spwy_eso_wh..f_gen_inv_item_activity_bu_day act
-ON      act.bu_id                                       = t.bu_id
-AND     act.inventory_item_id                           = t.inventory_item_id
+ON      act.bu_id                                       = @business_unit_id --t.bu_id
+AND     act.inventory_item_id                           = di.resolved_item_id
 AND     DATEADD(dd, -1, @business_date)   BETWEEN act.start_business_date AND COALESCE(act.end_business_date, '12/31/2075')
 
-INSERT #new_f_gen_inv_item_activity_bu_day 
+INSERT @new_f_gen_inv_item_activity_bu_day 
 (
         bu_id,
         start_business_date,
@@ -1255,17 +1236,19 @@ FROM
         
         FROM    @tmp_agg_sum                    agg 
         
-        JOIN    item_hierarchy        ih
+        JOIN    spwy_eso..item_hierarchy        ih
         ON      ih.item_hierarchy_id            = agg.item_hierarchy_id
         
-        JOIN    item_hierarchy        pih
+        JOIN    spwy_eso..item_hierarchy        pih
         ON      ih.setstring                    LIKE pih.setstring + '%'
-        AND     pih.item_hierarchy_level_id     = @item_hierarchy_level_id
+        AND     pih.item_hierarchy_level_id     = @item_hierarchy_level_id) t
 
----------------------------------------------------------------------------------------------
+
+/* -------------------- */
+
 UPDATE  act
 SET     last_activity_cost            = ( SELECT  atomic_cost
-                                          FROM    inventory_item_bu_cost_list cl1
+                                          FROM    spwy_eso..inventory_item_bu_cost_list cl1
                                           WHERE   cl1.business_unit_id              = act.bu_id
                                           AND     cl1.inventory_item_id             = act.inventory_item_id
                                           AND     cl1.business_date                 = act.start_business_date
@@ -1274,18 +1257,18 @@ SET     last_activity_cost            = ( SELECT  atomic_cost
                                           AND NOT EXISTS 
                                           ( 
                                                   SELECT  1
-                                                  FROM    inventory_item_bu_cost_list cl2 WITH (NOLOCK)
+                                                  FROM    spwy_eso..inventory_item_bu_cost_list cl2 WITH (NOLOCK)
                                                   WHERE   cl1.business_unit_id      = cl2.business_unit_id
                                                   AND     cl1.inventory_item_id     = cl2.inventory_item_id 
                                                   AND     cl2.business_date         = cl1.business_date
                                                   AND     cl2.end_date              > cl1.end_date 
                                           )
                                         )
-FROM    #new_f_gen_inv_item_activity_bu_day act
+FROM    @new_f_gen_inv_item_activity_bu_day act
 
 UPDATE  act
 SET     last_received_cost_amt        = ( SELECT  atomic_cost
-                                          FROM    inventory_item_bu_cost_list cl1
+                                          FROM    spwy_eso..inventory_item_bu_cost_list cl1
                                           WHERE   cl1.business_unit_id              = act.bu_id
                                           AND     cl1.inventory_item_id             = act.inventory_item_id
                                           AND     cl1.business_date                 = act.start_business_date
@@ -1295,7 +1278,7 @@ SET     last_received_cost_amt        = ( SELECT  atomic_cost
                                           AND NOT EXISTS 
                                           ( 
                                                   SELECT  1
-                                                  FROM    inventory_item_bu_cost_list cl2 WITH (NOLOCK)
+                                                  FROM    spwy_eso..inventory_item_bu_cost_list cl2 WITH (NOLOCK)
                                                   WHERE   cl1.business_unit_id      = cl2.business_unit_id
                                                   AND     cl1.inventory_item_id     = cl2.inventory_item_id 
                                                   AND     cl2.business_date         = cl1.business_date
@@ -1303,13 +1286,13 @@ SET     last_received_cost_amt        = ( SELECT  atomic_cost
                                                   AND     cl2.cost_source_code      = 'r'
                                           )
                                         )
-FROM    #new_f_gen_inv_item_activity_bu_day act
+FROM    @new_f_gen_inv_item_activity_bu_day act
 
 UPDATE  act
 SET     min_supplier_cost               = cost.min_supplier_cost,
         max_supplier_cost               = cost.max_supplier_cost,
         avg_supplier_cost               = cost.avg_supplier_cost
-FROM    #new_f_gen_inv_item_activity_bu_day act
+FROM    @new_f_gen_inv_item_activity_bu_day act
 JOIN 
 (
         SELECT  x.item_id, 
@@ -1327,23 +1310,23 @@ JOIN
                           END,1) as item_cost 
                 
                 FROM     spwy_eso_wh..f_gen_supplier_item_unit_cost     cost 
-                JOIN    supplier_item                   si
+                JOIN    spwy_eso..supplier_item                   si
                 ON      si.supplier_id                            = cost.supplier_id
                 AND     si.supplier_item_id                       = cost.supplier_item_id
-                JOIN    supplier_packaged_item          spi
+                JOIN    spwy_eso..supplier_packaged_item          spi
                 ON      spi.supplier_id                           = cost.supplier_id
                 AND     spi.supplier_item_id                      = cost.supplier_item_id
                 AND     spi.packaged_item_id                      = cost.packaged_item_id
-                JOIN    item                            i 
+                JOIN    spwy_eso..item                            i 
                 ON      i.item_id                                 = si.item_id
-                JOIN    Unit_of_Measure                 packagedinUOM
+                JOIN    spwy_eso..Unit_of_Measure                 packagedinUOM
                 ON      packagedinUOM.unit_of_measure_id          = SPI.packaged_in_uom_id 
-                LEFT OUTER JOIN unit_of_measure         pricedinUOM
+                LEFT OUTER JOIN spwy_eso..unit_of_measure         pricedinUOM
                 ON      pricedinUOM.unit_of_measure_id            = SPI.priced_in_uom_id 
-                LEFT OUTER JOIN item_uom_conversion     iuomcpricedin
+                LEFT OUTER JOIN spwy_eso..item_uom_conversion     iuomcpricedin
                 ON      iuomcpricedin.item_id                     = i.item_id
                 AND     iuomcpricedin.unit_of_measure_class_id    = pricedinUOM.unit_of_measure_class_id
-                LEFT OUTER JOIN item_uom_conversion     iuomcpackagedin
+                LEFT OUTER JOIN spwy_eso..item_uom_conversion     iuomcpackagedin
                 ON      iuomcpackagedin.item_id                   = i.item_id
                 AND     iuomcpackagedin.unit_of_measure_class_id  = packagedinUOM.unit_of_measure_class_id
                 WHERE   cost.bu_id                                = @business_unit_id
@@ -1354,22 +1337,22 @@ JOIN
 ON      cost.item_id = act.inventory_item_id
 
 UPDATE  act
-SET     standard_cost                               = COALESCE(cstdcost.standard_cost, tstdcost.standard_cost) / 
+SET     standard_cost                               = cstdcost.standard_cost / 
                                                         COALESCE(uom.factor * uomcv.atomic_conversion_factor, uom.factor)
-FROM    #new_f_gen_inv_item_activity_bu_day         act
-JOIN    inventory_item                    ii
+FROM    @new_f_gen_inv_item_activity_bu_day         act
+JOIN    spwy_eso..inventory_item                    ii
 ON      ii.inventory_item_id                        = act.inventory_item_id
-JOIN    unit_of_measure                   uom
+JOIN    spwy_eso..unit_of_measure                   uom
 ON      uom.unit_of_measure_id                      = ii.valuation_uom_id
-LEFT OUTER JOIN item_uom_conversion       uomcv
+LEFT OUTER JOIN spwy_eso..item_uom_conversion       uomcv
 ON      uomcv.unit_of_measure_class_id              = uom.unit_of_measure_class_id
 AND     uomcv.item_id                               = act.inventory_item_id
-LEFT OUTER JOIN inventory_item_org_hier_std_cost cstdcost
+LEFT OUTER JOIN spwy_eso..inventory_item_org_hier_std_cost cstdcost
 ON      cstdcost.inventory_item_id                  = act.inventory_item_id
-AND     cstdcost.org_hierarchy_id                   = @current_client_id
-LEFT OUTER JOIN inventory_item_org_hier_std_cost tstdcost
-ON      tstdcost.inventory_item_id                  = act.inventory_item_id
-AND     tstdcost.org_hierarchy_id                   = @template_client_id
+AND     cstdcost.org_hierarchy_id                   = @client_id
+--LEFT OUTER JOIN inventory_item_org_hier_std_cost tstdcost
+--ON      tstdcost.inventory_item_id                  = act.inventory_item_id
+--AND     tstdcost.org_hierarchy_id                   = @template_client_id
 
 UPDATE  act
 SET     retail_valuation_amt                        = 
@@ -1379,18 +1362,18 @@ SET     retail_valuation_amt                        =
         , vat_amt                                  =  
                                                         round((retail_price - (retail_price / (1+tax_percentage/100))),2)
                                                       
-FROM    #new_f_gen_inv_item_activity_bu_day         act
-JOIN    retail_modified_item              rmi
+FROM    @new_f_gen_inv_item_activity_bu_day         act
+JOIN    spwy_eso..retail_modified_item              rmi
 ON      rmi.retail_item_id                          = act.inventory_item_id
 AND     rmi.retail_valuation_flag                   = 'y'
 
-JOIN    merch_bu_rmi_retail_list          price
+JOIN    spwy_eso..merch_bu_rmi_retail_list          price
 ON      price.business_unit_id                      = @business_unit_id
 AND     price.retail_modified_item_id               = rmi.retail_modified_item_id
 
-JOIN    unit_of_measure                   uomrmi
+JOIN    spwy_eso..unit_of_measure                   uomrmi
 ON      uomrmi.unit_of_measure_id                   = rmi.unit_of_measure_id
-LEFT OUTER JOIN item_uom_conversion       uomcvrmi
+LEFT OUTER JOIN spwy_eso..item_uom_conversion       uomcvrmi
 ON      uomcvrmi.unit_of_measure_class_id           = uomrmi.unit_of_measure_class_id
 AND     uomcvrmi.item_id                            = act.inventory_item_id
 
@@ -1445,54 +1428,52 @@ SET closing_weighted_average_cost = CASE
                     CAST((COALESCE(act.begin_onhand_qty, 0) + COALESCE(act.begin_wac_backout_qty, 0) + COALESCE(act.end_wac_qty, 0)) AS NUMERIC(28, 10))
           END)
     END
-FROM #new_f_gen_inv_item_activity_bu_day act
-JOIN  item_hierarchy ih ON ih.item_hierarchy_id = act.valuation_cat_id
-LEFT OUTER JOIN  inventory_client_parameters icp ON icp.client_id = @current_client_id
-LEFT OUTER JOIN  item_hierarchy_bu_override_list ihbol ON ihbol.item_hierarchy_id = ih.item_hierarchy_id
-  AND ihbol.business_unit_id = @business_unit_id
-WHERE COALESCE(ihbol.valuation_method_code, ih.valuation_method_code, icp.valuation_method_code, 'i') = 'w' -- calculate weigted average costs
+FROM 				@new_f_gen_inv_item_activity_bu_day act
+JOIN  				spwy_eso..item_hierarchy ih
+ON 					ih.item_hierarchy_id = act.valuation_cat_id
+LEFT OUTER JOIN  	spwy_eso..inventory_client_parameters icp
+ON 					icp.client_id = @client_id
+LEFT OUTER JOIN  	spwy_eso..item_hierarchy_bu_override_list ihbol
+ON 					ihbol.item_hierarchy_id = ih.item_hierarchy_id
+AND 				ihbol.business_unit_id = @business_unit_id
+WHERE 				COALESCE(ihbol.valuation_method_code, ih.valuation_method_code, icp.valuation_method_code, 'i') = 'w' -- calculate weighted average costs
  
 UPDATE  w
-   SET  closing_weighted_average_cost = a.closing_weighted_average_cost,
+SET  	closing_weighted_average_cost = a.closing_weighted_average_cost,
         end_onhand_qty = a.end_onhand_qty,
         adjustment_amt = (w.atomic_cost - a.closing_weighted_average_cost) * a.end_onhand_qty
-  FROM  #new_f_gen_inv_item_activity_bu_day a
-  JOIN  #Inventory_WAC_Adjustment_BU_List w
-    ON  w.inventory_item_id = a.inventory_item_id
-   AND  w.business_date IS NOT NULL
+FROM  	@new_f_gen_inv_item_activity_bu_day a
+JOIN  	@Inventory_WAC_Adjustment_BU_List w
+ON  	w.inventory_item_id = a.inventory_item_id
+AND  	w.business_date IS NOT NULL
 
-UPDATE  #new_f_gen_inv_item_activity_bu_day 
-   SET  closing_weighted_average_cost = wac_adjustment
- WHERE  wac_adjustment > 0
+UPDATE	@new_f_gen_inv_item_activity_bu_day 
+SET  	closing_weighted_average_cost = wac_adjustment
+WHERE  	wac_adjustment > 0
 
-----------------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------*/
 
-DECLARE @default_valuation_method_code      NCHAR(1)
-SELECT  @default_valuation_method_code      = valuation_method_code
-FROM    inventory_client_parameters
-WHERE   client_id                           = @current_client_id
-
-SELECT  da.name                                                       AS display_org_hierarchy_name, 
-        t.display_org_hierarchy_id                                    AS display_org_hierarchy_id, 
-        t.item_hierarchy_name                                         AS item_hierarchy_name,
-        t.item_hierarchy_id                                           AS item_hierarchy_id,
-        t.business_date                                               AS business_date,
-        t.item_id                                                     AS item_id,
-        t.item_name                                                   AS item_name,
+SELECT  --da.name                                                       AS display_org_hierarchy_name, 
+--        t.display_org_hierarchy_id                                    AS display_org_hierarchy_id, 
+--        t.item_hierarchy_name                                         AS item_hierarchy_name,
+--        t.item_hierarchy_id                                           AS item_hierarchy_id,
+--        t.business_date                                               AS business_date,
+        t.item_id                                                     AS ItemID,
+--        t.item_name                                                   AS item_name,
         t.uom                                                         AS uom,
-        t.boh                                                         AS boh,
-        t.purch                                                       AS purch,
-        t.trans                                                       AS trans,
-        t.adj                                                         AS adj,
-        t.variance                                                    AS variance,
-        t.usage                                                       AS usage,
-        t.eoh                                                         AS eoh,
-        t.wac                                                         AS wac,
-        t.open_wac                                                    AS open_wac,
-        t.eoh_amt                                                     AS eoh_amt,
-        t.eoh_amt                                                     AS total_eoh_amt,
-        t.sales_cost                                                  AS sales_cost,
-        @data_source_code                                    AS data_source_code
+        t.boh                                                         AS BeginningOnHandAmount,
+		t.open_wac                                                    AS BeginningWac,
+--        t.purch                                                       AS purch,
+--        t.trans                                                       AS trans,
+--        t.adj                                                         AS adj,
+--        t.variance                                                    AS variance,
+--        t.usage                                                       AS usage,
+        t.eoh                                                         AS CurrentOnHandAmount,
+        t.wac                                                         AS CurrentWac --,
+--        t.eoh_amt                                                     AS eoh_amt,
+--        t.eoh_amt                                                     AS total_eoh_amt,
+--        t.sales_cost                                                  AS sales_cost,
+--        @data_source_code                                             AS data_source_code
 
 
 FROM
@@ -1502,8 +1483,8 @@ FROM
                 fgen.valuation_cat_id                                 AS item_hierarchy_id,
                 @business_date                          AS business_date,
                 i.name + CASE WHEN ISNULL(fgen.wac_adjustment,0)>0 
-                              THEN '' **''
-                              ELSE ''''
+                              THEN ' **'
+                              ELSE ''
                          END                                          AS item_name,
                 i.item_id                                             AS item_id,
                 uom.name                                              AS uom,
@@ -1576,7 +1557,7 @@ FROM
                         fgen.inventory_item_id                        AS inventory_item_id,
                         fgen.valuation_cat_id                         AS valuation_cat_id,
                         fgen.start_business_date                      AS start_business_date,
-                        ''12/31/2075''                                  AS end_business_date,
+                        '12/31/2075'                                  AS end_business_date,
                         fgen.begin_onhand_qty                         AS begin_onhand_qty,
                         fgen.end_onhand_qty                           AS end_onhand_qty,
                         fgen.recv_qty                                 AS recv_qty,
@@ -1591,7 +1572,7 @@ FROM
                         fgen.opening_weighted_average_cost            AS opening_weighted_average_cost,
                         fgen.wac_adjustment                           AS wac_adjustment
 
-                FROM    #new_f_gen_inv_item_activity_bu_day               fgen    
+                FROM    @new_f_gen_inv_item_activity_bu_day               fgen    
                 
                 UNION ALL
 
@@ -1614,50 +1595,48 @@ FROM
                         fgen.closing_weighted_average_cost            AS opening_weighted_average_cost,
                         0                                             AS wac_adjustment
         
-                FROM    dm_f_gen_inv_item_activity_bu_day             fgen
-                WHERE   fgen.bu_id                                    = @org_hierarchy_id     
-                AND     @business_date                  BETWEEN fgen.start_business_date AND COALESCE(fgen.end_business_date, ''12/31/2075'')
+                FROM    spwy_eso..dm_f_gen_inv_item_activity_bu_day             fgen
+                WHERE   fgen.bu_id                                    = @business_unit_id     
+                AND     @business_date                  BETWEEN fgen.start_business_date AND COALESCE(fgen.end_business_date, '12/31/2075')
                 AND     @business_date                  <> fgen.start_business_date
                 AND NOT EXISTS
                 (
                         SELECT  1
-                        FROM    #new_f_gen_inv_item_activity_bu_day   nfgen
+                        FROM    @new_f_gen_inv_item_activity_bu_day   nfgen
                         WHERE   nfgen.inventory_item_id               = fgen.inventory_item_id
                 )
         ) fgen
 
-        JOIN    item_hierarchy                                        ih
+        JOIN    spwy_eso..item_hierarchy                                        ih
         ON      ih.item_hierarchy_id                                  = fgen.valuation_cat_id
 
-        JOIN    item                                                  i
+        JOIN    spwy_eso..item                                                  i
         ON      i.item_id                                             = fgen.inventory_item_id
 
-        JOIN    inventory_item                                        ii
+		JOIN    @Discontinued_Item                                    di
+		ON      i.item_id                                             = di.resolved_item_id
+
+        JOIN    spwy_eso..inventory_item                                        ii
         ON      ii.inventory_item_id                                  = fgen.inventory_item_id
         
-        LEFT OUTER JOIN inventory_item_bu_list                        iibl
+        LEFT OUTER JOIN spwy_eso..inventory_item_bu_list                        iibl
         ON      iibl.inventory_item_id                                = ii.inventory_item_id
         AND     iibl.business_unit_id                                 = fgen.bu_id
 
-        JOIN    unit_of_measure                                       uom
+        JOIN    spwy_eso..unit_of_measure                                       uom
         ON      COALESCE(iibl.default_reporting_uom_id, ii.valuation_uom_id)
                                                                       = uom.unit_of_measure_id
 
-        LEFT OUTER JOIN item_hierarchy_bu_override_list               ihbol
+        LEFT OUTER JOIN spwy_eso..item_hierarchy_bu_override_list               ihbol
         ON      ihbol.item_hierarchy_id                               = ih.item_hierarchy_id
         AND     ihbol.business_unit_id                                = fgen.bu_id
 
-        LEFT OUTER JOIN item_uom_conversion                           iuc
+        LEFT OUTER JOIN spwy_eso..item_uom_conversion                           iuc
         ON      iuc.item_id                                           = fgen.inventory_item_id
         AND     iuc.unit_of_measure_class_id                          = uom.unit_of_measure_class_id
 
-        WHERE   COALESCE(ihbol.valuation_method_code, ih.valuation_method_code, @default_valuation_method_code, ''i'') 
-                                                                      = ''w''
-
-             
-
-        
-        AND     i.item_id                                             = @item_id
+        WHERE   COALESCE(ihbol.valuation_method_code, ih.valuation_method_code, @default_valuation_method_code, 'i') 
+                                                                      = 'w'
         AND
         (
                         COALESCE(fgen.begin_onhand_qty, 0)            <> 0
@@ -1667,11 +1646,12 @@ FROM
         
 ) t
 
-LEFT OUTER JOIN rad_sys_data_accessor                                 da
+LEFT OUTER JOIN spwy_eso..rad_sys_data_accessor                       da
 ON      da.data_accessor_id                                           = t.display_org_hierarchy_id
 
-        
+/*        
 WHERE
+
 (
         COALESCE(t.purch + t.trans, 0)                                <> 0
 OR      COALESCE(t.adj, 0)                                            <> 0
@@ -1681,8 +1661,24 @@ OR      COALESCE(t.eoh, 0)                                            <> 0
 OR      COALESCE(t.wac, 0) - COALESCE(t.open_wac, 0)                  <> 0
 OR      COALESCE(t.sales_cost, 0)                                     <> 0
 )
+*/
+ORDER BY t.item_name, t.business_date
 
-ORDER BY da.name, t.item_hierarchy_name, t.business_date, t.item_name
+------------------------------------------------------------------------------									  
+/*
+select @BusinessUnitCode, @Business_Unit_Id, @business_date									  
+select * from @discontinued_item
+select * from @f_gen_inv_count
+select * from @f_gen_inv_receive
+select * from @Inv_Reconciliation_Discrepancy_Adj_Amt_For_WAC
+select * from @f_gen_inv_adjustment
+select * from @f_gen_inv_transfer
+select * from @f_gen_inv_return
+select * from @f_gen_inv_rebate_accrual_supplier_item_list
+select * from @Inventory_WAC_Adjustment_BU_List
+select * from @new_f_gen_inv_item_activity_bu_day
+select * from @tmp_agg_sum
+*/
 
- 
-		
+END
+	

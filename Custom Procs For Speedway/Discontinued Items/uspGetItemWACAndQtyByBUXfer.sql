@@ -1,8 +1,11 @@
-IF OBJECT_ID('sp_Get_Item_WAC_And_Qty_By_BU_Xfer') IS NOT NULL
-    DROP PROCEDURE sp_Get_Item_WAC_And_Qty_By_BU_Xfer
+USE VP60_Spwy
 GO
 
-CREATE PROCEDURE sp_Get_Item_WAC_And_Qty_By_BU_Xfer
+IF OBJECT_ID('uspGetItemWACAndQtyByBUXfer') IS NOT NULL
+    DROP PROCEDURE uspGetItemWACAndQtyByBUXfer
+GO
+
+CREATE PROCEDURE uspGetItemWACAndQtyByBUXfer
 @Business_unit_id INT,
 @Business_Date SMALLDATETIME,
 @discontinued_item discontinued_item READONLY
@@ -34,9 +37,9 @@ SELECT  it.inventory_transfer_id,
         END                             AS atomic_transfer_qty,
         itil.atomic_cost                AS atomic_cost
  
-FROM    inventory_transfer              it WITH (NOLOCK)
+FROM    spwy_eso..inventory_transfer	it WITH (NOLOCK)
  
-JOIN    inventory_transfer_item_list    itil WITH (NOLOCK)
+JOIN    spwy_eso..inventory_transfer_item_list    itil WITH (NOLOCK)
 ON      itil.business_unit_id           = it.business_unit_id
 AND     itil.inventory_transfer_id      = it.inventory_transfer_id
 
@@ -44,7 +47,7 @@ JOIN    @discontinued_item di
 ON      itil.inventory_item_id			= di.resolved_item_id
  
 WHERE   it.business_unit_id             = @business_unit_id
-AND     it.business_date                = @business_date
+AND     it.business_date                >= @business_date
 AND     it.status_code                  NOT IN ('d', 'a', 'q') -- no draft, action required or requested transfers
 
 

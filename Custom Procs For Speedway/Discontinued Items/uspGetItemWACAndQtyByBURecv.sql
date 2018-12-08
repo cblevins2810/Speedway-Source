@@ -1,8 +1,11 @@
-IF OBJECT_ID('sp_Get_Item_WAC_And_Qty_By_BU_Recv') IS NOT NULL
-    DROP PROCEDURE sp_Get_Item_WAC_And_Qty_By_BU_Recv
+USE VP60_Spwy
 GO
 
-CREATE PROCEDURE sp_Get_Item_WAC_And_Qty_By_BU_Recv
+IF OBJECT_ID('uspGetItemWACAndQtyByBURecv') IS NOT NULL
+    DROP PROCEDURE uspGetItemWACAndQtyByBURecv
+GO
+
+CREATE PROCEDURE uspGetItemWACAndQtyByBURecv
 @Business_unit_id INT,
 @Business_Date SMALLDATETIME,
 @discontinued_item discontinued_item READONLY
@@ -70,55 +73,55 @@ FROM
                   END) / COALESCE(uomcvpkg.atomic_conversion_factor * uompkg.factor, uompkg.factor)
                 END AS atomic_cost
     
-        FROM    received_document                 rd WITH (NOLOCK)
+        FROM    spwy_eso..received_document                 rd WITH (NOLOCK)
         
-        JOIN    received_item                     ri
+        JOIN    spwy_eso..received_item                     ri
         ON      ri.business_unit_id               = rd.business_unit_id
         AND     ri.received_id                    = rd.received_id
         
-        JOIN    received_supplier_item            rsi WITH (NOLOCK)
+        JOIN    spwy_eso..received_supplier_item            rsi WITH (NOLOCK)
         ON      rsi.business_unit_id              = ri.business_unit_id
         AND     rsi.received_id                   = ri.received_id
         AND     rsi.received_item_id              = ri.received_item_id
         AND     rsi.inventory_item_id             IS NOT NULL
         
-        LEFT OUTER JOIN invoice_received_document_list irdl WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..invoice_received_document_list irdl WITH (NOLOCK)
         ON      irdl.received_id                  = rsi.received_id
         AND     irdl.business_unit_id             = rsi.business_unit_id
     
-        LEFT OUTER JOIN invoice_item              ii WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..invoice_item              ii WITH (NOLOCK)
         ON      ii.invoice_id                     = irdl.invoice_id
         AND     ii.supplier_item_id               = rsi.supplier_item_id
         AND     ii.business_unit_id               = rsi.business_unit_id
     
-        LEFT OUTER JOIN invoice_reconciliation_item  iri WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..invoice_reconciliation_item  iri WITH (NOLOCK)
         ON      iri.invoice_id                    = ii.invoice_id
         AND     iri.invoice_item_id               = ii.invoice_item_id
         AND     iri.business_unit_id              = ii.business_unit_id
     
-        LEFT OUTER JOIN invoice_reconciliation    ir WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..invoice_reconciliation    ir WITH (NOLOCK)
         ON      ir.business_unit_id               = ii.business_unit_id
         AND     ir.invoice_id                     = ii.invoice_id
  
-        JOIN    unit_of_measure                   uompkg WITH (NOLOCK)
+        JOIN    spwy_eso..unit_of_measure                   uompkg WITH (NOLOCK)
         ON      uompkg.unit_of_measure_id         = rsi.packaged_in_uom_id
         
-        LEFT OUTER JOIN unit_of_measure           uomprc WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..unit_of_measure           uomprc WITH (NOLOCK)
         ON      uomprc.unit_of_measure_id         = rsi.priced_in_uom_id
         
-        LEFT OUTER JOIN item_uom_conversion       uomcvpkg WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..item_uom_conversion       uomcvpkg WITH (NOLOCK)
         ON      uomcvpkg.item_id                  = rsi.inventory_item_id
         AND     uomcvpkg.unit_of_measure_class_id = uompkg.unit_of_measure_class_id
         
-        LEFT OUTER JOIN item_uom_conversion       uomcvprc WITH (NOLOCK)
+        LEFT OUTER JOIN spwy_eso..item_uom_conversion       uomcvprc WITH (NOLOCK)
         ON      uomcvprc.item_id                  = rsi.inventory_item_id
         AND     uomcvprc.unit_of_measure_class_id = uomprc.unit_of_measure_class_id
         
         WHERE   rd.business_unit_id               = @business_unit_id
-        AND     rd.business_date                  = @business_date
+        AND     rd.business_date                  >= @business_date
         AND     rd.status_code                    <> 'd'
         AND     NOT EXISTS( SELECT 1                          --not to include receivings having non-saleable quantity
-                      FROM purchase_order AS po
+                      FROM spwy_eso..purchase_order AS po
                      WHERE rd.purchase_order_id = po.purchase_order_id
                        AND po.investment_buy_flag = 'y' 
                   )
@@ -136,23 +139,23 @@ FROM
                 NULL                              AS atomic_free_quantity, -- since we're not tracking cost we don't bother splitting free value
                 NULL                              AS atomic_cost
         
-        FROM    received_document                 rd WITH (NOLOCK)
+        FROM    spwy_eso..received_document                 rd WITH (NOLOCK)
         
-        JOIN    received_item                     ri WITH (NOLOCK)
+        JOIN    spwy_eso..received_item                     ri WITH (NOLOCK)
         ON      ri.business_unit_id               = rd.business_unit_id
         AND     ri.received_id                    = rd.received_id
         AND     ri.crate_inventory_item_id        IS NOT NULL
         
-        JOIN    received_supplier_item            rsi WITH (NOLOCK)
+        JOIN    spwy_eso..received_supplier_item            rsi WITH (NOLOCK)
         ON      rsi.business_unit_id              = ri.business_unit_id
         AND     rsi.received_id                   = ri.received_id
         AND     rsi.received_item_id              = ri.received_item_id
         
         WHERE   rd.business_unit_id               = @business_unit_id
-        AND     rd.business_date                  = @business_date
+        AND     rd.business_date                  >= @business_date
         AND     rd.status_code                    <> 'd' 
         AND     NOT EXISTS( SELECT 1                          --not to include receivings having non-saleable quantity
-                      FROM purchase_order AS po
+                      FROM spwy_eso..purchase_order AS po
                      WHERE rd.purchase_order_id = po.purchase_order_id
                        AND po.investment_buy_flag = 'y' 
                   )
@@ -171,23 +174,23 @@ FROM
                 NULL                              AS atomic_free_quantity, -- since we're not tracking cost we don't bother splitting free value
                 NULL                              AS atomic_cost
         
-        FROM    received_document                 rd WITH (NOLOCK)
+        FROM    spwy_eso..received_document                 rd WITH (NOLOCK)
         
-        JOIN    received_item                     ri WITH (NOLOCK)
+        JOIN    spwy_eso..received_item                     ri WITH (NOLOCK)
         ON      ri.business_unit_id               = rd.business_unit_id
         AND     ri.received_id                    = rd.received_id
         AND     ri.bottle_inventory_item_id       IS NOT NULL
         
-        JOIN    received_supplier_item            rsi WITH (NOLOCK)
+        JOIN    spwy_eso..received_supplier_item            rsi WITH (NOLOCK)
         ON      rsi.business_unit_id              = ri.business_unit_id
         AND     rsi.received_id                   = ri.received_id
         AND     rsi.received_item_id              = ri.received_item_id
         
         WHERE   rd.business_unit_id               = @business_unit_id
-        AND     rd.business_date                  = @business_date
+        AND     rd.business_date                  >= @business_date
         AND     rd.status_code                    <> 'd' 
         AND     NOT EXISTS( SELECT 1                          --not to include receivings having non-saleable quantity
-                      FROM purchase_order AS po
+                      FROM spwy_eso..purchase_order AS po
                      WHERE rd.purchase_order_id = po.purchase_order_id
                        AND po.investment_buy_flag = 'y' 
                   )

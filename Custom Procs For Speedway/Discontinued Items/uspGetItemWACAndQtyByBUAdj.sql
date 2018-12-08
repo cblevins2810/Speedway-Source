@@ -1,8 +1,11 @@
-IF OBJECT_ID('sp_Get_Item_WAC_And_Qty_By_BU_Adj') IS NOT NULL
-    DROP PROCEDURE sp_Get_Item_WAC_And_Qty_By_BU_Adj
+USE VP60_Spwy
 GO
 
-CREATE PROCEDURE sp_Get_Item_WAC_And_Qty_By_BU_Adj
+IF OBJECT_ID('uspGetItemWACAndQtyByBUAdj') IS NOT NULL
+    DROP PROCEDURE uspGetItemWACAndQtyByBUAdj
+GO
+
+CREATE PROCEDURE uspGetItemWACAndQtyByBUAdj
 @Business_unit_id INT,
 @Business_Date SMALLDATETIME,
 @discontinued_item discontinued_item READONLY
@@ -50,13 +53,13 @@ SELECT  ie.inventory_event_id,
              ELSE 'n'
         END                              AS include_in_gross_margin_report_with_rebates_flag                               
 
-FROM    inventory_event_list             iel WITH (NOLOCK)
+FROM    spwy_eso..inventory_event_list  iel WITH (NOLOCK)
 
-JOIN    inventory_event ie                WITH (NOLOCK)
+JOIN    spwy_eso..inventory_event ie     WITH (NOLOCK)
 ON      ie.business_unit_id              = iel.business_unit_id
 AND     ie.inventory_event_id            = iel.inventory_event_id
 
-JOIN    inventory_event_item_list   ieil WITH (NOLOCK)
+JOIN    spwy_eso..inventory_event_item_list   ieil WITH (NOLOCK)
 ON      iel.business_unit_id             = ieil.business_unit_id
 AND     iel.inventory_event_id           = ieil.inventory_event_id
 AND     iel.inventory_event_list_id      = ieil.inventory_event_list_id
@@ -64,18 +67,18 @@ AND     iel.inventory_event_list_id      = ieil.inventory_event_list_id
 JOIN    @discontinued_item di
 ON      ieil.inventory_item_id			 = di.resolved_item_id
 
-JOIN    unit_of_measure                  uom WITH (NOLOCK)
+JOIN    spwy_eso..unit_of_measure        uom WITH (NOLOCK)
 ON      uom.unit_of_measure_id           = ieil.unit_of_measure_id
 
-LEFT OUTER JOIN item_uom_conversion      uomcv WITH (NOLOCK)
+LEFT OUTER JOIN spwy_eso..item_uom_conversion      uomcv WITH (NOLOCK)
 ON      uomcv.item_id                    = ieil.inventory_item_id
 AND     uomcv.unit_of_measure_class_id   = uom.unit_of_measure_class_id
 
-LEFT OUTER JOIN reason                   r WITH (NOLOCK)
+LEFT OUTER JOIN spwy_eso..reason         r WITH (NOLOCK)
 ON    r.reason_id                        = iel.reason_id
 
 WHERE ie.business_unit_id                = @business_unit_id
-AND   ie.business_date                   = @business_date
+AND   ie.business_date                   >= @business_date
 AND   ie.status_code                     <> 'd'
 AND   ie.status_code                     <> 'w' /* Added by JIB.C2.1: ''w'' is for workflow and should be ignored WIT#1085024*/
 

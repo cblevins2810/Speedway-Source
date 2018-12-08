@@ -1,8 +1,11 @@
-IF OBJECT_ID('sp_Import_Shelf_Label_Batch') IS NOT NULL
-    DROP PROCEDURE sp_Import_Shelf_Label_Batch
+USE VP60_spwy
 GO
 
-CREATE PROCEDURE sp_Import_Shelf_Label_Batch
+IF OBJECT_ID('uspImportShelfLabelBatch') IS NOT NULL
+    DROP PROCEDURE uspImportShelfLabelBatch
+GO
+
+CREATE PROCEDURE uspImportShelfLabelBatch
 @XMLInput AS NTEXT,
 @ExistingBatchClosed		CHAR(1) = NULL OUTPUT,
 @RMIRowsUpdatedOrAdded		INT = NULL OUTPUT,
@@ -26,7 +29,7 @@ IF OBJECT_ID('tempdb..#ImportBatchRMI') IS NOT NULL
     DROP TABLE #ImportBatchRMI
 
 CREATE TABLE #ImportBatchRMI (
-		RetailItemName          NVARCHAR(255) NOT NULL,
+--		RetailItemName          NVARCHAR(255) NOT NULL,
 		RetailPackExternalId    NVARCHAR(100) NOT NULL,
 		ShelfLabelPrintQuantity INT,
 		ResolvedRMIId           INT NULL)
@@ -43,19 +46,19 @@ WITH  	(ClientId           INT          '@clientId',
 		BusinessUnitCode    NVARCHAR(50) '@businessUnitCode')
 
 SELECT 	@BusinessUnitId = data_accessor_id
-FROM   	VP60_eso..Rad_Sys_Data_Accessor 
+FROM   	spwy_eso..Rad_Sys_Data_Accessor 
 WHERE  	client_id = @ClientId
 AND    	name      = @BusinessUnitCode
 
 INSERT 	#ImportBatchRMI (
-		RetailItemName,
+--		RetailItemName,
 		RetailPackExternalId,
 		ShelfLabelPrintQuantity)
 SELECT 	RetailItemName,
 		RetailPackExternalId,
 		ShelfLabelPrintQuantity
 FROM OPENXML (@iDoc, '/ShelfLabelBatch/RetailItemList/RetailItem',2)  
-WITH  	(RetailItemName          NVARCHAR(30)         '@retailItemName',
+WITH  	(RetailItemName          NVARCHAR(30)        '@retailItemName',
 		RetailPackExternalId    NVARCHAR(30)         '@retailPackExternalID',
 		ShelfLabelPrintQuantity INT                  '@shelfLabelPrintQuantity')
 
@@ -66,7 +69,7 @@ EXEC sp_xml_removedocument @iDoc
 UPDATE imported
 SET    ResolvedRMIId = retail_modified_item_id
 FROM   #ImportBatchRMI AS imported
-JOIN   VP60_eso..Retail_Modified_Item AS rmi
+JOIN   spwy_eso..Retail_Modified_Item AS rmi
 ON     rmi.xref_code = imported.RetailPackExternalId
 AND    rmi.client_id = @ClientId  
 
@@ -76,7 +79,7 @@ WHERE  ResolvedRMIId IS NULL
 SET @InvalidRMIRows = @@ROWCOUNT
 
 SELECT @OpenShelfLabelBatchID = existing.shelf_label_batch_id
-FROM   VP60_eso..Shelf_Label_Batch AS existing
+FROM   spwy_eso..Shelf_Label_Batch AS existing
 WHERE  existing.business_unit_id = @BusinessUnitId
 AND	   existing.client_id = @clientId
 AND    existing.status_code = 'o'
@@ -86,7 +89,7 @@ BEGIN
 
 	SET @ExistingBatchClosed = 'y'
 
-	UPDATE 	VP60_eso..Shelf_Label_Batch
+	UPDATE 	spwy_eso..Shelf_Label_Batch
 	SET    	status_code = 'c',
 			last_modified_timestamp = GETDATE(),
 			last_modified_user_id = 42
@@ -96,13 +99,13 @@ BEGIN
 /*  Use this code if we decide to update the existing batch 
 	SET @NewBatchCreated = 'n'
 
-	UPDATE 	VP60_eso..Shelf_Label_Batch
+	UPDATE 	spwy_eso..Shelf_Label_Batch
 	SET    	last_modified_timestamp = GETDATE(),
 			last_modified_user_id = 42
 	WHERE	shelf_label_batch_id  = @OpenShelfLabelBatchID
 	AND		client_id             = @ClientId 
 
-	MERGE	VP60_eso..Shelf_Label_Batch_RMI_List AS RMIList
+	MERGE	spwy_eso..Shelf_Label_Batch_RMI_List AS RMIList
 	USING	#ImportBatchRMI AS imported
 	ON		(RMIList.retail_modified_item_id = imported.ResolvedRMIId AND
 			RMIList.shelf_label_batch_id    = @OpenShelfLabelBatchID AND
@@ -130,7 +133,7 @@ END
 -- Create a new batch
 
 SELECT @TableId = table_id
-FROM VP60_eso..Rad_Sys_Table
+FROM spwy_eso..Rad_Sys_Table
 WHERE name = 'Shelf_Label_Batch'
 AND db_id = 1
 
@@ -138,7 +141,7 @@ AND db_id = 1
 EXEC sp_get_next_ticket @TableId, 'n',  1, @NewShelfLabelBatchID OUTPUT
 
 -- Insert the header
-INSERT 		VP60_eso..Shelf_Label_Batch(
+INSERT 		spwy_eso..Shelf_Label_Batch(
 			shelf_label_batch_id,
 			business_unit_id,
 			status_code,
@@ -153,7 +156,7 @@ SELECT		@NewShelfLabelBatchID,
 			GETDATE()
 				
 -- Insert the RMI and quantities
-INSERT 		VP60_eso..Shelf_Label_Batch_RMI_List(
+INSERT 		spwy_eso..Shelf_Label_Batch_RMI_List(
 			shelf_label_batch_id,
 			business_unit_id,
 			retail_modified_item_id,

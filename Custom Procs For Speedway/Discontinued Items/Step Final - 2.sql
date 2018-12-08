@@ -867,4 +867,6 @@ FROM
         JOIN    item_hierarchy        pih
         ON      ih.setstring                    LIKE pih.setstring + ''%''
         AND     pih.item_hierarchy_level_id     = @item_hierarchy_level_id
+		
+		
 ) t',@parameters=N'@bu_id int, @business_date smalldatetime, @current_client_id int, @end_business_date smalldatetime, @set_variance_to_zero_override_flag nchar(1), @template_client_id int, @wave_data_flag nchar(1)',@bu_id=1000397,@business_date=N'11/21/2018',@current_client_id=1000102,@end_business_date=NULL,@set_variance_to_zero_override_flag=N'n ',@template_client_id=NULL,@wave_data_flag=N'y '
