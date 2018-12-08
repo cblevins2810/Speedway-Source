@@ -25,7 +25,8 @@ OR EXISTS 	(SELECT 1
 			--AND i.purge_flag ='n'
 			AND i.item_type_code != 'i')
 
-UNION			
+UNION	
+/* Categories for non inventory items */		
 SELECT DISTINCT i.item_hierarchy_id
 FROM item AS i
 WHERE --i.purge_flag ='n'
