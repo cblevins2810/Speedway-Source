@@ -1,3 +1,22 @@
+/* This stored procedure accepts a business unit code and a list of items.
+   It returns a list of items with the following columns:
+   
+        ItemID - The internal item id value 
+        UnitOfMeasure - The atomic unit of measure 
+        BeginningOnHandAmount - The Qty on Hand as of the last closed business day
+		BeginningWac - The WAC as of the last closed business day
+        CurrentOnHandAmount - The Qty on Hand at the current date & time
+        CurrentWac - The WAC at the current date & time
+		
+		Note:  This procedure and the procedures it calls is based upon 
+		a SQL trace of the ESO WAC Calculation Report.  It populates accepts
+		result table that contains more values that are returned by the 
+		Procedure, however these have been commented out.  The code to
+		populate the commented out values has been left in place for the
+	    purpose of debugging relatively to the WAC Calculation report as
+		well as to allow the procedure to be used for other values if
+		needed in the future.
+*/   
 USE VP60_Spwy
 GO
 
@@ -303,6 +322,8 @@ ON   i.xref_code = di.xref_code
 -- Remove any invalid items
 DELETE @discontinued_item
 WHERE  resolved_item_id IS NULL
+
+/*  Populate work table variables with open day activity */
 
 -- Get the counts for the current business date
 INSERT INTO @f_gen_inv_count 
@@ -1057,6 +1078,8 @@ ON      act.bu_id                                       = @business_unit_id --t.
 AND     act.inventory_item_id                           = di.resolved_item_id
 AND     DATEADD(dd, -1, @business_date)   BETWEEN act.start_business_date AND COALESCE(act.end_business_date, '12/31/2075')
 
+
+/*  Creates rows that merge open day and most recently closed day activity into a single row */
 INSERT @new_f_gen_inv_item_activity_bu_day 
 (
         bu_id,
@@ -1460,7 +1483,7 @@ SELECT  --da.name                                                       AS displ
 --        t.business_date                                               AS business_date,
         t.item_id                                                     AS ItemID,
 --        t.item_name                                                   AS item_name,
-        t.uom                                                         AS uom,
+        t.uom                                                         AS UnitOfMeasure,
         t.boh                                                         AS BeginningOnHandAmount,
 		t.open_wac                                                    AS BeginningWac,
 --        t.purch                                                       AS purch,
@@ -1649,7 +1672,7 @@ FROM
 LEFT OUTER JOIN spwy_eso..rad_sys_data_accessor                       da
 ON      da.data_accessor_id                                           = t.display_org_hierarchy_id
 
-/*        
+/*  Only applicable to the visible report     
 WHERE
 
 (
@@ -1665,7 +1688,7 @@ OR      COALESCE(t.sales_cost, 0)                                     <> 0
 ORDER BY t.item_name, t.business_date
 
 ------------------------------------------------------------------------------									  
-/*
+/*  Just for debugging
 select @BusinessUnitCode, @Business_Unit_Id, @business_date									  
 select * from @discontinued_item
 select * from @f_gen_inv_count
