@@ -1,2 +1,0 @@
-GenerateItemHierarchyXML.js
-pause

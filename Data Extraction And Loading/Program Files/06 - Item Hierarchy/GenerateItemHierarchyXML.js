@@ -56,51 +56,32 @@ function  convertCSVtoXML(foldername, filename)
   
 	var tso = fso.OpenTextFile(csvFilename, 1); 
 	var strInput;
-	var bIsDashLine = false;
   
   	// Get the header line (first line)
 	if (!tso.AtEndOfStream)
 	{	   
 		strInput = tso.ReadLine();
 	}
-  	// Get the second line (thus, eating the header line)
-	if (!tso.AtEndOfStream)
-	{	   
-		strInput = tso.ReadLine();
-	}
-	// Check if second line is the "----" line
-	// This check is added to support the direct import of the Source .csv file without review step
-	// as the Source .csv file would have the "----" line
-	if (strInput.substring(0,10) == "----------")
-	{
-		// If "----" line, set indicator for correct processing in while loop below
-		bIsDashLine = true;
-	}
 
 	var row = 0;
 	
 	// Loop through the file 
 	while(!tso.AtEndOfStream)	  
-	{ 
+	{
+		// Get the next line, thus eating the header line
+		strInput = tso.ReadLine();
+		
+		// Check if next line is a "----" line
+		// This check is added to support the direct import of the Source .csv file without review step
+		// as the Source .csv file would have the "----" line
+		if (strInput.substring(0,10) == "----------")
+		{
+			// This will stop processing this line and continue the loop
+			continue;
+		}
+		
 		row +=1;
 		
-		// Check Dash Line Indicator only on the first loop 
-		if (row == 1)
-		{
-			if (bIsDashLine)
-			{
-				// Move to third line (thus, eating the "----" line)
-				strInput = tso.ReadLine();
-				// Reset Dash Line Indicator just in case
-				bIsDashLine = false;
-			}
-		}
-		else
-		{
-			// Move to next line
-			strInput = tso.ReadLine();
-		}
-  
 		var vInputLine = strInput.split(",");     
 		objXML.a = vInputLine[0];
 		objXML.b = vInputLine[1];
