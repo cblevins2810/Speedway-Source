@@ -8,6 +8,19 @@
         CurrentOnHandAmount - The Qty on Hand at the current date & time
         CurrentWac - The WAC at the current date & time
 		
+        This procedure calls these additional procedures.  Each of the called procedures
+        returns a result set that is inserted into a table variable within the main procedure.
+		
+		uspGetItemWACAndQtyByBUAdj                                        
+		uspGetItemWACAndQtyByBUCount                                      
+		uspGetItemWACAndQtyByBUInvcRecon                                  
+		uspGetItemWACAndQtyByBURebate                                     
+		uspGetItemWACAndQtyByBURecv                                       
+		uspGetItemWACAndQtyByBURecvShipper                                
+		uspGetItemWACAndQtyByBUReturn                                     
+		uspGetItemWACAndQtyByBUWACAdj                                     
+		uspGetItemWACAndQtyByBUXfer                                       
+		
 		Note:  This procedure and the procedures it calls is based upon 
 		a SQL trace of the ESO WAC Calculation Report.  It populates accepts
 		result table that contains more values that are returned by the 
