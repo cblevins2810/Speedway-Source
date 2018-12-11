@@ -296,18 +296,18 @@ DECLARE @tmp_agg_sum TABLE
 SELECT 	@business_unit_id = org_hierarchy_id,
 		@Client_Id = oh.client_id,
 		@business_date = oh.current_business_date
-FROM   	spwy_eso..Org_Hierarchy oh
-JOIN   	spwy_eso..Rad_Sys_Data_Accessor rsda
+FROM   	VP60_Spwy..Org_Hierarchy oh
+JOIN   	VP60_Spwy..Rad_Sys_Data_Accessor rsda
 ON     	oh.org_hierarchy_id = rsda.data_accessor_id
 WHERE  	rsda.name = @BusinessUnitCode
 
 SELECT  @item_hierarchy_level_id    = item_hierarchy_level_id
-FROM    spwy_eso..item_hierarchy_level
+FROM    VP60_Spwy..item_hierarchy_level
 WHERE   valuation_level_flag        = 'y'
 AND     client_id                   = @client_id
 
 SELECT  @default_valuation_method_code      = valuation_method_code
-FROM    spwy_eso..inventory_client_parameters
+FROM    VP60_Spwy..inventory_client_parameters
 WHERE   client_id                           = @client_id
 
 SET     @data_source_code = 'c'
@@ -329,7 +329,7 @@ EXEC sp_xml_removedocument @iDoc
 UPDATE di
 SET  resolved_item_id = i.item_id
 FROM @discontinued_item AS di
-JOIN spwy_eso..Item As i
+JOIN VP60_Spwy..Item As i
 ON   i.xref_code = di.xref_code
 
 -- Remove any invalid items
@@ -575,10 +575,10 @@ SELECT  @business_unit_id,
 
 FROM  	@Discontinued_Item di
 
-JOIN    spwy_eso_wh..item             	itm
+JOIN    VP60_Spwy_wh..item             	itm
 ON      itm.item_id  				= di.resolved_item_id
 
-JOIN    spwy_eso..inventory_item    invitm
+JOIN    VP60_Spwy..inventory_item    invitm
 ON      invitm.inventory_item_id    = di.resolved_item_id
 
 /* Open day Activity */
@@ -803,13 +803,13 @@ LEFT JOIN (     SELECT  @business_unit_id                       AS bu_id,
                       
                 
                 FROM            @f_gen_inv_adjustment           adj 
-                JOIN spwy_eso..inventory_event_list  iel WITH (NOLOCK)
+                JOIN VP60_Spwy..inventory_event_list  iel WITH (NOLOCK)
                 ON adj.inventory_event_id                       =iel.inventory_event_id
                 AND iel.inventory_item_id                       =adj.inventory_item_id
                 AND iel.inventory_event_list_id                 =adj.inventory_event_list_id
-                JOIN spwy_eso..inventory_event       ie WITH (NOLOCK)
+                JOIN VP60_Spwy..inventory_event       ie WITH (NOLOCK)
                 ON ie.inventory_event_id                        =iel.inventory_event_id
-                LEFT OUTER JOIN spwy_eso..invoice_reconciliation  ir WITH (NOLOCK)
+                LEFT OUTER JOIN VP60_Spwy..invoice_reconciliation  ir WITH (NOLOCK)
                 ON ir.invoice_id                                =ie.invoice_id
                 
                 UNION ALL
@@ -917,7 +917,7 @@ LEFT JOIN (     SELECT  @business_unit_id                       AS bu_id,
                 ( 
                         SELECT  po.business_unit_id, 
                                 po.purchase_order_id 
-                        FROM    spwy_eso..purchase_order po
+                        FROM    VP60_Spwy..purchase_order po
                         WHERE   po.business_unit_id     = @business_unit_id
                         AND     po.order_date           <= @business_date
                         AND     po.hq_order_id          IS NULL
@@ -925,7 +925,7 @@ LEFT JOIN (     SELECT  @business_unit_id                       AS bu_id,
                         AND     po.status_code          = 's'
                 ) po
                 
-                JOIN    spwy_eso..purchase_order_item   poi 
+                JOIN    VP60_Spwy..purchase_order_item   poi 
                 ON      poi.business_unit_id            = po.business_unit_id
                 AND     poi.purchase_order_id           = po.purchase_order_id
                 AND     poi.item_id                     IS NOT NULL
@@ -956,7 +956,7 @@ LEFT JOIN (     SELECT  @business_unit_id                       AS bu_id,
                         NULL                            AS production_usage_qty,
                         NULL                            As wac_adjustment
                 
-                FROM     spwy_eso_wh..f_gen_inv_sales_usage   usg
+                FROM     VP60_Spwy_wh..f_gen_inv_sales_usage   usg
                 
                 WHERE   usg.bu_id                       = @business_unit_id
                 AND     usg.business_date               = @business_date
@@ -1086,7 +1086,7 @@ LEFT JOIN (     SELECT  @business_unit_id                       AS bu_id,
 ON      di.resolved_item_id                             = t.inventory_item_id
 
 /* Most Recently Closed Day Activity */
-LEFT OUTER JOIN  spwy_eso_wh..f_gen_inv_item_activity_bu_day act
+LEFT OUTER JOIN  VP60_Spwy_wh..f_gen_inv_item_activity_bu_day act
 ON      act.bu_id                                       = @business_unit_id --t.bu_id
 AND     act.inventory_item_id                           = di.resolved_item_id
 AND     DATEADD(dd, -1, @business_date)   BETWEEN act.start_business_date AND COALESCE(act.end_business_date, '12/31/2075')
@@ -1272,10 +1272,10 @@ FROM
         
         FROM    @tmp_agg_sum                    agg 
         
-        JOIN    spwy_eso..item_hierarchy        ih
+        JOIN    VP60_Spwy..item_hierarchy        ih
         ON      ih.item_hierarchy_id            = agg.item_hierarchy_id
         
-        JOIN    spwy_eso..item_hierarchy        pih
+        JOIN    VP60_Spwy..item_hierarchy        pih
         ON      ih.setstring                    LIKE pih.setstring + '%'
         AND     pih.item_hierarchy_level_id     = @item_hierarchy_level_id) t
 
@@ -1284,7 +1284,7 @@ FROM
 
 UPDATE  act
 SET     last_activity_cost            = ( SELECT  atomic_cost
-                                          FROM    spwy_eso..inventory_item_bu_cost_list cl1
+                                          FROM    VP60_Spwy..inventory_item_bu_cost_list cl1
                                           WHERE   cl1.business_unit_id              = act.bu_id
                                           AND     cl1.inventory_item_id             = act.inventory_item_id
                                           AND     cl1.business_date                 = act.start_business_date
@@ -1293,7 +1293,7 @@ SET     last_activity_cost            = ( SELECT  atomic_cost
                                           AND NOT EXISTS 
                                           ( 
                                                   SELECT  1
-                                                  FROM    spwy_eso..inventory_item_bu_cost_list cl2 WITH (NOLOCK)
+                                                  FROM    VP60_Spwy..inventory_item_bu_cost_list cl2 WITH (NOLOCK)
                                                   WHERE   cl1.business_unit_id      = cl2.business_unit_id
                                                   AND     cl1.inventory_item_id     = cl2.inventory_item_id 
                                                   AND     cl2.business_date         = cl1.business_date
@@ -1304,7 +1304,7 @@ FROM    @new_f_gen_inv_item_activity_bu_day act
 
 UPDATE  act
 SET     last_received_cost_amt        = ( SELECT  atomic_cost
-                                          FROM    spwy_eso..inventory_item_bu_cost_list cl1
+                                          FROM    VP60_Spwy..inventory_item_bu_cost_list cl1
                                           WHERE   cl1.business_unit_id              = act.bu_id
                                           AND     cl1.inventory_item_id             = act.inventory_item_id
                                           AND     cl1.business_date                 = act.start_business_date
@@ -1314,7 +1314,7 @@ SET     last_received_cost_amt        = ( SELECT  atomic_cost
                                           AND NOT EXISTS 
                                           ( 
                                                   SELECT  1
-                                                  FROM    spwy_eso..inventory_item_bu_cost_list cl2 WITH (NOLOCK)
+                                                  FROM    VP60_Spwy..inventory_item_bu_cost_list cl2 WITH (NOLOCK)
                                                   WHERE   cl1.business_unit_id      = cl2.business_unit_id
                                                   AND     cl1.inventory_item_id     = cl2.inventory_item_id 
                                                   AND     cl2.business_date         = cl1.business_date
@@ -1345,24 +1345,24 @@ JOIN
                             packagedinUOM.factor * COALESCE(iuomcpackagedin.atomic_conversion_factor,1)
                           END,1) as item_cost 
                 
-                FROM     spwy_eso_wh..f_gen_supplier_item_unit_cost     cost 
-                JOIN    spwy_eso..supplier_item                   si
+                FROM     VP60_Spwy_wh..f_gen_supplier_item_unit_cost     cost 
+                JOIN    VP60_Spwy..supplier_item                   si
                 ON      si.supplier_id                            = cost.supplier_id
                 AND     si.supplier_item_id                       = cost.supplier_item_id
-                JOIN    spwy_eso..supplier_packaged_item          spi
+                JOIN    VP60_Spwy..supplier_packaged_item          spi
                 ON      spi.supplier_id                           = cost.supplier_id
                 AND     spi.supplier_item_id                      = cost.supplier_item_id
                 AND     spi.packaged_item_id                      = cost.packaged_item_id
-                JOIN    spwy_eso..item                            i 
+                JOIN    VP60_Spwy..item                            i 
                 ON      i.item_id                                 = si.item_id
-                JOIN    spwy_eso..Unit_of_Measure                 packagedinUOM
+                JOIN    VP60_Spwy..Unit_of_Measure                 packagedinUOM
                 ON      packagedinUOM.unit_of_measure_id          = SPI.packaged_in_uom_id 
-                LEFT OUTER JOIN spwy_eso..unit_of_measure         pricedinUOM
+                LEFT OUTER JOIN VP60_Spwy..unit_of_measure         pricedinUOM
                 ON      pricedinUOM.unit_of_measure_id            = SPI.priced_in_uom_id 
-                LEFT OUTER JOIN spwy_eso..item_uom_conversion     iuomcpricedin
+                LEFT OUTER JOIN VP60_Spwy..item_uom_conversion     iuomcpricedin
                 ON      iuomcpricedin.item_id                     = i.item_id
                 AND     iuomcpricedin.unit_of_measure_class_id    = pricedinUOM.unit_of_measure_class_id
-                LEFT OUTER JOIN spwy_eso..item_uom_conversion     iuomcpackagedin
+                LEFT OUTER JOIN VP60_Spwy..item_uom_conversion     iuomcpackagedin
                 ON      iuomcpackagedin.item_id                   = i.item_id
                 AND     iuomcpackagedin.unit_of_measure_class_id  = packagedinUOM.unit_of_measure_class_id
                 WHERE   cost.bu_id                                = @business_unit_id
@@ -1376,14 +1376,14 @@ UPDATE  act
 SET     standard_cost                               = cstdcost.standard_cost / 
                                                         COALESCE(uom.factor * uomcv.atomic_conversion_factor, uom.factor)
 FROM    @new_f_gen_inv_item_activity_bu_day         act
-JOIN    spwy_eso..inventory_item                    ii
+JOIN    VP60_Spwy..inventory_item                    ii
 ON      ii.inventory_item_id                        = act.inventory_item_id
-JOIN    spwy_eso..unit_of_measure                   uom
+JOIN    VP60_Spwy..unit_of_measure                   uom
 ON      uom.unit_of_measure_id                      = ii.valuation_uom_id
-LEFT OUTER JOIN spwy_eso..item_uom_conversion       uomcv
+LEFT OUTER JOIN VP60_Spwy..item_uom_conversion       uomcv
 ON      uomcv.unit_of_measure_class_id              = uom.unit_of_measure_class_id
 AND     uomcv.item_id                               = act.inventory_item_id
-LEFT OUTER JOIN spwy_eso..inventory_item_org_hier_std_cost cstdcost
+LEFT OUTER JOIN VP60_Spwy..inventory_item_org_hier_std_cost cstdcost
 ON      cstdcost.inventory_item_id                  = act.inventory_item_id
 AND     cstdcost.org_hierarchy_id                   = @client_id
 --LEFT OUTER JOIN inventory_item_org_hier_std_cost tstdcost
@@ -1399,17 +1399,17 @@ SET     retail_valuation_amt                        =
                                                         round((retail_price - (retail_price / (1+tax_percentage/100))),2)
                                                       
 FROM    @new_f_gen_inv_item_activity_bu_day         act
-JOIN    spwy_eso..retail_modified_item              rmi
+JOIN    VP60_Spwy..retail_modified_item              rmi
 ON      rmi.retail_item_id                          = act.inventory_item_id
 AND     rmi.retail_valuation_flag                   = 'y'
 
-JOIN    spwy_eso..merch_bu_rmi_retail_list          price
+JOIN    VP60_Spwy..merch_bu_rmi_retail_list          price
 ON      price.business_unit_id                      = @business_unit_id
 AND     price.retail_modified_item_id               = rmi.retail_modified_item_id
 
-JOIN    spwy_eso..unit_of_measure                   uomrmi
+JOIN    VP60_Spwy..unit_of_measure                   uomrmi
 ON      uomrmi.unit_of_measure_id                   = rmi.unit_of_measure_id
-LEFT OUTER JOIN spwy_eso..item_uom_conversion       uomcvrmi
+LEFT OUTER JOIN VP60_Spwy..item_uom_conversion       uomcvrmi
 ON      uomcvrmi.unit_of_measure_class_id           = uomrmi.unit_of_measure_class_id
 AND     uomcvrmi.item_id                            = act.inventory_item_id
 
@@ -1465,11 +1465,11 @@ SET closing_weighted_average_cost = CASE
           END)
     END
 FROM 				@new_f_gen_inv_item_activity_bu_day act
-JOIN  				spwy_eso..item_hierarchy ih
+JOIN  				VP60_Spwy..item_hierarchy ih
 ON 					ih.item_hierarchy_id = act.valuation_cat_id
-LEFT OUTER JOIN  	spwy_eso..inventory_client_parameters icp
+LEFT OUTER JOIN  	VP60_Spwy..inventory_client_parameters icp
 ON 					icp.client_id = @client_id
-LEFT OUTER JOIN  	spwy_eso..item_hierarchy_bu_override_list ihbol
+LEFT OUTER JOIN  	VP60_Spwy..item_hierarchy_bu_override_list ihbol
 ON 					ihbol.item_hierarchy_id = ih.item_hierarchy_id
 AND 				ihbol.business_unit_id = @business_unit_id
 WHERE 				COALESCE(ihbol.valuation_method_code, ih.valuation_method_code, icp.valuation_method_code, 'i') = 'w' -- calculate weighted average costs
@@ -1631,7 +1631,7 @@ FROM
                         fgen.closing_weighted_average_cost            AS opening_weighted_average_cost,
                         0                                             AS wac_adjustment
         
-                FROM    spwy_eso..dm_f_gen_inv_item_activity_bu_day             fgen
+                FROM    VP60_Spwy..dm_f_gen_inv_item_activity_bu_day             fgen
                 WHERE   fgen.bu_id                                    = @business_unit_id     
                 AND     @business_date                  BETWEEN fgen.start_business_date AND COALESCE(fgen.end_business_date, '12/31/2075')
                 AND     @business_date                  <> fgen.start_business_date
@@ -1643,31 +1643,31 @@ FROM
                 )
         ) fgen
 
-        JOIN    spwy_eso..item_hierarchy                                        ih
+        JOIN    VP60_Spwy..item_hierarchy                                        ih
         ON      ih.item_hierarchy_id                                  = fgen.valuation_cat_id
 
-        JOIN    spwy_eso..item                                                  i
+        JOIN    VP60_Spwy..item                                                  i
         ON      i.item_id                                             = fgen.inventory_item_id
 
 		JOIN    @Discontinued_Item                                    di
 		ON      i.item_id                                             = di.resolved_item_id
 
-        JOIN    spwy_eso..inventory_item                                        ii
+        JOIN    VP60_Spwy..inventory_item                                        ii
         ON      ii.inventory_item_id                                  = fgen.inventory_item_id
         
-        LEFT OUTER JOIN spwy_eso..inventory_item_bu_list                        iibl
+        LEFT OUTER JOIN VP60_Spwy..inventory_item_bu_list                        iibl
         ON      iibl.inventory_item_id                                = ii.inventory_item_id
         AND     iibl.business_unit_id                                 = fgen.bu_id
 
-        JOIN    spwy_eso..unit_of_measure                                       uom
+        JOIN    VP60_Spwy..unit_of_measure                                       uom
         ON      COALESCE(iibl.default_reporting_uom_id, ii.valuation_uom_id)
                                                                       = uom.unit_of_measure_id
 
-        LEFT OUTER JOIN spwy_eso..item_hierarchy_bu_override_list               ihbol
+        LEFT OUTER JOIN VP60_Spwy..item_hierarchy_bu_override_list               ihbol
         ON      ihbol.item_hierarchy_id                               = ih.item_hierarchy_id
         AND     ihbol.business_unit_id                                = fgen.bu_id
 
-        LEFT OUTER JOIN spwy_eso..item_uom_conversion                           iuc
+        LEFT OUTER JOIN VP60_Spwy..item_uom_conversion                           iuc
         ON      iuc.item_id                                           = fgen.inventory_item_id
         AND     iuc.unit_of_measure_class_id                          = uom.unit_of_measure_class_id
 
@@ -1682,7 +1682,7 @@ FROM
         
 ) t
 
-LEFT OUTER JOIN spwy_eso..rad_sys_data_accessor                       da
+LEFT OUTER JOIN VP60_Spwy..rad_sys_data_accessor                       da
 ON      da.data_accessor_id                                           = t.display_org_hierarchy_id
 
 /*  Only applicable to the visible report     

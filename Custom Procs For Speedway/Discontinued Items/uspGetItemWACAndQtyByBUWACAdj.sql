@@ -39,8 +39,8 @@ DECLARE @client_id INT
 
 SELECT  @item_hierarchy_level_id    = item_hierarchy_level_id,
         @client_id                  = ihl.client_id
-FROM    spwy_eso..item_hierarchy_level        ihl
-JOIN    spwy_eso..rad_sys_data_accessor       rsda
+FROM    VP60_Spwy..item_hierarchy_level        ihl
+JOIN    VP60_Spwy..rad_sys_data_accessor       rsda
 ON      ihl.client_id               = rsda.client_id
 WHERE   valuation_level_flag        = 'y'
 AND     rsda.data_accessor_id       = @business_unit_id
@@ -59,28 +59,28 @@ SELECT		w.wac_adjustment_id,
 			wl.atomic_cost,
 			wl.active_flag,
 			pih.item_hierarchy_id
-FROM  		spwy_eso..Inventory_WAC_Adjustment    w
+FROM  		VP60_Spwy..Inventory_WAC_Adjustment    w
 
-JOIN		spwy_eso..Inventory_WAC_Adjustment_BU_List wl    
+JOIN		VP60_Spwy..Inventory_WAC_Adjustment_BU_List wl    
 ON 			wl.wac_adjustment_id 	= w.wac_adjustment_id
 
-JOIN 		spwy_eso..Item         		itm
+JOIN 		VP60_Spwy..Item         		itm
 ON 			itm.item_id 				= w.inventory_item_id
 
 JOIN 		@discontinued_item 			di 
 ON 			itm.item_id 				= di.resolved_item_id  
 
-JOIN 		spwy_eso..Item_hierarchy 	ih
+JOIN 		VP60_Spwy..Item_hierarchy 	ih
 ON 			ih.item_hierarchy_id 		= itm.item_hierarchy_id
 
-JOIN 		spwy_eso..Item_hierarchy 	pih
+JOIN 		VP60_Spwy..Item_hierarchy 	pih
 ON 			ih.setstring            	LIKE pih.setstring + '%'
 AND 		pih.item_hierarchy_level_id = @item_hierarchy_level_id
 
-LEFT JOIN	spwy_eso..inventory_client_parameters icp
+LEFT JOIN	VP60_Spwy..inventory_client_parameters icp
 ON 			icp.client_id  				= @client_id
 
-LEFT JOIN  	spwy_eso..item_hierarchy_bu_override_list ihbol
+LEFT JOIN  	VP60_Spwy..item_hierarchy_bu_override_list ihbol
 ON 			ihbol.item_hierarchy_id 	= pih.item_hierarchy_id
 AND 		ihbol.business_unit_id  	= @business_unit_id
 

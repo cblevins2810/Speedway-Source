@@ -22,9 +22,9 @@ BEGIN
 SELECT  rasil.item_id,
         SUM(rasil.rebate_amt)             AS rebate_amt
  
-FROM    spwy_eso..rebate_accrual          ra WITH (NOLOCK)
+FROM    VP60_Spwy..rebate_accrual          ra WITH (NOLOCK)
  
-JOIN    spwy_eso..rebate_accrual_supplier_item_list rasil WITH (NOLOCK)
+JOIN    VP60_Spwy..rebate_accrual_supplier_item_list rasil WITH (NOLOCK)
 ON      rasil.business_unit_id            = ra.business_unit_id
 AND     rasil.rebate_accrual_id           = ra.rebate_accrual_id
 AND     rasil.lost_reason_code            = 'n'

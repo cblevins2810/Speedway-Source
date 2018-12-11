@@ -19,26 +19,15 @@ SET NOCOUNT ON
 
 BEGIN
 
-/*
-INSERT  #f_gen_inv_count
-(
-        item_count_id,
-        inventory_item_id,
-        timestamp,
-        atomic_count_qty,
-        frequency_code  
-)
-*/
-
 SELECT  ic.item_count_id AS item_count_id,
         oh.inventory_item_id AS inventory_item_id,
         oh.begin_date AS timestamp,
         oh.atomic_total_count AS atomic_count_qty,
         ic.frequency_code AS frequency_code
   
-FROM    spwy_eso..inventory_count ic WITH (NOLOCK)
+FROM    VP60_eso..inventory_count ic WITH (NOLOCK)
  
-JOIN    spwy_eso..inventory_item_bu_on_hand oh WITH (NOLOCK)
+JOIN    VP60_eso..inventory_item_bu_on_hand oh WITH (NOLOCK)
 ON      oh.business_unit_id       	= ic.business_unit_id
 AND     oh.item_count_id          	= ic.item_count_id
  

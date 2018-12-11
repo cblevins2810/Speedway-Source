@@ -30,9 +30,9 @@ SELECT  it.inventory_transfer_id,
         END                             AS atomic_transfer_qty,
         itil.atomic_cost                AS atomic_cost
  
-FROM    spwy_eso..inventory_transfer	it WITH (NOLOCK)
+FROM    VP60_Spwy..inventory_transfer	it WITH (NOLOCK)
  
-JOIN    spwy_eso..inventory_transfer_item_list    itil WITH (NOLOCK)
+JOIN    VP60_Spwy..inventory_transfer_item_list    itil WITH (NOLOCK)
 ON      itil.business_unit_id           = it.business_unit_id
 AND     itil.inventory_transfer_id      = it.inventory_transfer_id
 
