@@ -19,7 +19,10 @@
 		uspGetItemWACAndQtyByBURecvShipper                                
 		uspGetItemWACAndQtyByBUReturn                                     
 		uspGetItemWACAndQtyByBUWACAdj                                     
-		uspGetItemWACAndQtyByBUXfer                                       
+		uspGetItemWACAndQtyByBUXfer 
+
+		This procedure requires the a sql type be defined.  The SQL to create the type is:
+		utypeDiscountinueItem.sql
 		
 		Note:  This procedure and the procedures it calls is based upon 
 		a SQL trace of the ESO WAC Calculation Report.  It populates accepts
