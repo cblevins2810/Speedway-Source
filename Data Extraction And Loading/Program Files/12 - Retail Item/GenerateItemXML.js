@@ -1,6 +1,7 @@
 // Item Import
 // Convert a comma delimited file into the JDA ESO Import XML format
-// ROC Associates June 2018
+// ROC Associates Dec 2018
+// Dec 2018: Made changes to accomodate the additional 5 columns for Item Group
 
 // Global Vars
 var jsfileName = "GenerateItemXML.js";
@@ -61,6 +62,8 @@ function  convertCSVtoXML(foldername, filename)
   
   	var retailPackList = [];
 	var attributeList = [];
+	// Added to accomodate the additional 5 columns for Item Group
+	var itemGroupList = [];
 	var i = 0;
 	var bFristLineOfItem = true;
 	var bFirstTime = true ;
@@ -74,7 +77,8 @@ function  convertCSVtoXML(foldername, filename)
 		strInput = tso.ReadLine();
 	}
 	// If coming from a review spreadsheet "Save as csv" eat 2 more lines
-	if (strInput.substring(0,7) == ",Common")
+	// Changed comparison to ",,Common" to account for the 2 columns before column with "Common"
+	if (strInput.substring(0,8) == ",,Common")
 	{
 		if(!tso.AtEndOfStream)  
 		{	 
@@ -88,6 +92,9 @@ function  convertCSVtoXML(foldername, filename)
 	}
 			
 	var row = 0;
+	// Added to allow original file without item groups as well as
+	// new file with item groups (when file is used directly without review)
+	var bFileWithItemGroup = false;
 	// Loop through the file 
 	while(!tso.AtEndOfStream)  
 	{ 
@@ -99,16 +106,25 @@ function  convertCSVtoXML(foldername, filename)
 		if (bFirstTime) 
 		{
 			priorItemExternalId = vInputLine[0];
+			// Check if it is file with item group
+			// Number of array elements = 103 (original file) and = 108 (file with item groups)
+			if (vInputLine.length > 103)
+			{
+				bFileWithItemGroup = true;
+			}
 		}
 		
 		if (priorItemExternalId != vInputLine[0]) 
 		{
-			domNode.appendChild(XMLItemNode(objDOMDocument,objXML,retailPackList, attributeList));
+			// Added itemGroupList as input to account for the Item Groups
+			domNode.appendChild(XMLItemNode(objDOMDocument,objXML,retailPackList, attributeList, itemGroupList));
    			priorItemExternalId = vInputLine[0];
 			priorPackName = "~99";
 			var objXML  = new Object();
 			var retailPackList = [];
 			var attributeList = [];
+			// Added to accomodate the additional 5 columns for Item Group
+			var itemGroupList = [];
 			bFristLineOfItem = true;
         }
 
@@ -154,11 +170,25 @@ function  convertCSVtoXML(foldername, filename)
 			objXML.aj = vInputLine[35];  
 			
 			
-		 	for (i = 43; i <= 67; i+=2)   
+		 	// Expanded count from 67 to 101 to get total of 30 attributes
+			for (i = 43; i <= 101; i+=2)  				
 			{
 				if (vInputLine[i] != '')
 				{
 					attributeList.push({attributeName : vInputLine[i], attributeValue : vInputLine[i+1]}) ;
+				}
+			}
+			
+			// Only add item groups if it is file with item groups
+			if (bFileWithItemGroup)
+			{
+				// Added to account for the additional 5 columns for Item Group
+				for (i = 103; i <= 107; i+=1)   
+				{
+					if (vInputLine[i] != '')
+					{
+						itemGroupList.push({itemGroupName : vInputLine[i]}) ;
+					}
 				}
 			}
 			
@@ -187,7 +217,8 @@ function  convertCSVtoXML(foldername, filename)
 		}
 	} 
 
-	domNode.appendChild(XMLItemNode(objDOMDocument,objXML,retailPackList,attributeList));
+	// Added itemGroupList as input to account for the Item Groups
+	domNode.appendChild(XMLItemNode(objDOMDocument,objXML,retailPackList,attributeList,itemGroupList));
 	tso.Close();
 	
 	//showMessage(objDOMDocument.xml);
@@ -253,7 +284,8 @@ function XMLHeader(objDOMDocument)
   return(XMLHead);
 } 
 
-function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList)
+//function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList)
+function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemGroupList)
 {     
   	var domNode = objDOMDocument.createNode(1, "RawXMLRow",""); 
 	var i,j;
@@ -405,7 +437,14 @@ function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList)
     
 	if (objXML.e == "g")
 	{
-
+		// Added to account for the additional 5 columns for Item Group
+		for (i = 0; i < itemGroupList.length; i++)  
+		{
+			domElement = objDOMDocument.createElement("ItemGroup" + (i + 1)); 
+			domElement.text = formatXMLString(itemGroupList[i].itemGroupName);
+			domNode.appendChild(domElement);
+		}
+		
 		for (i = 0; i < retailPackList.length; i++)   
 		{
 			domRetailPackElement = objDOMDocument.createElement("RetailPack"); 

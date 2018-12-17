@@ -1,2 +1,2 @@
-GenerateItemCSV.js
+CScript GenerateItemCSV.js //NoLogo
 pause

@@ -1,6 +1,6 @@
 // Item Import
 // Import a comma delimited file into an Excel spreadsheet
-// ROC Associates June 2018
+// ROC Associates Dec 2018
 
 // Global Vars
 var jsfileName = "GenerateItemXLS.js";
@@ -41,7 +41,7 @@ function  importCSVtoXLS(folderPath, fileName)
 	var csvFileName = folderPath + fileName;
 	var strInput; 
 	var vInputLine = []; 
-	var department
+	var department;
  
 	// Open the csv file
 	var fso = new ActiveXObject("Scripting.FileSystemObject");
@@ -74,6 +74,8 @@ function  importCSVtoXLS(folderPath, fileName)
 
 	var row = 4;
 	var col = 1;
+	// Added for count of elements in one line of the input CSV
+	var n = 0;
 
     var dict = new ActiveXObject('Scripting.Dictionary');
 	
@@ -81,15 +83,20 @@ function  importCSVtoXLS(folderPath, fileName)
 	while (!tso.AtEndOfStream) // && (row < 11))
 	{
 		strInput = tso.ReadLine();
-		vInputLine = strInput.split(","); 
+		vInputLine = strInput.split(",");
+		// Get count of elements
+		n = vInputLine.length;
 
-		for (col = 1; col < 79; col++)   
+		// Added n as comparison which is set above
+		for (col = 1; col < n+1; col++)   
 		{
 			dict.add(col, vInputLine[col-1]);
 		}
- 		wb.ActiveSheet.Cells(row,1).Resize(1,78).value = dict.items();
+ 		wb.ActiveSheet.Cells(row,1).Resize(1,n).value = dict.items();
 		dict.removeAll();
+
 		row ++;
+		
 		if ((row % 10) == 0)
 		{
 			EchoAndLog(logFile, "Item Rows: " + row);
@@ -105,7 +112,7 @@ function  importCSVtoXLS(folderPath, fileName)
 	app.Quit();
 	
 	EchoAndLog(logFile, "Finished Department: " + department);
-	EchoAndLog(logFile, "Total Items: " + (row-5));
+	EchoAndLog(logFile, "Total Items: " + (row-4));
 	EchoAndLog(logFile, "File created in working xls folder: " + processName + "-" + fileName.slice(fileName,-4) + ".xlsx");
 	EchoAndLog(logFile, "Moving file " + fileName + " to Archive ");
 	

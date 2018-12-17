@@ -1,2 +1,2 @@
-GenerateItemXML.js
+CScript GenerateItemXML.js //NoLogo
 pause

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl='http://www.w3.org/1999/XSL/Transform' version='1.0'
+xmlns:msxsl = 'urn:schemas-microsoft-com:xslt'
+xmlns:script = 'WaveExport/script'
+xmlns:x='ignore' exclude-result-prefixes='x script'>
+<xsl:output omit-xml-declaration='yes' encoding='UTF-8'/>
+  <xsl:template match='/'>
+    <RadiantDocument>
+       <xsl:attribute name='DocVersion'>1.0</xsl:attribute>
+       <xsl:attribute name='ClientID'><xsl:value-of select='WaveExport/@client_id'/></xsl:attribute>
+       <xsl:attribute name='ExportId'><xsl:value-of select='WaveExport/@ExportId'/></xsl:attribute>
+       <xsl:attribute name='Created'><xsl:value-of select='WaveExport/@created'/></xsl:attribute>
+       <xsl:comment>'Sample export'<xsl:value-of select='script:getTimestamp()'/></xsl:comment>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Modifier_Group']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Modifier']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Retail_Item']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Retail_Modified_Item']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Barcode']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Car_Wash']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Lottery']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Retail_Item_Group']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Retail_Item_Group_Item_List']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Condiment_Group']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Condiment_Group_Item_List']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Security_Role']/waveset/recordset"/>
+       <xsl:apply-templates select="WaveExport/DataSource[@Alias='Destination']/waveset/recordset"/>
+    </RadiantDocument>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Modifier_Group']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Modifier_Group_List>
+      <xsl:for-each select='./x:row'>
+      <Modifier_Group>
+        <xsl:attribute name='modifier_group_id'><xsl:value-of select='@modifier_group_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+        <xsl:attribute name='modifier_group_level'><xsl:value-of select='@modifier_group_level'/></xsl:attribute>
+      </Modifier_Group>
+      </xsl:for-each>
+    </Modifier_Group_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Modifier']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Modifier_List>
+      <xsl:for-each select='./x:row'>
+      <Modifier>
+        <xsl:attribute name='modifier_id'><xsl:value-of select='@modifier_id'/></xsl:attribute>
+        <xsl:attribute name='modifier_group_id'><xsl:value-of select='@modifier_group_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+        <xsl:attribute name='receipt_text'><xsl:value-of select='@receipt_text'/></xsl:attribute>
+      </Modifier>
+      </xsl:for-each>
+    </Modifier_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Retail_Item']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Retail_Item_List>
+      <xsl:for-each select='./x:row'>
+      <Retail_Item>
+        <xsl:attribute name='retail_item_id'><xsl:value-of select='@retail_item_id'/></xsl:attribute>
+        <xsl:attribute name='condiment_group_id'><xsl:value-of select='@condiment_group_id'/></xsl:attribute>
+        <xsl:attribute name='type_code'><xsl:value-of select='@type_code'/></xsl:attribute>
+        <xsl:attribute name='receipt_text'><xsl:value-of select='@receipt_text'/></xsl:attribute>
+        <xsl:attribute name='is_global_condiment_flag'><xsl:value-of select='@is_global_condiment_flag'/></xsl:attribute>
+      </Retail_Item>
+      </xsl:for-each>
+    </Retail_Item_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Retail_Modified_Item']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Retail_Modified_Item_List>
+      <xsl:for-each select='./x:row'>
+      <Retail_Modified_Item>
+        <xsl:attribute name='retail_modified_item_id'><xsl:value-of select='@retail_modified_item_id'/></xsl:attribute>
+        <xsl:attribute name='retail_item_id'><xsl:value-of select='@retail_item_id'/></xsl:attribute>
+        <xsl:attribute name='modifier1_id'><xsl:value-of select='@modifier1_id'/></xsl:attribute>
+        <xsl:attribute name='modifier2_id'><xsl:value-of select='@modifier2_id'/></xsl:attribute>
+        <xsl:attribute name='modifier3_id'><xsl:value-of select='@modifier3_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+        <xsl:attribute name='xref_code'><xsl:value-of select='@xref_code'/></xsl:attribute>
+      </Retail_Modified_Item>
+      </xsl:for-each>
+    </Retail_Modified_Item_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Barcode']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Barcode_List>
+      <xsl:for-each select='./x:row'>
+      <Barcode>
+        <xsl:attribute name='retail_modified_item_id'><xsl:value-of select='@retail_modified_item_id'/></xsl:attribute>
+        <xsl:attribute name='barcode_type_code'><xsl:value-of select='@barcode_type_code'/></xsl:attribute>
+        <xsl:attribute name='barcode'><xsl:value-of select='@barcode'/></xsl:attribute>
+      </Barcode>
+      </xsl:for-each>
+    </Barcode_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Car_Wash']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Car_Wash_List>
+      <xsl:for-each select='./x:row'>
+      <Car_Wash>
+        <xsl:attribute name='retail_item_id'><xsl:value-of select='@retail_item_id'/></xsl:attribute>
+        <xsl:attribute name='car_wash_number'><xsl:value-of select='@car_wash_number'/></xsl:attribute>
+        <xsl:attribute name='car_wash_token_value'><xsl:value-of select='@car_wash_token_value'/></xsl:attribute>
+        <xsl:attribute name='car_wash_type_code'><xsl:value-of select='@car_wash_type_code'/></xsl:attribute>
+      </Car_Wash>
+      </xsl:for-each>
+    </Car_Wash_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Lottery']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Lottery_List>
+      <xsl:for-each select='./x:row'>
+      <Lottery>
+        <xsl:attribute name='retail_item_id'><xsl:value-of select='@retail_item_id'/></xsl:attribute>
+        <xsl:attribute name='lottery_sort_order'><xsl:value-of select='@lottery_sort_order'/></xsl:attribute>
+        <xsl:attribute name='max_cash_winner'><xsl:value-of select='@max_cash_winner'/></xsl:attribute>
+        <xsl:attribute name='max_money_order_winner'><xsl:value-of select='@max_money_order_winner'/></xsl:attribute>
+      </Lottery>
+      </xsl:for-each>
+    </Lottery_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Retail_Item_Group']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Retail_Item_Group_List>
+      <xsl:for-each select='./x:row'>
+      <Retail_Item_Group>
+        <xsl:attribute name='retail_item_group_id'><xsl:value-of select='@retail_item_group_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+      </Retail_Item_Group>
+      </xsl:for-each>
+    </Retail_Item_Group_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Retail_Item_Group_Item_List']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Retail_Item_Group_Item_List_List>
+      <xsl:for-each select='./x:row'>
+      <Retail_Item_Group_Item_List>
+        <xsl:attribute name='retail_item_group_id'><xsl:value-of select='@retail_item_group_id'/></xsl:attribute>
+        <xsl:attribute name='retail_modified_item_id'><xsl:value-of select='@retail_modified_item_id'/></xsl:attribute>
+      </Retail_Item_Group_Item_List>
+      </xsl:for-each>
+    </Retail_Item_Group_Item_List_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Condiment_Group']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Condiment_Group_List>
+      <xsl:for-each select='./x:row'>
+      <Condiment_Group>
+        <xsl:attribute name='condiment_group_id'><xsl:value-of select='@condiment_group_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+      </Condiment_Group>
+      </xsl:for-each>
+    </Condiment_Group_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Condiment_Group_Item_List']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Condiment_Group_Item_List_List>
+      <xsl:for-each select='./x:row'>
+      <Condiment_Group_Item_List>
+        <xsl:attribute name='condiment_group_id'><xsl:value-of select='@condiment_group_id'/></xsl:attribute>
+        <xsl:attribute name='retail_item_id'><xsl:value-of select='@retail_item_id'/></xsl:attribute>
+        <xsl:attribute name='is_default_flag'><xsl:value-of select='@is_default_flag'/></xsl:attribute>
+        <xsl:attribute name='can_remove_flag'><xsl:value-of select='@can_remove_flag'/></xsl:attribute>
+      </Condiment_Group_Item_List>
+      </xsl:for-each>
+    </Condiment_Group_Item_List_List>
+  </xsl:if>
+</xsl:template>
+
+
+<xsl:template match="WaveExport/DataSource[@Alias='Security_Role']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Security_Role_List>
+      <xsl:for-each select='./x:row'>
+      <Security_Role>
+        <xsl:attribute name='role_id'><xsl:value-of select='@role_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+        <xsl:attribute name='description'><xsl:value-of select='@description'/></xsl:attribute>
+      </Security_Role>
+      </xsl:for-each>
+    </Security_Role_List>
+  </xsl:if>
+</xsl:template>
+
+ <xsl:template match="WaveExport/DataSource[@Alias='Destination']/waveset/recordset">
+  <xsl:if test='./x:row'>
+    <Destination_List>
+      <xsl:for-each select='./x:row'>
+      <Destination>
+        <xsl:attribute name='destination_id'><xsl:value-of select='@destination_id'/></xsl:attribute>
+        <xsl:attribute name='name'><xsl:value-of select='@name'/></xsl:attribute>
+      </Destination>
+      </xsl:for-each>
+    </Destination_List>
+  </xsl:if>
+</xsl:template>
+
+
+<msxsl:script language='JScript' implements-prefix='script'>
+<![CDATA[
+function getTimestamp() {
+  var d = new Date();
+  return d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+}
+]]></msxsl:script>
+</xsl:stylesheet>

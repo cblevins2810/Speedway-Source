@@ -95,6 +95,42 @@
 						<xsl:attribute name="DefaultTransferUOM"><xsl:value-of select="DefaultTransferUOM"/></xsl:attribute>
 					</xsl:if>
 				</Tracking>
+				<!-- Added for Item Group -->
+				<xsl:if test="normalize-space(ItemGroup1)">
+				<ItemGroupList>
+					<xsl:if test="normalize-space(ItemGroup1)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup1"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup2)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup2"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup3)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup3"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup4)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup4"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup5)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup5"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+				</ItemGroupList>
+				</xsl:if>
+				<!-- End for Item Group -->
 				
 				<xsl:if test="normalize-space(./RetailPack)">				
 				
