@@ -6,7 +6,7 @@ DECLARE @POSOptionTemplateId INT
 DECLARE @ClientId INT
 SELECT @ClientId = MAX(client_id) FROM RAD_SYS_Client
 
-DECLARE @NumberOfTickets INT
+DECLARE @NumberOfTickets INT	
 DECLARE @NextTicket INT
 SET @NumberOfTickets = 1
 
