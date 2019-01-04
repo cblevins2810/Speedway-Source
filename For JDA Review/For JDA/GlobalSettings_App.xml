@@ -1,0 +1,28 @@
+<GlobalAppSettings ObjectRepository="Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=VP60_or;Data Source=emcwt1401.mgroupnet.com" __ImportExportDirectory="\\emcwt1452.mgroupnet.com\ESOShare\ImportExport" ServerMode="release" Build="02.228.0001.00">
+  <NameSpace name="spwyeso" __TaskQueueStore="\\emcwt1452.mgroupnet.com\ESOShare\AsynchQueueStore" __ResolvedHostName="emcwt1430.mgroupnet.com" __PortalSiteID="7" __PortalName="ESO-CERT1" __WaveTestMode="off" __ClientPollInterval="15000" __ImportExportDirectory="\\emcwt1452.mgroupnet.com\ESOShare\ImportExport" __ImportWebserverURL="http://emcwt1430" __WaveTrace="off" __WaveTranslation="off" __DefaultLanguage="English" __Protocol="http" __WaveSecurityCheck="off" __HttpOnlyCookie="n" POSAppServerURL="emcwt1401.mgroupnet.com" __POSFileShareRoot="\\emcwt1452.mgroupnet.com\ESOShare\xmlfiles" __WaveDebug="off" __WaveErrorTrapping="on" __WaveAutoLogon="off" __QueryTimeoutOverride="180" __UseCompression="on" __ReportCellLimit="64000" __PDFServerURL="http://90.21.28.33:8080" __AllowPangeaAccess="true" __SMTPServer="smtp.marathonpetroleum.com">
+    <__WaveDatabaseConnection value="Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=VP60_eso;Data Source=emcwt1401.mgroupnet.com" />
+    <__WaveDatamartConnection value="Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=VP60_eso_wh;Data Source=emcwt1401.mgroupnet.com" />
+    <__WaveWebposConnection value="Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=VP60_eso_pos;Data Source=emcwt1401.mgroupnet.com" />
+    <__WaveArchiveConnection value="Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=VP60_eso_archive;Data Source=emcwt1401.mgroupnet.com" />
+    <__ReadonlyConnection value=" Provider=SQLOLEDB;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=VP60_eso;Data Source=emcwt1401.mgroupnet.com" />
+  </NameSpace>
+  <NameSpace name="APEService" inheritsFrom="spwyeso">
+    <Rules>
+      <Rule namespace="spwyeso" queues="Default" scanInterval="10000" threads="2" />
+      <Rule namespace="spwyeso" queues="SetInitialWAC" scanInterval="10000" threads="2" />
+      <Rule namespace="spwyeso" queues="1T" scanInterval="10000" threads="1" />
+      <Rule namespace="spwyeso" queues="AutoOrder" scanInterval="10000" threads="1" />
+      <Rule namespace="spwyeso" queues="DLS" scanInterval="10000" threads="1" />
+      <Rule namespace="spwyeso" queues="Exec_Pub_Throttle" scanInterval="15000" threads="1" />
+      <Rule namespace="spwyeso" queues="Forecast" scanInterval="10000" threads="1" />
+      <Rule namespace="spwyeso" queues="InvoiceImport" scanInterval="10000" threads="1" />
+      <Rule namespace="spwyeso" queues="MMEOD" scanInterval="15000" threads="1" />
+      <Rule namespace="spwyeso" queues="P2EOD" scanInterval="15000" threads="1" />
+      <Rule namespace="spwyeso" queues="POSDnload" scanInterval="15000" threads="1" />
+      <Rule namespace="spwyeso" queues="Receiving" scanInterval="15000" threads="1" />
+      <Rule namespace="spwyeso" queues="SCM_IM_Process" scanInterval="10000" threads="1" />
+      <Rule namespace="spwyeso" queues="SupplierCostExport" scanInterval="15000" threads="1" />
+      <Rule namespace="spwyeso" queues="Purge" scanInterval="35000" threads="1" />
+      <Rule namespace="spwyeso" queues="ConfigAssignChild" scanInterval="12000" threads="1" />
+    </Rules>
+  </NameSpace>

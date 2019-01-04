@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log4rad>
+  <appenders>
+    <file_appender id="AllErrors" base_file_name="E:\JDA\logs\log4rad\EMCWT1403_allerrors" roll_size="10000000" roll_count="10" />
+  </appenders>
+  <event_source_rules>
+    <event_source prefix="">
+      <rule level="ERROR" appender="AllErrors" />
+    </event_source>
+    <event_source prefix="Platform.WaveServiceProduction.MemoryContext.get_aspBased"> 
+      <rule appender="AllErrors" level="IGNORE"/> 
+    </event_source> 
+  </event_source_rules>
+</log4rad>
