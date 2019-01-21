@@ -18,10 +18,11 @@ INSERT POS_Menu_Type
 (menu_type_id, name, client_id,	last_modified_user_id, last_modified_timestamp, data_guid,	max_frames,	quick_author_flag)
 VALUES(@NextId, 'PCS Menu (5X5)', @ClientId, 42, GETDATE(), NULL, NULL,'n')
 
+/*
 INSERT POS_Menu_Type
 (menu_type_id, name, client_id,	last_modified_user_id, last_modified_timestamp, data_guid,	max_frames,	quick_author_flag)
 VALUES(@NextId - 1, 'PCS Menu (4X4)', @ClientId, 42, GETDATE(), NULL, NULL,'n')
-
+*/
 
 
 

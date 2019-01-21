@@ -74,6 +74,15 @@ ON rmidl.dimension_member_id = ridm.dimension_member_id
 LEFT JOIN unit_of_measure as ridmuom
 ON ridm.unit_of_measure_id = ridmuom.unit_of_measure_id
 
+-- Added to check if retail level is used in order to include price event
+-- Table bc_extract_retail_strategy is created as part of the Retail Strategy extract
+-- which should be executed prior to the price event extract
+JOIN bc_extract_retail_strategy AS bcrs
+ON	mg.merch_group_id = bcrs.orig_merch_group_id,
+AND mgm.merch_group_member_id = bcrs.orig_merch_group_member_id,
+AND ml.merch_level_id = bcrs.orig_merch_level_id
+-- End for additional code
+
 WHERE CASE WHEN mrc.start_date < @Today THEN @Today ELSE mrc.start_date END = @StartDate
 AND   mrc.End_Date = @EndDate
 AND   mrc.promo_flag = @PromoFlag
@@ -83,5 +92,6 @@ AND   ml.business_unit_id IS NULL
 AND   ml.supplier_id IS NULL
 AND   ml.default_ranking > 0
 AND   mrc.retail_modified_item_id % @Modulus = @Remainder
+
 ORDER BY itemXRefId, RMIXrefId
 

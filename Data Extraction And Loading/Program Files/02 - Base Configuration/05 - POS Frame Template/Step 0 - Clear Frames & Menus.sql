@@ -8,6 +8,9 @@ where client_id > 0
 delete pos_button 
 where client_id > 0
 
+delete POS_Menu_Frame_Group_List
+where client_id > 0
+
 --select * from pos_frame
 delete pos_frame
 where client_id > 0

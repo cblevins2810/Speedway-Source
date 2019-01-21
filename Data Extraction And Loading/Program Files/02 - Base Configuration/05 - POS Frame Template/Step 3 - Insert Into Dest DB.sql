@@ -399,14 +399,24 @@ JOIN pos_frame_group_type AS g
 ON   l.name = g.name
 JOIN pos_menu_type AS m
 ON   mlname = 'PCS Menu (4X4)'
-WHERE l.menu_type_id = 9
-*/
 
-INSERT pos_menu_frame_group_type_list (menu_type_id, frame_group_type_id, client_id, last_modified_user_id, last_modified_timestamp, max_count, min_count, default_frame_template_id, data_guid)
-SELECT m.menu_type_id, g.frame_group_type_id, @clientId, l.last_modified_user_id, l.last_modified_timestamp, max_count, min_count, default_frame_template_id, l.data_guid
+SELECT DISTINCT m.menu_type_id, g.frame_group_type_id, @clientId, l.last_modified_user_id, l.last_modified_timestamp, max_count, min_count, ft.pos_frame_template_id, NULL --l.data_guid
 FROM #bc_extract_pos_menu_frame_group_type_list AS l
 JOIN pos_frame_group_type AS g
 ON   l.name = g.name
 JOIN pos_menu_type AS m
 ON   m.name = 'PCS Menu (5X5)'
-WHERE l.menu_type_id = 10
+JOIN pos_frame_template AS ft
+ON   l.description = ft.description
+*/
+
+INSERT pos_menu_frame_group_type_list (menu_type_id, frame_group_type_id, client_id, last_modified_user_id, last_modified_timestamp, max_count, min_count, default_frame_template_id, data_guid)
+SELECT DISTINCT m.menu_type_id, g.frame_group_type_id, @clientId, l.last_modified_user_id, l.last_modified_timestamp, max_count, min_count, ft.pos_frame_template_id, NULL --l.data_guid
+FROM #bc_extract_pos_menu_frame_group_type_list AS l
+JOIN pos_frame_group_type AS g
+ON   l.name = g.name
+JOIN pos_menu_type AS m
+ON   m.name = 'PCS Menu (5X5)'
+JOIN pos_frame_template AS ft
+ON   l.description = ft.description
+
