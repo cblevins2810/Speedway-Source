@@ -18,7 +18,9 @@ JOIN   Retail_Modified_Item AS rmi
 ON rmi.retail_modified_item_id = ril.retail_modified_item_id
 ORDER BY rmi.name, Sequence, ria.name, value
 
+-- Clear the table first
 DELETE bc_extract_rmi_attribute
+
 INSERT bc_extract_rmi_attribute (
 retail_modified_item_id,
 rmi_name,
@@ -51,5 +53,5 @@ BEGIN
 	SET @counter += 1
 END
 
-SELECT * FROM bc_extract_rmi_attribute
+--SELECT * FROM bc_extract_rmi_attribute
 
