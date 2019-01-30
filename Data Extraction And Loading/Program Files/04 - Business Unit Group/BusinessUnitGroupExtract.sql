@@ -31,7 +31,7 @@ ON bu.business_unit_id = rsda_bu.data_accessor_id
 WHERE bu.status_code != 'c'
 AND bug.business_unit_group_id % @Modulus = @Remainder
 AND bug.cdm_owner_id = bug.client_id
-AND rsda_bug.name like 'zsBUG%'
+--AND rsda_bug.name like 'zsBUG%'
 --AND (rsda_bug.name COLLATE Latin1_General_CS_AS) not like 'z%'
 AND bu.status_code != 'c'
 AND rsda_bug.name in ('1 Location NY State Less NYC',

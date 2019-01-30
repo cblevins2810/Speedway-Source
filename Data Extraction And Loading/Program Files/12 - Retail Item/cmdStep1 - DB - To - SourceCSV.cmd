@@ -6,6 +6,10 @@ SET ProcessCode=ItemExtract
 SET LogFile=.\Logs\"%ProcessCode%%date:~4,2%-%date:~7,2%-%date:~12,2%-%time:~0,2%-%time:~3,2%-%time:~6,2%.log"
 SET SQLExtractFile=%ProcessCode%.sql
 SET SQLExtractParamFile=ItemCountForExtract.sql
+SET SQLItemExtractAttributeCreateTable=ItemExtractAttributeCreateTable.sql
+SET SQLItemExtractAttribute=ItemExtractAttribute.sql
+SET SQLItemExtractGroupCreateTable=ItemExtractGroupCreateTable.sql
+SET SQLItemExtractGroup=ItemExtractGroup.sql
 SET ExtractParamFile=ItemCountForExtractParmams.txt
 SET SourceCSVDir=..\..\Import Files\Retail Item\SourceCSV\
 SET Server=EMCTS520
@@ -13,6 +17,16 @@ SET DB=bcssa_cert2
 
 ECHO %date% %time% Starting %ProcessName% Export > %LogFile%
 ECHO %date% %time% .......... >> %LogFile%
+
+REM Build Attribute Work Table
+ECHO %date% %time% Generating Attribute Work Table >> %LogFile%
+SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractAttributeCreateTable%  >> %LogFile%
+SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractAttribute%  >> %LogFile%
+
+REM Build Item Group Work Table
+ECHO %date% %time% Generating Attribute Work Table >> %LogFile%
+SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractGroupCreateTable%  >> %LogFile%
+SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractGroup%  >> %LogFile%
 
 REM Build Extract Params
 ECHO %date% %time% Generating Parameters for Extract >> %LogFile%

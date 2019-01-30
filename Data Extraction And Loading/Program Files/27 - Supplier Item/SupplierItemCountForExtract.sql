@@ -2,8 +2,35 @@ SET NOCOUNT ON
 DECLARE @MerchCostChangeEffectiveDate AS smalldatetime
 SET		@MerchCostChangeEffectiveDate = CONVERT(smalldatetime, SYSDATETIME())
 
-DECLARE @Modulus INT
-DECLARE @Remainder INT
+DECLARE @supplier TABLE (supplier_id INT, name nvarchar(128))
+
+INSERT @supplier (supplier_id, name)
+SELECT s.supplier_id, s.name
+FROM   supplier_da_effective_date_list as l
+JOIN   supplier AS s
+ON     l.supplier_id = s.supplier_id
+JOIN   rad_sys_data_accessor as rsda
+ON     l.data_accessor_id = rsda.data_accessor_id
+JOIN   business_unit_group as bug
+ON     bug.business_unit_group_id = rsda.data_accessor_id
+WHERE  EXISTS (SELECT 1
+              FROM Business_Unit_Group_List as bugl
+              JOIN Business_Unit AS bu
+              ON   bug.business_unit_group_id = bugl.business_unit_group_id
+			  AND  bugl.business_unit_id = bu.business_unit_id
+			  WHERE bu.status_code != 'c')
+AND    s.status_code <> 'i'			  
+UNION 			  
+SELECT s.supplier_id, s.name
+FROM   supplier_da_effective_date_list as l
+JOIN   supplier AS s
+ON     l.supplier_id = s.supplier_id
+JOIN   rad_sys_data_accessor as rsda
+ON     l.data_accessor_id = rsda.data_accessor_id
+JOIN   business_unit as bu
+ON     bu.business_unit_id = rsda.data_accessor_id
+WHERE  bu.status_code != 'c'
+AND    s.status_code <> 'i'			  
 
 IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
     DROP TABLE #supplier_item_counts
@@ -96,6 +123,10 @@ INSERT #talley SELECT 50
 INSERT #Supplier_Item_Counts(Supplier_Id, Supplier_Item_Id, Cost_Level_Count, Barcode_Count)  
 SELECT si.supplier_Id, si.supplier_item_id, clc.cost_level_count, barcode_count
 FROM supplier_item AS si (NOLOCK)
+
+JOIN @supplier AS s
+ON  si.supplier_id = s.supplier_Id
+
 LEFT JOIN (SELECT supplier_Id, supplier_Item_Id, COUNT(*) AS cost_level_count
       FROM merch_cost_change AS mcc (NOLOCK)
       WHERE mcc.promo_flag IN ('n')

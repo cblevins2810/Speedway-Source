@@ -29,8 +29,10 @@ WHERE EXISTS (SELECT 1
               WHERE rac.retail_auto_combo_id = racgl.retail_auto_combo_id)
 
 SELECT rac.retail_auto_combo_id,
-ROW_NUMBER() over (partition by 'xref-' + CONVERT(NVARCHAR(15), rac.retail_auto_combo_id) order by 'xref-' + CONVERT(NVARCHAR(15), rac.retail_auto_combo_id)) AS RowNumber,
-'xref-' + CONVERT(NVARCHAR(15), rac.retail_auto_combo_id) AS specialXRefID,
+ROW_NUMBER() over (partition by COALESCE(CONVERT(NVARCHAR(15), rac.retail_auto_combo_id) + '-' + rac.xref_code, CONVERT(NVARCHAR(15), rac.retail_auto_combo_id))
+                   order by COALESCE(CONVERT(NVARCHAR(15), rac.retail_auto_combo_id) + '-' + rac.xref_code, CONVERT(NVARCHAR(15), rac.retail_auto_combo_id))) AS RowNumber,
+COALESCE(CONVERT(NVARCHAR(15), rac.retail_auto_combo_id) + '-' + rac.xref_code, CONVERT(NVARCHAR(15), rac.retail_auto_combo_id)) AS specialXRefID,
+--'xref-' + CONVERT(NVARCHAR(15), rac.retail_auto_combo_id) AS specialXRefID,
 q.specialName,
 REPLACE(rac.receipt_text,',','~') AS specialReceiptText,
 CONVERT(NVARCHAR(100), rac.priority_ranking) AS priorityRanking,

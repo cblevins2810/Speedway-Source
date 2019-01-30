@@ -68,6 +68,3 @@ BEGIN
 	SET @counter += 1
 END
 
-
-SELECT * FROM bc_extract_item_group
-

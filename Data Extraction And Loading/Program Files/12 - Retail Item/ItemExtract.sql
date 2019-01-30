@@ -539,11 +539,25 @@ CASE WHEN PackRowNumber = 1 THEN ISNULL(attribute_value28,'') ELSE '' END AS att
 CASE WHEN PackRowNumber = 1 THEN ISNULL(attribute29,'') ELSE '' END AS attribute29,
 CASE WHEN PackRowNumber = 1 THEN ISNULL(attribute_value29,'') ELSE '' END AS attribute_value29,
 CASE WHEN PackRowNumber = 1 THEN ISNULL(attribute30,'') ELSE '' END AS attribute30,
-CASE WHEN PackRowNumber = 1 THEN ISNULL(attribute_value30,'') ELSE '' END AS attribute_value30
+CASE WHEN PackRowNumber = 1 THEN ISNULL(attribute_value30,'') ELSE '' END AS attribute_value30,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name1,'') ELSE '' END AS group_name1,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name2,'') ELSE '' END AS group_name2,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name3,'') ELSE '' END AS group_name3,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name4,'') ELSE '' END AS group_name4,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name5,'') ELSE '' END AS group_name5,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name6,'') ELSE '' END AS group_name6,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name7,'') ELSE '' END AS group_name7,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name8,'') ELSE '' END AS group_name8,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name9,'') ELSE '' END AS group_name9,
+CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name10,'') ELSE '' END AS group_name10
 
 FROM #item_extract 
 LEFT JOIN bc_extract_rmi_attribute AS a
 ON #item_extract.RetailModifiedItemId = a.retail_modified_item_id
+
+LEFT JOIN bc_extract_item_group AS g
+ON #item_extract.Item_id = g.item_id
+
 ORDER by item_id, ItemRowNumber, RetailModifiedItemId, PackRowNumber, BarcodeCompressible DESC
 
 IF OBJECT_ID('tempdb..#item_extract') IS NOT NULL

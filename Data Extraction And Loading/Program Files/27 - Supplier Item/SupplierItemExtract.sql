@@ -5,6 +5,7 @@ DECLARE @supplier_id INT
 DECLARE @SupplierXRef nvarchar(255)
 DECLARE @Modulus INT
 DECLARE @Remainder INT
+DECLARE @cost_level TABLE (supplier_id INT, merch_cost_level_id INT)
 
 --:SETVAR Modulus 1
 --:SETVAR Remainder 0
@@ -17,6 +18,16 @@ SET @SupplierXRef = '$(SupplierXRef)'
 SELECT @supplier_id = supplier_id
 FROM supplier
 WHERE xref_code = @SupplierXRef
+
+INSERT @cost_level
+SELECT DISTINCT s.supplier_id, merch_cost_level_id
+FROM   Merch_bu_spi_cost_list AS l
+JOIN   supplier AS s
+ON     l.supplier_id = s.supplier_id
+JOIN   business_unit AS bu
+ON     l.business_unit_id = bu.business_unit_id
+AND    bu.status_code != 'c'
+WHERE  s.supplier_id = @supplier_id
 
 IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
     DROP TABLE #supplier_item_counts
@@ -70,6 +81,11 @@ mcc1.end_date,
 mcc1.supplier_price,
 mcc1.supplier_allowance
 FROM merch_cost_change AS mcc1
+
+JOIN @cost_level as cl
+ON   mcc1.supplier_Id = cl.supplier_Id
+AND  mcc1.merch_cost_level_id = cl.merch_cost_level_id
+
 WHERE supplier_id = @supplier_id
 AND start_date <= @MerchCostChangeEffectiveDate
 AND (end_date > @MerchCostChangeEffectiveDate
