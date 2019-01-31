@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_9345500201,GARLIC DILL PRETZEL,179259,179259,,,,a,231 10 000,Each,1.00,,,u,_893455002015,Master,2.25,0.00,1900-01-01,2075-12-31
+_9345500202,BUFFALO WING PRETZEL,179258,179258,,,,a,231 10 000,Each,1.00,,,u,_893455002022,Master,2.25,0.00,1900-01-01,2075-12-31
+_9345500203,CINNAMON SUGAR PRETZEL,179256,179256,,,,a,231 10 000,Each,1.00,,,u,_893455002039,Master,2.25,0.00,1900-01-01,2075-12-31
+_9345500204,CHERRY CHIPOTLE PRETZEL,179257,179257,,,,a,231 10 000,Each,1.00,,,u,_893455002046,Master,2.25,0.00,1900-01-01,2075-12-31
+_9372401650,OLD FASHIONED RED LICORICE 14z,176334,176334,,,,a,601 02X 000,Each,1.00,,,u,_793724016500,Master,2.18,0.00,2011-03-21,2075-12-31

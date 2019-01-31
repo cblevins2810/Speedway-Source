@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0507012345,DERBY PIN,167909,167909,,,,a,601 34A 000,Each,1.00,,,u,_605070123453,Master,6.00,0.00,2017-03-08,2075-12-31
+_K06185,FAMILY FUN PACK 5PIN PK 1Z,180326,180326,,,,a,601 34A 000,Each,1.00,,,u,_605070543213,Master,20.00,0.00,2014-02-13,2075-12-31

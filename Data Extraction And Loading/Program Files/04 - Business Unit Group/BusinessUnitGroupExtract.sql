@@ -34,7 +34,8 @@ AND bug.cdm_owner_id = bug.client_id
 --AND rsda_bug.name like 'zsBUG%'
 --AND (rsda_bug.name COLLATE Latin1_General_CS_AS) not like 'z%'
 AND bu.status_code != 'c'
-AND rsda_bug.name in ('1 Location NY State Less NYC',
+-- Per request, added zsBUG to the BUG to be pulled
+AND ((rsda_bug.name like 'zsBUG%') or (rsda_bug.name in ('1 Location NY State Less NYC',
 '1location All State All Stores Minus MI',
 '1Location All State Minus PA',
 '1Location All State NO MI, NO Colony',
@@ -273,5 +274,5 @@ AND rsda_bug.name in ('1 Location NY State Less NYC',
 'pb~SHOWER INCOME',
 'PBANDV',
 'zsbugDDCo-op Locations',
-'zsbugDDFranchise Locations')
+'zsbugDDFranchise Locations')))
 ORDER BY rsda_bug.name, rsda_bu.name

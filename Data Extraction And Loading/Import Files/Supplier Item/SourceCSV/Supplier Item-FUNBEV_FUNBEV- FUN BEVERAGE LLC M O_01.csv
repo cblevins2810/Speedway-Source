@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_071537020120,POLAR TONIC WATER 1L,1086724,1086724,,,,a,601 11 000,Case,12.00,,,u,_071537020120,Master,10.00,0.00,1900-01-01,2075-12-31
+_071537020120,,,,,,,,,,,,,u,_071537120127,,,,,
+_071537060287,POLAR SELTZER BLACK CHERRY WTR  20z,1089095,1089095,,,,a,601 11 000,Case,24.00,,,u,_071537060287,Master,16.00,0.00,1900-01-01,2075-12-31
+_071537060300,POLAR SELTZER RASP LIME WTR  20z,1081803,1081803,,,,a,Default,Case,24.00,,,u,_071537060300,Master,15.00,0.00,1900-01-01,2075-12-31
+_071537060348,POLAR SELTZER LEMON WTR  20z,1067815,1067815,,,,a,Default,Case,24.00,,,u,_071537060348,Master,15.00,0.00,1900-01-01,2075-12-31
+_071537060409,POLAR SELTZER BLUEBERRY LEMONADE WTR  20z,1089096,1089096,,,,a,601 11 000,Case,24.00,,,u,_071537060409,Master,16.00,0.00,1900-01-01,2075-12-31

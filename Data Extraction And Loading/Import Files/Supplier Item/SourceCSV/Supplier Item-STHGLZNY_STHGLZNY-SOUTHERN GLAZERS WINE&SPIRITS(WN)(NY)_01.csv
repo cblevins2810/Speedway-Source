@@ -1,0 +1,15 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_031259014043,YELLOW TAIL CAB SAUV 750ML,151522,151522,,,,a,Default,Case,12.00,,,u,_031259009452,Master,73.20,0.00,1900-01-01,2075-12-31
+_031259014043,,,,,,,,,,,,,u,_031259014043,,,,,
+_080432530115,POWERS IRISH WHISKEY 1L,1097895,1097895,,,,a,Default,Case,12.00,,,u,_080432530115,Master,347.64,0.00,1900-01-01,2075-12-31
+_080480006792,BACARDI RASPBERRY 50ML/5,35000707,35000707,,,,a,Default,Case,120.00,,,u,_080480006792,Master,60.00,0.00,1900-01-01,2075-12-31
+_080686407201,OLD GRAND DAD WHISKEY 1L,1097896,1097896,,,,a,Default,Case,12.00,,,u,_080686407201,Master,220.00,0.00,1900-01-01,2075-12-31
+_080686610250,DEKUYPER LEMON DROP SHOTS 1L,1097906,1097906,,,,a,Default,Case,12.00,,,u,_080686610250,Master,119.52,0.00,1900-01-01,2075-12-31
+_080686929413,PINNACLE VODKA 1L,1097892,1097892,,,,a,Default,Case,12.00,,,u,_080686929413,Master,158.44,0.00,1900-01-01,2075-12-31
+_080686967439,CRUZAN AGE RUM 375ML,1097905,1097905,,,,a,Default,Case,6.00,,,u,_080686967439,Master,31.36,0.00,1900-01-01,2075-12-31
+_081434031303,REX GOLIATH PINOT NOIR 750ML,1097894,1097894,,,,a,Default,Case,6.00,,,u,_081434031303,Master,76.00,0.00,1900-01-01,2075-12-31
+_085200118830,SUTTR HM PINK MOSCATO 6/4PK,32001424,32001424,,,,a,Default,Case,24.00,,,e,_0852000009992,Master,27.00,0.00,1900-01-01,2075-12-31
+_085200118830,,,,,,,,,,,,,u,_085200118830,,,,,
+_810845030045,CAROLANS IRISH CREAM 750ML,1097897,1097897,,,,a,Default,Case,12.00,,,u,_810845030045,Master,168.00,0.00,1900-01-01,2075-12-31
+_84837500514,HOUSE SANGRIA CAN 375ML 375.00ML 1,1089307,1089307,,,,a,Default,Case,24.00,,,u,_848375005141,Master,90.00,0.00,1900-01-01,2075-12-31

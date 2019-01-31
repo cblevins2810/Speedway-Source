@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1917970016,SLUSH PUPPIE 16z CUPS,1054092,1054092,,,,a,215 05 000,Case,50.00,,,u,_019179700161,Master,4.75,0.00,1900-01-01,2075-12-31
+_1917970024,SLUSH PUPPIE 24z CUPS,1054093,1054093,,,,a,215 05 000,Case,50.00,,,u,_019179700246,Master,6.25,0.00,1900-01-01,2075-12-31
+_9884610050,CHERRY SLUSH PUPPIE FLAVOR,1054090,1054090,,,,a,215 05 000,Case,4.00,,,u,_798846100502,Master,69.75,0.00,1900-01-01,2075-12-31
+_9884610070,SLUSH PUPPIE BLUE RASP FLAVOR,1054091,1054091,,,,a,215 05 000,Case,4.00,,,u,_798846100700,Master,69.75,0.00,1900-01-01,2075-12-31

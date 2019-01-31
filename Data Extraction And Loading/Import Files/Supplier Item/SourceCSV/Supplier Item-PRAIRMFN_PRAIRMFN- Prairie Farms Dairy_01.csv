@@ -1,0 +1,9 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_072730273498,PF PUMPKIN SPICE MILK 32Z,1090889,1090889,,,,a,Default,Each,1.00,,,u,_072730273498,Master,1.74,0.00,1900-01-01,2075-12-31
+_072730273511,PF EGG NOG UHT 32z,1089283,1089283,,,,a,601 07 410,Each,1.00,,,u,_072730273511,Master,1.74,0.00,1900-01-01,2075-12-31
+_24767,PF AEROSOL WHIP CRM 15z,184920,184920,,,,a,212 20 001,Each,1.00,,,u,_041900047467,Master,2.61,0.00,2018-04-02,2075-12-31
+_24767,,,,,,,,,,,,,u,_041900074081,,,,,
+_24767,,,,,,,,,,,,,u,_041900077181,,,,,
+_26503,i/sPEEP CHOC MARSHMALLOW MILK 32z,1083653,1083653,,,*INACTIVE*,a,601 07 410,Each,1.00,,,u,_072730273429,Master,1.74,0.00,1900-01-01,2075-12-31
+_26505,i/aPEEP EGGNOG 32z,1083654,1083654,,,*INACTIVE*,a,601 07 410,Each,1.00,,,u,_072730273580,Master,1.74,0.00,2017-03-09,2075-12-31

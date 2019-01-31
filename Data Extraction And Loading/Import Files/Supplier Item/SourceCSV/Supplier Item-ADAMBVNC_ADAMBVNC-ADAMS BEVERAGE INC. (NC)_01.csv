@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_016571910303,SPARKLING ICE BLK RASBERRY 17z,1052656,1052656,,,,a,601 11 000,Case,12.00,,,u,_016571910303,Master,9.00,0.00,2016-01-13,2075-12-31
+_016571910310,SPARKLING ICE ORANGE MANGO 17z,1052657,1052657,,,,a,601 11 000,Case,12.00,,,u,_016571910310,Master,9.00,0.00,2016-01-13,2075-12-31
+_016571910327,SPARKLING ICE KIWI STRAWBERRY 17z,1052644,1052644,,,,a,601 11 000,Case,12.00,,,u,_016571910327,Master,9.00,0.00,2016-01-13,2075-12-31
+_016571940355,SPARKLING ICE LEMONADE 17z,1052659,1052659,,,,a,601 11 000,Case,12.00,,,u,_016571940355,Master,9.00,0.00,2016-01-13,2075-12-31
+_016571950842,SPARKLING ICE CHERRY LEMONADE 17z,1064891,1064891,,,,a,601 11 000,Case,12.00,,,u,_016571950842,Master,9.00,0.00,2016-01-13,2075-12-31

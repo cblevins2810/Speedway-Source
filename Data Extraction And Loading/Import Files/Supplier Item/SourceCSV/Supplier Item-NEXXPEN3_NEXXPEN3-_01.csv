@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_647397164405,PITTSBURGH TRIB REVIEW DLY,180441,180441,,,,a,706 01 000,Each,1.00,,,u,_647397164405,Master,1.14,0.00,1900-01-01,2075-12-31
+_647397164504,PITTSBURGH TRIB REVIEW SUN,180556,180556,,,,a,706 01 000,Each,1.00,,,u,_647397164504,Master,1.87,0.00,1900-01-01,2075-12-31

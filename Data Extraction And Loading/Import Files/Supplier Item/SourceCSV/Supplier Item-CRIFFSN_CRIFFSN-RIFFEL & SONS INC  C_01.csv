@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_070847811213,MONSTER LOCARB 24z,167980,167980,,,,a,601 13A 000,Case,12.00,,,u,_070847811213,Master,25.68,0.00,2014-01-02,2075-12-31
+_070847811268,MONSTER LOCARB 16z,146230,146230,,,,a,601 13A 000,Case,24.00,,,u,_070847810261,Master,34.00,0.00,2008-02-09,2075-12-31
+_070847811268,,,,,,,,,,,,,u,_070847811268,,,,,

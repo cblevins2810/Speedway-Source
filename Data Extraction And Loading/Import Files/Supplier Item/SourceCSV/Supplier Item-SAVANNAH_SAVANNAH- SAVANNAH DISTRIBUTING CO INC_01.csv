@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_638489000619,DOGFISH HEAD 90 MIN IPA 4PK 12z LN,1064171,1064171,,,,a,401 01A 000,Case,24.00,,,u,_638489000619,Master,47.75,0.00,1900-01-01,2075-12-31
+_723830000094,LAGUNITAS IPA 6PK 12z LN,1054580,1054580,,,,a,401 01B 000,Case,24.00,,,u,_723830000094,Master,32.00,0.00,2018-02-19,2075-12-31

@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_842885097153,XYIENCE FROSTBERRY 16z,1052640,1052640,,,,a,Default,Case,12.00,,,u,_842885097153,Master,14.00,0.00,1900-01-01,2075-12-31
+_842885098211,XYIENCE CHERRY LIME 16z,1052638,1052638,,,,a,Default,Case,12.00,,,u,_842885098211,Master,14.00,0.00,1900-01-01,2075-12-31
+_842885098631,XYIENCE BLUE POM 16z,1052639,1052639,,,,a,601 13A 000,Case,12.00,,,u,_842885098631,Master,14.00,0.00,1900-01-01,2075-12-31
+_842885098716,XYIENCE MANGO 16z,1052641,1052641,,,,a,Default,Case,12.00,,,u,_842885098716,Master,14.00,0.00,1900-01-01,2075-12-31

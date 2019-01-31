@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_5172100101,KLOSTERMAN WHEAT BREAD 20z,161931,161931,,,,a,601 06 000,Each,1.00,,,u,_051721001012,Master,1.61,0.00,1900-01-01,2075-12-31
+_5172100104,KLOSTERMAN WHITE BREAD 20z,161811,161811,,,,a,601 06 000,Each,1.00,,,u,_051721001043,Master,1.46,0.00,1900-01-01,2075-12-31
+_5172100105,PENNINGTON WHITE BREAD 16z,167949,167949,,,,a,601 06 000,Each,1.00,,,u,_051721001050,Master,0.74,0.00,2009-07-14,2075-12-31
+_5172100106,KLOSTERMAN HAMBURGER BUNS 12PK,161813,161813,,,,a,601 06 000,Each,1.00,,,u,_051721001067,Master,1.91,0.00,2009-07-21,2075-12-31
+_5172100221,KLOSTERMAN WHEAT BREAD 20z,167950,167950,,,,a,601 06 000,Each,1.00,,,u,_051721002217,Master,1.14,0.00,2009-07-14,2075-12-31
+_5172100228,KLOSTERMAN HOT DOG  BUNS 8PK,161814,161814,,,,a,601 06 000,Each,1.00,,,u,_051721002286,Master,1.46,0.00,1900-01-01,2075-12-31

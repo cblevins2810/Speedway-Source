@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_090478321004,SANGRIA SENORIAL 11.16z,1065366,1065366,,,,a,901 08 010,Case,24.00,,,u,_090478321004,Master,17.70,0.00,1900-01-01,2075-12-31
+_090478331003,SIDRAL MUNDET 12z,1065367,1065367,,,,a,901 08 010,Case,24.00,,,u,_090478331003,Master,17.70,0.00,1900-01-01,2075-12-31
+_090478410012,JARRITOS MANDARIN 12.5z,1065357,1065357,,,,a,901 08 010,Case,24.00,,,u,_090478410012,Master,17.70,0.00,1900-01-01,2075-12-31
+_090478410043,JARRITOS PINEAPPLE 12.5z,1065362,1065362,,,,a,901 08 010,Case,24.00,,,u,_090478410043,Master,17.70,0.00,1900-01-01,2075-12-31
+_090478410050,JARRITOS LIME 12.5z,1065360,1065360,,,,a,901 08 010,Case,24.00,,,u,_090478410050,Master,17.70,0.00,1900-01-01,2075-12-31

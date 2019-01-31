@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_723830000094,LAGUNITAS IPA 6PK 12z LN,1054580,1054580,,,,a,401 01B 000,Case,24.00,,,u,_723830000094,Master,29.50,0.00,2017-07-03,2075-12-31
+_723830000209,LAGUNITAS SUMPIN SUMPIN ALE 6PK 12z LN,1068408,1068408,,,,a,401 01B 000,Case,24.00,,,u,_723830000209,Master,33.00,0.00,2017-08-18,2075-12-31
+_723830001787,LAGU SPR CLSTR 6PK 12oz CN,32002402,32002402,,,,a,Default,Case,24.00,,,u,_723830001787,Master,29.50,0.00,1900-01-01,2075-12-31
+_849806001626,FOUR LOKO BLACK 14 ABV 23.5z CN,1086340,1086340,,,,a,401 01J 000,Case,12.00,,,u,_849060021040,Master,22.00,0.00,1900-01-01,2075-12-31
+_849806001626,,,,,,,,,,,,,u,_849806001619,,,,,
+_849806001626,,,,,,,,,,,,,u,_849806001626,,,,,

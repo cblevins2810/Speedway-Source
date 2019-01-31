@@ -1,0 +1,9 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_858106004022,BENT PADDLE VENTURE PILS 6PK 12Z CN,32002770,32002770,,,,a,401 01B 000,Case,24.00,,,u,_858106004022,Master,32.00,0.00,1900-01-01,2075-12-31
+_893354001027,SURLY FURIOUS 4PK 16Z CN,32002829,32002829,,,,a,401 01A 000,Case,24.00,,,u,_893354001027,Master,47.00,0.00,1900-01-01,2075-12-31
+_893354001133,SURLY OVERRATED 4PK 16Z CN,32002832,32002832,,,,a,401 01A 000,Case,24.00,,,u,_893354001133,Master,42.00,0.00,1900-01-01,2075-12-31
+_893354001201,SURLY TODD AXE MAN 4PK 16Z CN,32002833,32002833,,,,a,401 01A 000,Case,24.00,,,u,_893354001201,Master,72.00,0.00,1900-01-01,2075-12-31
+_893354001256,SURLY XTRA CITRA PALE ALE 16Z 4PK,32002834,32002834,,,,a,401 01A 000,Case,24.00,,,u,_893354001256,Master,31.00,0.00,1900-01-01,2075-12-31
+_893354001515,SURLY FURIOUS 12PK 12Z CN,33000576,33000576,,,,a,401 01D 000,Case,24.00,,,u,_893354001515,Master,32.00,0.00,1900-01-01,2075-12-31
+_893354001638,SURLY VARIETY 12PK 12Z CN,33000577,33000577,,,,a,401 01D 000,Case,24.00,,,u,_893354001638,Master,27.20,0.00,1900-01-01,2075-12-31

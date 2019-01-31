@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7225001853,ITALIAN BREAD 20z,143603,143603,,,,a,601 06 000,Each,1.00,,,u,_072250018531,Master,0.74,0.00,1900-01-01,2075-12-31
+_7763304336,SBEAM ROUND TOP 16z,143604,143604,,,,a,601 06 000,Each,1.00,,,u,_077633043360,Master,1.26,0.00,2011-03-18,2075-12-31
+_7763306331,SBEAM 8in HAMBURGER BUN,143606,143606,,,,a,601 06 000,Each,1.00,,,u,_077633063313,Master,1.26,0.00,1900-01-01,2075-12-31
+_7763306376,SBEAM HOT DOG BUNS,131305,131305,,,,a,601 06 000,Each,1.00,,,u,_077633063764,Master,1.64,0.00,2011-03-18,2075-12-31

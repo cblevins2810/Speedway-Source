@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_2624900010,HEALTH LONG BREAD,125278,125278,,,,a,601 06 000,Each,1.00,,,u,_726249000105,Master,2.50,0.00,2013-01-14,2075-12-31
+_2624900020,HEALTH BREAD HOME LOAF,125280,125280,,,,a,601 06 000,Each,1.00,,,u,_726249000204,Master,2.50,0.00,2013-01-14,2075-12-31
+_2624900030,HEALTH BREAD GIANT BREAD,125281,125281,,,,a,601 06 000,Each,1.00,,,u,_726249000303,Master,2.60,0.00,2013-01-14,2075-12-31
+_2624900070,HEALTH PEPERONI ROLLS,125282,125282,,,,a,221 07 100,Each,1.00,,,u,_726249000709,Master,1.15,0.00,2017-11-01,2075-12-31

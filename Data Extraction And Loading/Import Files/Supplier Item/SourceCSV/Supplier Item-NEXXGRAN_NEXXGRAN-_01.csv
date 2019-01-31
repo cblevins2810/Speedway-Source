@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_656432000509,GRAND RAPIDS PRESS DLY,177459,177459,,,,a,706 01 000,Each,1.00,,,u,_656432000509,Master,1.26,0.00,2015-04-29,2075-12-31
+_656432000509,,,,,,,,,,,,,u,_656432000752,,,,,
+_656432000509,,,,,,,,,,,,,u,_656432001001,,,,,

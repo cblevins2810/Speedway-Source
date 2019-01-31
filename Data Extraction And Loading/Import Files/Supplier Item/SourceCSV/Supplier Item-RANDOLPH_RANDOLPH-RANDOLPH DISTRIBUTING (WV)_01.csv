@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_5230000024,OLD MILW 6PK 16z CN,89829,89829,,,,a,401 01B 000,Case,24.00,,,u,_052300000242,Master,11.00,0.00,1900-01-01,2075-12-31
+_5230000446,OLD MILW 4PK 16z CN,43946,43946,,,,a,401 01A 000,Case,24.00,,,u,_052300004462,Master,15.00,0.00,1900-01-01,2075-12-31
+_5230000540,OLD MILW LT 12PK 12z CN,13500,13500,,,,a,401 01D 000,Case,24.00,,,u,_052300005407,Master,11.00,0.00,1900-01-01,2075-12-31

@@ -64,7 +64,7 @@ CREATE TABLE bc_extract_rmi_attribute(
 	attribute_value29 nvarchar(50) NULL,
 	attribute30 nvarchar(50) NULL,
 	attribute_value30 nvarchar(50) NULL
-) ON PRIMARY
+) 
 
 GO
 

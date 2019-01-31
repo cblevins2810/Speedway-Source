@@ -1,0 +1,12 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7130904538,KING'S THIN SANDWICH BREAD,153001,153001,,,,a,601 06 000,Each,1.00,,,u,_071309045382,Master,1.79,0.00,2015-07-17,2075-12-31
+_7261000200,HEINERS KNG SZ WHITE BREAD 20z,35403,35403,,,,a,601 06 000,Each,1.00,,,u,_072610002002,Master,1.86,0.00,2015-07-17,2075-12-31
+_7261000201,OLD FASHIONED WHITE BREAD 20z,35406,35406,,,,a,601 06 000,Each,1.00,,,u,_072610002019,Master,1.71,0.00,2015-07-17,2075-12-31
+_7261000307,Heiner's 100% Whole Wheat Round Top Bread,1070608,1070608,,,,a,601 06 000,Each,1.00,,,u,_072610003078,Master,2.46,0.00,1900-01-01,2075-12-31
+_7261000400,HEINERS HAMBURGER BUNS 8PK 14z,35405,35405,,,,a,601 06 000,Each,1.00,,,u,_072610004006,Master,1.79,0.00,2015-07-21,2075-12-31
+_7261000403,HEINERS HOT DOG BUN 8P 13z,35408,35408,,,,a,601 06 000,Each,1.00,,,u,_072610004037,Master,1.79,0.00,2015-07-17,2075-12-31
+_7261000413,Heiner's White Foot Longs 8 Pack,1070602,1070602,,,,a,601 06 000,Each,1.00,,,u,_072610004136,Master,2.08,0.00,1900-01-01,2075-12-31
+_7261000417,Heiner's Sesame Seed Hamburger Buns 12 Pack,1070604,1070604,,,,a,601 06 000,Each,1.00,,,u,_072610004174,Master,2.24,0.00,1900-01-01,2075-12-31
+_7870000025,MASTER ENGLISH  MFFN BREAD 16z,92765,92765,,,,a,601 06 000,Each,1.00,,,u,_078700000255,Master,1.58,0.00,1900-01-01,2075-12-31
+_7870080063,Heiner's BBQ Hamburger Buns 12 Pack,1070600,1070600,,,,a,601 06 000,Each,1.00,,,u,_078700800633,Master,2.01,0.00,1900-01-01,2075-12-31

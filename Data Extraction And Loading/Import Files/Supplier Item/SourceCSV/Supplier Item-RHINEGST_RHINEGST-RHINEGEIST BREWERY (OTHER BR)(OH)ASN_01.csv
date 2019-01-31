@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_860634000223,RHINEGEIST CHEETAH 6PK 12z CN,1088989,1088989,,,,a,401 01B 000,Case,24.00,,,u,_860634000223,Master,28.78,0.00,2018-08-23,2075-12-31
+_860634000247,CIDERGEIST BUBBLES 6PK 12z CN,1084622,1084622,,,,a,401 01B 000,Case,24.00,,,u,_860634000247,Master,31.98,0.00,2017-06-20,2075-12-31
+_860634000261,RHINEGEIST TRUTH 12PK 12z CN,1088122,1088122,,,,a,401 01D 000,Case,24.00,,,u,_860634000261,Master,28.79,0.00,1900-01-01,2075-12-31
+_862628000004,RHINEGEIST TRUTH 6PK 12z CN,1068777,1068777,,,,a,401 01B 000,Case,24.00,,,u,_862628000004,Master,31.98,0.00,2016-08-15,2075-12-31
+_862628000011,RHINEGEIST COUGAR 6PK 12z CN,1068778,1068778,,,,a,401 01B 000,Case,24.00,,,u,_862628000011,Master,31.98,0.00,2016-08-15,2075-12-31
+_862628000028,RHINEGEIST POWER PALE SERIES 6PK 12z CN,1068779,1068779,,,,a,401 01B 000,Case,24.00,,,u,_862628000028,Master,31.98,0.00,2016-08-15,2075-12-31
+_862628000035,RHINEGEIST SSL 6PK 12z CN,1068780,1068780,,,,a,401 01B 000,Case,24.00,,,u,_862628000035,Master,31.98,0.00,2016-08-15,2075-12-31
+_862628000097,RHINEGEIST ROTAT 6PK 12Z CN,1087181,1087181,,,,a,401 01B 000,Case,24.00,,,u,_862628000097,Master,31.98,0.00,1900-01-01,2075-12-31

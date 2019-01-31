@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0010613151,HOT POCKET HAM & CHEESE 7z,148731,148731,,,,a,601 17 000,Each,1.00,,,u,_043695097023,Master,1.19,0.00,1900-01-01,2075-12-31
+_10613152,HOT POCKET PEPP PIZZA 7z,148730,148730,,,,a,601 17 000,Each,1.00,,,u,_043695097030,Master,1.19,0.00,1900-01-01,2075-12-31

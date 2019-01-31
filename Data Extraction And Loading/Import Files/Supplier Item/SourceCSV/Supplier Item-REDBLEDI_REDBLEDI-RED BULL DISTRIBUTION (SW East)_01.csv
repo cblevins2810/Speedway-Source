@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_079298400113,EVIAN NAT SPR WTR 750ML,1081543,1081543,,,,a,Default,Case,12.00,,,u,_079298400113,Master,11.30,0.00,2017-08-31,2075-12-31
+_07929878,EVIAN NAT SPR WTR 1L,14937,14937,,,,a,601 10 000,Case,12.00,,,u,_079298000078,Master,14.20,0.00,2017-08-31,2075-12-31
+_07929878,,,,,,,,,,,,,u,_079298100006,,,,,
+_07929885,EVIAN NAT SPR WTR .5L,17401,17401,,,,a,601 10 000,Case,24.00,,,u,_079298000085,Master,19.50,0.00,2015-02-02,2075-12-31
+_611269841237,RED BULL WINTER EDITION PLUM TWIST 12z,1089077,1089077,,,,a,601 13A 000,Case,24.00,,,u,_611269841237,Master,47.90,0.00,1900-01-01,2075-12-31

@@ -20,14 +20,55 @@ FROM supplier
 WHERE xref_code = @SupplierXRef
 
 INSERT @cost_level
-SELECT DISTINCT s.supplier_id, merch_cost_level_id
+SELECT DISTINCT s.supplier_id, l.merch_cost_level_id
 FROM   Merch_bu_spi_cost_list AS l
 JOIN   supplier AS s
 ON     l.supplier_id = s.supplier_id
 JOIN   business_unit AS bu
 ON     l.business_unit_id = bu.business_unit_id
-AND    bu.status_code != 'c'
 WHERE  s.supplier_id = @supplier_id
+AND    bu.status_code != 'c'
+UNION
+SELECT DISTINCT s.supplier_id, mcl.merch_cost_level_id
+FROM   supplier AS s
+JOIN   Merch_Cost_Level AS mcl
+ON     mcl.supplier_Id = s.supplier_id
+WHERE (s.name = 'EBYAUROR-EBY-BROWN' AND mcl.name = 'Hostess Reg 44')
+OR (s.name = 'EBYAUROR-EBY-BROWN' AND mcl.name = 'Hostess Reg 49')
+OR (s.name = 'EBYAUROR-EBY-BROWN' AND mcl.name = 'Jerky Reg 50 Test')
+OR (s.name = 'IB009CKY-IBS  IB009CKY' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IB022CKY-IBS  IB022CKY' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IB070ATN-IB070ATN-NASHVILLE' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IB070BTN-IB070BTN-CHATTANOOGA' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IB084AKY-IBS  IB084AKY' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IB084CKY-IBS  IB084CKY' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IBR16CKY-IBS  IBR16CKY' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'IBS16CKY-IBS  IBS16CKY' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'PEPCVAVA-PEPSI BOTTLING OF CENTRAL VA (VA)' AND mcl.name = 'PEPCVAVA-CCC PEPSI BOTTLING OF CENTRAL')
+OR (s.name = 'PEPFLORN-PEPSI COLA OF FLORENCE (SC)' AND mcl.name = 'PEPFLORN-CCC PEPSI COLA OF FLORENCE (SC)')
+OR (s.name = 'PEPGREEN-PEPSI COLA OF GREENVILLE (SC)' AND mcl.name = 'PEPGREEN-CCC PEPSI COLA OF GREENVILLE (SC)')
+OR (s.name = 'PEPHICNC-PEPSI COLA OF HICKORY (NC)' AND mcl.name = 'PEPHICNC-CCC PEPSI COLA OF HICKORY (NC)')
+OR (s.name = 'PEPMCPNC-PEPSI BOTTLING aka MCPHERSON (NC)' AND mcl.name = 'PEPMCPNC-CCC PEPSI BOTTLING aka MCPHERSON (NC)')
+OR (s.name = 'PEPMNGNC-PEPSI-MINGES BTLG CO (NC)' AND mcl.name = 'PEPMNGNC-CCC PEPSI-MINGES BTLG CO (NC)')
+OR (s.name = 'PEPSCIN2-PEPSI CINCINNATI (KY)-asn' AND mcl.name = 'PEPSCIN2-CCC PEPSI CINCINNATI (KY)-asn')
+OR (s.name = 'PEPSICBS-PEPSI CORBIN SOMERSET (KY)' AND mcl.name = 'PEPSICBS-CCC PEPSI CORBIN SOMERSET (KY)')
+OR (s.name = 'PEPSICOR-PEPSI CORBIN LOWR WHITLEY (KY)' AND mcl.name = 'PEPSICOR-CCC PEPSI CORBIN LOWR WHITLEY (KY)')
+OR (s.name = 'PEPSINT2-PEPSI NITRO [2] (WV)' AND mcl.name = 'PEPSINT2- CCC PEPSI NITRO [2] (WV)')
+OR (s.name = 'PEPSIPKV-PEPSI NITRO/ PHILIPPI (KY)-asn' AND mcl.name = 'PEPSIPKV-CCC PEPSI NITRO/ PHILIPPI (KY)-asn')
+OR (s.name = 'PEPSIPRC-PEPSI PRINCETON (WV)' AND mcl.name = 'PEPSIPRC-CCC PEPSI PRINCETON (WV)')
+OR (s.name = 'PEPSIWV-PEPSI OHIO/WV (OH)-asn' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'PEPSLEXI-PEPSI LEXINGTON G&J (KY)-asn' AND mcl.name = 'PEPSLEXI-CCC PEPSI LEXINGTON (KY)')
+OR (s.name = 'PEPSLOUI-PEPSI LOUISVILLE (KY)-asn' AND mcl.name = 'PEPSLOUI-CCC PEPSI LOUISVILLE (KY)-ASN')
+OR (s.name = 'PEPSNIT2-PEPSI NITRO[2] SOUTH (WV)' AND mcl.name = 'PEPSNIT2-CCC PEPSI NITRO[2] SOUTH (WV)')
+OR (s.name = 'PEPSNITR-PEPSI NITRO SOUTH (WV)' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'PEPSPHIL-PEPSI NITRO/ PHILIPPI (WV)' AND mcl.name = 'PEPSPHIL-CCC PEPSI NITRO/ PHILIPPI (WV)')
+OR (s.name = 'PEPSTASC-PBC SOUTHEAST REGION (SC), (NC)-asn' AND mcl.name = 'PEPSTASC- CCC PBC SOUTHEAST REGION (SC), (NC)-asn')
+OR (s.name = 'PEPSTAVA-PBC MID-ATLANTIC (VA)(asn)' AND mcl.name = 'PEPSTAVA- CCC PBC MID-ATLANTIC (VA)(asn)')
+OR (s.name = 'PEPVENDE-PEPSI BOTTLING VENTURES (PA)' AND mcl.name = 'PEPVENDE- CCC PEPSI BOTTLING VENTURES (PA)')
+OR (s.name = 'PEPVENNC-PEPSI BOTTLING VENTURES (NC),(SC)' AND mcl.name = 'PEPVENNC- CCC PEPSI BOTTLING VENTURES (NC),(SC)')
+OR (s.name = 'PRESCOTT-SUNDROP/PRESCOTT BOTTLING CO, TN' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'PUREBEVKY-PURE BEVERAGE CO (KY)' AND mcl.name = 'Consolidated WV/KY')
+OR (s.name = 'RIVERCIT-RIVER CITY (MLR/CRS)(KY) asn' AND mcl.name = 'KY CRAFT TEST')
 
 IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
     DROP TABLE #supplier_item_counts
@@ -73,7 +114,7 @@ start_date,
 end_date,
 supplier_price,
 supplier_allowance)
-SELECT DISTINCT supplier_id,
+SELECT DISTINCT mcc1.supplier_id,
 mcc1.supplier_item_id,
 mcc1.merch_cost_level_id,
 mcc1.start_date,
@@ -86,7 +127,7 @@ JOIN @cost_level as cl
 ON   mcc1.supplier_Id = cl.supplier_Id
 AND  mcc1.merch_cost_level_id = cl.merch_cost_level_id
 
-WHERE supplier_id = @supplier_id
+WHERE mcc1.supplier_id = @supplier_id
 AND start_date <= @MerchCostChangeEffectiveDate
 AND (end_date > @MerchCostChangeEffectiveDate
 OR	end_date IS NULL)
@@ -253,7 +294,7 @@ JOIN (SELECT sics.supplier_id,
 --      AND	(mcc.end_date > @MerchCostChangeEffectiveDate
 --      OR	mcc.end_date IS NULL)
       WHERE sics.barcode_count >= sics.cost_level_count) AS mcc
-ON sie.supplier_Id = mcc.supplier_Id
+ON  sie.supplier_Id = mcc.supplier_Id
 AND sie.supplier_Item_Id = mcc.supplier_Item_Id
 AND sie.supplier_item_row_number = mcc.supplier_item_row_number
 

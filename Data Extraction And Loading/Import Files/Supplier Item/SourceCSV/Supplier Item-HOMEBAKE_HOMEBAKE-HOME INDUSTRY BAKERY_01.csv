@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1,PLAIN PEPPERONI ROLL  4z,125808,125808,,,,a,221 07 100,Each,1.00,,,u,_637273000101,Master,1.30,0.00,2018-04-01,2075-12-31
+_2,PEPPERONI ROLL W/ CHEESE 4 OZ,125825,125825,,,,a,221 07 100,Each,1.00,,,u,_637273000200,Master,1.50,0.00,2018-04-01,2075-12-31
+_3,HOT PEPPER CHEESE ROLL 4z,125809,125809,,,,a,221 07 100,Each,1.00,,,u,_637273000309,Master,1.50,0.00,2018-04-01,2075-12-31
+_3727300040,CHEESE N PEPPERS 6z,126251,126251,,,,a,221 07 100,Each,1.00,,,u,_637273000408,Master,2.50,0.00,2018-04-01,2075-12-31
+_3727300050,12.5z PEPPERONI ROLL,126075,126075,,,,a,221 07 100,Each,1.00,,,u,_637273000507,Master,3.50,0.00,2018-04-01,2075-12-31
+_5,PEPPERONI  ROLLS 12.5z,125807,125807,,,,a,221 07 100,Each,1.00,,,u,_637273000804,Master,3.50,0.00,2018-04-01,2075-12-31

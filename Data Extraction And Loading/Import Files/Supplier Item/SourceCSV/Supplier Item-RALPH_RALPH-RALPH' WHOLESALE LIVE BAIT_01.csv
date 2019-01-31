@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_38810,NIGHTCRAWLERS 1 DOZ,38810,38810,,,,a,601 34 016,Each,1.00,,,u,_638655101294,Master,1.65,0.00,2014-07-14,2075-12-31
+_38810,,,,,,,,,,,,,u,_836115000211,,,,,

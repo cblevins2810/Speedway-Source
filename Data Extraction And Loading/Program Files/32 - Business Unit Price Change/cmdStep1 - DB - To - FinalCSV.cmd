@@ -6,6 +6,7 @@ SET ProcessCode=BusinessUnitPriceChangeExtract
 SET LogFile=.\Logs\"%ProcessCode%%date:~4,2%-%date:~7,2%-%date:~12,2%-%time:~0,2%-%time:~3,2%-%time:~6,2%.log"
 SET SQLExtractFile=%ProcessCode%.sql
 SET SQLExtractParamFile=BusinessUnitPriceChangeCountForExtract.sql
+SET SQLWorkTableCreateTable=BusinessUnitPriceChangeExtractItemCreateTable.sql
 SET SQLWorkTable=BusinessUnitPriceChangeExtractItem.sql
 SET ExtractParamFile=BusinessUnitPriceChangeEventCountForExtractParams.txt
 SET FinalCSVDir=..\..\Import Files\Business Unit Price Change\FinalCSV\
@@ -16,9 +17,14 @@ ECHO %date% %time% Starting %ProcessName% Export > %LogFile%
 ECHO %date% %time% .......... >> %LogFile%
 
 REM Build Work Table
-ECHO %date% %time% Generating Work Table for Extract >> %LogFile%
-SQLCmd -S %Server% -d %DB% -E -i %SQLWorkTable%  >> %LogFile%
+ECHO %date% %time% Creating Work Table for Extract >> %LogFile%
+SQLCmd -S %Server% -d %DB% -E -i %SQLWorkTableCreateTable%  >> %LogFile%
 ECHO %date% %time% Work Table Generated >> %LogFile%
+ECHO %date% %time% .......... >> %LogFile%
+
+ECHO %date% %time% Populating Work Table for Extract >> %LogFile%
+SQLCmd -S %Server% -d %DB% -E -i %SQLWorkTable%  >> %LogFile%
+ECHO %date% %time% Work Table Populated >> %LogFile%
 ECHO %date% %time% .......... >> %LogFile%
 
 REM Build Extract Params

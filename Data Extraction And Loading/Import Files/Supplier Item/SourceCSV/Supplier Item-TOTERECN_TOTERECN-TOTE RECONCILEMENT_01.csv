@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_5289412998,RECEIVE TOTE EBY,1050379,1050379,,,,a,77 01 000,Each,1.00,,,u,_052894129985,Master,0.01,0.01,1900-01-01,2075-12-31
+_5289412999,RETURN TOTE EBY,1050380,1050380,,,,a,77 01 000,Each,1.00,,,u,_052894129992,Master,0.01,0.01,1900-01-01,2075-12-31

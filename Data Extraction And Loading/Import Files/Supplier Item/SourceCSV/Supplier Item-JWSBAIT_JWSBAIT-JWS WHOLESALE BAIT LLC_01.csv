@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0510599751,NIGHT CRAWLERS 1 DZ,87635,87635,,,,a,601 34 016,Each,1.00,,,u,_705105997513,Master,1.40,0.00,2010-08-03,2075-12-31
+_0510599751,,,,,,,,,,,,,u,_744341100127,,,,,
+_0510599751,,,,,,,,,,,,,u,_857585001010,,,,,
+_0510599751,,,,,,,,,,,,,u,_866557000005,,,,,

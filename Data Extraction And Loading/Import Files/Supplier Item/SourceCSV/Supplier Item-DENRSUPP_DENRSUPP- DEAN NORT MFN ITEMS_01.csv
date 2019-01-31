@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_9184920,DEAN WHP CRM FOUNT AERO 13z,184920,184920,,,,a,212 20 001,Each,1.00,,,u,_041900047467,Master,2.56,0.00,2015-05-01,2075-12-31
+_9184920,,,,,,,,,,,,,u,_041900074081,,,,,
+_9184920,,,,,,,,,,,,,u,_041900077181,,,,,

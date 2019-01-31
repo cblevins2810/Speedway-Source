@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_74696611108,ICE 07LB BAG,40234,40234,,,,a,201 02 000,Each,1.00,,,u,_070561000078,Master,0.81,0.00,2018-07-11,2075-12-31
+_74696611108,,,,,,,,,,,,,u,_089595000077,,,,,
+_74696611108,,,,,,,,,,,,,u,_758711000078,,,,,
+_74696611108,,,,,,,,,,,,,u,_761767135793,,,,,
+_74696611108,,,,,,,,,,,,,u,_764918000032,,,,,
+_74696611108,,,,,,,,,,,,,u,_834299003592,,,,,

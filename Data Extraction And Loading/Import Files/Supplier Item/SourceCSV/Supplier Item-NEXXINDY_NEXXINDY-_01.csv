@@ -1,0 +1,12 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_040901532019,INDIANAPOLIS STAR DLY,177210,177210,,,,a,706 01 000,Each,1.00,,,u,_040901532019,Master,1.82,0.00,2018-02-19,2075-12-31
+_040901532026,INDIANAPOLIS STAR SUN,177211,177211,,,,a,706 01 000,Each,1.00,,,u,_040901532026,Master,1.85,0.00,2012-09-07,2075-12-31
+_4090153208,INDIANAPOLIS STAR SPECIAL COLT,178610,178610,,,,a,706 01 000,Each,1.00,,,u,_040901532088,Master,0.81,0.00,1900-01-01,2075-12-31
+_4090153215,INDIANAPOLIS STAR BRICKYARD,181398,181398,,,,a,706 01 000,Each,1.00,,,u,_040901532156,Master,0.81,0.00,1900-01-01,2075-12-31
+_837654927441,INDIANAPOLIS SEX OFFENDERS,183685,183685,,,,a,706 01 000,Each,1.00,,,u,_837654927441,Master,0.76,0.00,1900-01-01,2075-12-31
+_9173400055,INDIANAPOLIS BUSINESS JRNL,181465,181465,,,,a,706 01 000,Each,1.00,,,u,_891734000516,Master,1.88,0.00,2018-07-01,2075-12-31
+_9173400055,,,,,,,,,,,,,u,_891734000523,,,,,
+_9173400055,,,,,,,,,,,,,u,_891734000530,,,,,
+_9173400055,,,,,,,,,,,,,u,_891734000547,,,,,
+_9173400055,,,,,,,,,,,,,u,_891734000554,,,,,

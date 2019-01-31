@@ -69,7 +69,8 @@ FROM business_unit_group AS bug
 JOIN rad_sys_data_accessor AS rsda
 ON  rsda.data_accessor_id = bug.business_unit_group_id
 --AND rsda.name like 'zsBUG%'
-AND rsda.name in ('1 Location NY State Less NYC',
+-- Per request, added zsBUG to the BUG to be pulled
+AND ((rsda.name like 'zsBUG%') or (rsda.name in ('1 Location NY State Less NYC',
 '1location All State All Stores Minus MI',
 '1Location All State Minus PA',
 '1Location All State NO MI, NO Colony',
@@ -308,7 +309,7 @@ AND rsda.name in ('1 Location NY State Less NYC',
 'pb~SHOWER INCOME',
 'PBANDV',
 'zsbugDDCo-op Locations',
-'zsbugDDFranchise Locations')
+'zsbugDDFranchise Locations')))
 
 
 SELECT b.batch_count,

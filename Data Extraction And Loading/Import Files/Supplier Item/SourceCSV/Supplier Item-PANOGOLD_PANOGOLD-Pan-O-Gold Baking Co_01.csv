@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_070733100254,COUNTRY HEARTH SPLIT WHEAT BREAD,33000587,33000587,,,,a,601 06 000,Each,1.00,,,u,_070733100254,Master,3.00,0.00,2018-12-03,2075-12-31
+_076057001673,PAN-O-GOLD WHITE BREAD,33000590,33000590,,,,a,601 06 000,Each,1.00,,,u,_076057001673,Master,1.31,0.00,2018-12-03,2075-12-31
+_076057002359,LAKELAND JUMBO HOT DOG BUNS 12CT,33000589,33000589,,,,a,601 06 000,Case,12.00,,,u,_076057002359,Master,1.90,0.00,2018-12-03,2075-12-31
+_076057002366,LAKELAND JUMBO HAMBURGER BUNS 12CT,33000588,33000588,,,,a,601 06 000,Case,12.00,,,u,_076057002366,Master,1.90,0.00,2018-12-03,2075-12-31

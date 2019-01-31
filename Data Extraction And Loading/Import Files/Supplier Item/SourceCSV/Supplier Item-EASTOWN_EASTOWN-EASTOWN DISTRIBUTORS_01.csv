@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_8624900004,XENERGY CRAN/RAZZ 16z,169785,169785,,,,a,601 13A 000,Case,24.00,,,u,_186249000046,Master,32.00,0.00,2007-11-01,2075-12-31
+_8624900066,XENERGY APPLE 16z,169786,169786,,,,a,601 13A 000,Case,24.00,,,u,_186249000664,Master,32.00,0.00,2007-11-01,2075-12-31
+_8624900069,XENERGY CLEAR 16z,169787,169787,,,,a,601 13A 000,Case,24.00,,,u,_186249000695,Master,32.00,0.00,2007-11-01,2075-12-31

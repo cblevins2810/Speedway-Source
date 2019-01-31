@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_33544950906,MODELO 32Z LN,1097751,1097751,,,,a,401 01J 000,Case,12.00,,,u,_033544950906,Master,38.32,0.00,1900-01-01,2075-12-31
+_33544950906,,,,,,,,,,,,,u,_335449509068,,,,,
+_657227000247,ESSENTIA WATER 700ML,1083586,1083586,,,,a,Default,Case,24.00,,,u,_657227000247,Master,24.50,0.00,1900-01-01,2075-12-31
+_657227000339,ESSENTIA WATER 1 LITER,1089078,1089078,,,,a,601 10 000,Case,24.00,,,u,_657227000339,Master,16.34,0.00,1900-01-01,2075-12-31
+_860991002601,OH2O Water 1L,1093047,1093047,,,,a,601 10 000,Case,12.00,,,u,_860991002601,Master,15.75,0.00,1900-01-01,2075-12-31

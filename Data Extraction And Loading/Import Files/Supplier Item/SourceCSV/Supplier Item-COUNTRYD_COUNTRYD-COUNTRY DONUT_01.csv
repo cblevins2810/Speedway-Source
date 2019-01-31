@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_041900075323,TRUMOO CHOC ESL PROTEIN 1% MILK,1062031,1062031,,,,a,601 07 410,Each,1.00,,,u,_041900075323,Master,1.61,0.00,1900-01-01,2075-12-31
+_041900075330,TRUMOO VANILLA ESL PROTIEN 1% MILK,1062039,1062039,,,,a,601 07 410,Each,1.00,,,u,_041900075330,Master,1.61,0.00,2014-10-29,2075-12-31

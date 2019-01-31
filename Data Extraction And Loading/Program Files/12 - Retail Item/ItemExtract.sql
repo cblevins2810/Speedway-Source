@@ -558,7 +558,7 @@ ON #item_extract.RetailModifiedItemId = a.retail_modified_item_id
 LEFT JOIN bc_extract_item_group AS g
 ON #item_extract.Item_id = g.item_id
 
-ORDER by item_id, ItemRowNumber, RetailModifiedItemId, PackRowNumber, BarcodeCompressible DESC
+ORDER by #item_extract.item_id, ItemRowNumber, RetailModifiedItemId, PackRowNumber, BarcodeCompressible DESC
 
 IF OBJECT_ID('tempdb..#item_extract') IS NOT NULL
     DROP TABLE #item_extract

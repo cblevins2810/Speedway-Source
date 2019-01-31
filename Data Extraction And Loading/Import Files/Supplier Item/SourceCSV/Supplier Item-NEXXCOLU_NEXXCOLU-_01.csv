@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_780939000011,COLUMBUS DISPATCH SUN,177358,177358,,,,a,706 01 000,Each,1.00,,,u,_780939000011,Master,4.34,0.00,2018-06-18,2075-12-31
+_8093911111,COLUMBUS DISPATCH THNK DLY,179208,179208,,,,a,706 01 000,Each,1.00,,,u,_780939111113,Master,2.17,0.00,2016-11-16,2075-12-31

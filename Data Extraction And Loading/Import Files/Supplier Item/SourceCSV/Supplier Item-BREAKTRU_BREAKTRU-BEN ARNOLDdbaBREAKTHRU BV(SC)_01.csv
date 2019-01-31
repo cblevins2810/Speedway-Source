@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_025713919708,UPTIME ORIGINAL SUGAR FREE 12z,1088981,1088981,,,,a,601 13A 000,Case,24.00,,,u,_025713919708,Master,40.00,0.00,1900-01-01,2075-12-31
+_25713919609,UPTIME ORIGINAL CANE SUGAR 12z,1088982,1088982,,,,a,601 13A 000,Case,24.00,,,u,_025713919609,Master,40.00,0.00,1900-01-01,2075-12-31
+_25713919609,,,,,,,,,,,,,u,_257139196092,,,,,
+_682430400102,VOSS WATER 500ml,1077249,1077249,,,,a,601 10 000,Case,24.00,,,u,_682430200108,Master,23.50,0.00,1900-01-01,2075-12-31
+_682430400102,,,,,,,,,,,,,u,_682430400102,,,,,

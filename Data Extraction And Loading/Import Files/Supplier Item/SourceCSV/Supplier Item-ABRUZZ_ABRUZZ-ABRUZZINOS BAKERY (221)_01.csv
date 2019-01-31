@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_073800004967,FAYGO CANDY APPLE 24z NR,1055185,1055185,,,,a,Default,Case,24.00,,,u,_073800004967,Master,12.75,0.00,2013-11-11,2075-12-31
+_711173000062,ABRUZZINO PEP ROLL W/O CHEESE,125847,125847,,,,a,221 07 100,Each,1.00,,,u,_711173000062,Master,1.30,0.00,2011-04-01,2075-12-31
+_711173000086,ABRUZZINO PEP/CHS. ROLL,125848,125848,,,,a,221 07 100,Each,1.00,,,u,_711173000086,Master,2.15,0.00,2011-04-01,2075-12-31
+_711173000123,ABRUZZINO 12z MINI ROLL,125849,125849,,,,a,221 07 100,Each,1.00,,,u,_711173000123,Master,3.25,0.00,2011-04-01,2075-12-31
+_711173000130,ABRUZZINO PEP ROLL W/ HOT CHS,125850,125850,,,,a,221 07 100,Each,1.00,,,u,_711173000130,Master,2.15,0.00,2011-04-01,2075-12-31
+_711173000147,ABRUZZINOS PEP ROLL W/AM CHS,125851,125851,,,,a,221 07 100,Each,1.00,,,u,_711173000147,Master,1.30,0.00,2011-04-01,2075-12-31

@@ -24,7 +24,7 @@ SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractAttributeCreateTable%  >> %LogFi
 SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractAttribute%  >> %LogFile%
 
 REM Build Item Group Work Table
-ECHO %date% %time% Generating Attribute Work Table >> %LogFile%
+ECHO %date% %time% Generating Group Work Table >> %LogFile%
 SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractGroupCreateTable%  >> %LogFile%
 SQLCmd -S %Server% -d %DB% -E -i %SQLItemExtractGroup%  >> %LogFile%
 

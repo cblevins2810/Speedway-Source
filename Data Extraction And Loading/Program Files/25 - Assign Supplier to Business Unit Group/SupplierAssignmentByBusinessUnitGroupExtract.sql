@@ -18,7 +18,8 @@ ON sdal.supplier_id = s.supplier_id
 WHERE s.xref_code IS NOT NULL
 AND bug.cdm_owner_id = bug.client_id
 --AND rsda.name like 'zsBUG%'
-AND rsda.name in ('1 Location NY State Less NYC',
+-- Per request, added zsBUG to the BUG to be pulled
+AND ((rsda.name like 'zsBUG%') or (rsda.name in ('1 Location NY State Less NYC',
 '1location All State All Stores Minus MI',
 '1Location All State Minus PA',
 '1Location All State NO MI, NO Colony',
@@ -257,7 +258,7 @@ AND rsda.name in ('1 Location NY State Less NYC',
 'pb~SHOWER INCOME',
 'PBANDV',
 'zsbugDDCo-op Locations',
-'zsbugDDFranchise Locations')
+'zsbugDDFranchise Locations')))
 AND sdal.end_date > GETDATE()-1
 AND EXISTS (SELECT 1 
             FROM Business_Unit_Group_List AS bugl

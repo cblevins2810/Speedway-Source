@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_181526000016,MORGANS CRAWLERS 12CT,1088522,1088522,,,,a,601 34 016,Each,1.00,,,u,_181526000016,Master,1.80,0.00,1900-01-01,2075-12-31
+_181526000030,MORGANS SALTED MINNOWS SM-MD 20-30CT,1088526,1088526,,,,a,601 34 016,Each,1.00,,,u,_181526000030,Master,1.80,0.00,1900-01-01,2075-12-31
+_181526000054,MORGANS GIANT MEAL WORMS,1088527,1088527,,,,a,601 34 016,Each,1.00,,,u,_181526000054,Master,1.80,0.00,1900-01-01,2075-12-31
+_181526000061,MORGANS TROUT WORMS 20CT,1088528,1088528,,,,a,601 34 016,Each,1.00,,,u,_181526000061,Master,1.80,0.00,1900-01-01,2075-12-31

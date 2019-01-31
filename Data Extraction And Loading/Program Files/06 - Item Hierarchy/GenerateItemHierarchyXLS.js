@@ -85,7 +85,7 @@ function  importCSVtoXLS(folderPath, fileName)
 		row ++;
 		if ((row % 10) == 0)
 		{
-			EchoAndLog(logFile, "Item Rows: " + row);
+			EchoAndLog(logFile, "Item Hierarchy Rows: " + row);
 		}
 	}
 	
@@ -97,7 +97,7 @@ function  importCSVtoXLS(folderPath, fileName)
 	wb.Close();
 	app.Quit();
 	
-	EchoAndLog(logFile, "Total Items: " + (row-2));
+	EchoAndLog(logFile, "Total Item Hierarchies: " + (row-2));
 	EchoAndLog(logFile, "File created in working xls folder: " + processName + "-" + fileName.slice(fileName,-4) + ".xlsx");
 	//EchoAndLog(logFile, "Moving file " + fileName + " to Archive ");
 	

@@ -1,0 +1,11 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_073360709258,ARIZONA MUCHO MANGO 23.5z CAN,181055,181055,,,,a,601 12A 000,Case,24.00,,,u,_073360709258,Master,14.99,0.00,1900-01-01,2075-12-31
+_073360709258,,,,,,,,,,,,,u,_613008735418,,,,,
+_610764000316,BANG COTTON CANDY 16Z,1097817,1097817,,,,a,Default,Case,12.00,,,u,_610764000316,Master,16.50,0.00,1900-01-01,2075-12-31
+_610764863430,BANG SOUR HEADS 16Z,1097811,1097811,,,,a,Default,Case,12.00,,,u,_610764863430,Master,16.50,0.00,1900-01-01,2075-12-31
+_610764863638,BANG BLUE RAZZ 16Z,1097813,1097813,,,,a,Default,Case,12.00,,,u,_610764863638,Master,16.50,0.00,1900-01-01,2075-12-31
+_610764863652,BANG STAR BLAST 16Z,1097819,1097819,,,,a,Default,Case,12.00,,,u,_610764863652,Master,16.50,0.00,1900-01-01,2075-12-31
+_613008715267,ARIZONA GREEN TEA 23.5z CAN,82130,82130,,,,a,601 14 000,Case,24.00,,,u,_613008715267,Master,14.99,0.00,1900-01-01,2075-12-31
+_613008717711,ARIZONA SWEET TEA 23.5z CAN,127631,127631,,,,a,601 14 000,Case,24.00,,,u,_613008717711,Master,14.99,0.00,1900-01-01,2075-12-31
+_613008718763,ARIZONA FRUIT PUNCH 23.5z CAN,127630,127630,,,,a,Default,Case,24.00,,,u,_613008718763,Master,14.99,0.00,1900-01-01,2075-12-31

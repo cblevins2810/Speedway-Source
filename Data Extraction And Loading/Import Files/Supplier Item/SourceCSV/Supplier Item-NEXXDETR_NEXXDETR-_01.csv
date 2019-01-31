@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_4078811000,DETROIT FREE PRESS DLY,177086,177086,,,,a,706 01 000,Each,1.00,,,u,_640788110005,Master,1.82,0.00,2018-07-01,2075-12-31
+_4078830000,DETROIT FREE PRESS SAT,177087,177087,,,,a,706 01 000,Each,1.00,,,u,_640788300000,Master,1.82,0.00,2018-07-01,2075-12-31
+_640788400007,DETROIT FREE PRESS & NEWS SUN,177491,177491,,,,a,706 01 000,Each,1.00,,,u,_640788400007,Master,1.80,0.00,2012-06-25,2075-12-31

@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_5778390042,CITY TRASH BAGS SM,1066545,1066545,,,,a,601 34A 002,Case,210.00,,,u,_400100906590,Master,210.00,0.00,1900-01-01,2075-12-31
+_5778390042,,,,,,,,,,,,,u,_734408509406,,,,,
+_5778390042,,,,,,,,,,,,,u,_757783900422,,,,,
+_5778390085,CITY TRASH BAGS LG,1066544,1066544,,,,a,601 34A 002,Case,210.00,,,u,_400101112372,Master,420.00,0.00,2018-12-08,2075-12-31
+_5778390085,,,,,,,,,,,,,u,_757783900859,,,,,

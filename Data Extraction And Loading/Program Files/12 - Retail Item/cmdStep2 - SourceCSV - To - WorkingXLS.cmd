@@ -1,2 +1,3 @@
-CScript GenerateItemXLS.js //NoLogo
+rem CScript GenerateItemXLS.js //NoLogo
+GenerateItemXLS.js
 pause

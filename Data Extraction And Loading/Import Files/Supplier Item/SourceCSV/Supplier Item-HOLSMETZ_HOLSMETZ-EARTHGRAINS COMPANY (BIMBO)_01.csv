@@ -1,0 +1,9 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7261000307,Heiner's 100% Whole Wheat Round Top Bread,1070608,1070608,,,,a,601 06 000,Each,1.00,,,u,_072610003078,Master,2.46,0.00,1900-01-01,2075-12-31
+_7261000413,Heiner's White Foot Longs 8 Pack,1070602,1070602,,,,a,601 06 000,Each,1.00,,,u,_072610004136,Master,2.08,0.00,1900-01-01,2075-12-31
+_7261000417,Heiner's Sesame Seed Hamburger Buns 12 Pack,1070604,1070604,,,,a,601 06 000,Each,1.00,,,u,_072610004174,Master,2.24,0.00,1900-01-01,2075-12-31
+_7870000025,MASTER ENGLISH  MFFN BREAD 16z,92765,92765,,,,a,601 06 000,Each,1.00,,,u,_078700000255,Master,1.58,0.00,1900-01-01,2075-12-31
+_7870000654,MICKEY CINN/RAISIN 6CT 15z,161042,161042,,,,a,601 05 000,Each,1.00,,,u,_078700006547,Master,1.58,0.00,1900-01-01,2075-12-31
+_7870000655,MICKEY GLAZED CINN SWIRL 6CT,161044,161044,,,,a,601 05 000,Each,1.00,,,u,_078700006554,Master,1.51,0.00,1900-01-01,2075-12-31
+_7870080063,Heiner's BBQ Hamburger Buns 12 Pack,1070600,1070600,,,,a,601 06 000,Each,1.00,,,u,_078700800633,Master,2.01,0.00,1900-01-01,2075-12-31

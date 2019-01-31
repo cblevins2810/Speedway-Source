@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_9306600101,G PURE ENERGY LULO LIME 200ML,180973,180973,,,,a,601 13A 000,Case,24.00,,,u,_893066001018,Master,32.00,0.00,1900-01-01,2075-12-31
+_9306600102,G PURE ENERGY ORANGE 200ML,180974,180974,,,,a,601 13A 000,Case,24.00,,,u,_893066001025,Master,32.00,0.00,1900-01-01,2075-12-31
