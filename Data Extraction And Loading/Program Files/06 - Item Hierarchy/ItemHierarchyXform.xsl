@@ -13,7 +13,7 @@
   <xsl:template name="ItemHierarchyList">
     <RetailerReference>
       <xsl:attribute name="ClientIdentifierType">ClientID</xsl:attribute>
-      <xsl:attribute name="ClientIdentifier">1000102</xsl:attribute>
+      <xsl:attribute name="ClientIdentifier">10000001</xsl:attribute>
     </RetailerReference>
     <ItemCategoryList>
       <xsl:for-each select="//Document/RawXMLRow">

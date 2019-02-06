@@ -11,7 +11,7 @@ DECLARE @Remainder INT
 SET @Modulus = $(Modulus)
 SET @Remainder = $(Remainder)
 
-SELECT rsda_bug.name AS 'Business Unit Group Code',
+SELECT REPLACE(rsda_bug.name,',','^') AS 'Business Unit Group Code',
 REPLACE(rsda_bug.long_name,',','^') AS 'Business Unit Group Name',
 REPLACE(ISNULL(bug.Description,''),',','~') AS 'Description',
 bug.business_unit_group_type_code AS 'Group Type Code',

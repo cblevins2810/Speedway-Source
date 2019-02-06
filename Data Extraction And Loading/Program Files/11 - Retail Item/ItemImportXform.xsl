@@ -128,6 +128,36 @@
 						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
 					</ItemGroup>
 					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup6)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup6"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup7)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup7"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup8)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup8"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup9)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup9"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
+					<xsl:if test="normalize-space(ItemGroup10)">
+					<ItemGroup>
+						<xsl:attribute name="GroupName"><xsl:value-of select="ItemGroup10"/></xsl:attribute>
+						<xsl:attribute name="ItemGroupAction">Add</xsl:attribute>
+					</ItemGroup>
+					</xsl:if>
 				</ItemGroupList>
 				</xsl:if>
 				<!-- End for Item Group -->

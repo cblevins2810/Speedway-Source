@@ -170,6 +170,10 @@ function XMLFileNode(objDOMDocument,objXML)
 	objXMLDOMNode.appendChild(objXMLDOMElement);
   
 	objXMLDOMElement = objDOMDocument.createElement("ParentCategoryExternalID"); 
+	if (objXML.d.length == 0)
+	{
+		objXML.d = "NULL"
+	}
 	objXMLDOMElement.text = formatXMLString(objXML.d);
 	objXMLDOMNode.appendChild(objXMLDOMElement);
 

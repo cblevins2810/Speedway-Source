@@ -15,7 +15,7 @@ ECHO %date% %time% .......... >> %LogFile%
 REM Generate Extract Files
 ECHO %date% %time% Extracting Files >> %LogFile%
 
-SQLCmd -S %Server% -d %DB% -E -i %SQLExtractFile% -o "%FinalCSVDir%%ProcessName%-All Suppliers Business Unit Assignments.csv" -s"," -W -w 4000
+SQLCmd -S %Server% -d %DB% -E -i %SQLExtractFile% -o "%FinalCSVDir%%ProcessName%-All.csv" -s"," -W -w 4000
 
 ECHO %date% %time% Completed Extracting Files >> %LogFile%
 ECHO %date% %time% .......... >> %LogFile%

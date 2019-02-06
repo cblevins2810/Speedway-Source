@@ -261,6 +261,9 @@ function formatDateYYYYMMDD(dateString)
 // Clean up quotation marks in the source data, for example a quoted string will have the beginning and ending quotes removed.
 function formatXMLString(s)
 {
+	
+	s = s.replace(/^\s+|\s+$/gm,'');  // used in lieu of trim
+	
 	// removed beginning and ending quotes from a string that is quoted
 	while ((s.substring(0,1) == "\"") && (s.substring(s.length-1,s.length) == "\""))
 	{
