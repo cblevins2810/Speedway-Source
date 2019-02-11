@@ -32,13 +32,13 @@ WHERE g.name in (
 ORDER BY gl.inventory_item_id, Sequence
 
 
--- The table bc_extract_item_group is created through ItemExtractGroupCreateTable.sql
+-- The table bcssa_custom_integration..bc_extract_item_group is created through ItemExtractGroupCreateTable.sql
 -- which will be executed prior to this code
 -- Clear the table first
-DELETE bc_extract_item_group
+DELETE bcssa_custom_integration..bc_extract_item_group
 
 -- Need at least one group otherwise there should be no entry for the item (some items are not in any group)
-INSERT bc_extract_item_group
+INSERT bcssa_custom_integration..bc_extract_item_group
 (
 item_id,
 group_name1
@@ -60,7 +60,7 @@ WHILE @counter <= 9
 BEGIN
 	SET @sql = 'UPDATE g
 		SET g.group_name' + CONVERT(NVARCHAR(2), @counter) + ' = ig.group_name
-		FROM bc_extract_item_group AS g
+		FROM bcssa_custom_integration..bc_extract_item_group AS g
 		JOIN #item_group AS ig
 		ON g.item_id = ig.item_id
 		WHERE ig.sequence = ' + CONVERT(NVARCHAR(2), @counter)

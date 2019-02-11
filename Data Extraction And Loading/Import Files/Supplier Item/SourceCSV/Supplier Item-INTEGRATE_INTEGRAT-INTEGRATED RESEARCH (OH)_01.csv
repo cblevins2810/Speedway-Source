@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_4900005879,FULL THROTTLE BLACK 16z nos band logo,1050811,1050811,,,,a,601 13A 000,Case,24.00,,,u,_049000058796,Master,0.00,0.00,1900-01-01,2075-12-31
-_4900005880,FULL THROTTLE BLUE AGV 16z nos band logo,1050812,1050812,,,,a,601 13A 000,Case,24.00,,,u,_049000058802,Master,0.00,0.00,1900-01-01,2075-12-31
-_8079380879,NOS ENERGY 16z full throttle blk band logo,1050813,1050813,,,,a,601 13A 000,Case,24.00,,,u,_080793808793,Master,0.00,0.00,1900-01-01,2075-12-31
-_8079380881,NOS ENERGY 16z full throttle blue agv band logo,1050814,1050814,,,,a,601 13A 000,Case,24.00,,,u,_080793808816,Master,0.00,0.00,1900-01-01,2075-12-31

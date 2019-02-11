@@ -1,7 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_63931,DEAN MILK SKIM GAL,184922,184922,,,,a,212 20 001,Each,1.00,,,u,_041900077020,Master,2.44,0.00,2019-01-08,2075-12-31
-_63934,DEAN MILK WHOLE GAL,184921,184921,,,,a,212 20 001,Each,1.00,,,u,_041900076382,Master,3.11,0.00,2019-01-08,2075-12-31
-_9184920,DEAN WHP CRM FOUNT AERO 13z,184920,184920,,,,a,212 20 001,Each,1.00,,,u,_041900047467,Master,2.56,0.00,2015-10-01,2075-12-31
-_9184920,,,,,,,,,,,,,u,_041900074081,,,,,
-_9184920,,,,,,,,,,,,,u,_041900077181,,,,,

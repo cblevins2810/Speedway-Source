@@ -1,2 +1,0 @@
-GeneratePriceEventXML.js
-pause

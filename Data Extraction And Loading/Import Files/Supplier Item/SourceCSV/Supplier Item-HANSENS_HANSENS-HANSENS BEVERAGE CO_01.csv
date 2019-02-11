@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_070847000907,WORX XTRA STRNGTH ENERGY SHOT,185445,185445,,,,a,601 15C 000,Box,12.00,,,u,_070847000907,Master,20.00,0.00,1900-01-01,2075-12-31
-_7084700240,WORX ORIGINAL ENERGY SHOT,185444,185444,,,,a,601 15C 000,Box,12.00,,,u,_070847002406,Master,20.00,0.00,1900-01-01,2075-12-31

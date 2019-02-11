@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_114854,SUBWAY WH. CHOC MAC. COOKIE D.,114854,114854,,,,a,206 01 000,Each,1.00,,,u,_013000003902,Master,16.38,0.00,1900-01-01,2075-12-31
-_114856,SUBWAY CHOC. CHUNK COOKIE DOH.,114856,114856,,,,a,206 01 000,Each,1.00,,,u,_013000003896,Master,16.38,0.00,1900-01-01,2075-12-31
-_114858,SUBWAY MARINARA SAUCE,114858,114858,,,,a,206 01 000,Each,1.00,,,u,_017000002262,Master,16.28,0.00,1900-01-01,2075-12-31
-_115967,SUBWAY PNT/BTR COOKIE DOUGH,115967,115967,,,,a,206 05 000,Each,1.00,,,u,_013000003919,Master,16.38,0.00,1900-01-01,2075-12-31

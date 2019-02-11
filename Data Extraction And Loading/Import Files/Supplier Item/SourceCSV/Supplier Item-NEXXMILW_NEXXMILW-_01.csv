@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_731544105004,MILW JRNL SENTINEL DLY,177619,177619,,,,a,706 01 000,Each,1.00,,,u,_731544105004,Master,1.82,0.00,2017-06-12,2075-12-31
-_731544306142,MILW JRNL SENTINEL EXTRA EDIT,185639,185639,,,,a,706 01 000,Each,1.00,,,u,_731544306142,Master,4.00,0.00,1900-01-01,2075-12-31

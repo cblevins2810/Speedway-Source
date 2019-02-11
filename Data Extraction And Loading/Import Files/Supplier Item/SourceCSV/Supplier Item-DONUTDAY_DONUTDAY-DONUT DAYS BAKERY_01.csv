@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_75505,GREBES COOKIES,75505,75505,,,,a,231 03 003,Each,1.00,,,u,_034700567006,Master,0.25,0.00,1900-01-01,2075-12-31
-_75505,,,,,,,,,,,,,u,_034708057905,,,,,

@@ -1,8 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_753044000016,CHICAGO SUN TIMES DLY,177503,177503,,,,a,706 01 000,Each,1.00,,,u,_753044000016,Master,1.84,0.00,2010-12-13,2075-12-31
-_753044000016,,,,,,,,,,,,,,,OUT 1 - Out of Area 2.00 Dly & 2.75 Sun,1.84,0.00,2010-12-13,2075-12-31
-_753044000016,,,,,,,,,,,,,,,OUT 2 - Out of Area 2.00 Dly & 3.00 Sun,1.26,0.00,2017-04-07,2075-12-31
-_753044000023,CHICAGO SUN TIMES SUN,177505,177505,,,,a,706 01 000,Each,1.00,,,u,_753044000023,Master,2.52,0.00,2017-05-17,2075-12-31
-_753044000023,,,,,,,,,,,,,,,OUT 1 - Out of Area 2.00 Dly & 2.75 Sun,2.75,0.00,2011-04-19,2075-12-31
-_753044000023,,,,,,,,,,,,,,,OUT 2 - Out of Area 2.00 Dly & 3.00 Sun,2.52,0.00,2009-06-19,2075-12-31

@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_070628211000,WASHINGTON POST DAILY,1057950,1057950,,,,a,706 01 000,Each,1.00,,,u,_007062821109,Master,2.19,0.00,1900-01-01,2075-12-31
-_070628211000,,,,,,,,,,,,,u,_070628211003,,,,,
-_070628211000,,,,,,,,,,,,,u,_070678771007,,,,,

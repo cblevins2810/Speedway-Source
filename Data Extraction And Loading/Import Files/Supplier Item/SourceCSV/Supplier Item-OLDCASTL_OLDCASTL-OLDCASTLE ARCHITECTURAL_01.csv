@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_742786911247,MULCH RED 1.5cf,1087712,1087712,,,,a,601 31 400,Each,1.00,,,u,_742786911247,Master,2.59,0.00,1900-01-01,2075-12-31
-_742786911247,,,,,,,,,,,,,u,_854708005160,,,,,
-_742786911254,MULCH BLACK 1.5cf,1087710,1087710,,,,a,601 31 400,Each,1.00,,,u,_742786911254,Master,2.59,0.00,1900-01-01,2075-12-31
-_742786913395,MULCH CEDAR 1.5cf,1087713,1087713,,,,a,601 31 400,Each,1.00,,,u,_742786913395,Master,2.69,0.00,1900-01-01,2075-12-31

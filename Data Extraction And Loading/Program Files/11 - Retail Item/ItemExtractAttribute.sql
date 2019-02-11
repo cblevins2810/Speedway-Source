@@ -19,9 +19,9 @@ ON rmi.retail_modified_item_id = ril.retail_modified_item_id
 ORDER BY rmi.name, Sequence, ria.name, value
 
 -- Clear the table first
-DELETE bc_extract_rmi_attribute
+DELETE bcssa_custom_integration..bc_extract_rmi_attribute
 
-INSERT bc_extract_rmi_attribute (
+INSERT bcssa_custom_integration..bc_extract_rmi_attribute (
 retail_modified_item_id,
 rmi_name,
 attribute1,
@@ -44,7 +44,7 @@ BEGIN
 	SET @sql = 'UPDATE t
 				SET attribute' + CONVERT(NVARCHAR(2), @counter) + '= a.attribute, 
 				attribute_value' + CONVERT(NVARCHAR(2), @counter) + '= a.value
-				FROM bc_extract_rmi_attribute AS t
+				FROM bcssa_custom_integration..bc_extract_rmi_attribute AS t
 				JOIN #rmi_attribute AS a
 				ON a.retail_modified_item_id = t.retail_modified_item_id
 				WHERE a.sequence = ' + CONVERT(NVARCHAR(2), @counter)
@@ -53,5 +53,5 @@ BEGIN
 	SET @counter += 1
 END
 
---SELECT * FROM bc_extract_rmi_attribute
+--SELECT * FROM bcssa_custom_integration..bc_extract_rmi_attribute
 

@@ -1,9 +1,0 @@
-08-29-18T17:35:37: Start Log
-08-29-18T17:35:37: Found Input File: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Retail Item\FinalCSV\Retail Item-601 General Merchan_01.csv
-08-29-18T17:37:01: Starting XSL Transform, this may take awhile.
-08-29-18T17:37:01: XSL Transform Complete.
-08-29-18T17:37:01: Finished Items
-08-29-18T17:37:01: Total Items: 4
-08-29-18T17:37:01: File created in final xml folder: Retail Item-601 General Merchan_01.xml
-08-29-18T17:37:01: ...
-08-29-18T17:37:01: End Log

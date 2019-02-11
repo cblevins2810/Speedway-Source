@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_10004,SHAMRCK ICE 18LB BAG,1093748,1093748,,,,a,707 08 000,Each,1.00,,,u,_750230000188,Master,2.75,0.00,1900-01-01,2075-12-31
-_10013,SHAMRCK ICE 5LB BAG,1093747,1093747,,,,a,707 08 000,Each,1.00,,,u,_750230000058,Master,0.90,0.00,1900-01-01,2075-12-31

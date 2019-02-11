@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_4130098008,HOT DOGS 30pk,110741,110741,,,,a,218 02 001,Case,30.00,,,u,_041300980081,Master,2.85,0.00,1900-01-01,2075-12-31
-_5289460000,HOT DOG BUN PRE WRAPPED,164337,164337,,,,a,218 04 000,Each,1.00,,,u,_052894600002,Master,0.15,0.00,1900-01-01,2075-12-31

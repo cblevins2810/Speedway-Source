@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_6078421113,MARTYS PEPPERONI ROLLS DZN,112868,112868,,,,a,221 07 100,Each,1.00,,,u,_607842111309,Master,3.40,0.00,2017-08-01,2075-12-31
-_607842114430,MARTYS PEPP & HT CHS ROLL 4z,1077771,1077771,,,,a,221 07 100,Each,1.00,,,u,_607842114430,Master,1.32,0.00,2017-08-01,2075-12-31
-_607842114447,MARTYS PEPP & CHSE ROLL 4z,1077770,1077770,,,,a,221 07 100,Each,1.00,,,u,_607842114447,Master,1.32,0.00,2017-08-01,2075-12-31

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_9357380093,CHARLIES BEER CHEESE,1050649,1050649,,,,a,221 07 101,Case,12.00,,,u,_793573800930,Master,33.00,0.00,1900-01-01,2075-12-31
-_9357391371,CHARLIES CHIPOTLE BEER CHEESE,1050650,1050650,,,,a,221 07 101,Case,12.00,,,u,_793573913715,Master,33.00,0.00,2012-04-26,2075-12-31

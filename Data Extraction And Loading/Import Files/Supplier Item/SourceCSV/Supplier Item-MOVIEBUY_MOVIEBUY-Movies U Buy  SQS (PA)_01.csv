@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_807773039929,3.99 MUB MOVIES,33000254,33000254,,,,a,706 29 000,Case,40.00,,,u,_807773039929,Master,111.60,0.00,2018-10-16,2075-12-31
-_807773049928,4.99 MUB MOVIES,33000252,33000252,,,,a,706 29 000,Case,40.00,,,u,_807773049928,Master,139.60,0.00,2018-10-16,2075-12-31
-_807773059927,5.99 MUB MOVIES,33000253,33000253,,,,a,706 29 000,Case,40.00,,,u,_807773059927,Master,167.60,0.00,2018-10-16,2075-12-31
-_807773089924,8.99 MUB MOVIES,33000255,33000255,,,,a,706 29 000,Case,40.00,,,u,_807773089924,Master,251.60,0.00,2018-10-16,2075-12-31

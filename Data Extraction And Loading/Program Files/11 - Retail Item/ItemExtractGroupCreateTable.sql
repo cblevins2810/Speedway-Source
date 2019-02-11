@@ -1,9 +1,9 @@
 -- Added to support the export/import of item groups for retail items
 
-IF OBJECT_ID('bc_extract_item_group') IS NOT NULL
-	DROP TABLE bc_extract_item_group
+IF OBJECT_ID('bcssa_custom_integration..bc_extract_item_group') IS NOT NULL
+	DROP TABLE bcssa_custom_integration..bc_extract_item_group
 
-CREATE TABLE bc_extract_item_group (
+CREATE TABLE bcssa_custom_integration..bc_extract_item_group (
 	item_id int NOT NULL,
 	group_name1 nvarchar(128) NOT NULL,
 	group_name2 nvarchar(128) NULL,

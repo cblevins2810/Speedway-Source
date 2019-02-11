@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_048820199917,ST PAUL WINTER CARNIVAL SINGLE,33000480,33000480,,,,a,601 34A 000,Each,1.00,,,u,_048820199917,Master,5.00,0.00,1900-01-01,2075-12-31
-_048820199948,ST PAUL WINTER CARNIVAL 4PK,89880,89880,,,,a,601 34A 000,Each,1.00,,,u,_048820199948,Master,19.00,0.00,1900-01-01,2075-12-31
-_048820199948,,,,,,,,,,,,,u,_267391748236,,,,,

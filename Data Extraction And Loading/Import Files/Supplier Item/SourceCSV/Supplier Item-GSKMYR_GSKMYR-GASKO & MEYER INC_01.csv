@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_855036005013,HAL'S NY LIME SELTZER 20z,1084390,1084390,,,,a,601 11 000,Case,24.00,,,u,_855036005013,Master,13.50,0.00,1900-01-01,2075-12-31
-_855036005037,HAL'S NY BLK CHRY SELTZER 20z,1084389,1084389,,,,a,601 11 000,Case,24.00,,,u,_855036005037,Master,13.50,0.00,1900-01-01,2075-12-31

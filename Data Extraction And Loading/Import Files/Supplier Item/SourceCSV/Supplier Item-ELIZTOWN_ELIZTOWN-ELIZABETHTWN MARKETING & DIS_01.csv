@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_071644034560,SKI 20z NR,18174,18174,,,,a,601 11A 000,Case,24.00,,,u,_071644034560,Master,22.46,0.00,1900-01-01,2075-12-31
-_071644034577,SKI INFRA RED CHERRY CITRUS 20z NR,1065536,1065536,,,,a,901 04 000,Case,24.00,,,u,_071644034577,Master,22.46,0.00,1900-01-01,2075-12-31
-_071644041032,SKI DT 20z NR,21820,21820,,,,a,601 11A 000,Case,24.00,,,u,_071644041032,Master,22.46,0.00,1900-01-01,2075-12-31

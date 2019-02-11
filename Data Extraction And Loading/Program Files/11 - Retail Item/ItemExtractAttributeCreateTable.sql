@@ -1,7 +1,7 @@
-IF OBJECT_ID('bc_extract_rmi_attribute') IS NOT NULL
-	DROP TABLE bc_extract_rmi_attribute
+IF OBJECT_ID('bcssa_custom_integration..bc_extract_rmi_attribute') IS NOT NULL
+	DROP TABLE bcssa_custom_integration..bc_extract_rmi_attribute
 
-CREATE TABLE bc_extract_rmi_attribute(
+CREATE TABLE bcssa_custom_integration..bc_extract_rmi_attribute(
 	retail_modified_item_id int NOT NULL,
 	rmi_name nvarchar(128) NOT NULL,
 	attribute1 nvarchar(50) NOT NULL,

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_110408,KK TISSUES,110408,110408,,,,a,231 01 000,Each,1.00,,,u,_072470000019,Master,29.16,0.00,1900-01-01,2075-12-31
-_7247081002,CINNAMON KRISPY JUNIORS,1056999,1056999,,,,a,231 01 000,Each,1.00,,,u,_072470810021,Master,1.16,0.00,1900-01-01,2075-12-31

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_782550000012,WISCONSIN STATE JRNL DLY,176982,176982,,,,a,706 01 000,Each,1.00,,,u,_782550000012,Master,1.37,0.00,2016-01-01,2075-12-31
-_782550000036,WISCONSIN STATE JRNL SUN,176983,176983,,,,a,706 01 000,Each,1.00,,,u,_782550000036,Master,3.33,0.00,2014-07-06,2075-12-31

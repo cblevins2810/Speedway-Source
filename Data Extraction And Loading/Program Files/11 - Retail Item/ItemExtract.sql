@@ -552,10 +552,10 @@ CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name9,'') ELSE '' END AS group_nam
 CASE WHEN ItemRowNumber = 1 THEN ISNULL(group_name10,'') ELSE '' END AS group_name10
 
 FROM #item_extract 
-LEFT JOIN bc_extract_rmi_attribute AS a
+LEFT JOIN bcssa_custom_integration..bc_extract_rmi_attribute AS a
 ON #item_extract.RetailModifiedItemId = a.retail_modified_item_id
 
-LEFT JOIN bc_extract_item_group AS g
+LEFT JOIN bcssa_custom_integration..bc_extract_item_group AS g
 ON #item_extract.Item_id = g.item_id
 
 ORDER by #item_extract.item_id, ItemRowNumber, RetailModifiedItemId, PackRowNumber, BarcodeCompressible DESC

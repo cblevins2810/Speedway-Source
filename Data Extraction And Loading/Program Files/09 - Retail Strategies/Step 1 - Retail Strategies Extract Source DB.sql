@@ -9,11 +9,11 @@
 */
 
 
-IF OBJECT_ID('bc_extract_retail_strategy') IS NOT NULL
-  DROP TABLE bc_extract_retail_strategy
+IF OBJECT_ID('bcssa_custom_integration..bc_extract_retail_strategy') IS NOT NULL
+  DROP TABLE bcssa_custom_integration..bc_extract_retail_strategy
 GO
 
-CREATE TABLE bc_extract_retail_strategy
+CREATE TABLE bcssa_custom_integration..bc_extract_retail_strategy
 (mg_name NVARCHAR(50) NOT NULL,
  mg_retail_item_type_code NVARCHAR(1) NOT NULL,
  mg_standard_flag NVARCHAR(1) NOT NULL,
@@ -46,7 +46,7 @@ WHERE bu.status_code != 'c'
  
 -- Insert the rows for the default ranking (999) if the merch group and merch group member are in use by a retail modified item
 -- We must always have at least the default ranking if the merch group and merch group member are in use
-INSERT bc_extract_retail_strategy
+INSERT bcssa_custom_integration..bc_extract_retail_strategy
 (mg_name,
 mg_retail_item_type_code,
 mg_standard_flag,
@@ -90,7 +90,7 @@ WHERE EXISTS (SELECT 1
 AND ml.default_ranking = 999
 
 -- Insert the Levels that are in use by an open business unit that are not the default (between 1 and 998)
-INSERT bc_extract_retail_strategy
+INSERT bcssa_custom_integration..bc_extract_retail_strategy
 (mg_name,
 mg_retail_item_type_code,
 mg_standard_flag,

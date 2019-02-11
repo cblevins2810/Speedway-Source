@@ -1,9 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_022100000049,PABST 24z CN,154543,154543,,,,a,401 01J 000,Case,12.00,,,u,_022100000049,Master,11.00,0.00,2018-11-27,2075-12-31
-_022100000049,,,,,,,,,,,,,u,_022100000414,,,,,
-_022100000049,,,,,,,,,,,,,u,_022100001114,,,,,
-_022100000711,PABST 6PK 12z CN,14098,14098,,,,a,401 01B 000,Case,24.00,,,u,_022100000711,Master,14.00,0.00,2018-03-07,2075-12-31
-_022100000742,PABST 6PK 16z CN,18781,18781,,,,a,401 01B 000,Case,24.00,,,u,_022100000742,Master,17.70,0.00,2018-04-30,2075-12-31
-_022100001701,PABST 12PK 12z CN,13504,13504,,,,a,Default,Case,24.00,,,u,_022100001701,Master,14.00,0.00,1900-01-01,2075-12-31
-_859170005106,FAT HEADS BUMBLE BERRY ALE 6PK 12z LN,1088954,1088954,,,,a,401 01B 000,Case,24.00,,,u,_859170005106,Master,31.50,0.00,1900-01-01,2075-12-31

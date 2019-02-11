@@ -1,7 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_3611500025,FRESH FRUIT,98551,98551,,,*INACTIVE*,a,201 05 000,Each,1.00,,,u,_836115000259,Master,0.48,0.00,1900-01-01,2075-12-31
-_3611500025,,,,,,,,,,,,,u,_837654206058,,,,,
-_9175202100,OTIS SPNKMYR BLUBRY MUFF 6.5z,174903,174903,,,,a,601 05 000,Each,1.00,,,u,_091752021009,Master,1.05,0.00,1900-01-01,2075-12-31
-_9175202105,OTIS SPNKMYR BAN NUT MUFF 6.5z,163929,163929,,,,a,601 05 000,Each,1.00,,,u,_091752021054,Master,1.05,0.00,2007-09-25,2075-12-31
-_9175202120,OTIS SPNKMYR CHC CHC MUFF 6.5z,163928,163928,,,,a,601 05 000,Each,1.00,,,u,_091752021207,Master,1.05,0.00,2007-09-25,2075-12-31

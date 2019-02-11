@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_071990281519,KEYSTONE ICE 15PK 12Z CN,1084334,1084334,,,,a,401 01E 000,Case,30.00,,,u,_071990281519,Master,13.59,0.00,1900-01-01,2075-12-31
-_642860130246,FOUNDERS ALL DAY IPA 19.2Z CN,1082981,1082981,,,,a,401 01J 000,Case,24.00,,,u,_642860130246,Master,36.29,0.00,2018-12-31,2075-12-31
-_642860900245,FOUNDERS ALL DAY IPA 15PK 12z CN,1081703,1081703,,,,a,401 01E 000,Case,15.00,,,u,_642860900245,Master,14.40,0.00,2017-06-23,2075-12-31

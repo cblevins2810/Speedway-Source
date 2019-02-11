@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_182136000014,AQUAHYDRATE 500ML,1081732,1081732,,,,a,Default,Case,12.00,,,u,_182136000014,Master,16.00,0.00,1900-01-01,2075-12-31
-_182136000021,AQUAHYDRATE 1L,1082560,1082560,,,,a,Default,Case,12.00,,,u,_182136000021,Master,15.00,0.00,1900-01-01,2075-12-31

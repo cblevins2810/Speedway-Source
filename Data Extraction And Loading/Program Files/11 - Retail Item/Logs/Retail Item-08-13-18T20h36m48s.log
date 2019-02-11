@@ -1,8 +1,0 @@
-08-13-18T20:36:48: Start Log
-08-13-18T20:36:48: Processing File: Retail Item-601 General Merchan_01.xlsx
-08-13-18T20:36:51: Finished File: Retail Item-601 General Merchan_01.xlsx
-08-13-18T20:36:51: File created in final csv folder: Retail Item-601 General Merchan_01.csv
-08-13-18T20:36:51: ...
-08-13-18T20:36:51: Processing File: ~$Retail Item-601 General Merchan_01.xlsx
-08-13-18T20:36:54: Error --> Excel cannot open the file '~$Retail Item-601 General Merchan_01.xlsx' because the file format or file extension is not valid. Verify that the file has not been corrupted and that the file extension matches the format of the file.
-08-13-18T20:36:54: End Log

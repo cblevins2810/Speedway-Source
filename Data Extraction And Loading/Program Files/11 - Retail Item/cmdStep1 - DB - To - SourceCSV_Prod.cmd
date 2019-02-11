@@ -12,8 +12,8 @@ SET SQLItemExtractGroupCreateTable=ItemExtractGroupCreateTable.sql
 SET SQLItemExtractGroup=ItemExtractGroup.sql
 SET ExtractParamFile=ItemCountForExtractParmams.txt
 SET SourceCSVDir=..\..\Import Files\Retail Item\SourceCSV\
-SET Server=EMCTS520
-SET DB=bcssa_cert2
+SET Server=MPC9504
+SET DB=bcssa
 
 ECHO %date% %time% Starting %ProcessName% Export > %LogFile%
 ECHO %date% %time% .......... >> %LogFile%

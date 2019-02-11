@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_40901056010,TENNESSEAN SUNDAY,1053510,1053510,,,,a,706 01 000,Each,1.00,,,u,_040901056010,Master,3.49,0.00,2018-01-19,2075-12-31
-_4090105606,TENNESSEAN DAILY,1053509,1053509,,,,a,706 01 000,Each,1.00,,,u,_040901056065,Master,1.84,0.00,2018-02-19,2075-12-31
-_810499023875,TENNESSEAN PREMIUM DAILY,1082693,1082693,,,,a,706 01 000,Each,1.00,,,u,_810499023875,Master,3.49,0.00,1900-01-01,2075-12-31
-_810499023882,TENNESSEAN PREMIUM SUNDAY,1082694,1082694,,,,a,706 01 000,Each,1.00,,,u,_810499023882,Master,4.55,0.00,2018-07-27,2075-12-31

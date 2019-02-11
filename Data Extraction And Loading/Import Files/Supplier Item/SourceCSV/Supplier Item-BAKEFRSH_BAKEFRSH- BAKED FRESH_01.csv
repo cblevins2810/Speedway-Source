@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_1249560676,i/aBUTTER FLAVORED CROISSANT,1067333,1067333,,,,a,231 01 000,Each,1.00,,,u,_012495606766,Master,0.85,0.00,1900-01-01,2075-12-31
-_7170130323,BUTTERED BAGEL,1067334,1067334,,,,a,231 05 007,Each,1.00,,,u,_071701303233,Master,0.95,0.00,1900-01-01,2075-12-31
-_7170130325,BUTTERED ROLL,1067335,1067335,,,,a,231 05 007,Each,1.00,,,u,_071701303257,Master,0.95,0.00,1900-01-01,2075-12-31
-_7170130327,CREAM CHEESE BAGEL,1067336,1067336,,,,a,231 05 007,Each,1.00,,,u,_071701303271,Master,0.95,0.00,1900-01-01,2075-12-31

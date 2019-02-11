@@ -1,8 +1,0 @@
-08-14-18T06:41:58: Start Log
-08-14-18T06:41:58: Found Input File: C:\Users\chuck\Documents\ROC\Data Extraction and Loading 2\Import Files\Price Change Event\FinalCSV\test.csv
-08-14-18T06:41:58: Transforming raw XML
-08-14-18T06:41:58: Finished Price Event
-08-14-18T06:41:58: Total Items: 4
-08-14-18T06:41:58: File created in final xml folder: test.xml
-08-14-18T06:41:58: ...
-08-14-18T06:41:58: End Log

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_677700,US POSTAGE STAMP BK FOREVER,180910,180910,,,,a,601 22B 000,Each,1.00,,,u,_015645688100,Master,9.20,0.00,2013-01-30,2075-12-31
-_677700,,,,,,,,,,,,,u,_067000007705,,,,,

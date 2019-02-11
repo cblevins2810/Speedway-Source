@@ -1,7 +1,0 @@
-10-29-18T11:20:26: Start Log
-10-29-18T11:20:26: Found Input File: C:\Users\chuck\Documents\ROC\Data Extraction and Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-MCLNNTHE_MCLNNTHE- MCLANE NORTHEAST (NE)_01.csv
-10-29-18T11:20:26: Supplier Name: MCLNNTHE- MCLANE NORTHEAST (NE)
-10-29-18T11:20:26: Starting XSL Transform, this may take awhile.
-10-29-18T11:20:26: XSL Transform Completed.
-10-29-18T11:20:26: Supplier Item-MCLNNTHE_MCLNNTHE- MCLANE NORTHEAST (NE)_01 completed.
-10-29-18T11:20:26: End Log

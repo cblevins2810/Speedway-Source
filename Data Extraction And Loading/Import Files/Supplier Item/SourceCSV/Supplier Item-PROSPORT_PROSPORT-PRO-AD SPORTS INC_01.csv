@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_4619940427,SUPERBOWL XLVI SHRT/MUG CMBO,1049844,1049844,,,,a,601 22 110,Each,1.00,,,u,_746199404273,Master,9.95,0.00,1900-01-01,2075-12-31
-_4619950347,CINCINNATI REDS SHRT/MUG CMBO,1050338,1050338,,,,a,601 22 110,Each,1.00,,,u,_746199503471,Master,9.95,0.00,1900-01-01,2075-12-31

@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_899911000304,NEW AGE RED 750ML,33000363,33000363,,,,a,401 03A 000 Wine,Case,12.00,,,u,_899911000304,Master,103.92,0.00,1900-01-01,2075-12-31
-_899911000465,NEW AGE ARGENTINE WHITE 750ML,33000362,33000362,,,,a,401 03A 000 Wine,Case,12.00,,,u,_899911000465,Master,96.00,0.00,1900-01-01,2075-12-31
-_899911000472,NEW AGE ROSE 750ML,33000364,33000364,,,,a,401 03A 000 Wine,Case,12.00,,,u,_899911000472,Master,103.92,0.00,1900-01-01,2075-12-31
