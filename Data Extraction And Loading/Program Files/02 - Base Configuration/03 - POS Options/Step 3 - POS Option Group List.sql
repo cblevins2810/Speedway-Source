@@ -1,4 +1,4 @@
--- These commented out inserts are kept for reference.  The rows are from the Speedway BC environment and will be re-created in a nother script w/o red table keys
+-- These commented out inserts are kept for reference.  The rows are from the Speedway BC environment and will be re-created in another script w/o red table keys
 --INSERT POS_Option_Group_List (pos_option_group_id, pos_option_id, value, client_id, value_editable_flag, last_modified_user_id, last_modified_timestamp)
 --VALUES (1000101, -2147383390, '20', 1000102, 'y', 42, GETDATE())
 --INSERT POS_Option_Group_List (pos_option_group_id, pos_option_id, value, client_id, value_editable_flag, last_modified_user_id, last_modified_timestamp)

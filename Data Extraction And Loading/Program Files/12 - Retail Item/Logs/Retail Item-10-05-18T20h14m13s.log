@@ -1,8 +1,0 @@
-10-05-18T20:14:13: Start Log
-10-05-18T20:14:13: Processing File: Retail Item-601 General Merchan_01.xlsx
-10-05-18T20:14:17: Finished File: Retail Item-601 General Merchan_01.xlsx
-10-05-18T20:14:17: File created in final csv folder: Retail Item-601 General Merchan_01.csv
-10-05-18T20:14:17: ...
-10-05-18T20:14:17: Processing File: ~$Not Sold.xlsx
-10-05-18T20:14:19: Error --> Excel cannot open the file '~$Not Sold.xlsx' because the file format or file extension is not valid. Verify that the file has not been corrupted and that the file extension matches the format of the file.
-10-05-18T20:14:20: End Log

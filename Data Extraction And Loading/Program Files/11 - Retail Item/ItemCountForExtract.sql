@@ -81,7 +81,7 @@ ON rmibcl.barcode_id = bc.barcode_id
 WHERE --i.purge_flag ='n'
 --AND
  i.item_type_code = 'i'
-AND ri.retail_item_type_code in ('g')
+AND ri.retail_item_type_code in ('g','n')
 AND NOT EXISTS(SELECT 1
                FROM Retail_Modified_Item_BarCode_List AS rmibcl2
                JOIN Barcode AS bc2
@@ -120,22 +120,28 @@ LEFT JOIN Unit_of_Measure AS dtuom
 ON ii.default_transfer_uom_id = dtuom.unit_of_measure_id
 LEFT JOIN Unit_of_Measure AS sluom 
 ON ri.shelf_label_uom_id = sluom.unit_of_measure_id
-JOIN Retail_Modified_Item AS rmi
+LEFT JOIN Retail_Modified_Item AS rmi
 ON ri.retail_item_id = rmi.retail_item_id
-JOIN Merch_Group_Member AS mgm
+LEFT JOIN Merch_Group_Member AS mgm
 ON rmi.merch_group_id = mgm.merch_group_id
 AND rmi.merch_group_member_id = mgm.merch_group_member_id
-JOIN Retail_Modified_Item_Dimension_List AS rmidl
+LEFT JOIN Retail_Modified_Item_Dimension_List AS rmidl
 ON rmi.retail_modified_Item_id = rmidl.retail_modified_Item_id
-JOIN Merch_Level as ml
+LEFT JOIN Merch_Level as ml
 ON ml.merch_group_id = mgm.merch_group_id
 AND ml.merch_group_member_id = mgm.merch_group_member_id
-JOIN Merch_Retail_Change AS mrc
+AND ml.default_ranking = 999
+
+LEFT JOIN Merch_Retail_Change AS mrc
 ON mrc.retail_modified_item_id = rmi.retail_modified_item_id
 AND mrc.merch_level_id = ml.merch_level_id
-JOIN retail_item_dimension_member AS ridm
+
+AND mrc.start_date <= GETDATE()
+AND mrc.promo_flag = 'n'
+
+LEFT JOIN retail_item_dimension_member AS ridm
 ON rmidl.dimension_member_id = ridm.dimension_member_id
-JOIN unit_of_measure as ridmuom
+LEFT JOIN unit_of_measure as ridmuom
 ON ridm.unit_of_measure_id = ridmuom.unit_of_measure_id
 LEFT JOIN #rmi_barcode AS rmibcl --Retail_Modified_Item_BarCode_List AS rmibcl
 ON rmi.retail_modified_item_id = rmibcl.retail_modified_item_id
@@ -145,10 +151,7 @@ ON rmibcl.barcode_id = bc.barcode_id
 WHERE --i.purge_flag ='n'
 --AND 
 i.item_type_code = 'i'
-AND ri.retail_item_type_code in ('g')
-AND ml.default_ranking = 999
-AND mrc.start_date <= GETDATE()
-AND mrc.promo_flag = 'n'
+AND ri.retail_item_type_code in ('g','n')
 AND CASE WHEN ISNUMERIC(i.xref_code) = 1
 		   AND LEN(i.xref_code) < 9
 		   AND LEFT(i.xref_code, 1) NOT IN ('0')

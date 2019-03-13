@@ -1,0 +1,1735 @@
+ Volume in drive C is OS
+ Volume Serial Number is 564A-8FFB
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading
+
+02/06/2019  01:08 PM    <DIR>          .
+02/06/2019  01:08 PM    <DIR>          ..
+02/06/2019  01:25 PM                 0 f.txt
+12/10/2018  10:11 PM    <DIR>          Import Files
+02/06/2019  11:57 AM    <DIR>          Import Files (Empty Folders)
+02/06/2019  01:03 PM    <DIR>          Program Files
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+12/10/2018  10:11 PM    <DIR>          Assign Supplier to Business Unit
+12/10/2018  10:11 PM    <DIR>          Assign Supplier to Business Unit Group
+12/10/2018  10:11 PM    <DIR>          Business Unit
+12/10/2018  10:11 PM    <DIR>          Business Unit Group
+12/10/2018  10:11 PM    <DIR>          Business Unit Price Change
+01/30/2019  03:24 PM    <DIR>          Item Hierarchy
+12/10/2018  10:11 PM    <DIR>          Org Hierarchy
+12/10/2018  10:11 PM    <DIR>          Price Change Event
+01/30/2019  01:38 PM    <DIR>          Retail Item
+01/30/2019  02:31 PM    <DIR>          Special
+12/10/2018  10:11 PM    <DIR>          Supplier
+01/30/2019  05:32 PM    <DIR>          Supplier Item
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/05/2018  05:18 PM           113,596 Assign Supplier to Business Unit Import Template.xlsx
+12/10/2018  10:11 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+               1 File(s)        113,596 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit\FinalCSV
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  10:57 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit\FinalCSV\Archive
+
+08/11/2018  10:57 AM    <DIR>          .
+08/11/2018  10:57 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  10:58 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit\FinalXML\Archive
+
+08/11/2018  10:58 AM    <DIR>          .
+08/11/2018  10:58 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit Group
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/05/2018  05:44 PM            13,745 Assign Supplier to Business Unit Group Import Template.xlsx
+12/10/2018  10:11 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+               1 File(s)         13,745 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit Group\FinalCSV
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  10:58 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit Group\FinalCSV\Archive
+
+08/11/2018  10:58 AM    <DIR>          .
+08/11/2018  10:58 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit Group\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  10:59 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Assign Supplier to Business Unit Group\FinalXML\Archive
+
+08/11/2018  10:59 AM    <DIR>          .
+08/11/2018  10:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/01/2018  08:55 PM           417,091 Business Unit Import Template.xlsx
+12/10/2018  10:11 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+               1 File(s)        417,091 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit\FinalCSV
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  10:59 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit\FinalCSV\Archive
+
+08/11/2018  10:59 AM    <DIR>          .
+08/11/2018  10:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  10:59 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit\FinalXML\Archive
+
+08/11/2018  10:59 AM    <DIR>          .
+08/11/2018  10:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Group
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/05/2018  04:27 PM         2,688,815 Business Unit Group Import Template.xlsx
+12/10/2018  10:12 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+               1 File(s)      2,688,815 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Group\FinalCSV
+
+12/10/2018  10:12 PM    <DIR>          .
+12/10/2018  10:12 PM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Group\FinalCSV\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Group\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Group\FinalXML\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Price Change
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+12/10/2018  10:11 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Price Change\FinalCSV
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Price Change\FinalCSV\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Price Change\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Business Unit Price Change\FinalXML\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy
+
+01/30/2019  03:24 PM    <DIR>          .
+01/30/2019  03:24 PM    <DIR>          ..
+02/06/2019  11:55 AM    <DIR>          FinalCSV
+02/06/2019  11:55 AM    <DIR>          FinalXLS
+02/06/2019  11:55 AM    <DIR>          FinalXML
+08/04/2018  06:27 PM            79,867 Item Hierarchy Import Template.xlsx
+02/01/2019  08:26 PM    <DIR>          SourceCSV
+02/01/2019  08:26 PM    <DIR>          WorkingXLS
+               1 File(s)         79,867 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\FinalCSV
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\FinalCSV\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\FinalXLS
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\FinalXML
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+08/11/2018  11:01 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\FinalXML\Archive
+
+08/11/2018  11:01 AM    <DIR>          .
+08/11/2018  11:01 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\SourceCSV
+
+02/01/2019  08:26 PM    <DIR>          .
+02/01/2019  08:26 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Item Hierarchy\WorkingXLS
+
+02/01/2019  08:26 PM    <DIR>          .
+02/01/2019  08:26 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Org Hierarchy
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+12/10/2018  10:11 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+08/04/2018  04:03 PM           139,365 Org Hierarchy Import Template.xlsx
+               1 File(s)        139,365 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Org Hierarchy\FinalCSV
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:01 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Org Hierarchy\FinalCSV\Archive
+
+08/11/2018  11:01 AM    <DIR>          .
+08/11/2018  11:01 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Org Hierarchy\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:02 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Org Hierarchy\FinalXML\Archive
+
+08/11/2018  11:02 AM    <DIR>          .
+08/11/2018  11:02 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Price Change Event
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/31/2018  08:03 AM    <DIR>          FinalCSV
+08/31/2018  08:03 AM    <DIR>          FinalXML
+07/30/2018  04:57 AM            13,596 Price Event Import Template.xlsx
+               1 File(s)         13,596 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Price Change Event\FinalCSV
+
+08/31/2018  08:03 AM    <DIR>          .
+08/31/2018  08:03 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Price Change Event\FinalXML
+
+08/31/2018  08:03 AM    <DIR>          .
+08/31/2018  08:03 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item
+
+01/30/2019  01:38 PM    <DIR>          .
+01/30/2019  01:38 PM    <DIR>          ..
+02/06/2019  11:55 AM    <DIR>          FinalCSV
+02/06/2019  11:55 AM    <DIR>          FinalXLS
+02/06/2019  11:55 AM    <DIR>          FinalXML
+01/30/2019  01:38 PM            14,519 Retail Item Import Template.xlsx
+02/06/2019  11:54 AM    <DIR>          SourceCSV
+02/06/2019  11:54 AM    <DIR>          WorkingXLS
+               1 File(s)         14,519 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalXLS
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalXLS\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalXML
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalXML\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\SourceCSV
+
+02/06/2019  11:54 AM    <DIR>          .
+02/06/2019  11:54 AM    <DIR>          ..
+08/13/2018  07:09 PM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\SourceCSV\Archive
+
+08/13/2018  07:09 PM    <DIR>          .
+08/13/2018  07:09 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\WorkingXLS
+
+02/06/2019  11:54 AM    <DIR>          .
+02/06/2019  11:54 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\WorkingXLS\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special
+
+01/30/2019  02:31 PM    <DIR>          .
+01/30/2019  02:31 PM    <DIR>          ..
+12/10/2018  10:13 PM    <DIR>          FinalCSV
+08/31/2018  08:06 AM    <DIR>          FinalXLS
+08/31/2018  08:05 AM    <DIR>          FinalXML
+01/30/2019  02:31 PM    <DIR>          SourceCSV
+08/28/2018  01:52 PM            12,473 Special Import Template.xlsx
+01/30/2019  03:36 PM    <DIR>          WorkingXLS
+               1 File(s)         12,473 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special\FinalCSV
+
+12/10/2018  10:13 PM    <DIR>          .
+12/10/2018  10:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special\FinalXLS
+
+08/31/2018  08:06 AM    <DIR>          .
+08/31/2018  08:06 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special\FinalXML
+
+08/31/2018  08:05 AM    <DIR>          .
+08/31/2018  08:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special\SourceCSV
+
+01/30/2019  02:31 PM    <DIR>          .
+01/30/2019  02:31 PM    <DIR>          ..
+01/30/2019  02:31 PM         1,630,487 Special-ALL.csv
+               1 File(s)      1,630,487 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special\WorkingXLS
+
+01/30/2019  03:36 PM    <DIR>          .
+01/30/2019  03:36 PM    <DIR>          ..
+01/30/2019  02:35 PM           832,261 Special-ALL.xlsx
+               1 File(s)        832,261 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+12/10/2018  10:11 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXML
+08/05/2018  05:00 PM           206,744 Supplier Import Template.xlsx
+               1 File(s)        206,744 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier\FinalCSV
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier\FinalCSV\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier\FinalXML
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier\FinalXML\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item
+
+01/30/2019  05:32 PM    <DIR>          .
+01/30/2019  05:32 PM    <DIR>          ..
+01/30/2019  01:48 PM    <DIR>          FinalCSV
+12/10/2018  10:11 PM    <DIR>          FinalXLS
+01/30/2019  01:49 PM    <DIR>          FinalXML
+02/06/2019  11:57 AM    <DIR>          SourceCSV
+11/06/2018  09:18 PM            14,021 Supplier Item Import Template.xlsx
+02/06/2019  11:56 AM    <DIR>          WorkingXLS
+               1 File(s)         14,021 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV
+
+01/30/2019  01:48 PM    <DIR>          .
+01/30/2019  01:48 PM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalXLS
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalXLS\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalXML
+
+01/30/2019  01:49 PM    <DIR>          .
+01/30/2019  01:49 PM    <DIR>          ..
+12/10/2018  10:11 PM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalXML\Archive
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/14/2018  01:31 AM         3,393,954 Supplier Item-AALCOCAS_AALCOCAS-AALCO DISTRIBUTING (AB)(IN) ASN_01.xml
+08/13/2018  09:16 PM         2,054,148 Supplier Item-MCLNCRLN_MCLNCRLN- MCLANE CAROLINA (NC)_01.xml
+               2 File(s)      5,448,102 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\SourceCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+12/10/2018  10:11 PM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\SourceCSV\Archive
+
+12/10/2018  10:11 PM    <DIR>          .
+12/10/2018  10:11 PM    <DIR>          ..
+08/13/2018  06:36 PM            32,976 Supplier Item-AALCOCAS_AALCOCAS-AALCO DISTRIBUTING (AB)(IN) ASN_01.csv
+08/13/2018  06:33 PM           663,048 Supplier Item-MCLNCRLN_MCLNCRLN- MCLANE CAROLINA (NC)_01.csv
+               2 File(s)        696,024 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\WorkingXLS
+
+02/06/2019  11:56 AM    <DIR>          .
+02/06/2019  11:56 AM    <DIR>          ..
+08/11/2018  11:06 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\WorkingXLS\Archive
+
+08/11/2018  11:06 AM    <DIR>          .
+08/11/2018  11:06 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          Assign Supplier to Business Unit
+02/06/2019  11:57 AM    <DIR>          Assign Supplier to Business Unit Group
+02/06/2019  11:57 AM    <DIR>          Business Unit
+02/06/2019  11:57 AM    <DIR>          Business Unit Group
+02/06/2019  11:57 AM    <DIR>          Business Unit Price Change
+02/06/2019  11:57 AM    <DIR>          Item Hierarchy
+02/06/2019  11:57 AM    <DIR>          Org Hierarchy
+02/06/2019  11:57 AM    <DIR>          Price Change Event
+02/06/2019  11:57 AM    <DIR>          Retail Item
+02/06/2019  11:57 AM    <DIR>          Special
+02/06/2019  11:57 AM    <DIR>          Supplier
+02/06/2019  11:57 AM    <DIR>          Supplier Item
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/05/2018  05:18 PM           113,596 Assign Supplier to Business Unit Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+               1 File(s)        113,596 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  10:57 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit\FinalCSV\Archive
+
+08/11/2018  10:57 AM    <DIR>          .
+08/11/2018  10:57 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  10:58 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit\FinalXML\Archive
+
+08/11/2018  10:58 AM    <DIR>          .
+08/11/2018  10:58 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit Group
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/05/2018  05:44 PM            13,745 Assign Supplier to Business Unit Group Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+               1 File(s)         13,745 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit Group\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  10:58 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit Group\FinalCSV\Archive
+
+08/11/2018  10:58 AM    <DIR>          .
+08/11/2018  10:58 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit Group\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  10:59 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Assign Supplier to Business Unit Group\FinalXML\Archive
+
+08/11/2018  10:59 AM    <DIR>          .
+08/11/2018  10:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/01/2018  08:55 PM           417,091 Business Unit Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+               1 File(s)        417,091 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  10:59 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit\FinalCSV\Archive
+
+08/11/2018  10:59 AM    <DIR>          .
+08/11/2018  10:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  10:59 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit\FinalXML\Archive
+
+08/11/2018  10:59 AM    <DIR>          .
+08/11/2018  10:59 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Group
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/05/2018  04:27 PM         2,688,815 Business Unit Group Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+               1 File(s)      2,688,815 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Group\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Group\FinalCSV\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Group\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Group\FinalXML\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Price Change
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Price Change\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Price Change\FinalCSV\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Price Change\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Business Unit Price Change\FinalXML\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:55 AM    <DIR>          FinalXLS
+02/06/2019  11:57 AM    <DIR>          FinalXML
+08/04/2018  06:27 PM            79,867 Item Hierarchy Import Template.xlsx
+02/01/2019  08:26 PM    <DIR>          SourceCSV
+02/01/2019  08:26 PM    <DIR>          WorkingXLS
+               1 File(s)         79,867 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:00 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\FinalCSV\Archive
+
+08/11/2018  11:00 AM    <DIR>          .
+08/11/2018  11:00 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\FinalXLS
+
+02/06/2019  11:55 AM    <DIR>          .
+02/06/2019  11:55 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:01 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\FinalXML\Archive
+
+08/11/2018  11:01 AM    <DIR>          .
+08/11/2018  11:01 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\SourceCSV
+
+02/01/2019  08:26 PM    <DIR>          .
+02/01/2019  08:26 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Item Hierarchy\WorkingXLS
+
+02/01/2019  08:26 PM    <DIR>          .
+02/01/2019  08:26 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Org Hierarchy
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+08/04/2018  04:03 PM           139,365 Org Hierarchy Import Template.xlsx
+               1 File(s)        139,365 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Org Hierarchy\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:01 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Org Hierarchy\FinalCSV\Archive
+
+08/11/2018  11:01 AM    <DIR>          .
+08/11/2018  11:01 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Org Hierarchy\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:02 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Org Hierarchy\FinalXML\Archive
+
+08/11/2018  11:02 AM    <DIR>          .
+08/11/2018  11:02 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Price Change Event
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/31/2018  08:03 AM    <DIR>          FinalCSV
+08/31/2018  08:03 AM    <DIR>          FinalXML
+07/30/2018  04:57 AM            13,596 Price Event Import Template.xlsx
+               1 File(s)         13,596 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Price Change Event\FinalCSV
+
+08/31/2018  08:03 AM    <DIR>          .
+08/31/2018  08:03 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Price Change Event\FinalXML
+
+08/31/2018  08:03 AM    <DIR>          .
+08/31/2018  08:03 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXLS
+02/06/2019  11:57 AM    <DIR>          FinalXML
+01/30/2019  01:38 PM            14,519 Retail Item Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          SourceCSV
+02/06/2019  11:57 AM    <DIR>          WorkingXLS
+               1 File(s)         14,519 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\FinalCSV\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\FinalXLS
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\FinalXLS\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\FinalXML\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\SourceCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/13/2018  07:09 PM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\SourceCSV\Archive
+
+08/13/2018  07:09 PM    <DIR>          .
+08/13/2018  07:09 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\WorkingXLS
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:04 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Retail Item\WorkingXLS\Archive
+
+08/11/2018  11:04 AM    <DIR>          .
+08/11/2018  11:04 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Special
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+12/10/2018  10:13 PM    <DIR>          FinalCSV
+08/31/2018  08:06 AM    <DIR>          FinalXLS
+08/31/2018  08:05 AM    <DIR>          FinalXML
+02/06/2019  11:57 AM    <DIR>          SourceCSV
+08/28/2018  01:52 PM            12,473 Special Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          WorkingXLS
+               1 File(s)         12,473 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Special\FinalCSV
+
+12/10/2018  10:13 PM    <DIR>          .
+12/10/2018  10:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Special\FinalXLS
+
+08/31/2018  08:06 AM    <DIR>          .
+08/31/2018  08:06 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Special\FinalXML
+
+08/31/2018  08:05 AM    <DIR>          .
+08/31/2018  08:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Special\SourceCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+01/30/2019  02:31 PM         1,630,487 Special-ALL.csv
+               1 File(s)      1,630,487 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Special\WorkingXLS
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+01/30/2019  02:35 PM           832,261 Special-ALL.xlsx
+               1 File(s)        832,261 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXML
+08/05/2018  05:00 PM           206,744 Supplier Import Template.xlsx
+               1 File(s)        206,744 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier\FinalCSV\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier\FinalXML\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          FinalCSV
+02/06/2019  11:57 AM    <DIR>          FinalXLS
+02/06/2019  11:57 AM    <DIR>          FinalXML
+02/06/2019  11:57 AM    <DIR>          SourceCSV
+11/06/2018  09:18 PM            14,021 Supplier Item Import Template.xlsx
+02/06/2019  11:57 AM    <DIR>          WorkingXLS
+               1 File(s)         14,021 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\FinalCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\FinalCSV\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\FinalXLS
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:05 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\FinalXLS\Archive
+
+08/11/2018  11:05 AM    <DIR>          .
+08/11/2018  11:05 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\FinalXML
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\FinalXML\Archive
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/14/2018  01:31 AM         3,393,954 Supplier Item-AALCOCAS_AALCOCAS-AALCO DISTRIBUTING (AB)(IN) ASN_01.xml
+08/13/2018  09:16 PM         2,054,148 Supplier Item-MCLNCRLN_MCLNCRLN- MCLANE CAROLINA (NC)_01.xml
+               2 File(s)      5,448,102 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\SourceCSV
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+02/06/2019  11:57 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\SourceCSV\Archive
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/13/2018  06:36 PM            32,976 Supplier Item-AALCOCAS_AALCOCAS-AALCO DISTRIBUTING (AB)(IN) ASN_01.csv
+08/13/2018  06:33 PM           663,048 Supplier Item-MCLNCRLN_MCLNCRLN- MCLANE CAROLINA (NC)_01.csv
+               2 File(s)        696,024 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\WorkingXLS
+
+02/06/2019  11:57 AM    <DIR>          .
+02/06/2019  11:57 AM    <DIR>          ..
+08/11/2018  11:06 AM    <DIR>          Archive
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files (Empty Folders)\Supplier Item\WorkingXLS\Archive
+
+08/11/2018  11:06 AM    <DIR>          .
+08/11/2018  11:06 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files
+
+02/06/2019  01:03 PM    <DIR>          .
+02/06/2019  01:03 PM    <DIR>          ..
+11/26/2018  09:00 PM    <DIR>          01 - ESO Installation
+01/31/2019  05:24 PM    <DIR>          02 - Base Configuration
+02/06/2019  11:36 AM    <DIR>          03 - Business Unit
+02/06/2019  11:36 AM    <DIR>          04 - Business Unit Group
+02/06/2019  11:36 AM    <DIR>          05 - Org Hierarchy
+11/26/2018  09:00 PM    <DIR>          05 - ReSeed (Run Periodically)
+02/06/2019  11:36 AM    <DIR>          06 - Item Hierarchy
+02/02/2019  03:37 PM    <DIR>          08 - Manufacturer
+11/26/2018  09:00 PM    <DIR>          09 - Retail Strategies
+11/26/2018  09:00 PM    <DIR>          10 - Apply Barcode Trigger Workaround
+02/06/2019  11:36 AM    <DIR>          11 - Retail Item
+02/06/2019  11:14 AM    <DIR>          11a - Retail Item - Load Only One XML File
+11/26/2018  09:00 PM    <DIR>          12 - Apply APE Stored Proc Workaround for Depletion
+02/06/2019  11:15 AM    <DIR>          12a - Retail Item - Load Remaining XML Files
+11/26/2018  09:00 PM    <DIR>          13 - Extract UOM Conversions
+11/26/2018  09:00 PM    <DIR>          13 - Restore Barcode Trigger
+11/26/2018  09:00 PM    <DIR>          14 - Restore APE Stored Proc
+11/26/2018  09:00 PM    <DIR>          15 - Device Groups
+11/26/2018  09:00 PM    <DIR>          16 - Item Hierachy Placeholder Characters
+11/26/2018  09:00 PM    <DIR>          17 - Retail Item Groups
+11/26/2018  09:00 PM    <DIR>          18 - Apply Discount Index Workaround
+02/06/2019  11:36 AM    <DIR>          19 - Special
+11/26/2018  09:00 PM    <DIR>          21 - Restore Discount Index
+02/06/2019  11:36 AM    <DIR>          22 - Supplier
+11/07/2018  11:15 AM    <DIR>          23 - Supplier Attribute Synch
+02/06/2019  11:52 AM    <DIR>          24 - Assign Supplier to Business Unit
+02/06/2019  11:36 AM    <DIR>          25 - Assign Supplier to Business Unit Group
+11/26/2018  09:00 PM    <DIR>          26 - Set Catalog Import Review Flag to False
+02/06/2019  11:36 AM    <DIR>          27 - Supplier Item
+11/26/2018  09:00 PM    <DIR>          28 - Reset Catalog Import Review Flag
+11/26/2018  09:00 PM    <DIR>          29 - Set Supplier Packaged Item Status Code
+11/26/2018  09:00 PM    <DIR>          30 - Assign Entities to Corp for Testing
+11/26/2018  09:00 PM    <DIR>          31 - GL Accounts
+02/06/2019  11:36 AM    <DIR>          32 - Business Unit Price Change
+02/06/2019  11:36 AM    <DIR>          33 - Price Change Event
+12/10/2018  09:35 PM    <DIR>          34 - Enter Fuel Items
+12/12/2018  09:37 AM    <DIR>          35 - Fuel Tanks
+12/10/2018  09:41 PM            10,154 chuck.txt
+11/26/2018  09:00 PM    <DIR>          Common
+12/10/2018  09:47 PM    <DIR>          Documentation
+11/26/2018  09:00 PM    <DIR>          zExtract Specials (Not Needed)
+01/11/2019  11:40 AM    <DIR>          zManufacturer Item Mapping (Not Needed)
+               1 File(s)         10,154 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\01 - ESO Installation
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+06/19/2018  08:40 PM           889,630 Enterprise Store Operations 2018.1.0.0 Enterprise Installation Guide.pdf
+11/07/2018  12:15 PM           684,311 JDA ESO Installation Guide (JDA Original).docx
+11/07/2018  03:26 PM            46,316 Speedway ESO Environment Installation.docx
+11/07/2018  03:26 PM           161,647 Speedway ESO Environment Installation.pdf
+11/06/2018  07:23 PM            45,267 Speedway ESO HM Server Installation.docx
+               5 File(s)      1,827,171 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration
+
+01/31/2019  05:24 PM    <DIR>          .
+01/31/2019  05:24 PM    <DIR>          ..
+11/26/2018  09:00 PM    <DIR>          01 - ReSeed
+11/26/2018  09:00 PM    <DIR>          02 - Default Services
+11/26/2018  09:00 PM    <DIR>          03 - Missing Time Zone Definitions
+11/26/2018  09:00 PM    <DIR>          03 - POS Options
+11/26/2018  09:00 PM    <DIR>          04 - Fuel Tank
+01/18/2019  01:42 PM    <DIR>          05 - POS Frame Template
+01/11/2019  10:19 AM    <DIR>          06 - Receipts
+11/07/2018  12:04 PM         3,580,549 Base ESO Configuration.docx
+11/07/2018  12:36 PM         3,106,462 Base ESO Configuration.pdf
+               2 File(s)      6,687,011 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\01 - ReSeed
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/07/2018  03:47 PM             2,012 Reseed Before Base Configuration.sql
+               1 File(s)          2,012 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\02 - Default Services
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/13/2018  01:27 PM            30,052 Add Default Services.sql
+               1 File(s)         30,052 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\03 - Missing Time Zone Definitions
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+01/24/2019  08:12 PM             4,666 Add Time Zone Definitions.sql
+               1 File(s)          4,666 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\03 - POS Options
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/07/2018  12:13 PM            13,593 POS Options Group Creation.docx
+12/20/2018  01:33 PM               727 Step 1 - POS Option Group.sql
+11/07/2018  12:14 PM            10,585 Step 2 - New POS Options.sql
+11/06/2018  10:07 AM            92,158 Step 3 - POS Option Group List.sql
+11/07/2018  12:04 PM           113,633 Step 4 - POS Option Template.sql
+               5 File(s)        230,696 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\04 - Fuel Tank
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/19/2018  01:45 PM               725 Fuel Tank Extracts.sql
+10/22/2018  10:13 AM           221,033 Fuel Tank Insert Dest DB.sql
+11/19/2018  06:36 PM               272 Step 1 - Fuel Tank Type Extract Source DB.sql
+11/19/2018  06:35 PM           226,092 Step 2 - Fuel Tank Type Insert Dest DB.sql
+11/19/2018  06:35 PM             1,324 Step 3 - Manufacturers Create Manufacturers.sql
+               5 File(s)        449,446 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\05 - POS Frame Template
+
+01/18/2019  01:42 PM    <DIR>          .
+01/18/2019  01:42 PM    <DIR>          ..
+01/06/2019  10:10 PM             9,408 frame display.sql
+01/16/2019  08:57 PM             3,586 Reset to BC Frame Group Ids.sql
+01/09/2019  12:39 PM               838 Step 0 - Clear Frames & Menus.sql
+01/09/2019  12:35 PM               822 Step 1 - Create Missing Menu Types (Not Used).sql
+01/18/2019  02:28 PM             1,988 Step 1 - Extract from Source DB.sql
+01/18/2019  02:34 PM            41,499 Step 2 - Insert Into Dest DB.sql
+01/18/2019  03:25 PM             7,537 Step 3 - Create Frames.sql
+01/08/2019  02:43 PM            51,007 Step 3 - Insert Into Dest DB.sql
+               8 File(s)        116,685 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\02 - Base Configuration\06 - Receipts
+
+01/11/2019  10:19 AM    <DIR>          .
+01/11/2019  10:19 AM    <DIR>          ..
+01/08/2019  01:32 PM             1,135 Step 1 - Extract from Source DB.sql
+01/08/2019  01:35 PM           688,754 Step 2 - Insert Into Dest DB.sql
+01/18/2019  02:18 PM             4,812 Step 3 - Create Receipts.sql
+               3 File(s)        694,701 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\03 - Business Unit
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+11/26/2018  09:08 PM             1,795 BusinessUnitExtract.sql
+06/05/2018  09:22 AM             4,982 BusinessUnitImportSchema.xsd
+11/08/2018  05:16 PM             4,668 BusinessUnitXform.xsl
+08/14/2018  01:41 AM               981 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:48 AM               974 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/06/2018  12:46 PM                33 cmdStep2 - FinalCSV - To Final XML.cmd
+10/06/2018  03:25 PM             9,815 GenerateBusinessUnitXML.js
+08/11/2018  10:22 AM    <DIR>          Logs
+               7 File(s)         23,248 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\03 - Business Unit\Logs
+
+08/11/2018  10:22 AM    <DIR>          .
+08/11/2018  10:22 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\04 - Business Unit Group
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+01/30/2019  03:47 PM            10,483 BusinessUnitGroupCountForExtract.sql
+01/31/2019  07:06 PM             9,413 BusinessUnitGroupExtract.sql
+07/26/2018  04:16 PM             4,901 BusinessUnitGroupImportSchema.xsd
+11/08/2018  05:17 PM             1,850 BusinessUnitGroupXform.xsl
+08/14/2018  02:02 AM             1,763 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:49 AM             1,756 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/26/2018  05:42 PM                38 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:27 PM             6,651 GenerateBusinessUnitGroupXML.js
+08/11/2018  10:24 AM    <DIR>          Logs
+               8 File(s)         36,855 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\04 - Business Unit Group\Logs
+
+08/11/2018  10:24 AM    <DIR>          .
+08/11/2018  10:24 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\05 - Org Hierarchy
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+08/14/2018  02:13 AM               982 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:49 AM               975 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/15/2018  01:55 PM                33 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:25 PM             5,338 GenerateOrgHierarchyXML.js
+08/11/2018  10:30 AM    <DIR>          Logs
+11/08/2018  05:18 PM             3,464 OrgHierarchyExtract.sql
+05/31/2018  11:54 AM             2,557 OrgHierarchyImportSchema.xsd
+11/08/2018  05:17 PM             1,463 OrgHierarchyXform.xsl
+               7 File(s)         14,812 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\05 - Org Hierarchy\Logs
+
+08/11/2018  10:30 AM    <DIR>          .
+08/11/2018  10:30 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\05 - ReSeed (Run Periodically)
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/13/2018  01:39 PM            10,742 Reseed Before Data Import.sql
+               1 File(s)         10,742 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\06 - Item Hierarchy
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+12/07/2018  04:47 PM               996 cmdStep1 - DB - To - SourceCSV.cmd
+02/06/2019  11:49 AM               989 cmdStep1 - DB - To - SourceCSV_Prod.cmd
+12/07/2018  04:47 PM                53 cmdStep2 - SourceCSV - To - WorkingXLS.cmd
+12/07/2018  04:47 PM                53 cmdStep3 - FinalXLS - To - FinalCSV.cmd
+12/07/2018  04:47 PM                53 cmdStep4 - FinalCSV - To - FinalXML.cmd
+12/07/2018  04:47 PM             1,802 GenerateItemHierarchyCSV.js
+01/30/2019  03:25 PM             3,459 GenerateItemHierarchyXLS.js
+02/01/2019  05:43 PM             5,789 GenerateItemHierarchyXML.js
+12/12/2018  10:04 AM             2,190 ItemHierarchyExtract.sql
+12/07/2018  04:47 PM             5,276 ItemHierarchySchema.xsd
+02/01/2019  05:21 PM             1,435 ItemHierarchyXform.xsl
+02/06/2019  01:00 PM    <DIR>          Logs
+              11 File(s)         22,095 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\06 - Item Hierarchy\Logs
+
+02/06/2019  01:00 PM    <DIR>          .
+02/06/2019  01:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\08 - Manufacturer
+
+02/02/2019  03:37 PM    <DIR>          .
+02/02/2019  03:37 PM    <DIR>          ..
+11/05/2018  09:34 PM           860,168 Manufacturer Import Process.docx
+11/05/2018  07:50 PM               317 Step 0 - Manufacturers One Time Only Cleanup.sql
+11/05/2018  06:02 PM               264 Step 1 - Manufacturers Extract Source DB.sql
+02/02/2019  03:40 PM           643,161 Step 2 - Manufacturers Insert Dest DB.sql
+11/12/2018  05:21 PM             1,324 Step 3 - Manufacturers Create Manufacturers.sql
+               5 File(s)      1,505,234 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\09 - Retail Strategies
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/06/2018  09:42 PM           859,771 Retail Strategies Import Process.docx
+01/21/2019  10:51 AM             4,013 Step 1 - Retail Strategies Extract Source DB.sql
+11/08/2018  07:50 PM           128,028 Step 2 - Retail Strategies Insert Dest DB.sql
+11/12/2018  05:19 PM             4,608 Step 3 - Retail Strategies Create Strategies.sql
+               4 File(s)        996,420 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\10 - Apply Barcode Trigger Workaround
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/13/2018  02:04 PM            14,860 Description of Barcode Trigger Defect.docx
+11/14/2018  07:09 PM             4,101 retail_modified_item_barcode_list_i_REWRITE.sql
+               2 File(s)         18,961 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\11 - Retail Item
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+02/06/2019  11:41 AM             2,495 cmdStep1 - DB - To - SourceCSV.cmd
+02/06/2019  11:48 AM             2,488 cmdStep1 - DB - To - SourceCSV_Prod.cmd
+01/30/2019  01:28 PM                68 cmdStep2 - SourceCSV - To - WorkingXLS.cmd
+02/01/2019  02:53 PM                68 cmdStep3 - FinalXLS - To - FinalCSV.cmd
+02/01/2019  02:53 PM                68 cmdStep4 - FinalCSV - To - FinalXML.cmd
+02/01/2019  03:57 PM             1,791 GenerateItemCSV.js
+02/01/2019  03:57 PM             3,926 GenerateItemXLS.js
+02/01/2019  03:57 PM            17,081 GenerateItemXML.js
+12/17/2018  03:16 PM             5,862 ItemCountForExtract.sql
+12/17/2018  03:16 PM                25 ItemCountForExtractParmams.txt
+01/30/2019  11:24 AM            25,963 ItemExtract.sql
+01/22/2019  05:23 PM             1,607 ItemExtractAttribute.sql
+01/30/2019  10:37 AM             2,372 ItemExtractAttributeCreateTable.sql
+01/29/2019  05:10 PM             1,767 ItemExtractGroup.sql
+01/29/2019  05:10 PM               580 ItemExtractGroupCreateTable.sql
+12/17/2018  03:16 PM            25,353 ItemImportSchema.xsd
+02/01/2019  03:57 PM            21,511 ItemImportXform.xsl
+02/06/2019  01:00 PM    <DIR>          Logs
+12/17/2018  03:16 PM             1,791 _GenerateItemCSV.js
+12/17/2018  03:16 PM             3,926 _GenerateItemXLS.js
+12/17/2018  03:16 PM            16,983 _GenerateItemXML.js
+              20 File(s)        135,725 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\11 - Retail Item\Logs
+
+02/06/2019  01:00 PM    <DIR>          .
+02/06/2019  01:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\11a - Retail Item - Load Only One XML File
+
+02/06/2019  11:14 AM    <DIR>          .
+02/06/2019  11:14 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\12 - Apply APE Stored Proc Workaround for Depletion
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/13/2018  02:22 PM             8,340 sp_ape_insert_execution_object_DISABLE_DEPLETION.sql
+               1 File(s)          8,340 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\12a - Retail Item - Load Remaining XML Files
+
+02/06/2019  11:15 AM    <DIR>          .
+02/06/2019  11:15 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\13 - Extract UOM Conversions
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/01/2018  08:22 PM               493 Extract UOM Conversions.sql
+               1 File(s)            493 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\13 - Restore Barcode Trigger
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/11/2018  02:56 PM             3,566 retail_modified_item_barcode_list_i_ORIG.sql
+               1 File(s)          3,566 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\14 - Restore APE Stored Proc
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/14/2018  07:12 PM             7,514 sp_ape_insert_execution_object_ORIG.sql
+               1 File(s)          7,514 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\15 - Device Groups
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/08/2018  07:12 PM               492 Set Device Group.sql
+               1 File(s)            492 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\16 - Item Hierachy Placeholder Characters
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/08/2018  07:08 PM               395 Replace Item Hierarchy Placeholder Characters.sql
+               1 File(s)            395 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\17 - Retail Item Groups
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/06/2018  09:40 PM           868,577 Retail Item Groups Import Process.docx
+11/05/2018  05:29 PM             3,085 Step 1 - Retail Item Groups Extract Source DB.sql
+11/12/2018  03:57 PM         1,536,287 Step 2 - Retail Item Groups Insert Dest DB - Groups.sql
+02/06/2019  01:04 PM               265 Step 3 - Retail Item Groups Insert Dest DB - Group RMI List.sql
+11/12/2018  03:59 PM               520 Step 4 - Retail Item Groups Insert Dest DB - Group Child.sql
+11/12/2018  04:59 PM             2,258 Step 5 - Retail Item Groups Create Groups.sql
+               6 File(s)      2,410,992 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\18 - Apply Discount Index Workaround
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+10/24/2018  04:31 PM                60 Remove Discount Name Index.sql
+               1 File(s)             60 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\19 - Special
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+08/28/2018  01:22 PM             1,038 cmdStep1 - DB - To - SourceCSV.cmd
+02/06/2019  11:50 AM             1,031 cmdStep1 - DB - To - SourceCSV_Prod.cmd
+08/28/2018  01:44 PM                28 cmdStep2 - SourceCSV - To - WorkingXLS.cmd
+08/27/2018  03:26 PM                28 cmdStep3 - FinalXLS - To - FinalCSV.cmd
+08/17/2018  01:00 PM                28 cmdStep4 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:31 PM             3,543 GenerateSpecialCSV.js
+10/06/2018  03:31 PM             2,820 GenerateSpecialXLS.js
+10/06/2018  03:31 PM             8,496 GenerateSpecialXML.js
+02/06/2019  01:01 PM    <DIR>          Logs
+01/29/2019  09:22 PM             4,293 SpecialExtract.sql
+08/17/2018  11:10 AM             1,765 Specials Example.xml
+08/17/2018  10:02 AM            11,384 SpecialSchema.xsd
+11/08/2018  05:21 PM             2,511 SpecialXform.xsl
+              12 File(s)         36,965 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\19 - Special\Logs
+
+02/06/2019  01:01 PM    <DIR>          .
+02/06/2019  01:01 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\21 - Restore Discount Index
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/13/2018  02:41 PM             1,113 Apply Discount Name Index.sql
+               1 File(s)          1,113 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\22 - Supplier
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+08/14/2018  02:27 AM               964 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:50 AM               957 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/15/2018  04:02 PM                29 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:32 PM             8,350 GenerateSupplierXML.js
+02/06/2019  01:01 PM    <DIR>          Logs
+01/29/2019  09:03 PM             2,215 SupplierExtract.sql
+05/31/2018  11:54 AM             2,375 SupplierSchema.xsd
+11/08/2018  05:24 PM             3,516 SupplierXform.xsl
+               7 File(s)         18,406 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\22 - Supplier\Logs
+
+02/06/2019  01:01 PM    <DIR>          .
+02/06/2019  01:01 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\23 - Supplier Attribute Synch
+
+11/07/2018  11:15 AM    <DIR>          .
+11/07/2018  11:15 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\24 - Assign Supplier to Business Unit
+
+02/06/2019  11:52 AM    <DIR>          .
+02/06/2019  11:52 AM    <DIR>          ..
+01/31/2019  01:26 PM             1,040 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:52 AM             1,040 cmdStep1 - DB - To - FinalCSV_Prod.bat
+02/06/2019  11:52 AM             1,033 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/25/2018  12:43 PM                39 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:33 PM             5,917 GenerateSupplierAssignmentXML.js
+08/11/2018  10:17 AM    <DIR>          Logs
+08/13/2018  08:29 AM               727 SupplierAssignmentExtract.sql
+07/25/2018  12:23 PM             5,847 SupplierAssignmentSchema.xsd
+11/08/2018  05:26 PM             1,555 SupplierAssignmentXform.xsl
+               8 File(s)         17,198 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\24 - Assign Supplier to Business Unit\Logs
+
+08/11/2018  10:17 AM    <DIR>          .
+08/11/2018  10:17 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\25 - Assign Supplier to Business Unit Group
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+01/31/2019  01:25 PM             1,077 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:52 AM             1,112 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/26/2018  08:00 PM                58 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:34 PM             5,940 GenerateSupplierAssignmentByBusinessUnitGroupXML.js
+08/11/2018  10:19 AM    <DIR>          Logs
+01/30/2019  03:49 PM             9,081 SupplierAssignmentByBusinessUnitGroupExtract.sql
+07/25/2018  12:23 PM             5,847 SupplierAssignmentByBusinessUnitGroupSchema.xsd
+11/08/2018  05:26 PM             1,565 SupplierAssignmentByBusinessUnitGroupXform.xsl
+               7 File(s)         24,680 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\25 - Assign Supplier to Business Unit Group\Logs
+
+08/11/2018  10:19 AM    <DIR>          .
+08/11/2018  10:19 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\26 - Set Catalog Import Review Flag to False
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/08/2018  07:54 PM               630 Set Catalog Import Review to False.sql
+               1 File(s)            630 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\27 - Supplier Item
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+08/14/2018  02:37 AM             1,775 cmdStep1 - DB - To - SourceCSV.cmd
+02/06/2019  11:53 AM             1,768 cmdStep1 - DB - To - SourceCSV_Prod.cmd
+07/04/2018  12:42 PM                33 cmdStep2 - SourceCSV - To - WorkingXLS.cmd
+08/03/2018  11:15 AM                33 cmdStep3 - FinalXLS - To - FinalCSV.cmd
+07/04/2018  12:03 PM                33 cmdStep4 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:35 PM             1,809 GenerateSupplierItemCSV.js
+11/06/2018  02:35 PM             3,919 GenerateSupplierItemXLS.js
+11/06/2018  02:44 PM            10,536 GenerateSupplierItemXML.js
+02/06/2019  01:00 PM    <DIR>          Logs
+08/28/2018  01:37 PM             9,383 SupplierItemChecker.sql
+08/28/2018  01:37 PM             9,197 SupplierItemCheckerAll.sql
+01/29/2019  09:01 PM            11,853 SupplierItemCountForExtract.sql
+01/30/2019  11:19 AM            17,409 SupplierItemExtract.sql
+06/05/2018  09:22 AM             9,169 SupplierItemImportSchema.xsd
+11/08/2018  05:27 PM             6,159 SupplierItemXform.xsl
+              14 File(s)         83,076 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\27 - Supplier Item\Logs
+
+02/06/2019  01:00 PM    <DIR>          .
+02/06/2019  01:00 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\28 - Reset Catalog Import Review Flag
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/08/2018  07:59 PM               493 Reset Catalog Import Review Flag.sql
+               1 File(s)            493 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\29 - Set Supplier Packaged Item Status Code
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/11/2018  03:52 PM             1,007 Set Packaged Item Status Code.sql
+               1 File(s)          1,007 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\30 - Assign Entities to Corp for Testing
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/11/2018  04:09 PM             2,064 Item - Supplier Item - Specials - Assign To Corp.sql
+               1 File(s)          2,064 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\31 - GL Accounts
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/06/2018  10:33 PM            10,999 GL Account Import.xml
+11/08/2018  10:52 AM    <DIR>          New folder
+               1 File(s)         10,999 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\31 - GL Accounts\New folder
+
+11/08/2018  10:52 AM    <DIR>          .
+11/08/2018  10:52 AM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\32 - Business Unit Price Change
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+08/31/2018  01:48 PM             5,216 AlcoholZonesToBu
+08/31/2018  02:39 PM             5,592 AlcoholZonesToBu.sql
+09/21/2018  04:53 PM               921 BusinessUnitPriceChangeCountForExtract.sql
+10/12/2018  11:54 AM             6,379 BusinessUnitPriceChangeExtract.sql
+08/31/2018  12:31 PM             2,833 BusinessUnitPriceChangeExtractItem.sql
+01/30/2019  06:42 PM               252 BusinessUnitPriceChangeExtractItemCreateTable.sql
+08/09/2018  02:27 PM             6,469 BusinessUnitPriceChangeSchema.xsd
+11/08/2018  05:29 PM             2,868 BusinessUnitPriceChangeXform.xsl
+02/06/2019  11:43 AM             2,437 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:47 AM             2,430 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+01/30/2019  06:20 PM                44 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/06/2018  03:30 PM             6,212 GenerateBusinessUnitPriceChangeXML.js
+02/06/2019  01:01 PM    <DIR>          Logs
+08/09/2018  02:28 PM               728 Sample.xml
+              13 File(s)         42,381 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\32 - Business Unit Price Change\Logs
+
+02/06/2019  01:01 PM    <DIR>          .
+02/06/2019  01:01 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\33 - Price Change Event
+
+02/06/2019  11:36 AM    <DIR>          .
+02/06/2019  11:36 AM    <DIR>          ..
+09/22/2018  02:59 PM             2,151 cmdStep1 - DB - To - FinalCSV.cmd
+02/06/2019  11:47 AM             2,144 cmdStep1 - DB - To - FinalCSV_Prod.cmd
+07/30/2018  05:27 AM                31 cmdStep2 - FinalCSV - To - FinalXML.cmd
+10/09/2018  02:46 PM             7,989 GeneratePriceEventXML.js
+02/06/2019  01:02 PM    <DIR>          Logs
+07/30/2018  01:30 PM             1,783 Price Event Sample.xml
+09/22/2018  02:48 PM             2,064 PriceChangeEventCountForExtract.sql
+08/30/2018  09:06 PM               339 PriceChangeEventemCreateTable.sql
+01/21/2019  10:52 AM             3,262 PriceChangeEventExtract.sql
+10/12/2018  11:41 AM             2,437 PriceChangeEventExtractItem.sql
+11/08/2018  05:28 PM             2,504 PriceEventImportXform.xsl
+07/27/2018  01:48 PM             9,500 PriceEventSchema.xsd
+              11 File(s)         34,204 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\33 - Price Change Event\Logs
+
+02/06/2019  01:02 PM    <DIR>          .
+02/06/2019  01:02 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\34 - Enter Fuel Items
+
+12/10/2018  09:35 PM    <DIR>          .
+12/10/2018  09:35 PM    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\35 - Fuel Tanks
+
+12/12/2018  09:37 AM    <DIR>          .
+12/12/2018  09:37 AM    <DIR>          ..
+12/12/2018  09:37 AM             1,432 Step 1 - Fuel Tanks Extract Source DB (1).sql
+12/10/2018  09:30 PM             1,432 Step 1 - Fuel Tanks Extract Source DB.sql
+12/12/2018  09:37 AM         6,543,654 Step 2 - Fuel Tank Insert Dest DB (1).sql
+12/10/2018  09:30 PM         6,543,654 Step 2 - Fuel Tank Insert Dest DB.sql
+               4 File(s)     13,090,172 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\Common
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+02/02/2019  05:56 PM             8,879 ImportUtils.js
+               1 File(s)          8,879 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\Documentation
+
+12/10/2018  09:47 PM    <DIR>          .
+12/10/2018  09:47 PM    <DIR>          ..
+11/12/2018  02:15 PM           358,318 BC to ESO - Process Overview and Spreadsheet Instructions.docx
+11/07/2018  12:37 PM           330,016 BC to ESO - Process Overview and Spreadsheet Instructions.pdf
+12/10/2018  09:47 PM            13,571 Import Steps Checklist.xlsx
+12/10/2018  01:50 PM            10,584 Imported Data Summary.xlsx
+08/09/2018  08:37 AM            98,517 Process Flow.vsdx
+11/13/2018  03:41 PM            15,695 Scripts for JDA Review.xlsx
+               6 File(s)        826,701 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\zExtract Specials (Not Needed)
+
+11/26/2018  09:00 PM    <DIR>          .
+11/26/2018  09:00 PM    <DIR>          ..
+11/26/2018  10:44 AM               461 SpecialExtractForPriceBook.sql
+               1 File(s)            461 bytes
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Program Files\zManufacturer Item Mapping (Not Needed)
+
+01/11/2019  11:40 AM    <DIR>          .
+01/11/2019  11:40 AM    <DIR>          ..
+01/11/2019  11:40 AM           297,028 Manufacturer Assignment to Items.zip
+01/11/2019  11:36 AM               463 Step 1 - Manufacturer Item Mapping Extract Source DB.sql
+01/11/2019  11:36 AM         5,609,445 Step 2 - Manufacturer Item Mapping Insert  Dest DB.sql
+01/11/2019  11:35 AM               473 Step 3 - Manufacturer Assign to Items.sql
+               4 File(s)      5,907,409 bytes
+
+     Total Files Listed:
+             239 File(s)     59,996,788 bytes
+             638 Dir(s)  169,171,218,432 bytes free

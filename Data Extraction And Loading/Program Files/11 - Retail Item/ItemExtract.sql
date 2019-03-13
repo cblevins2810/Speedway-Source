@@ -25,9 +25,11 @@ SET @Modulus = '$(Modulus)'
 SET @Remainder = '$(Remainder)'
 SET @DepartmentName = '$(DepartmentName)'
 
---SET @Modulus = 1
---SET @Remainder = 0
---SET @DepartmentName = '201 Other Fast Food'
+/*
+SET @Modulus = 1
+SET @Remainder = 0
+SET @DepartmentName = '94 M&S Food'
+*/
 
 SELECT @DepartmentId = item_hierarchy_id
 FROM item_hierarchy WHERE name = @DepartmentName
@@ -242,6 +244,7 @@ AND bc.primitive_complete_code != bc.primitive_compressed_code
 
 /* Since we are pulling purged items, duplicate xref codes can exists.  Noting these as dupes */
 /* Need to do this every time to allow for refresh of the source DB */
+/*
 UPDATE i
 SET xref_code = RTRIM(i.xref_code) + 'Dupe'
 FROM Item AS i
@@ -252,7 +255,7 @@ JOIN (SELECT xref_code, COUNT(*) AS dupe_count
 ON d.xref_code = i.xref_code
 WHERE i.purge_flag = 'y'
 AND i.xref_code not like '%Dupe%'
-
+*/
 
 INSERT #item_extract 
 SELECT 
@@ -414,9 +417,7 @@ WHERE --i.name not like '%inactive%'
 ri.retail_item_type_code in ('n','g')
 --AND SUBSTRING(i.name, 1, 2) <> 'z-'
 --AND SUBString(i.name, 1, 3) <> 'i/a'
-AND ml.default_ranking = 999
-AND mrc.start_date <= GETDATE()
-AND mrc.promo_flag = 'n'
+
 AND CASE WHEN ISNUMERIC(i.xref_code) = 1
 		   AND LEN(i.xref_code) < 9
 		   AND LEFT(i.xref_code, 1) NOT IN ('0')
@@ -430,7 +431,7 @@ AND ihl.parent_item_hierarchy_id = @DepartmentId
 AND i.item_id % @Modulus = @Remainder
 
 DELETE #item_extract
-WHERE SoldAs = 'y'
+WHERE SoldAs = 'g'
 AND NOT EXISTS (SELECT 1 
          FROM retail_modified_item AS rmi
          WHERE rmi.retail_item_id = item_id)
@@ -558,6 +559,8 @@ ON #item_extract.RetailModifiedItemId = a.retail_modified_item_id
 LEFT JOIN bcssa_custom_integration..bc_extract_item_group AS g
 ON #item_extract.Item_id = g.item_id
 
+--WHERE PurgeFlag = 'y'
+
 ORDER by #item_extract.item_id, ItemRowNumber, RetailModifiedItemId, PackRowNumber, BarcodeCompressible DESC
 
 IF OBJECT_ID('tempdb..#item_extract') IS NOT NULL
@@ -568,4 +571,5 @@ IF OBJECT_ID('tempdb..#rmi_barcode') IS NOT NULL
     DROP TABLE #rmi_barcode
 GO
  
+
 
