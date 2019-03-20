@@ -1,2 +1,0 @@
-GenerateSupplierXML.js
-pause

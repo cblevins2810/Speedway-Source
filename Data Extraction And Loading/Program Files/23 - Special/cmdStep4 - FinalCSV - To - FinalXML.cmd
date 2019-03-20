@@ -1,2 +1,0 @@
-GenerateSpecialXML.js
-pause

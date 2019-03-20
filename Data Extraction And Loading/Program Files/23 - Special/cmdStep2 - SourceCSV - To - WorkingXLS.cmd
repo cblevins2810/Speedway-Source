@@ -1,2 +1,0 @@
-GenerateSpecialXLS.js
-pause

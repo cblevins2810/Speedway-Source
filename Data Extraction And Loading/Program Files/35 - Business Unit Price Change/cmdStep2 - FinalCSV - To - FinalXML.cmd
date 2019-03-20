@@ -1,2 +1,0 @@
-GenerateBusinessUnitPriceChangeXML.js
-pause

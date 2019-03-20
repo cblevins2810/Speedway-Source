@@ -1,2 +1,0 @@
-GenerateBusinessUnitGroupXML.js
-pause

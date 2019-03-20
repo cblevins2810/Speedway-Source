@@ -1,2 +1,0 @@
-GenerateOrgHierarchyXML.js
-pause

@@ -1,0 +1,2 @@
+GenerateSupplierAssignmentXML.js
+pause

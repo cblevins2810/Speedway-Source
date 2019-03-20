@@ -1,2 +1,0 @@
-GenerateSupplierItemCSV.js
-pause

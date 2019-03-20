@@ -1,2 +1,0 @@
-GenerateSupplierItemXLS.js
-pause

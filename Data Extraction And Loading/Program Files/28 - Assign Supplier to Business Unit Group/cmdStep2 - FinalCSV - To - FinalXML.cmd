@@ -1,2 +1,0 @@
-GenerateSupplierAssignmentByBusinessUnitGroupXML.js
-pause
