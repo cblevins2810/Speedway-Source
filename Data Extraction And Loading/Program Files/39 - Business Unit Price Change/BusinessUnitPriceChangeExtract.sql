@@ -90,7 +90,7 @@ AND default_ranking = -1
 SELECT REPLACE(rsda.long_name,',','~') AS BUName,
 '_' + rsda.name AS BUIdentifier,
 REPLACE(i.name, ',','~') AS itemName,
-i2.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor)) ASitemRetailPackXRefID,
+COALESCE(m.eso_xref_code, i2.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor))) ASitemRetailPackXRefID,
 mrc.retail_price AS retailPrice,
 CASE WHEN mrc.start_date < @start_date THEN CONVERT(nvarchar(10), @start_date,120)
      ELSE CONVERT(nvarchar(10), mrc.start_date,120) END AS startDate,
@@ -126,6 +126,9 @@ LEFT JOIN retail_item_dimension_member AS ridm
 ON rmidl.dimension_member_id = ridm.dimension_member_id
 LEFT JOIN unit_of_measure as ridmuom
 ON ridm.unit_of_measure_id = ridmuom.unit_of_measure_id
+
+LEFT JOIN bcssa_custom_integration..bc_extract_item_split_mapping AS m
+ON i2.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor)) = m.bc_xref_code
         
 WHERE @start_date BETWEEN mrc.start_date AND mrc.end_date      
 AND  mrc.change_type_code IN ('a', 'c')
@@ -148,7 +151,11 @@ AND EXISTS ( SELECT 1
              AND    dalst.data_accessor_id = dro.assigned_data_accessor_id 
              AND    dalst.item_id = i.item_id 
              AND    @start_date between dalst.start_date and dalst.end_date ) 
-
+			 
+AND NOT EXISTS (SELECT 1
+            FROM bcssa_custom_integration..bc_extract_item_split_mapping AS m
+			WHERE i2.xref_code + '-' + CONVERT(NVARCHAR(15),CONVERT(INT, ridmuom.factor)) = m.bc_xref_code
+			AND   m.eso_xref_code IS NULL)			 
 
 /* Drop all the temp tables */
 IF OBJECT_ID('tempdb..#retail_level') IS NOT NULL

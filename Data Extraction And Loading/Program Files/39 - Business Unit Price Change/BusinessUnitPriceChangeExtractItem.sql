@@ -1,7 +1,5 @@
 SET NOCOUNT ON
 
-SET NOCOUNT ON
-
 DECLARE @AlcoholDepartmentId INT
 SELECT @AlcoholDepartmentId = item_hierarchy_id
 FROM item_hierarchy WHERE name = '401 Beer & Wine' --@DepartmentName

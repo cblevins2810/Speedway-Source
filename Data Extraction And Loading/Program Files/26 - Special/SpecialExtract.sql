@@ -12,6 +12,15 @@ IF OBJECT_ID('tempdb..#retail_auto_combo') IS NOT NULL
     DROP TABLE #retail_auto_combo
 GO
 
+
+-- Added for support of incremental extract
+DECLARE	@last_max_id	INT
+-- Set this to the max Item Id from the last extract
+SET		@last_max_id	= 0
+-- END for additional changes
+
+
+
 SELECT retail_modified_item_group_id,
        REPLACE(REPLACE(RTRIM(name),',','~'), 'Chocolate', 'Choco') +
        CASE WHEN CONVERT(NVARCHAR(10), ROW_NUMBER() over (partition by name order by name)) = 1 THEN '' 
@@ -63,6 +72,9 @@ JOIN Discount AS d
 ON   racigl.discount_id = d.discount_id
 JOIN #retail_auto_combo AS q
 ON   rac.retail_auto_combo_id = q.retail_auto_combo_id
+-- Added for support of incremental extract
+WHERE rac.retail_auto_combo_id > @last_max_id
+-- END for additional changes
 ORDER BY 'xref-' + CONVERT(NVARCHAR(15), rac.retail_auto_combo_id)
 
 SELECT --TOP 10

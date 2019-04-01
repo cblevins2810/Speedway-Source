@@ -1,0 +1,262 @@
+<!-- edited with XMLSPY v2004 rel. 3 (http://www.xmlspy.com) by Adewale Afolabi (Radiant Systems) -->
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="RadiantDocument">
+		<xs:annotation>
+			<xs:documentation>Invoice import root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="RadiantDocumentType"/>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="RadiantDocumentType">
+		<xs:annotation>
+			<xs:documentation>Invoice import file structure</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="InvoiceList">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Invoice" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="SupplierData">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="SupplierAddress" type="AddressType" minOccurs="0"/>
+											</xs:sequence>
+											<xs:attribute name="SupplierEDINumber" type="String80" use="required"/>
+											<xs:attribute name="SupplierID" type="xs:long" use="optional"/>
+											<xs:attribute name="SupplierName" type="xs:string" use="optional"/>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="BusinessUnitData">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="BusinessUnitAddress" type="AddressType" minOccurs="0"/>
+											</xs:sequence>
+											<xs:attribute name="BusinessUnitEDINumber" type="String80" use="required"/>
+											<xs:attribute name="BusinessUnitID" type="xs:long" use="optional"/>
+											<xs:attribute name="BusinessUnitName" type="xs:string" use="optional"/>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="ReferencedDocument" minOccurs="0">
+										<xs:complexType>
+											<xs:attribute name="PurchaseOrderNumber" type="String50" use="required"/>
+											<xs:attribute name="PurchaseOrderDate" type="DateType" use="optional"/>
+											<xs:attribute name="DeliveryDate" type="DateType" use="optional"/>
+											<xs:attribute name="DocumentTypeName" use="optional" default="Purchase Order">
+												<xs:simpleType>
+													<xs:restriction base="xs:string">
+														<xs:enumeration value="Purchase Order"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+											<xs:attribute name="DocumentTypeCode" use="optional" default="p">
+												<xs:simpleType>
+													<xs:restriction base="SingleString">
+														<xs:enumeration value="p"/>
+													</xs:restriction>
+												</xs:simpleType>
+											</xs:attribute>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="ItemList" minOccurs="1">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:choice>
+													<xs:element name="Item" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:restriction base="ItemEXT">
+																	<xs:attribute name="Cost" type="RestrictedFloat" use="required"/>
+																</xs:restriction>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ItemGST" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:complexContent>
+																<xs:extension base="ItemEXT">
+																	<xs:attribute name="TaxID" type="String255" use="required"/>
+																	<xs:attribute name="CostExclTax" type="RestrictedFloat" use="required"/>
+																	<xs:attribute name="CostInclTax" type="RestrictedFloat" use="required"/>
+																	<xs:attribute name="ExtCostExclTax" type="RestrictedFloat" use="required"/>
+																	<xs:attribute name="ExtCostInclTax" type="RestrictedFloat" use="required"/>
+																	<xs:attribute name="ExtTaxAmt" type="RestrictedFloat" use="required"/>
+																</xs:extension>
+															</xs:complexContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:choice>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="TaxList" minOccurs="0">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Tax" maxOccurs="unbounded">
+													<xs:complexType>
+														<xs:attribute name="TaxAmount" type="xs:float" use="required"/>
+														<xs:attribute name="ExternalId" type="String255" use="optional"/>
+													</xs:complexType>
+												</xs:element>
+											</xs:sequence>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="ItemSubtotal" type="xs:float" minOccurs="0"/>
+									<xs:element name="Tax" type="xs:float" minOccurs="0"/>
+									<xs:element name="DeliveryCharge" type="xs:float" minOccurs="0"/>
+									<xs:element name="Total" type="xs:float" minOccurs="0"/>
+									<xs:element name="DeliveryChargeGST" type="DeliveryChargeEXT" minOccurs="0"/>
+									<xs:element name="TotalGST" type="TotalEXT" minOccurs="0"/>
+								</xs:sequence>
+								<xs:attribute name="InvoiceNumber" type="String50" use="required"/>
+								<xs:attribute name="InvoiceDate" type="DateType" use="optional"/>
+								<xs:attribute name="AllowanceAmt" type="xs:float" use="optional"/>
+								<xs:attribute name="DepositAmt" type="xs:float" use="optional"/>
+								<xs:attribute name="TotalItemQty" type="xs:float" use="optional"/>
+								<xs:attribute name="giNumber" type="String50" use="optional"/>
+								<xs:attribute name="IdentifierType" use="optional" default="p">
+									<xs:simpleType>
+										<xs:restriction base="SingleString">
+											<xs:enumeration value="p"/>
+											<xs:enumeration value="b"/>
+										</xs:restriction>
+									</xs:simpleType>
+								</xs:attribute>
+							</xs:complexType>
+							<xs:unique name="UniqueProductCodeAndCost">
+								<xs:selector xpath="ItemList/Item"/>
+								<xs:field xpath="@ProductCode"/>
+								<xs:field xpath="@Barcode"/>
+								<xs:field xpath="@Cost"/>
+							</xs:unique>
+							<xs:unique name="UniqueTaxExternalId">
+								<xs:selector xpath="TaxList/Tax"/>
+								<xs:field xpath="@ExternalId"/>
+							</xs:unique>
+							<xs:unique name="UniqueProductCodeAndCostExcl">
+								<xs:selector xpath="ItemList/ItemGST"/>
+								<xs:field xpath="@ProductCode"/>
+								<xs:field xpath="@CostExclTax"/>
+							</xs:unique>
+							<xs:unique name="UniqueProductCodeAndCostIncl">
+								<xs:selector xpath="ItemList/ItemGST"/>
+								<xs:field xpath="@ProductCode"/>
+								<xs:field xpath="@CostInclTax"/>
+							</xs:unique>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+				<xs:unique name="UniqueSupplierInvoiceNumber">
+					<xs:selector xpath="Invoice"/>
+					<xs:field xpath="SupplierData/@SupplierEDINumber"/>
+					<xs:field xpath="@InvoiceNumber"/>
+				</xs:unique>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DeliveryChargeEXT">
+		<xs:attribute name="DeliveryChargeInclTaxAmt" type="RestrictedFloat" use="required"/>
+		<xs:attribute name="DeliveryChargeExclTaxAmt" type="RestrictedFloat" use="required"/>
+		<xs:attribute name="DeliveryChargeTaxAmt" type="RestrictedFloat" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TotalEXT">
+		<xs:attribute name="CostInclTax" type="RestrictedFloat" use="required"/>
+		<xs:attribute name="CostExclTax" type="RestrictedFloat" use="required"/>
+		<xs:attribute name="TaxAmt" type="RestrictedFloat" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ItemEXT">
+		<xs:attribute name="Name" type="String50" use="optional"/>
+		<xs:attribute name="Description" type="String500" use="optional"/>
+		<xs:attribute name="ProductCode" type="String50" use="optional"/>
+		<xs:attribute name="Barcode" type="String50" use="optional"/>
+		<xs:attribute name="Cost" type="RestrictedFloat" use="optional"/>
+		<xs:attribute name="UnitOfMeasure" type="String50" use="optional"/>
+		<xs:attribute name="Quantity" type="xs:float" use="required"/>
+		<xs:attribute name="ExtendedCost" type="xs:float" use="optional"/>
+		<xs:attribute name="ExternalId" type="String50" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="AddressType">
+		<xs:sequence>
+			<xs:element name="AddressLine1" type="String50"/>
+			<xs:element name="AddressLine2" type="String50" minOccurs="0"/>
+			<xs:element name="City" type="String50"/>
+			<xs:element name="State" type="String50"/>
+			<xs:element name="PostalCode">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Country" type="String50"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="String50">
+		<xs:annotation>
+			<xs:documentation>Variable string from 1 to 50 characters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="RestrictedFloat">
+		<xs:annotation>
+			<xs:documentation>Numeric value 0 and above</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:float">
+			<xs:minInclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SingleString">
+		<xs:annotation>
+			<xs:documentation>Referenced document code: p = Purchase Order</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DateType">
+		<xs:annotation>
+			<xs:documentation>String representation of date to allow formats 08/26/2003 and 2003-08-26</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="8"/>
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String255">
+		<xs:annotation>
+			<xs:documentation>String from 1 - 255 characters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String500">
+		<xs:annotation>
+			<xs:documentation>String from 1 - 500 characters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="500"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String80">
+		<xs:annotation>
+			<xs:documentation>String from 1 - 80 characters</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="80"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

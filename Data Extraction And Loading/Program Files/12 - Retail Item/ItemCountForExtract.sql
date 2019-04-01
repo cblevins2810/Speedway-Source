@@ -66,6 +66,12 @@ INSERT #talley SELECT 47
 INSERT #talley SELECT 48
 INSERT #talley SELECT 49
 INSERT #talley SELECT 50
+
+-- Added for support of incremental extract
+DECLARE	@last_max_id	INT
+-- Set this to the max Item Id from the last extract
+SET		@last_max_id	= 0
+-- END for additional changes
  
 SELECT rmi.retail_modified_item_id, bc.barcode_id
 INTO #rmi_barcode
@@ -161,6 +167,9 @@ AND CASE WHEN ISNUMERIC(i.xref_code) = 1
 	END	BETWEEN 10000 AND 99999999
 AND ihl.hierarchy_level = 3
 AND ihl.parent_hierarchy_level = 1
+-- Added for support of incremental extract
+AND i.item_id > @last_max_id
+-- END for additional changes
 GROUP BY ihl.parent_item_hierarchy_id
 ORDER BY 2 DESC
 

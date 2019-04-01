@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<RadiantDocument>
+  <InvoiceList>
+    <!--1 or more repetitions:-->
+    <Invoice InvoiceNumber="string" InvoiceDate="stringstri" AllowanceAmt="1.5E2" DepositAmt="1.5E2" TotalItemQty="1.5E2" giNumber="string" IdentifierType="p">
+      <SupplierData SupplierEDINumber="string" SupplierID="10" SupplierName="string">
+        <!--Optional:-->
+        <SupplierAddress>
+          <AddressLine1>string</AddressLine1>
+          <!--Optional:-->
+          <AddressLine2>string</AddressLine2>
+          <City>string</City>
+          <State>string</State>
+          <PostalCode>string</PostalCode>
+          <Country>string</Country>
+        </SupplierAddress>
+      </SupplierData>
+      <BusinessUnitData BusinessUnitEDINumber="string" BusinessUnitID="10" BusinessUnitName="string">
+        <!--Optional:-->
+        <BusinessUnitAddress>
+          <AddressLine1>string</AddressLine1>
+          <!--Optional:-->
+          <AddressLine2>string</AddressLine2>
+          <City>string</City>
+          <State>string</State>
+          <PostalCode>string</PostalCode>
+          <Country>string</Country>
+        </BusinessUnitAddress>
+      </BusinessUnitData>
+      <!--Optional:-->
+      <ReferencedDocument PurchaseOrderNumber="string" PurchaseOrderDate="stringstri" DeliveryDate="stringstri" DocumentTypeName="Purchase Order" DocumentTypeCode="p"/>
+      <ItemList>
+        <!--You have a CHOICE of the next 2 items at this level-->
+        <!--Zero or more repetitions:-->
+        <Item Name="string" Description="string" ProductCode="string" Barcode="string" Cost="1.5E2" UnitOfMeasure="string" Quantity="1.5E2" ExtendedCost="1.5E2" ExternalId="string"/>
+        <!--Zero or more repetitions:-->
+        <ItemGST Name="string" Description="string" ProductCode="string" Barcode="string" Cost="1.5E2" UnitOfMeasure="string" Quantity="1.5E2" ExtendedCost="1.5E2" ExternalId="string" TaxID="string" CostExclTax="1.5E2" CostInclTax="1.5E2" ExtCostExclTax="1.5E2" ExtCostInclTax="1.5E2" ExtTaxAmt="1.5E2"/>
+      </ItemList>
+      <!--Optional:-->
+      <TaxList>
+        <!--1 or more repetitions:-->
+        <Tax TaxAmount="1.5E2" ExternalId="string"/>
+      </TaxList>
+      <!--Optional:-->
+      <ItemSubtotal>1.5E2</ItemSubtotal>
+      <!--Optional:-->
+      <Tax>1.5E2</Tax>
+      <!--Optional:-->
+      <DeliveryCharge>1.5E2</DeliveryCharge>
+      <!--Optional:-->
+      <Total>1.5E2</Total>
+      <!--Optional:-->
+      <DeliveryChargeGST DeliveryChargeInclTaxAmt="1.5E2" DeliveryChargeExclTaxAmt="1.5E2" DeliveryChargeTaxAmt="1.5E2"/>
+      <!--Optional:-->
+      <TotalGST CostInclTax="1.5E2" CostExclTax="1.5E2" TaxAmt="1.5E2"/>
+    </Invoice>
+  </InvoiceList>
+</RadiantDocument>

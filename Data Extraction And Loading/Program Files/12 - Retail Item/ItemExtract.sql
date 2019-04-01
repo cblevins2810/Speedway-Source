@@ -15,6 +15,12 @@ DECLARE @Modulus INT
 DECLARE @Remainder INT
 DECLARE @DepartmentId INT
 
+-- Added for support of incremental extract
+DECLARE	@last_max_id	INT
+-- Set this to the max Item Id from the last extract
+SET		@last_max_id	= 0
+-- END for additional changes
+
 /*
 :SETVAR Modulus -1
 :SETVAR Remainder -1
@@ -429,6 +435,13 @@ AND ihl.hierarchy_level = 3
 AND ihl.parent_hierarchy_level = 1
 AND ihl.parent_item_hierarchy_id = @DepartmentId
 AND i.item_id % @Modulus = @Remainder
+-- Added for support of incremental extract
+AND i.item_id > @last_max_id
+-- END for additional changes
+
+AND NOT EXISTS (SELECT 1
+                FROM bcssa_custom_integration..bc_extract_item_split_mapping AS m
+				WHERE i.xref_code + '-' + CONVERT(NVARCHAR(15),CONVERT(INT, ridmuom.factor)) = m.bc_xref_code)
 
 DELETE #item_extract
 WHERE SoldAs = 'g'

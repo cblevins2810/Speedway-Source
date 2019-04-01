@@ -46,8 +46,9 @@ CASE WHEN @PromoFlag = 'n' THEN '' ELSE @EndDate END AS EndDate,
 i.xref_code AS itemXRefId ,
 REPLACE(i.name,',','~') AS ItemName,
 REPLACE(mg.Name,',','~') AS RetailStrategy,
-i.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor)) AS RMIXrefId,
---rmi.xref_code AS RMIXrefId,
+
+COALESCE (eso_xref_code, i.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor))) AS RMIXrefId,
+
 REPLACE(mgm.name,',','~') AS RetailLevelGroup,
 REPLACE(ml.name,',','~') AS RetailLevelName,
 mrc.retail_price AS ListPrice 
@@ -83,6 +84,9 @@ AND mgm.merch_group_member_id = bcrs.orig_merch_group_member_id
 AND ml.merch_level_id = bcrs.orig_merch_level_id
 -- End for additional code
 
+LEFT JOIN bcssa_custom_integration..bc_extract_item_split_mapping AS m
+ON i.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor)) = m.bc_xref_code
+
 WHERE CASE WHEN mrc.start_date < @Today THEN @Today ELSE mrc.start_date END = @StartDate
 AND   mrc.End_Date = @EndDate
 AND   mrc.promo_flag = @PromoFlag
@@ -92,6 +96,11 @@ AND   ml.business_unit_id IS NULL
 AND   ml.supplier_id IS NULL
 AND   ml.default_ranking > 0
 AND   mrc.retail_modified_item_id % @Modulus = @Remainder
+
+AND NOT EXISTS (SELECT 1
+                FROM bcssa_custom_integration..bc_extract_item_split_mapping AS m
+				WHERE i.xref_code + '-' + CONVERT(NVARCHAR(15),CONVERT(INT, ridmuom.factor)) = m.bc_xref_code
+				AND   m.eso_xref_code IS NULL)
 
 ORDER BY itemXRefId, RMIXrefId
 

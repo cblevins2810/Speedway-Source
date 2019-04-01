@@ -1,4 +1,5 @@
 SET NOCOUNT ON
+
 DECLARE @MerchCostChangeEffectiveDate AS smalldatetime
 SET		@MerchCostChangeEffectiveDate = CONVERT(smalldatetime, SYSDATETIME())
 DECLARE @supplier_id INT
@@ -6,6 +7,12 @@ DECLARE @SupplierXRef nvarchar(255)
 DECLARE @Modulus INT
 DECLARE @Remainder INT
 DECLARE @cost_level TABLE (supplier_id INT, merch_cost_level_id INT)
+
+-- Added for support of incremental extract
+DECLARE	@last_max_id	INT
+-- Set this to the max Item Id from the last extract
+SET		@last_max_id	= 0
+-- END for additional changes
 
 --:SETVAR Modulus 1
 --:SETVAR Remainder 0
@@ -357,6 +364,9 @@ ON si.item_id = i.item_id
 WHERE	s.status_code IN ('a')
 AND s.supplier_type_code IN ('m') 
 AND si.status_code in ('a','u')
+-- Added for support of incremental extract
+AND si.supplier_item_id > @last_max_id
+-- END for additional changes
 AND i.purge_flag IN ('n')
 AND (CASE 
 	WHEN	(ISNUMERIC(i.xref_code) = 1 
