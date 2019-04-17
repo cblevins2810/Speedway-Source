@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
+_3410017344,MILLER GD 15PK 12z CN,183243,183243,,,,a,401 01E 000,Case,30.00,,,,,Master,19.90,0.00,1900-01-01,2075-12-31

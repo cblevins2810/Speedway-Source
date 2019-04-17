@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_123926,MI CASE SHELL,123926,123926,,,,a,952 02 000,Each,1.00,,,,,Master,1.60,0.00,1900-01-01,2075-12-31
+_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_30299,SMOM BANANAS,30299,30299,,,,a,201 05 000,Each,1.00,,,,,Master,0.62,0.00,2008-04-21,2075-12-31
+_3611500026,FRESH FLOWER FRUIT 2FOR,119798,119798,,,,a,201 05 000,Each,1.00,,,,,Master,0.55,0.00,1900-01-01,2075-12-31
+_42711,SMOM APPLE,42711,42711,,,,a,201 05 000,Each,1.00,,,,,Master,0.62,0.00,2008-04-21,2075-12-31
+_84678,ORANGES,84678,84678,,,,a,201 05 000,Each,1.00,,,,,Master,0.62,0.00,2008-04-21,2075-12-31

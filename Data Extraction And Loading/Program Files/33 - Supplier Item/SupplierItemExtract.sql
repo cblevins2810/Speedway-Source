@@ -220,7 +220,7 @@ WHERE --mcc.promo_flag IN ('n')
 --AND	(mcc.end_date > @MerchCostChangeEffectiveDate
 --OR	mcc.end_date IS NULL)
 --AND
- sics.barcode_count < sics.cost_level_count
+ ISNULL(sics.barcode_count,0) < sics.cost_level_count
 
 INSERT #supplier_item_extract
 (supplier_id,
@@ -244,7 +244,7 @@ JOIN supplier_item_barcode AS sib
 ON sics.supplier_id = sib.supplier_id
 AND sics.supplier_item_id = sib.supplier_item_id
 WHERE barcode_type_code IN ('e','g','u')
-AND sics.barcode_count >= sics.cost_level_count
+AND ISNULL(sics.barcode_count,0) >= sics.cost_level_count
 
 UPDATE sie
 SET sie.barcode_type = bc.barcode_type_code,
@@ -300,7 +300,7 @@ JOIN (SELECT sics.supplier_id,
 --      AND mcc.start_date <= @MerchCostChangeEffectiveDate
 --      AND	(mcc.end_date > @MerchCostChangeEffectiveDate
 --      OR	mcc.end_date IS NULL)
-      WHERE sics.barcode_count >= sics.cost_level_count) AS mcc
+      WHERE ISNULL(sics.barcode_count,0) >= sics.cost_level_count) AS mcc
 ON  sie.supplier_Id = mcc.supplier_Id
 AND sie.supplier_Item_Id = mcc.supplier_Item_Id
 AND sie.supplier_item_row_number = mcc.supplier_item_row_number

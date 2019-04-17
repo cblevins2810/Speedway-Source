@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_012000110542,MT DEW 4PK 16z CN,1053573,1053573,,,,a,Default,Case,24.00,,,,,Master,8.65,0.00,2018-01-02,2075-12-31
+_012000512551,LIP BRISK GREEN TEA 1L,191911,191911,,,,a,601 14 000,Case,15.00,,,,,Master,10.90,0.00,2019-01-01,2075-12-31
+_012000512568,LIP BRISK GREEN TEA PP 1L,191932,191911,,,,a,601 14 000,Case,15.00,,,,,Master,10.90,0.00,2019-01-01,2075-12-31
+_163757,BOTTLE EXCHANGE 1L-PEPSI,163757,163757,,,,a,901 05 000,Case,15.00,,,,,Master,20.11,0.00,2013-01-02,2075-12-31
+_5200024019,GATORADE RAIN BERRY 24z,169754,118737,,,,a,601 13 000,Box,24.00,,,,,Master,31.33,0.00,2019-01-01,2075-12-31
+_7800050409,SIERRA MIST 6PK .5L NR,182078,182078,,,,a,901 02 000,Case,24.00,,,,,Master,11.25,0.00,2016-01-26,2075-12-31
+_9178368,CO2 TANK CHARGE,178368,178368,,,,a,215 01 000,Each,1.00,,,,,Master,11.00,0.00,1900-01-01,2075-12-31
+_9523,PEPSI CAN BAG,46990,46990,,,,a,77 01 000,Each,1.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31

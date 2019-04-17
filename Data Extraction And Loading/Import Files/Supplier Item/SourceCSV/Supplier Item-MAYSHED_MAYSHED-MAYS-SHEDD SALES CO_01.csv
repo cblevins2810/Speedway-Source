@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_000061,Z-LINE 169 PLUG WRENCH,136874,136874,,,,a,77 01 000,Each,1.00,,,,,Master,11.52,0.00,1900-01-01,2075-12-31
+_00090,PRE-WASHER SOLVENT,123130,123130,,,,a,77 01 000,Each,1.00,,,,,Master,45.10,0.00,1900-01-01,2075-12-31
+_00091,Z-LINE PUMP,123129,123129,,,,a,77 01 000,Each,1.00,,,,,Master,31.40,0.00,1900-01-01,2075-12-31
+_00092,DRUM (SUPPLY),123131,123131,,,,a,77 01 000,Each,1.00,,,,,Master,45.10,0.00,1900-01-01,2075-12-31
+_041900074371,TRUMOO CHOC 1% MILK 14z,1064504,1064504,,,,a,601 07 410,Each,1.00,,,,,Master,1.61,0.00,2014-11-25,2075-12-31

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0481200497,SLUSH PUPPIE LIDS 12/16/24,1054096,1054096,,,,a,215 05 000,Each,1.00,,,,,Master,4.50,0.00,1900-01-01,2075-12-31
+_1917970012,SLUSH PUPPIE 12z CUPS,1054094,1054094,,,,a,215 05 000,Case,100.00,,,,,Master,7.25,0.00,1900-01-01,2075-12-31
+_5262500400,SLUSH PUPPIE SPOON/STRAW,1054095,1054095,,,,a,215 05 000,Box,300.00,,,,,Master,6.75,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_172895,MARYANN $1.09 DONUT,172895,172895,,,,a,231 02 005,Each,1.00,,,,,Master,0.75,0.00,2018-01-02,2075-12-31
+_172896,MARYANN $9.99 DOZEN DONUTS,172896,172896,,,,a,231 02 005,Each,1.00,,,,,Master,8.88,0.00,2016-04-01,2075-12-31
+_175978,MA DONUT BOX,175978,175978,,,,a,231 02 005,Case,125.00,,,,,Master,75.00,0.00,2010-03-11,2075-12-31
+_9175977,MA DONUT BAGS,175977,175977,,,,a,231 02 005,Case,500.00,,,,,Master,25.99,0.00,2013-02-25,2075-12-31
+_9175979,MA DONUT TISSUE,175979,175979,,,,a,231 02 005,Case,1000.00,,,,,Master,8.00,0.00,1900-01-01,2075-12-31
+_9206600205,MARYANN GLAZED DONUT 12PK,175485,175485,,,,a,231 01 000,Each,1.00,,,,,Master,2.99,0.00,1900-01-01,2075-12-31
+_9206600206,MARYANN CUSTARD FILLED 12PK,175490,175490,,,,a,231 01 000,Each,1.00,,,,,Master,2.99,0.00,1900-01-01,2075-12-31
+_9206600207,MARYANN CHOCOLATE ICED 12PK,175494,175494,,,,a,231 01 000,Each,1.00,,,,,Master,2.99,0.00,1900-01-01,2075-12-31

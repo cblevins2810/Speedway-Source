@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1060,MILK WHOLE GAL,184921,184921,,,,a,212 20 001,Each,1.00,,,,,Master,3.48,0.00,2019-01-31,2075-12-31
+_1421,MILK SKIM GAL,184922,184922,,,,a,212 20 001,Each,1.00,,,,,Master,2.82,0.00,2019-01-31,2075-12-31
+_14835,MILK SUPPLY WHOLE QT,1082671,1082671,,,,a,212 20 001,Each,1.00,,,,,Master,1.47,0.00,2016-11-10,2075-12-31
+_14836,MILK SUPPLY 2% QT,1082672,1082672,,,,a,212 20 001,Each,1.00,,,,,Master,1.36,0.00,2019-01-02,2075-12-31

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_051460514606,NEW GLARUS BOCK 6PK 12z LN,163346,163346,,,,a,401 01B 000,Case,24.00,,,,,Master,29.00,0.00,2017-06-07,2075-12-31
+_071990095451,BLUE MOON BLGN WHT 16z CN (LOOSE),1051645,1051645,,,,a,401 01J 000,Case,24.00,,,,,Master,29.35,0.00,2019-02-04,2075-12-31

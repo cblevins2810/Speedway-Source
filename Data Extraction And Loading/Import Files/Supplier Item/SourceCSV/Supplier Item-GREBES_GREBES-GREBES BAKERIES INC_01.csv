@@ -1,0 +1,11 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_034708093632,GREBES DECORATED COOKIE,171316,171316,,,,a,231 03 003,Case,6.00,,,,,Master,7.20,0.00,2015-05-07,2075-12-31
+_1064761,GREBES SMILEY DIPPED & FINGER COOKIES,1064761,1064761,,,,a,231 03 003,Case,12.00,,,,,Master,4.09,0.00,1900-01-01,2075-12-31
+_119262,GREBES DOZEN DONUTS,119262,119262,,,,a,231 03 003,Case,12.00,,,,,Master,6.60,0.00,2015-01-02,2075-12-31
+_5930,i/aGRB SPECIALTY COOKIE,180879,180879,,,,a,231 01 000,Case,12.00,,,,,Master,5.99,0.00,1900-01-01,2075-12-31
+_75502,GREBES DONUT/PASTRIES,75502,75502,,,,a,231 02 004,Each,1.00,,,,,Master,0.55,0.00,2018-05-31,2075-12-31
+_75504,GREBES MUFFIN/CROISSANT,75504,75504,,,,a,231 03 003,Each,1.00,,,,,Master,0.73,0.00,2015-01-02,2075-12-31
+_79790,GREBES HARD ROLL,79790,79790,,,,a,231 03 003,Each,1.00,,,,,Master,0.23,0.00,2012-12-03,2075-12-31
+_91065307,GREBES PACZKI,1065307,1065307,,,,a,231 03 003,Each,1.00,,,,,Master,0.55,0.00,1900-01-01,2075-12-31
+_9183452,GREBES BROWNIES,183452,183452,,,,a,231 03 003,Each,1.00,,,,,Master,0.53,0.00,2015-01-02,2075-12-31

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_25833,WOODBURY DAYS 1 DAY PASS,33000467,33000467,,,,a,601 34A 000,Each,1.00,,,,,Master,20.00,0.00,1900-01-01,2075-12-31
+_25834,WOODBURY DAYS 3 DAY PASS,33000473,33000473,,,,a,601 34A 000,Each,1.00,,,,,Master,50.00,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_018200000256,NATTY RUSH PLUS PUNCH 8z CN,1085497,1085497,,,,a,401 01D 000,Case,24.00,,,,,Master,16.25,0.00,2018-10-01,2075-12-31
+_7800000828,SUNDROP 16z CN,1076397,1076397,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,1900-01-01,2075-12-31
+_7800023023,SUNDROP 16z BTL NR,1076398,1076398,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,1900-01-01,2075-12-31

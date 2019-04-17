@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0784211102,MARTY'S PAN LOAF  18z,143249,143249,,,,a,601 06 000,Each,1.00,,,,,Master,1.40,0.00,1900-01-01,2075-12-31
+_0784211160,i/aMARTYS PEPP ROLL DIP SAUCE,171074,171074,,,,a,221 01 100,Each,1.00,,,,,Master,0.70,0.00,1900-01-01,2075-12-31
+_0784211223,i/aMARTYS PEPP & HT CHS ROLL 3z,125827,125827,,,,a,221 01 100,Each,1.00,,,,,Master,1.25,0.00,2009-02-02,2075-12-31
+_0784211224,i/aMARTYS PEPP & CHSE ROLL 3z,112867,112867,,,,a,221 01 100,Each,1.00,,,,,Master,1.25,0.00,2009-02-02,2075-12-31
+_115431,MARTYS PEPP & CHSE ROLL 6z,115431,115431,,,,a,221 07 100,Each,1.00,,,,,Master,1.85,0.00,2017-08-01,2075-12-31

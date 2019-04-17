@@ -1,0 +1,13 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7017500175,SEYFERT KTL ORG 9z,176186,176186,,,,a,601 04A 350,Each,1.00,,,,,Master,2.36,0.00,1900-01-01,2075-12-31
+_7017500176,SEYFERT KTL SLT/PPR 8.5z,176192,176192,,,,a,601 04A 350,Each,1.00,,,,,Master,2.36,0.00,1900-01-01,2075-12-31
+_7017500184,SEYFERT KTL GRN/ON 8.5z,176190,176190,,,,a,601 04A 350,Each,1.00,,,,,Master,2.36,0.00,1900-01-01,2075-12-31
+_7017500186,SEYFERT KTL JALP 8.5z,176188,176188,,,,a,601 04A 350,Each,1.00,,,,,Master,2.36,0.00,1900-01-01,2075-12-31
+_7017500187,SEYFERT KTL STK/ON 8.5z,176191,176191,,,,a,601 04A 350,Each,1.00,,,,,Master,2.36,0.00,1900-01-01,2075-12-31
+_7017500672,SEYFERT KTL JALP 2.5z,176179,176179,,,,a,601 04A 350,Each,1.00,,,,,Master,0.73,0.00,1900-01-01,2075-12-31
+_7017500675,SEYFERT KTL GRN/ON 2.5z,176183,176183,,,,a,601 04A 350,Each,1.00,,,,,Master,0.73,0.00,1900-01-01,2075-12-31
+_7017501198,SEYFERT HOT PRK RND 1.75z,180545,180545,,,,a,601 04A 360,Each,1.00,,,,,Master,0.74,0.00,1900-01-01,2075-12-31
+_7514533159,BIG TOP  COTTON CANDY 4z,132753,132753,,,,a,601 02 100,Each,1.00,,,,,Master,0.72,0.00,1900-01-01,2075-12-31
+_7613811007,BUTTER TOFFEE PEANUTS 6.5z,105629,105629,,,,a,601 04B 000,Each,1.00,,,,,Master,1.45,0.00,1900-01-01,2075-12-31
+_7778911055,DAN DEE BBQ CORN CHIP,163729,163729,,,,a,601 04A 360,Each,1.00,,,,,Master,0.73,0.00,1900-01-01,2075-12-31

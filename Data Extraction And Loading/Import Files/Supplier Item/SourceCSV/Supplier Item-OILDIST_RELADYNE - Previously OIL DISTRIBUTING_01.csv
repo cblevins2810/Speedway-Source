@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0202020202,55 GALLON DRUM DEPOSIT,119963,119963,,,,a,77 01 000,Each,1.00,,,,,Master,20.00,0.00,1900-01-01,2075-12-31
+_024600015004,CAR WASH SUPPLY - SYSTEM SVR 40LB PELLETS YLW,1078725,1078725,,,,a,77 01 000,Each,1.00,,,,,Master,6.19,0.00,2017-07-12,2075-12-31
+_024600039833,CAR WASH SUPPLY - SYSTEM SVR 40LB SOLAR SALT BLU,1078734,1078734,,,,a,77 01 000,Each,1.00,,,,,Master,5.99,0.00,1900-01-01,2075-12-31
+_05-88-55,SPLY MECH PRDE WSHER SOLV 55GL,124026,124026,,,,a,77 01 001,Each,1.00,,,,,Master,121.62,0.00,2010-12-27,2075-12-31
+_119877,ENVIRONMENTAL FEE,119877,119877,,,,a,77 01 000,Each,1.00,,,,,Master,2.95,0.00,1900-01-01,2075-12-31
+_99-29,BUNG WRENCH PART-169,139122,139122,,,,a,77 01 000,Each,1.00,,,,,Master,7.00,0.00,2013-10-30,2075-12-31

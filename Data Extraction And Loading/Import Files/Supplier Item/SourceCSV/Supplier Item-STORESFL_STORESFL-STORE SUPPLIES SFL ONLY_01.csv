@@ -1,0 +1,9 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_115331,TOBACCO OPEN SFL,115331,115331,,,,a,601 01 000,Each,1.00,,,,,Master,0.02,0.00,2006-06-20,2075-12-31
+_115334,CIGAR OPEN SFL,115334,115334,,,,a,601 01 000,Each,1.00,,,,,Master,0.02,0.00,2006-06-20,2075-12-31
+_14437,CUP OF ICE,14437,14437,,,,a,215 06 000,Each,1.00,,,,,Master,0.01,0.00,1900-01-01,2075-12-31
+_147155,SFL LIGHTER OPEN KEY,147155,147155,,,,a,601 18 000,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31
+_38622,601 GROCERY FOOD ITEMS,38622,38622,,,,a,601 33 000,Each,1.00,,,,,Master,0.00,0.00,2007-01-21,2075-12-31
+_38623,601 NON-FOOD,38623,38623,,,,a,601 34 000,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31
+_7330920022,ICE 22LB BAG,114308,114308,,,,a,201 02 000,Each,1.00,,,,,Master,2.00,0.00,1900-01-01,2075-12-31

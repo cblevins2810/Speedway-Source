@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_14,i/aCHEESE & PEPPERS PEP.ROLLS,125990,125990,,,,a,221 01 100,Each,1.00,,,,,Master,1.45,0.00,1900-01-01,2075-12-31
+_6,i/aCHEESE & PEPPERS P/ROLL 6z,125811,125811,,,,a,221 01 100,Each,1.00,,,,,Master,1.45,0.00,1900-01-01,2075-12-31

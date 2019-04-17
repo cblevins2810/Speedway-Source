@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
+_613008733070,BIB AP HALF/HALF LT 2.5G,1066179,1066179,,,,a,215 05 000,Each,1.00,,,,,Master,38.00,0.00,1900-01-01,2075-12-31

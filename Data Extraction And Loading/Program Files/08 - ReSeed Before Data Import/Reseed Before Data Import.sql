@@ -5,11 +5,17 @@ DECLARE @NextTicket INT
 DECLARE @CurrentTicket INT
 DECLARE @NumberOfTickets INT
 
+-- To check the current value 
+--SET @NextTicket = NULL
+--SET @TableName = 'xxx'
+--EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
+--SELECT @CurrentTicket
+
 
 -- Attribute
 SET @TableName = 'Retail_Modified_Item_Attribute'
 EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
-SET @NumberOfTickets = 10000000 - @CurrentTicket
+SET @NumberOfTickets = 50000000 - @CurrentTicket
 IF @NumberOfTickets > 0 
    EXEC plt_get_next_named_ticket @TableName,'n', @NumberOfTickets, @NextTicket OUTPUT
 SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOfTickets AS 'Number of Tickets to Seed', @NextTicket AS 'Next Ticket'
@@ -18,7 +24,7 @@ SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOf
 SET @NextTicket = NULL
 SET @TableName = 'Retail_Modified_Item_Attribute_Value_List'
 EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
-SET @NumberOfTickets = 10000000 - @CurrentTicket
+SET @NumberOfTickets = 50000000 - @CurrentTicket
 IF @NumberOfTickets > 0 
    EXEC plt_get_next_named_ticket @TableName,'n', @NumberOfTickets, @NextTicket OUTPUT
 SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOfTickets AS 'Number of Tickets to Seed', @NextTicket AS 'Next Ticket'
@@ -36,7 +42,7 @@ SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOf
 SET @NextTicket = NULL
 SET @TableName = 'Retail_Modified_Item'
 EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
-SET @NumberOfTickets = 10000000 - @CurrentTicket
+SET @NumberOfTickets = 50000000 - @CurrentTicket
 IF @NumberOfTickets > 0 
    EXEC plt_get_next_named_ticket @TableName,'n', @NumberOfTickets, @NextTicket OUTPUT
 SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOfTickets AS 'Number of Tickets to Seed', @NextTicket AS 'Next Ticket'
@@ -54,7 +60,7 @@ SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOf
 SET @NextTicket = NULL
 SET @TableName = 'Item_Hierarchy'
 EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
-SET @NumberOfTickets = 10000000 - @CurrentTicket
+SET @NumberOfTickets = 50000000 - @CurrentTicket
 IF @NumberOfTickets > 0 
    EXEC plt_get_next_named_ticket @TableName,'n', @NumberOfTickets, @NextTicket OUTPUT
 SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOfTickets AS 'Number of Tickets to Seed', @NextTicket AS 'Next Ticket'
@@ -153,7 +159,7 @@ SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOf
 SET @NextTicket = NULL
 SET @TableName = 'Supplier_Item'
 EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
-SET @NumberOfTickets = 10000000 - @CurrentTicket
+SET @NumberOfTickets = 50000000 - @CurrentTicket
 IF @NumberOfTickets > 0 
    EXEC plt_get_next_named_ticket @TableName,'n', @NumberOfTickets, @NextTicket OUTPUT
 SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOfTickets AS 'Number of Tickets to Seed', @NextTicket AS 'Next Ticket'
@@ -162,7 +168,7 @@ SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOf
 SET @NextTicket = NULL
 SET @TableName = 'Supplier_Packaged_Item'
 EXEC plt_get_next_named_ticket @TableName,'n', 0, @CurrentTicket OUTPUT
-SET @NumberOfTickets = 10000000 - @CurrentTicket
+SET @NumberOfTickets = 50000000 - @CurrentTicket
 IF @NumberOfTickets > 0 
    EXEC plt_get_next_named_ticket @TableName,'n', @NumberOfTickets, @NextTicket OUTPUT
 SELECT @TableName AS 'Table Name', @CurrentTicket AS 'Current Ticket', @NumberOfTickets AS 'Number of Tickets to Seed', @NextTicket AS 'Next Ticket'

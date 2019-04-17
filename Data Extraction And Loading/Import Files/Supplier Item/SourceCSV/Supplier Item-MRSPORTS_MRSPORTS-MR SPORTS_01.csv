@@ -1,0 +1,11 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0868724824,COLTS CAN COOLIE,1076281,1076281,,,,a,601 22 110,Each,1.00,,,,,Master,2.00,0.00,2015-09-18,2075-12-31
+_1617200107,PLAYING CARDS,154154,154154,,,,a,601 22 003,Each,1.00,,,,,Master,2.50,0.00,1900-01-01,2075-12-31
+_5620806100,WINE OPENERS,168809,168809,,,,a,601 22 007,Each,1.00,,,,,Master,3.25,0.00,1900-01-01,2075-12-31
+_5620867300,OSU HAT,175390,175390,,,,a,601 22 110,Each,1.00,,,,,Master,6.00,0.00,1900-01-01,2075-12-31
+_5620877200,CAN COOLIE,175367,175367,,,,a,601 22 007,Each,1.00,,,,,Master,1.75,0.00,1900-01-01,2075-12-31
+_9474681815,GLITTER DIECUT DECAL,1057448,1057448,,,,a,601 22 007,Each,1.00,,,,,Master,3.30,0.00,1900-01-01,2075-12-31
+_98501,DIE CAST,98501,98501,,,,a,601 22 007,Each,1.00,,,,,Master,3.25,0.00,1900-01-01,2075-12-31
+_98528,KEY CHAIN,98528,98528,,,,a,601 22 010,Each,1.00,,,,,Master,2.50,0.00,1900-01-01,2075-12-31
+_98531,MR. SPORT MISC. $2.99,98531,98531,,,,a,601 22 110,Each,1.00,,,,,Master,1.50,0.00,1900-01-01,2075-12-31

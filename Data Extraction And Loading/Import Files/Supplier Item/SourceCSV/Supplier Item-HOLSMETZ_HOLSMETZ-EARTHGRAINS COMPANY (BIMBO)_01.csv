@@ -1,0 +1,9 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_46623,BULK CONEY 12S,46623,46623,,,,a,218 02 001,Each,1.00,,,,,Master,1.29,0.00,1900-01-01,2075-12-31
+_7870000496,HOT DOG BUNS,91273,91273,,,,a,218 04 000,Each,1.00,,,,,Master,1.70,0.00,1900-01-01,2075-12-31
+_7870000754,TASTY BIG LOAF 1LB BREAD,157747,157747,,,,a,601 06 000,Each,1.00,,,,,Master,1.37,0.00,1900-01-01,2075-12-31
+_7870000782,MICKEY ASST. JUMBO DONUT 12CT,161041,161041,,,,a,601 05 000,Each,1.00,,,,,Master,2.57,0.00,1900-01-01,2075-12-31
+_7870000802,MICKEY CHOC STRIPE DONUT 6CT,161040,161040,,,,a,601 05 000,Each,1.00,,,,,Master,1.74,0.00,1900-01-01,2075-12-31
+_7870000946,AUTUMN GRAIN WHOLE WHEAT 24z,157749,157749,,,,a,601 06 000,Each,1.00,,,,,Master,2.19,0.00,1900-01-01,2075-12-31
+_7870001458,SPLIT-WHEAT,79353,79353,,,,a,601 06 000,Each,1.00,,,,,Master,1.60,0.00,2000-12-19,2075-12-31

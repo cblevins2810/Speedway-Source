@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_078000118830,7UP DT CHRY ANTIOX 12PK 12z CN,179791,179791,,,,a,901 01 000,Case,24.00,,,,,Master,8.40,0.00,2012-10-01,2075-12-31
+_7800004142,RC COLA .5L 6PK NR,152567,152567,,,,a,901 02 000,Case,24.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31
+_7800011821,7UP CHRY ANTIOXDNT 12PK 12z CN,179787,179787,,,,a,901 01 000,Case,24.00,,,,,Master,8.40,0.00,2012-10-01,2075-12-31
+_899407003010,NEURO ORANGE PASSION 14.5z,1078839,1078839,,,,a,601 11 000,Case,12.00,,,,,Master,16.50,0.00,2017-08-17,2075-12-31

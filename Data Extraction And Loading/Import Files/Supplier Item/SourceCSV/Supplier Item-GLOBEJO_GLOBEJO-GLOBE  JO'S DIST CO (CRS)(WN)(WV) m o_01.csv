@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_071990095451,BLUE MOON BLGN WHT 16z CN (LOOSE),1051645,1051645,,,,a,401 01J 000,Case,24.00,,,,,Master,37.25,0.00,2013-11-04,2075-12-31
+_x2-034100989545,i/aREDDS WICKED BLOOD ORANGE 24z CN,1083528,1083528,,,*INACTIVE*,a,401 01J 000,Case,12.00,,,,,Master,26.04,0.00,2017-04-03,2075-12-31

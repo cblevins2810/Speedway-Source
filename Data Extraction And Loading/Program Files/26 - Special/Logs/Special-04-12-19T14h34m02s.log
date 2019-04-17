@@ -1,0 +1,9 @@
+04-12-19T14:34:02: Start Log
+04-12-19T14:34:02: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Special\FinalCSV\Test Specials 1158556_1158556.csv
+04-12-19T14:34:02: Starting XSL Transform, this may take awhile.
+04-12-19T14:34:02: XSL Transform Complete.
+04-12-19T14:34:02: Finished Specials
+04-12-19T14:34:02: Total Specials: 2
+04-12-19T14:34:02: File created in final xml folder: Test Specials 1158556_1158556.xml
+04-12-19T14:34:02: ...
+04-12-19T14:34:02: End Log

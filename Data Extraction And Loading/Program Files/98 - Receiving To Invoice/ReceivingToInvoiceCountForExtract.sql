@@ -16,8 +16,9 @@ JOIN (SELECT MAX(business_date) AS maxdate, business_unit_id
       FROM received_document AS rd
 	  GROUP BY business_unit_id) AS md
 ON   rd.business_unit_id = md.business_unit_id
-AND  rd.business_date <= DATEADD(day, @DaysBack, md.maxdate)	  
-WHERE s.xref_code IN (
+AND  rd.business_date >= DATEADD(day, @DaysBack, md.maxdate)	  
+WHERE rd.status_code = 'p' 
+AND s.xref_code IN (
 'EBYAUROR',
 'EBYSAWIS',
 'EBYSMOKE',

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0000000,OPEN RECEIVING 401,36029998,36029998,,,,a,Default,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
+_3611500023,DUG WORMS FRSH FLWR-inactive,144020,144020,,,,a,601 34 016,Each,1.00,,,,,Master,2.00,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_10053885,FF BAGELS DOZEN- RECEIVING,1066738,1066738,,,,a,231 02 005,Each,1.00,,,,,Master,3.96,0.00,1900-01-01,2075-12-31
+_10053887,FF ROLLS- RECEIVING,1066755,1066755,,,,a,231 02 005,Case,12.00,,,,,Master,2.40,0.00,1900-01-01,2075-12-31

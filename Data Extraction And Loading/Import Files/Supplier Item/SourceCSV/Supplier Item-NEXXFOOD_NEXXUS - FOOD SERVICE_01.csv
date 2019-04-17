@@ -1,0 +1,12 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_007247000085,KK NUTELLA DONUT,1082877,1082877,,,,a,707 05 001,Each,1.00,,,,,Master,0.97,0.00,1900-01-01,2075-12-31
+_0470002001,KK PACKAGING B-15 BAG,115666,115666,,,,a,707 06 001,Each,1.00,,,,,Master,19.40,0.00,1900-01-01,2075-12-31
+_117018,KK TM-12 BOXES-CASE(1 DZ),117018,117018,,,,a,707 06 001,Case,150.00,,,,,Master,27.55,0.00,1900-01-01,2075-12-31
+_35447,WAX BAGS,35447,35447,,,,a,707 06 001,Each,1.00,,,,,Master,31.99,0.00,1900-01-01,2075-12-31
+_4303205082,KK BAKERY TISSUE,117919,117919,,,,a,707 06 001,Each,1.00,,,,,Master,4.80,0.00,1900-01-01,2075-12-31
+_71362,KK DONUT,71362,71362,,,,a,707 05 001,Each,1.00,,,,,Master,0.78,0.00,1900-01-01,2075-12-31
+_7247081000,Krispy Juniors - Plain,1056997,1056997,,,,a,707 06 001,Each,1.00,,,,,Master,1.16,0.00,1900-01-01,2075-12-31
+_91083651,UPIC 10lb BAGGED ICE,1083651,1083651,,,,a,707 07 000,Each,1.00,,,,,Master,1.15,0.00,1900-01-01,2075-12-31
+_91083652,UPIC 20lb BAGGED ICE,1083652,1083652,,,,a,707 07 000,Each,1.00,,,,,Master,2.30,0.00,1900-01-01,2075-12-31
+_91084110,KK OPEN KEY,1084110,1084110,,,,a,707 05 001,Each,1.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31

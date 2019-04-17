@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_51864,MILK SUPPLY WHOLE QT,1082671,1082671,,,,a,212 20 001,Each,1.00,,,,,Master,1.12,0.00,1900-01-01,2075-12-31
+_51867,MILK SUPPLY 2% QT,1082672,1082672,,,,a,212 20 001,Each,1.00,,,,,Master,1.12,0.00,1900-01-01,2075-12-31
+_52176,DEAN MILK SKIM GAL,9184922,184922,,,*UNAVAILABLE*,a,212 20 001,Each,1.00,,,,,Master,2.45,0.00,2019-02-01,2075-12-31
+_9184921,DEAN MILK WHOLE GAL,9184921,184921,,,*UNAVAILABLE*,a,212 20 001,Each,1.00,,,,,Master,3.12,0.00,2019-02-01,2075-12-31

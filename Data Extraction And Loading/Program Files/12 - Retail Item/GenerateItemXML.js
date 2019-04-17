@@ -174,7 +174,7 @@ function  convertCSVtoXML(foldername, filename)
 		 	// Expanded count from 67 to 101 to get total of 30 attributes
 			for (i = 43; i <= 101; i+=2)  				
 			{
-				if (vInputLine[i] != '')
+				if (vInputLine[i] != '' && vInputLine[i+1] != '')
 				{
 					attributeList.push({attributeName : vInputLine[i], attributeValue : vInputLine[i+1]}) ;
 				}
@@ -236,6 +236,9 @@ function  convertCSVtoXML(foldername, filename)
 	TempStagingDoc.async = false; 	
 	TempStagingDoc.loadXML(objDOMDocument.xml);
 	var FinalStr = TempStagingDoc.transformNode(TransformXSL);
+	
+	// Need this so that the numerical representation of special characters is correct.  It needs to be &#x9999 in the final xml.
+	FinalStr = FinalStr.replace(/&amp;#x/g,'&#x');
 
 	EchoAndLog(logFile, "XSL Transform Complete.");
 	
@@ -247,7 +250,7 @@ function  convertCSVtoXML(foldername, filename)
 
 	// Write out the transformed file. If writing out just the xml file before transform  
   
-	var FSObject = fso.CreateTextFile(tmpxml, true);
+	var FSObject = fso.CreateTextFile(tmpxml, true, true);
 	FSObject.WriteLine(FinalStr);
 	FSObject.Close();
   
@@ -289,7 +292,9 @@ function XMLHeader(objDOMDocument)
 function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemGroupList)
 {     
   	var domNode = objDOMDocument.createNode(1, "RawXMLRow",""); 
-	var i,j;
+	var i,j, k;
+	var attributeAddedList = [];
+	var bAlreadyAdded = false;
   
 	objXMLDOMElement = objDOMDocument.createElement("ItemExternalID"); 
 	objXMLDOMElement.text = objXML.a;
@@ -313,6 +318,9 @@ function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemG
 	domNode.appendChild(objXMLDOMElement);
 
 	objXMLDOMElement = objDOMDocument.createElement("Category"); 
+	
+	objXML.f = objXML.f.replace(/'/g,"|");
+	
 	objXMLDOMElement.text = formatXMLString(objXML.f);
 	domNode.appendChild(objXMLDOMElement);
     
@@ -371,8 +379,13 @@ function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemG
 	objXMLDOMElement = objDOMDocument.createElement("DefaultTransferUOM"); 
 	objXMLDOMElement.text = objXML.t;
 	domNode.appendChild(objXMLDOMElement);
-  
-	objXMLDOMElement = objDOMDocument.createElement("ConvertFromUOMName1"); 
+
+
+	if (objXML.u.length > 0 && objXML.v.length > 0 && objXML.w.length > 0 && objXML.x.length > 0 && objXML.y.length > 0 )
+		
+	{
+
+    objXMLDOMElement = objDOMDocument.createElement("ConvertFromUOMName1"); 
 	objXMLDOMElement.text = formatXMLString(objXML.u);
 	domNode.appendChild(objXMLDOMElement);
   
@@ -391,6 +404,12 @@ function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemG
 	objXMLDOMElement = objDOMDocument.createElement("ConvertToUOMQty1"); 
 	objXMLDOMElement.text = formatXMLString(objXML.y);
 	domNode.appendChild(objXMLDOMElement);
+	
+	}
+	
+	if (objXML.z.length > 0 && objXML.aa.length > 0 && objXML.ab.length > 0 && objXML.ac.length > 0 && objXML.ad.length > 0 )
+		
+	{
 	
 	objXMLDOMElement = objDOMDocument.createElement("ConvertFromUOMName2"); 
 	objXMLDOMElement.text = formatXMLString(objXML.z);
@@ -412,6 +431,8 @@ function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemG
 	objXMLDOMElement.text = formatXMLString(objXML.ad);
 	domNode.appendChild(objXMLDOMElement);
 
+	}
+	
 	objXMLDOMElement = objDOMDocument.createElement("RetailStrategy"); 
 	objXMLDOMElement.text = formatXMLString(objXML.ae);
 	domNode.appendChild(objXMLDOMElement);
@@ -487,13 +508,33 @@ function XMLItemNode(objDOMDocument,objXML, retailPackList, attributeList, itemG
 		 
 			for (j = 0; j < attributeList.length; j++)  
 			{
-				domElement = objDOMDocument.createElement("CustomAttribute" + (j + 1)); 
-				domElement.text = formatXMLString(attributeList[j].attributeName);
-				domRetailPackElement.appendChild(domElement);
+				bAlreadyAdded = false;
+				
+				for (k = 0; k < attributeAddedList.length; k++)
+				{
+				   if (attributeList[j].attributeName.toUpperCase() == attributeAddedList[k].attributeName.toUpperCase() && attributeList[j].attributeValue.toUpperCase() == attributeAddedList[k].attributeValue.toUpperCase())
+				   {
+					   //showMessage(attributeList[j].attributeName);
+					   //showMessage(attributeList[j].attributeValue);
+					   //showMessage(attributeList[k].attributeName);
+					   //showMessage(attributeList[k].attributeValue);
+					   bAlreadyAdded = true;
+				   }
+				}
+					
+				if (bAlreadyAdded == false)
+				{
+					domElement = objDOMDocument.createElement("CustomAttribute" + (j + 1)); 
+					domElement.text = formatXMLString(attributeList[j].attributeName);
+					domRetailPackElement.appendChild(domElement);
   
-				domElement = objDOMDocument.createElement("Value" + (j + 1)); 
-				domElement.text = formatXMLString(attributeList[j].attributeValue);
-				domRetailPackElement.appendChild(domElement);  			
+					domElement = objDOMDocument.createElement("Value" + (j + 1)); 
+					domElement.text = formatXMLString(attributeList[j].attributeValue);
+					domRetailPackElement.appendChild(domElement); 
+
+					attributeAddedList.push({attributeName : attributeList[j].attributeName, attributeValue : attributeList[j].attributeValue}) ;
+					
+				}
 			}
 
 		}

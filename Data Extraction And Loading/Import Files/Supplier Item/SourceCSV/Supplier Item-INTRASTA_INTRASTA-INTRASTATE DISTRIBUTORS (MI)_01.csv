@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
+_760712020030,BOYLAN'S CREAMY RED BIRCH 16z,180644,180644,,,,a,901 20 000,Box,24.00,,,,,Master,19.99,0.00,2010-03-01,2075-12-31
+_7618364402,SNAPPLE CIT GREEN TEA .5L 12pk,172708,172708,,,,a,601 14 000,Case,24.00,,,,,Master,10.50,0.00,1900-01-01,2075-12-31
+_7618364403,SNAPPLE DT BERRY TEA .5L 12pk,172711,172711,,,,a,601 14 000,Case,24.00,,,,,Master,10.50,0.00,1900-01-01,2075-12-31
+_7618364404,SNAPPLE DT GREEN TEA .5L 12pk,172709,172709,,,,a,601 14 000,Case,24.00,,,,,Master,10.50,0.00,1900-01-01,2075-12-31

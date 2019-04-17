@@ -186,6 +186,9 @@ function  convertCSVtoXML(folderPath, fileName)
 	TempStagingDoc.async = false; 	
 	TempStagingDoc.loadXML(objDOMDocument.xml);
 	var FinalStr = TempStagingDoc.transformNode(TransformXSL);
+	
+	// Need this so that the numerical representation of special characters is correct.  It needs to be &#x9999 in the final xml.
+	FinalStr = FinalStr.replace(/&amp;#x/g,'&#x');
 
   	EchoAndLog(logFile, "XSL Transform Completed.");
 	

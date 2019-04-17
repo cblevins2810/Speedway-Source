@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_4178001151,UTZ WVY SPCY BUFFALO DIP 2.625Z,1097554,1097554,,,,a,706 14 002,Each,1.00,,,,,Master,0.92,0.00,1900-01-01,2075-12-31
+_4178004290,UTZ NUGGET PRTZL BARREL 34Z,1097564,1097564,,,,a,706 14 002,Each,1.00,,,,,Master,5.59,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_01000380043,CO2 TANK (FULL),46675,46675,,,,a,215 02 001,Each,1.00,,,,,Master,103.00,0.00,1900-01-01,2075-12-31
+_012000110658,BIB SOBE LIFEWATER YUM POM 3GAL,1097562,1097562,,,,a,215 05 000,Each,1.00,,,,,Master,46.86,0.00,1900-01-01,2075-12-31

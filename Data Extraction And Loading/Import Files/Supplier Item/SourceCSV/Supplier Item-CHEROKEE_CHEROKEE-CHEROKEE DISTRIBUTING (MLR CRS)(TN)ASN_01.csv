@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_444444444444,NOT YOUR FATHERS GINGER ALE 16z CN,1077188,1077188,,,,a,401 01J 000,Case,24.00,,,,,Master,28.80,0.00,2016-07-05,2075-12-31
+_8218422604,J DANIELS WILDBERRY 6PK 10z LN,174336,174336,,,,a,401 03C 000,Case,24.00,,,,,Master,25.60,0.00,2015-09-28,2075-12-31
+_x2-034100989545,i/aREDDS WICKED BLOOD ORANGE 24z CN,1083528,1083528,,,*INACTIVE*,a,401 01J 000,Case,12.00,,,,,Master,22.45,0.00,2017-02-15,2075-12-31

@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_5040020544,COLONIAL KING THIN,50713,50713,,,,a,Default,Each,1.00,,,,,Master,1.79,0.00,1900-01-01,2075-12-31
+_5040025100,COLONIAL HAMBURGER BUN 8PK,17415,17415,,,,a,Default,Each,1.00,,,,,Master,1.86,0.00,1900-01-01,2075-12-31
+_5040026100,COLONIAL HOTDOG BUN 8CT,17414,17414,,,,a,Default,Each,1.00,,,,,Master,1.86,0.00,1900-01-01,2075-12-31
+_7432301065,BIMBO MINI MUFFINS CARAMEL,1084423,1084423,,,,a,601 05 500,Each,1.00,,,,,Master,1.19,0.00,2017-05-30,2075-12-31
+_7432306792,BIMBO PANQUE MARMOL,168062,168062,,,,a,601 05 500,Each,1.00,,,,,Master,1.60,0.00,1900-01-01,2075-12-31
+_7432309530,BIMBO PINGUINOS TWIST,1084220,1084220,,,,a,601 05 500,Each,1.00,,,,,Master,1.19,0.00,2017-05-04,2075-12-31
+_743230966,BIMBO MARIAS SHRTBD TUBE 5.99z,178423,178423,,,,a,601 05 500,Each,1.00,,,,,Master,0.64,0.00,1900-01-01,2075-12-31
+_7432373605,BIMBO PANQUE CHOC POUND CAKE,1084221,1084221,,,,a,601 03 500,Each,1.00,,,,,Master,1.74,0.00,2017-05-04,2075-12-31

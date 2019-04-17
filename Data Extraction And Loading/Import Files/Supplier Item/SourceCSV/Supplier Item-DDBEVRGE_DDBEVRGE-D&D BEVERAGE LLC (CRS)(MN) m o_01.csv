@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_933000693,1919 ROOTBEER KEG 16GAL,33000693,33000693,,,,a,401 07A 000,Each,1.00,,,,,Master,75.00,0.00,2018-10-16,2075-12-31
+_933000694,1919 ROOTBEER KEG 8GAL,33000694,33000694,,,,a,401 07A 000,Each,1.00,,,,,Master,44.00,0.00,2018-10-16,2075-12-31
+_933000695,BLUE MOON KEG 16GAL,33000695,33000695,,,,a,401 07A 000,Each,1.00,,,,,Master,140.00,0.00,1900-01-01,2075-12-31
+_933000696,BLUE MOON KEG 6GAL,33000696,33000696,,,,a,401 07A 000,Each,1.00,,,,,Master,67.00,0.00,1900-01-01,2075-12-31
+_933000698,NORDEAST KEG 16GAL,33000698,33000698,,,,a,401 07A 000,Each,1.00,,,,,Master,106.00,0.00,2018-10-16,2075-12-31
+_933000699,NORDEAST KEG 8GAL,33000699,33000699,,,,a,401 07A 000,Each,1.00,,,,,Master,59.00,0.00,1900-01-01,2075-12-31
+_933000700,SUMMIT EXTRA PALE ALE KEG 16GAL,33000700,33000700,,,,a,401 07A 000,Each,1.00,,,,,Master,139.00,0.00,1900-01-01,2075-12-31
+_933000701,SUMMIT EXTRA PALE ALE KEG 6GAL,33000701,33000701,,,,a,401 07A 000,Each,1.00,,,,,Master,60.00,0.00,2018-10-16,2075-12-31

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_025000058080,MIN MD FRT PCH 12z CN,113664,113664,,,,a,901 01A 000,Case,24.00,,,,,Master,8.50,0.00,2012-10-01,2075-12-31
+_025000058806,MIN MD PNK LMND 12z CN,124530,124530,,,,a,901 01A 000,Case,24.00,,,,,Master,8.50,0.00,2012-10-01,2075-12-31
+_049000005493,COKE CLSC CF 20z NR,37577,37577,,,,a,901 04 000,Case,24.00,,,,,Master,27.00,0.00,2019-01-02,2075-12-31

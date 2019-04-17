@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_179018,BAIT 2.19 RETAIL,179018,179018,,,,a,601 34 016,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
+_8863310012,NIGHT CRAWLERS,130193,130193,,,,a,601 34 016,Each,1.00,,,,,Master,1.25,0.00,1900-01-01,2075-12-31
+_9184152,BAIT & TACKLE OPEN RECV,184152,184152,,,,a,601 34 016,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31

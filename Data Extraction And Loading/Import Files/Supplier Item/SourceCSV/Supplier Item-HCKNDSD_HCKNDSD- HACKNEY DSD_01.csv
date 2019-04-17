@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_8119877,EMPTY GRN/PUR PLASTIC PLUSH RACK,1081225,1081225,,,,a,77 01 000,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31
+_8189995,WIRE TUMBLERX RACK,1081231,1081231,,,,a,77 01 000,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31
+_8404501,SOCKET & SCREWDRIVER 12PC,20020038,20020038,,,,a,601 20B 07,Each,1.00,,,,,Master,6.72,0.00,1900-01-01,2075-12-31

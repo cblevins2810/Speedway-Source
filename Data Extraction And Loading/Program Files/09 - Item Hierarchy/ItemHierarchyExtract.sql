@@ -47,10 +47,10 @@ WHERE --i.purge_flag ='n'
 i.item_type_code != 'i'
 
 
-SELECT COALESCE(REPLACE(ihc.external_number,',','~'), REPLACE(REPLACE(RTRIM(ihc.name), ',','~'),'''','|')) AS ExternalId, 
+SELECT REPLACE(REPLACE(RTRIM(ihc.name), ',','~'),'''','|') AS ExternalId, 
 REPLACE(REPLACE(RTRIM(ihc.name), ',','~'),'''','|') AS CategoryName,
 ihc.hierarchy_level AS CategoryLevel,
-ISNULL(COALESCE(REPLACE(ihp.external_number,',','~'), REPLACE(REPLACE(RTRIM(ihp.name),',','~'),'''','|')),'') AS ParentCategoryExternalId,
+ISNULL(REPLACE(REPLACE(RTRIM(ihp.name),',','~'),'''','|'),'') AS ParentCategoryExternalId,
 ihc.non_taxable_flag
 FROM item_hierarchy AS ihc
 LEFT JOIN item_hierarchy AS ihp

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_082000736028,SMIRNOFF RAW GR TEA 6PK 12z LN,173209,173209,,,,a,401 01B 000,Case,24.00,,,,,Master,28.78,0.00,2016-10-03,2075-12-31
+_089708000406,LAWRENCE VODKA 750ML,58325,58325,,,,a,401 04A 000,Each,1.00,,,,,Master,3.92,0.00,2018-03-12,2075-12-31
+_444444444444,NOT YOUR FATHERS GINGER ALE 16z CN,1077188,1077188,,,,a,401 01J 000,Case,24.00,,,,,Master,38.37,0.00,2016-10-03,2075-12-31

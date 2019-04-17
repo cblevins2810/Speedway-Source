@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1117368888,i/aABRUZZINOS HOT CHEESE P-ROLL6Z,131636,131636,,,,a,221 01 100,Each,1.00,,,,,Master,1.25,0.00,1900-01-01,2075-12-31
+_7777300013,i/aABRUZZINO LARGE HOT CHEESE,127687,127687,,,,a,221 01 100,Each,1.00,,,,,Master,2.15,0.00,2011-04-01,2075-12-31

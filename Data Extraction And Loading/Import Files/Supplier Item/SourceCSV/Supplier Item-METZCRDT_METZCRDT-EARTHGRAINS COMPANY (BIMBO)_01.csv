@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_1073200310,COTTON CANDY,119533,119533,,,,a,601 02B 000,Each,1.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31
+_46623,BULK CONEY 12S,46623,46623,,,,a,218 02 001,Each,1.00,,,,,Master,1.29,0.00,1900-01-01,2075-12-31
+_5040075634,SUNNY HAMBURGER BUNS 12CT,104703,104703,,,,a,601 06 000,Each,1.00,,,,,Master,1.49,0.00,1900-01-01,2075-12-31
+_5040076404,HOT DOG BUNS (DELI),74126,74126,,,,a,601 06 000,Each,1.00,,,,,Master,1.49,0.00,1900-01-01,2075-12-31
+_7261000205,HEINERS IRON KIDS BREAD 20z,57531,57531,,,,a,601 06 000,Each,1.00,,,,,Master,1.34,0.00,1900-01-01,2075-12-31
+_7261000305,HEINERS SPLIT TOP WHEAT BRD 20,35404,35404,,,,a,601 06 000,Each,1.00,,,,,Master,1.79,0.00,2008-04-22,2075-12-31
+_7870000496,HOT DOG BUNS,91273,91273,,,,a,218 04 000,Each,1.00,,,,,Master,1.90,0.00,1900-01-01,2075-12-31
+_7870001458,SPLIT-WHEAT,79353,79353,,,,a,601 06 000,Each,1.00,,,,,Master,1.49,0.00,1900-01-01,2075-12-31

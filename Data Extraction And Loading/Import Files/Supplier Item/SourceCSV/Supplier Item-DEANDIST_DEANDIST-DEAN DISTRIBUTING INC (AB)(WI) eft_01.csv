@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_018200029929,ODOULS N/A AMB 6PK 12z LN,64894,64894,,,,a,401 02A 000,Case,24.00,,,,,Master,16.00,0.00,2009-03-01,2075-12-31
+_041900074371,TRUMOO CHOC 1% MILK 14z,1064504,1064504,,,,a,Default,Each,1.00,,,,,Master,1.61,0.00,2014-11-25,2075-12-31
+_736920111112,GOOSE ISLAND HONKER ALE 6PK 12z LN,149495,149495,,,,a,401 01B 000,Case,24.00,,,,,Master,27.00,0.00,2016-09-26,2075-12-31

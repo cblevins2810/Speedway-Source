@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_444444444444,NOT YOUR FATHERS GINGER ALE 16z CN,1077188,1077188,,,,a,401 01J 000,Case,24.00,,,,,Master,32.25,0.00,2016-05-03,2075-12-31
+_444444444444,,,,,,,,,,,,,,,HAMPTONS,32.25,0.00,2017-05-18,2075-12-31
+_736920111112,GOOSE ISLAND HONKER ALE 6PK 12z LN,149495,149495,,,,a,401 01B 000,Case,24.00,,,,,Master,31.15,0.00,2016-09-26,2075-12-31
+_736920111112,,,,,,,,,,,,,,,HAMPTONS,31.15,0.00,2017-05-18,2075-12-31

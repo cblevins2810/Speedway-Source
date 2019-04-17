@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_051460514606,NEW GLARUS BOCK 6PK 12z LN,163346,163346,,,,a,401 01B 000,Case,24.00,,,,,Master,29.00,0.00,2017-06-12,2075-12-31
+_736920111112,GOOSE ISLAND HONKER ALE 6PK 12z LN,149495,149495,,,,a,401 01B 000,Case,24.00,,,,,Master,27.00,0.00,2017-02-27,2075-12-31

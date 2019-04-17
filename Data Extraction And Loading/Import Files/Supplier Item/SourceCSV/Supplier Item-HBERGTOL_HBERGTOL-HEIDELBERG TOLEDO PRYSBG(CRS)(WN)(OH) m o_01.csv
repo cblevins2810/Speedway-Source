@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_071990095451,BLUE MOON BLGN WHT 16z CN (LOOSE),1051645,1051645,,,,a,401 01J 000,Case,24.00,,,,,Master,33.57,0.00,2014-05-30,2075-12-31
+_704361100125,GREAT LAKES GLD 12PK 12z LN,172910,172910,,,,a,401 01D 000,Case,24.00,,,,,Master,28.79,0.00,2015-01-05,2075-12-31

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_025000058806,MIN MD PNK LMND 12z CN,124530,124530,,,,a,601 11A 000,Case,24.00,,,,,Master,8.50,0.00,2012-10-01,2075-12-31
+_049000980776,BIB SPRITE 5 GAL,110357,110357,,,,a,215 02 001,Each,1.00,,,,,Master,80.30,0.00,2019-01-02,2075-12-31
+_049000980912,BIB COKE DIET 5 GAL,29817,29817,,,,a,215 02 001,Each,1.00,,,,,Master,80.30,0.00,2019-01-02,2075-12-31

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7880006144,BUNS-12 CT HOT DOG,70769,70769,,,,a,218 04 000,Each,1.00,,,,,Master,1.15,0.00,1900-01-01,2075-12-31
+_9178848,i/aKLOSTERMAN SESAME HMBRGR BUN,178848,178848,,,,a,221 01 100,Case,12.00,,,,,Master,1.70,0.00,2009-01-30,2075-12-31
+_9178849,i/aKLOSTERMAN B.C. CORNMEAL BUN,178849,178849,,,,a,221 01 100,Case,12.00,,,,,Master,1.91,0.00,2009-01-30,2075-12-31

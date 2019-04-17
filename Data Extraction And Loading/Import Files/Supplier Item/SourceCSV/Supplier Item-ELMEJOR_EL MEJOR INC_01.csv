@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_037297914475,CORN MIX MASECA,18896,18896,,,,a,601 33 17,Each,1.00,,,,,Master,3.86,0.00,1900-01-01,2075-12-31
+_7501065908841,ARIEL DETERGENT 250gr,1065347,1065347,,,,a,601 23 132,Each,1.00,,,,,Master,0.99,0.00,1900-01-01,2075-12-31
+_7506195104057,ARIEL DETERGENT 1Kilo,1065349,1065349,,,,a,601 23 132,Each,1.00,,,,,Master,2.86,0.00,1900-01-01,2075-12-31
+_7506309830865,ARIEL DETERGENT 400gr,1065348,1065348,,,,a,601 23 132,Each,1.00,,,,,Master,1.62,0.00,1900-01-01,2075-12-31
+_7509546017808,SUAVITEL FRESCA PRIMAVERA FABRIC SOFTNER 450ml,1065351,1065351,,,,a,601 23 132,Each,1.00,,,,,Master,1.45,0.00,1900-01-01,2075-12-31

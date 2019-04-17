@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_700200536,CO2 50LB TANK,24422,24422,,,,a,215 01 000,Each,1.00,,,,,Master,30.00,0.00,1900-01-01,2075-12-31
+_9178368,CO2 TANK CHARGE,178368,178368,,,,a,215 01 000,Each,1.00,,,,,Master,27.00,0.00,1900-01-01,2075-12-31

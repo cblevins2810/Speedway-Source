@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0000000,OPEN RECEIVING 401,36029998,36029998,,,,a,Default,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
+_2840016028,FL XXL LAYS DILL PICKLE,1053876,1053876,,,,a,601 04A 125,Each,1.00,,,,,Master,3.16,0.00,1900-01-01,2075-12-31
+_2840016920,QUAKER RICE CRISPS CARAMEL 3.5z,1100283,1100283,,,,a,601 04A 100,Each,1.00,,,,,Master,1.32,0.00,1900-01-01,2075-12-31
+_2840016924,QUAKER RICE CRISPS CHEDDAR 3Z,1100284,1100284,,,,a,601 04A 100,Each,1.00,,,,,Master,1.32,0.00,1900-01-01,2075-12-31
+_2840044042,FL XXVL LAYS KETTLE WASABI GINGER,1067117,1067117,,,,a,601 04A 125,Each,1.00,,,,,Master,1.04,0.00,2015-03-26,2075-12-31
+_92810042726,I/A FL XXL RUFFLES SC/ON 9z,1065322,1065322,,,,a,601 04A 140,Each,1.00,,,,,Master,3.16,0.00,2015-01-29,2075-12-31

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7217002508,SNYDER ORINNAL PARTY MIX 2.25z,148562,148562,,,,a,601 04A 330,Each,1.00,,,,,Master,0.43,0.00,1900-01-01,2075-12-31
+_7217002527,SNYDER PARTY MIX,120332,120332,,,,a,601 04A 330,Each,1.00,,,,,Master,0.72,0.00,1900-01-01,2075-12-31

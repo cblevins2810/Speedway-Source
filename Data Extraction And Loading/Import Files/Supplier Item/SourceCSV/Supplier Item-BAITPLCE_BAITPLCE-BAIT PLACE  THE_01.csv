@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_3865510131,UNCLE JOSH SALMON EGGS,139282,139282,,,,a,601 34 016,Each,1.00,,,,,Master,2.10,0.00,1900-01-01,2075-12-31
+_3865510136,POWER BAIT YELLOW,129407,129407,,,,a,601 34 016,Each,1.00,,,,,Master,3.20,0.00,2008-02-08,2075-12-31
+_3865510140,ROOSTER TAIL SPINNER,131397,131397,,,,a,601 34 016,Each,1.00,,,,,Master,2.35,0.00,2009-01-14,2075-12-31
+_9184152,BAIT & TACKLE OPEN RECV,184152,184152,,,,a,601 34 016,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_162270,SPIKES,162270,162270,,,,a,601 34 016,Each,1.00,,,,,Master,1.22,0.00,1900-01-01,2075-12-31
+_5758500102,NIGHT CRAWLERS 2 DZ,173179,173179,,,,a,601 34 016,Each,1.00,,,,,Master,3.39,0.00,1900-01-01,2075-12-31
+_91492,NIGHT CRAWLERS 2 DZ,91492,91492,,,,a,601 34 016,Each,1.00,,,,,Master,3.36,0.00,1900-01-01,2075-12-31
+_9184152,BAIT & TACKLE OPEN RECV,184152,184152,,,,a,601 34 016,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31

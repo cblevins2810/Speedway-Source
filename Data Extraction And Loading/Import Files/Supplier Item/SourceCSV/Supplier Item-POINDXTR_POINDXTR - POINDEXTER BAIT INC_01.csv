@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_140013800072,PBI MEAL WORMS,1057074,1057074,,,,a,601 34 016,Case,150.00,,,,,Master,210.00,0.00,1900-01-01,2075-12-31
+_4001380007,PBI NIGHTCRAWLERS,1057072,1057072,,,,a,601 34 016,Case,60.00,,,,,Master,105.00,0.00,1900-01-01,2075-12-31
+_4770809127,EAGLE CLAW 214ELR 8,1057037,1057037,,,,a,601 34 016,Case,10.00,,,,,Master,11.50,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_0000000,OPEN RECEIVING 401,36029998,36029998,,,,a,Default,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
+_07021002898,TASTYKAKE INDIVD HOTDOG BUN,1054297,1054297,,,,a,218 01 000,Each,1.00,,,,,Master,0.14,0.00,1900-01-01,2075-12-31
+_25600008514,TASTYKAKE CHOC KREME JR,1066630,1066630,,,,a,601 05 000,Each,1.00,,,,,Master,1.20,0.00,1900-01-01,2075-12-31

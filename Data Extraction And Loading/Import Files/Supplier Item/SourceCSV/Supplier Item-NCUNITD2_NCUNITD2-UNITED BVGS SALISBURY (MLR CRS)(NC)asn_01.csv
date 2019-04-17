@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_078000083190,7UP DT CHRY ANTIOXDNTS 2L,179785,179785,,,,a,901 03 000,Case,8.00,,,,,Master,11.81,0.00,1900-01-01,2075-12-31
+_899407003010,NEURO ORANGE PASSION 14.5z,1078839,1078839,,,,a,601 11 000,Case,12.00,,,,,Master,16.50,0.00,2017-08-17,2075-12-31
+_x2-034100989545,i/aREDDS WICKED BLOOD ORANGE 24z CN,1083528,1083528,,,*INACTIVE*,a,401 01J 000,Case,12.00,,,,,Master,25.14,0.00,2017-02-15,2075-12-31
