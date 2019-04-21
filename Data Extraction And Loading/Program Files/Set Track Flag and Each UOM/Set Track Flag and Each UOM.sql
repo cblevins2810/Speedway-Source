@@ -104,13 +104,6 @@ WHERE NOT EXISTS (SELECT 1
 				  AND   iicul.unit_of_measure_id = 3)
 AND i.unit_of_measure_class_id = 3
 
-
-
-
-
-
-
-
 UPDATE i
 SET track_flag = 'y'
 FROM item AS i
