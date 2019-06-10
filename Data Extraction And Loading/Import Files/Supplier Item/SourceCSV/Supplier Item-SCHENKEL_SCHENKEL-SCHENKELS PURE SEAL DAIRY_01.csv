@@ -1,9 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_033855000432,DAIRY CIDER HG,1064384,1064384,,,,a,601 07 100,Each,1.00,,,,,Master,1.64,0.00,2014-11-21,2075-12-31
-_044100262692,DAIRY MILK 14z,1064395,1064395,,,,a,601 07 310,Each,1.00,,,,,Master,1.29,0.00,2014-11-21,2075-12-31
-_044100265587,HOOD 1% COFFEE 14z,1064396,1064396,,,,a,601 07 310,Each,1.00,,,,,Master,1.29,0.00,2014-11-21,2075-12-31
-_070470003023,DAIRY YOGURT BLUBERRY 6z,1053103,10531030,,,,a,601 07 750,Each,1.00,,,,,Master,0.85,0.00,2013-01-28,2075-12-31
-_077741361363,ICY TEA DIET LEMON PT,1064358,1064358,,,,a,601 14B 000,Each,1.00,,,,,Master,1.85,0.00,2014-11-20,2075-12-31
-_862,DAIRY YOGURT PEACH,1050847,1050847,,,,a,601 07 750,Each,1.00,,,,,Master,0.85,0.00,2012-05-11,2075-12-31
-_DELIVERY FEE,DEANS DELIVERY FEE,1083771,1083771,,,,a,601 07 410,Each,1.00,,,,,Master,21.00,0.00,1900-01-01,2075-12-31

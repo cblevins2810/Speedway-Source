@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_9184921,DEAN MILK WHOLE GAL,184921,184921,,,,a,212 20 001,Each,1.00,,,,,Master,2.89,0.00,2017-01-03,2075-12-31
-_9184922,DEAN MILK SKIM GAL,184922,184922,,,,a,212 20 001,Each,1.00,,,,,Master,2.28,0.00,2017-01-03,2075-12-31

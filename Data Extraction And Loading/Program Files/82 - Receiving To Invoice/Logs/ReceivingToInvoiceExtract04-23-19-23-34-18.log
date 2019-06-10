@@ -1,0 +1,27 @@
+Tue 04/23/2019 23:34:18.25 Starting Receiving To Invoice Export 
+Tue 04/23/2019 23:34:18.25 .......... 
+Tue 04/23/2019 23:34:18.26 Generating Parameters for Extract 
+Tue 04/23/2019 23:34:28.49 Param File Generated 
+Tue 04/23/2019 23:34:28.49 Param File Contents 
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Named Pipes Provider: Could not open a connection to SQL Server [53]. .
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login timeout expired.
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online..
+Tue 04/23/2019 23:34:28.50 Completed Extracting Params 
+Tue 04/23/2019 23:34:28.50 .......... 
+Tue 04/23/2019 23:34:28.50 Extracting Files 
+Tue 04/23/2019 23:34:28.50 Processing File "Receiving To Invoice----.csv" 
+Tue 04/23/2019 23:34:28.50 Processing File "Receiving To Invoice----.csv" 
+Tue 04/23/2019 23:34:28.50 Processing File "Receiving To Invoice----.csv" 
+Tue 04/23/2019 23:34:28.59 Completed Extracting Files 
+Tue 04/23/2019 23:34:28.59 .......... 
+Tue 04/23/2019 23:34:28.59 Directory Contents 
+ Volume in drive C is OS
+ Volume Serial Number is 564A-8FFB
+
+ Directory of C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV
+
+03/31/2019  05:29 PM            35,602 Test.csv
+               1 File(s)         35,602 bytes
+               0 Dir(s)  161,620,017,152 bytes free
+Tue 04/23/2019 23:34:28.60 .......... 
+Tue 04/23/2019 23:34:28.60 Completed Receiving To Invoice Export 

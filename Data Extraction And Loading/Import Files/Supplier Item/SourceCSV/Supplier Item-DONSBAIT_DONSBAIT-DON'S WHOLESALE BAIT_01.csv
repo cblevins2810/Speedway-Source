@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_4770800189,EAGLE CLAW HOOK 10 00189,117517,117517,,,,a,601 34 016,Each,1.00,,,,,Master,0.80,0.00,1900-01-01,2075-12-31
-_9184152,BAIT & TACKLE OPEN RECV,184152,184152,,,,a,601 34 016,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
-_899407003010,NEURO ORANGE PASSION 14.5z,1078839,1078839,,,,a,601 11 000,Case,12.00,,,,,Master,16.50,0.00,2017-08-17,2075-12-31

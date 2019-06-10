@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_14026,FILLED DONUT .65,14026,14026,,,,a,231 03 000,Each,1.00,,,,,Master,0.47,0.00,1900-01-01,2075-12-31
-_9176520,DONUT DAYS DONUT,176520,176520,,,,a,231 01 000,Each,1.00,,,,,Master,0.34,0.00,1900-01-01,2075-12-31
-_9176858,DONUT DAYS DZN DONUTS,176858,176858,,,,a,231 01 000,Each,1.00,,,,,Master,4.32,0.00,1900-01-01,2075-12-31

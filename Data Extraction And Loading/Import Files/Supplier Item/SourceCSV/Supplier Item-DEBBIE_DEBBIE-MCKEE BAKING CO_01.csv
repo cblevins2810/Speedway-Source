@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_2430001402,DRAKES CAKE COFFEE 12.22z,1066855,1066855,,,,a,601 05 000,Each,1.00,,,,,Master,2.44,0.00,1900-01-01,2075-12-31
-_2430001404,DRAKES CAKE YODELS 11z,1066854,1066854,,,,a,601 05 000,Each,1.00,,,,,Master,2.09,0.00,1900-01-01,2075-12-31

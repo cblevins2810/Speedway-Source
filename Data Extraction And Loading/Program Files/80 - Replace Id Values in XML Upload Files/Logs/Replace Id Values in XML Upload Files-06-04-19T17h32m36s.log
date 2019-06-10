@@ -1,0 +1,27 @@
+06-04-19T17:32:36: Start Log
+06-04-19T17:32:36: ------------------------------------------------
+06-04-19T17:32:36: 
+06-04-19T17:32:36: ------------------------------------------------
+06-04-19T17:32:36: 
+06-04-19T17:32:36: Mapping Folder:  C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Replace Id Values in XML Upload Files\MapFiles\
+06-04-19T17:32:36: 
+06-04-19T17:32:38: Sales Item IDs Reference
+06-04-19T17:32:39: ------------------------------------------------
+06-04-19T17:32:39: 
+06-04-19T17:32:39: Sales Item IDs in mapping array:  60610
+06-04-19T17:32:39: 
+06-04-19T17:32:39: Searching for XML Files
+06-04-19T17:32:39: ------------------------------------------------
+06-04-19T17:32:39: 
+06-04-19T17:32:39:  Files found in Source folder
+06-04-19T17:32:39: 
+06-04-19T17:32:39:  Processing File: C:\Test Replace Id Values in XML Files\1000008\05-22-2019\DM_RadXML_Summary_Import  588F33A-0C1C-B4EB-3825-176722105CD8.xml
+06-04-19T17:32:39: 
+06-04-19T17:32:39:  ---> Total Count of replaced Sales Item IDs: 0
+06-04-19T17:32:39:  ---> Total Count of all Sales Item IDs:      0
+06-04-19T17:32:39:  ---> Total Count of all Employee IDs:        0
+06-04-19T17:32:39:  ---> File created: C:\Test Replace Id Values in XML Files\1000008\Replaced\05-22-2019\Errors\e_DM_RadXML_Summary_Import  588F33A-0C1C-B4EB-3825-176722105CD8.xml
+06-04-19T17:32:39: 
+06-04-19T17:32:39:  Finished File:   C:\Test Replace Id Values in XML Files\1000008\05-22-2019\DM_RadXML_Summary_Import  588F33A-0C1C-B4EB-3825-176722105CD8.xml
+06-04-19T17:32:39: 
+06-04-19T17:32:39: End Log - Total Process Time: 0 min 1 sec

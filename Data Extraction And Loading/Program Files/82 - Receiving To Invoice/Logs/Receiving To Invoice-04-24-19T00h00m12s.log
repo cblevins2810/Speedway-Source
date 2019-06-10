@@ -1,0 +1,58 @@
+04-24-19T00:00:12: Start Log
+04-24-19T00:00:12: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Test.csv
+04-24-19T00:00:12: Invoice Line Item Rows: 10
+04-24-19T00:00:12: Invoice Line Item Rows: 20
+04-24-19T00:00:12: Invoice Line Item Rows: 30
+04-24-19T00:00:12: Invoice Line Item Rows: 40
+04-24-19T00:00:12: Invoice Line Item Rows: 50
+04-24-19T00:00:12: Invoice Line Item Rows: 60
+04-24-19T00:00:12: Invoice Line Item Rows: 70
+04-24-19T00:00:12: Invoice Line Item Rows: 80
+04-24-19T00:00:12: Invoice Line Item Rows: 90
+04-24-19T00:00:12: Invoice Line Item Rows: 100
+04-24-19T00:00:12: Invoice Line Item Rows: 110
+04-24-19T00:00:12: Invoice Line Item Rows: 120
+04-24-19T00:00:12: Invoice Line Item Rows: 130
+04-24-19T00:00:12: Invoice Line Item Rows: 140
+04-24-19T00:00:12: Invoice Line Item Rows: 150
+04-24-19T00:00:12: Invoice Line Item Rows: 160
+04-24-19T00:00:12: Invoice Line Item Rows: 170
+04-24-19T00:00:12: Invoice Line Item Rows: 180
+04-24-19T00:00:12: Invoice Line Item Rows: 190
+04-24-19T00:00:12: Invoice Line Item Rows: 200
+04-24-19T00:00:12: Invoice Line Item Rows: 210
+04-24-19T00:00:12: Invoice Line Item Rows: 220
+04-24-19T00:00:12: Invoice Line Item Rows: 230
+04-24-19T00:00:12: Invoice Line Item Rows: 240
+04-24-19T00:00:12: Invoice Line Item Rows: 250
+04-24-19T00:00:12: Invoice Line Item Rows: 260
+04-24-19T00:00:12: Invoice Line Item Rows: 270
+04-24-19T00:00:12: Invoice Line Item Rows: 280
+04-24-19T00:00:12: Invoice Line Item Rows: 290
+04-24-19T00:00:12: Invoice Line Item Rows: 300
+04-24-19T00:00:12: Invoice Line Item Rows: 310
+04-24-19T00:00:12: Invoice Line Item Rows: 320
+04-24-19T00:00:12: Invoice Line Item Rows: 330
+04-24-19T00:00:12: Invoice Line Item Rows: 340
+04-24-19T00:00:12: Invoice Line Item Rows: 350
+04-24-19T00:00:12: Invoice Line Item Rows: 360
+04-24-19T00:00:12: Invoice Line Item Rows: 370
+04-24-19T00:00:12: Invoice Line Item Rows: 380
+04-24-19T00:00:12: Invoice Line Item Rows: 390
+04-24-19T00:00:12: Invoice Line Item Rows: 400
+04-24-19T00:00:12: Invoice Line Item Rows: 410
+04-24-19T00:00:12: Invoice Line Item Rows: 420
+04-24-19T00:00:12: Invoice Line Item Rows: 430
+04-24-19T00:00:12: Invoice Line Item Rows: 440
+04-24-19T00:00:12: Invoice Line Item Rows: 450
+04-24-19T00:00:12: Invoice Line Item Rows: 460
+04-24-19T00:00:12: Invoice Line Item Rows: 470
+04-24-19T00:00:12: Invoice Line Item Rows: 480
+04-24-19T00:00:12: Invoice Line Item Rows: 490
+04-24-19T00:00:12: Invoice Line Item Rows: 500
+04-24-19T00:00:12: Transforming raw XML
+04-24-19T00:00:12: Finished Receiving to Invoice
+04-24-19T00:00:12: Total Items: 509
+04-24-19T00:00:12: File created in final xml folder: Test.xml
+04-24-19T00:00:12: ...
+04-24-19T00:00:12: End Log

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_14026,FILLED DONUT .65,14026,14026,,,,a,231 03 000,Each,1.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31
-_9176847,TOM'S DONUT,176847,176847,,,,a,231 02 005,Each,1.00,,,,,Master,0.60,0.00,2012-02-17,2075-12-31

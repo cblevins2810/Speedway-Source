@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_073800001102,FAYGO ROOT BR DT 2L PP .99,168360,168360,,,,a,901 16 000,Case,8.00,,,,,Master,0.10,0.00,2008-05-14,2075-12-31
-_073800006626,FAYGO GRP DT 2L PP .99,168389,168389,,,,a,901 16 000,Case,8.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31
-_7380000664,FAYGO 60/40 2L,169625,169625,,,,a,901 16 000,Case,8.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31

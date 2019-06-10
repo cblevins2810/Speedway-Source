@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_014974100024,WOODCHUCK RSP CDR 6PK 12z LN,173524,173524,,,,a,401 05B 000,Case,24.00,,,,,Master,30.00,0.00,2016-02-29,2075-12-31
-_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
-_x2-034100989545,i/aREDDS WICKED BLOOD ORANGE 24z CN,1083528,1083528,,,*INACTIVE*,a,401 01J 000,Case,12.00,,,,,Master,24.00,0.00,2017-02-15,2075-12-31

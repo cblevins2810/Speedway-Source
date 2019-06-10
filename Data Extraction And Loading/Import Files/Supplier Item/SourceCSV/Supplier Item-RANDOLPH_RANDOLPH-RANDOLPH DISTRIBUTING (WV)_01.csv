@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_7204001113,STROHS 15PK 12z CN,13507,13507,,,,a,401 01E 000,Case,15.00,,,,,Master,6.00,0.00,1900-01-01,2075-12-31
-_7248042403,SCHAEFER LT 12PK 12z CN,13525,13525,,,,a,401 01D 000,Case,24.00,,,,,Master,15.00,0.00,1900-01-01,2075-12-31

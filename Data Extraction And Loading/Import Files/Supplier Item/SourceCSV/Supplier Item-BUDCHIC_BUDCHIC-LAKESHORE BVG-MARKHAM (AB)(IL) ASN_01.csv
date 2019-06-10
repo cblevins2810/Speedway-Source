@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_018200029929,ODOULS N/A AMB 6PK 12z LN,64894,64894,,,,a,401 02A 000,Case,24.00,,,,,Master,14.10,0.00,2009-08-31,2075-12-31
-_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
-_736920111112,GOOSE ISLAND HONKER ALE 6PK 12z LN,149495,149495,,,,a,401 01B 000,Case,24.00,,,,,Master,25.50,0.00,2018-06-04,2075-12-31

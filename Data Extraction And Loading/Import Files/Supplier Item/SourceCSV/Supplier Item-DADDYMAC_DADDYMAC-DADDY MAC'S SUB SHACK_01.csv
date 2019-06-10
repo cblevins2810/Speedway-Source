@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_9176791,DADDYMAC COOKIE,176791,176791,,,,a,231 06 001,Each,1.00,,,,,Master,0.59,0.00,2011-03-21,2075-12-31
-_9176792,DADDYMAC PKG COOKIE,176792,176792,,,,a,231 01 000,Each,1.00,,,,,Master,1.77,0.00,2011-03-21,2075-12-31
-_9176793,DADDYMAC MUFFIN,176793,176793,,,,a,231 01 000,Each,1.00,,,,,Master,1.12,0.00,2011-03-21,2075-12-31
-_9372401651,OLD FASHION LICORICE RED BAG,176335,176335,,,,a,601 02X 000,Each,1.00,,,,,Master,2.18,0.00,2011-03-21,2075-12-31

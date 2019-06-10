@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_17667,CO2 TANK RENTAL,17667,17667,,,,a,215 02 001,Each,1.00,,,,,Master,17.00,0.00,1900-01-01,2075-12-31
-_24422,CO2 50LB TANK,24422,24422,,,,a,215 02 001,Each,1.00,,,,,Master,17.00,0.00,1900-01-01,2075-12-31
-_46895,CO2 REFILL,46895,46895,,,,a,215 02 001,Each,1.00,,,,,Master,8.75,0.00,1900-01-01,2075-12-31
-_9178368,CO2 TANK CHARGE,178368,178368,,,,a,215 01 000,Each,1.00,,,,,Master,16.00,0.00,1900-01-01,2075-12-31

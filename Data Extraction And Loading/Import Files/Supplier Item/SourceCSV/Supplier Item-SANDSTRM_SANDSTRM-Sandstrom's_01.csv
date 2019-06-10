@@ -1,7 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_099902,MON WHT LABEL LB1110 16-RL,33100530,33100530,,,,a,77 01 000,Each,1.00,,,,,Master,17.91,0.00,1900-01-01,2075-12-31
-_650000,APPLE-RED-EACH,33100395,33100395,,,,a,201 05 000,Each,1.00,,,,,Master,1.05,0.00,1900-01-01,2075-12-31
-_650910,BANANAS 10LB,33100396,33100396,,,,a,201 05 000,Each,1.00,,,,,Master,8.32,0.00,1900-01-01,2075-12-31
-_657291,ONION JUMBO YELLOW 10LB,33100524,33100524,,,,a,218 03 003,Each,1.00,,,,,Master,6.94,0.00,1900-01-01,2075-12-31
-_658000,ORANGE NAVEL EACH,33100397,33100397,,,,a,201 05 000,Each,1.00,,,,,Master,1.39,0.00,1900-01-01,2075-12-31

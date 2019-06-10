@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_0000000,OPEN RECEIVING 401,36029998,36029998,,,,a,Default,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
-_123926,MI CASE SHELL,123926,123926,,,,a,952 02 000,Each,1.00,,,,,Master,1.60,0.00,1900-01-01,2075-12-31

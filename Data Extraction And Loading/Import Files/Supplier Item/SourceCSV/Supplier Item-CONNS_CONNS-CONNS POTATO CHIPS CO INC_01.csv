@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_3279200133,CONN'S BEAN DIP,130786,130786,,,,a,601 04A 410,Each,1.00,,,,,Master,1.70,0.00,1900-01-01,2075-12-31
-_3279200134,CONN'S AGED CHEDDAR DIP,130790,130790,,,,a,601 04A 410,Each,1.00,,,,,Master,1.70,0.00,1900-01-01,2075-12-31

@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_7130906526,BBQ BUNS,94749,94749,,,,a,218 04 000,Each,1.00,,,,,Master,1.36,0.00,1900-01-01,2075-12-31
-_7776526610,HOT DOG BUNS-8 PACK,56370,56370,,,,a,218 02 001,Each,1.00,,,,,Master,0.69,0.00,1900-01-01,2075-12-31
-_7880006144,BUNS-12 CT HOT DOG,70769,70769,,,,a,218 04 000,Each,1.00,,,,,Master,1.34,0.00,1900-01-01,2075-12-31

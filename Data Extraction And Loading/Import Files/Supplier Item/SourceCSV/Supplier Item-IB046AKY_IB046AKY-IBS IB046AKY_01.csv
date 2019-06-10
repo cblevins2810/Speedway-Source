@@ -1,9 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_078000083190,7UP DT CHRY ANTIOXDNTS 2L,179785,179785,,,,a,901 03 000,Case,8.00,,,,,Master,11.81,0.00,2015-02-02,2075-12-31
-_078000118830,7UP DT CHRY ANTIOX 12PK 12z CN,179791,179791,,,,a,901 01 000,Case,24.00,,,,,Master,8.40,0.00,1900-01-01,2075-12-31
-_094306009836,DR ENUF LEMON LIME 12z NR,1076313,1076313,,,,a,Default,Case,24.00,,,,,Master,16.25,0.00,1900-01-01,2075-12-31
-_7800000828,SUNDROP 16z CN,1076397,1076397,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,2015-09-25,2075-12-31
-_7800011821,7UP CHRY ANTIOXDNT 12PK 12z CN,179787,179787,,,,a,901 01 000,Case,24.00,,,,,Master,8.40,0.00,1900-01-01,2075-12-31
-_7800023023,SUNDROP 16z BTL NR,1076398,1076398,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,2015-09-25,2075-12-31
-_899407003010,NEURO ORANGE PASSION 14.5z,1078839,1078839,,,,a,601 11 000,Case,12.00,,,,,Master,16.50,0.00,2017-08-17,2075-12-31

@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_049000063745,DASANI SPARKLING LIME 20Z,1080060,1080060,,,,a,601 11 000,Case,24.00,,,,,Master,18.51,0.00,1900-01-01,2075-12-31
-_049000063783,DASANI SPARKLING BERRY 20Z,1080059,1080059,,,,a,601 11 000,Case,24.00,,,,,Master,18.51,0.00,1900-01-01,2075-12-31
-_786162200433,z-i/aSMARTWATER 20z,181266,181266,,,,a,601 10 000,Case,24.00,,,,,Master,22.80,0.00,1900-01-01,2075-12-31

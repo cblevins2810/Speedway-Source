@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_080432401231,SEAGRAMS GIN EXTRA DRY 750ML,151535,151535,,,,a,401 04A 000,Each,1.00,,,,,Master,8.48,0.00,2015-09-18,2075-12-31
-_082928223365,CANADIAN LTD 375ML,126162,126162,,,,a,401 04A 000,Each,1.00,,,,,Master,3.19,0.00,2015-12-12,2075-12-31
-_089540472355,MALIBU MANGIO 750ML,173177,173177,,,,a,401 04A 000,Each,1.00,,,,,Master,11.05,0.00,2010-02-19,2075-12-31

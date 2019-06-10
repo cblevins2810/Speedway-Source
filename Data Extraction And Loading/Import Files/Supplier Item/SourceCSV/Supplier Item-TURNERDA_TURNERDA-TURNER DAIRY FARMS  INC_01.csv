@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_077741364920,PEACH ICY TEA PLS HG,1064353,1064353,,,,a,601 07 200,Each,1.00,,,,,Master,1.07,0.00,2014-11-20,2075-12-31
-_077741364920,,,,,,,,,,,,,,,Reduced Retail,1.07,0.00,2014-11-20,2075-12-31
-_INACTIVE,I/AGREEN TEA PLS HG,1064356,1064356,,,,a,601 07 200,Each,1.00,,,,,Master,1.07,0.00,2014-11-20,2075-12-31
-_INACTIVE,,,,,,,,,,,,,,,Reduced Retail,1.07,0.00,2014-11-20,2075-12-31

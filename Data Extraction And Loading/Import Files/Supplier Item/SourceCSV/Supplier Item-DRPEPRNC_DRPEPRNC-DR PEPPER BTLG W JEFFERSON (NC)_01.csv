@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_078000019797,DR PEP 4PK 16z CN,1053574,1053574,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,2016-01-11,2075-12-31
-_094306009836,DR ENUF LEMON LIME 12z NR,1076313,1076313,,,,a,Default,Case,24.00,,,,,Master,16.25,0.00,1900-01-01,2075-12-31
-_21823,BIB MT DEW,21823,21823,,,,a,215 02 001,Each,1.00,,,,,Master,49.20,0.00,2019-01-02,2075-12-31

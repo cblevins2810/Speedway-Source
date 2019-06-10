@@ -1,9 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_088600000040,GORDONS DRY GIN 200ML,23453,23453,,,,a,401 04A 000,Each,1.00,,,,,Master,3.51,0.00,2017-09-20,2075-12-31
-_088600000064,GORDONS DRY GIN 375ML,23467,23467,,,,a,401 04A 000,Each,1.00,,,,,Master,5.64,0.00,2017-09-20,2075-12-31
-_088600000163,GORDONS VODKA 375ML,23466,23466,,,,a,401 04A 000,Each,1.00,,,,,Master,5.64,0.00,2017-09-20,2075-12-31
-_8112801068,EARLY TIMES 200ML,53126,53126,,,,a,401 04A 000,Each,1.00,,,,,Master,3.75,0.00,2017-09-20,2075-12-31
-_8193201209,CANADIAN RESERVE 200ML,35052,35052,,,,a,401 04A 000,Each,1.00,,,,,Master,2.48,0.00,2013-12-11,2075-12-31
-_8218432604,J DANIELS WILDBERRY 6PK 10z LN,174336,174336,,,,a,401 03C 000,Case,24.00,,,,,Master,27.00,0.00,2017-08-09,2075-12-31
-_8676750010,GOLDEN SCHALGER 200ML,158983,158983,,,,a,401 04A 000,Each,1.00,,,,,Master,6.77,0.00,2017-09-20,2075-12-31

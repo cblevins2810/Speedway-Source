@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_3573300003,SUPPLY MILK WHOLE GAL,184921,184921,,,,a,212 20 001,Each,1.00,,,,,Master,3.55,0.00,2017-02-01,2075-12-31
-_3573300040,SUPPLY MILK SKIM GAL,184922,184922,,,,a,212 20 001,Each,1.00,,,,,Master,2.87,0.00,2017-02-01,2075-12-31

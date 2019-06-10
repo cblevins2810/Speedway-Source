@@ -1,7 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_022348812107,ARCTIC ICE 10LB BAG,1087662,1087662,,,,a,707 02 000,Each,1.00,,,,,Master,1.80,0.00,1900-01-01,2075-12-31
-_076116000161,ARCTIC ICE 16LB BAG,1087663,1087663,,,,a,707 02 000,Each,1.00,,,,,Master,2.52,0.00,1900-01-01,2075-12-31
-_91089335,ARCTIC ICE 10LB BLOCK,1089335,1089335,,,,a,707 02 000,Each,1.00,,,,,Master,1.59,0.00,1900-01-01,2075-12-31
-_91089335,,,,,,,,,,,,,,,MN ICE,1.59,0.00,1900-01-01,2075-12-31
-_9183442,ARCTIC DRY ICE,183442,183442,,,,a,707 02 000,Each,1.00,,,,,Master,1.10,0.00,1900-01-01,2075-12-31

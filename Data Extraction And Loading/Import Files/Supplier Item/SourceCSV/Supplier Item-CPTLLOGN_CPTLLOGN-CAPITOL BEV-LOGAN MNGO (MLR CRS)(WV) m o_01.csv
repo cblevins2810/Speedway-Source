@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_071990095451,BLUE MOON BLGN WHT 16z CN (LOOSE),1051645,1051645,,,,a,401 01J 000,Case,24.00,,,,,Master,31.50,0.00,2017-10-09,2075-12-31
-_444444444444,NOT YOUR FATHERS GINGER ALE 16z CN,1077188,1077188,,,,a,401 01J 000,Case,24.00,,,,,Master,28.00,0.00,2015-11-20,2075-12-31
-_x2-034100989545,i/aREDDS WICKED BLOOD ORANGE 24z CN,1083528,1083528,,,*INACTIVE*,a,401 01J 000,Case,12.00,,,,,Master,28.00,0.00,2017-10-09,2075-12-31

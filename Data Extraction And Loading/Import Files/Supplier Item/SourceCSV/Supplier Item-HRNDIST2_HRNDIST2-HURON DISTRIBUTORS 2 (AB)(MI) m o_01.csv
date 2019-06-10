@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_071439320120,ROLLING ROCK LT 12PK 12z LN,150379,172468,,,,a,401 01D 000,Case,24.00,,,,,Master,12.60,0.00,2018-07-02,2075-12-31
-_1300871475,ARIZONA ASIA PLUM TEA 20z,74512,74512,,,,a,601 14 000,Case,12.00,,,,,Master,12.50,0.00,1900-01-01,2075-12-31
-_9522,BUD VENDOR BTTL/CAN RETURN,47156,47156,,,,a,952 02 000,Each,1.00,,,,,Master,0.10,0.00,1900-01-01,2075-12-31

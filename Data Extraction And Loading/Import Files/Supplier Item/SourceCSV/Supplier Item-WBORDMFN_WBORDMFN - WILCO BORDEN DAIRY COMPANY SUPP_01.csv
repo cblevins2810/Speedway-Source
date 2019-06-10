@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_9184920,SUPPLY  WHP CRM FOUNT AERO 13z,184920,184920,,,,a,212 20 001,Each,1.00,,,,,Master,2.56,0.00,1900-01-01,2075-12-31
-_9184921,SUPPLY MILK WHOLE GAL,184921,184921,,,,a,212 20 001,Each,1.00,,,,,Master,2.54,0.00,1900-01-01,2075-12-31
-_9184922,SUPPLY MILK SKIM GAL,184922,184922,,,,a,212 20 001,Each,1.00,,,,,Master,1.95,0.00,1900-01-01,2075-12-31

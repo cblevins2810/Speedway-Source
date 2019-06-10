@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_01806211,ALE 8 12z RETURNABLE no upc,180621,180621,,,,a,901 14 000,Case,24.00,,,,,Master,11.90,0.00,2012-11-01,2075-12-31
-_18200,KY CONTAINER DEPOSIT 2.80,18200,18200,,,,a,952 02D 000,Each,1.00,,,,,Master,2.80,0.00,1900-01-01,2075-12-31
-_2050,BIB ALE-8 DIET 3 GAL,168109,168109,,,,a,215 02 001,Each,1.00,,,,,Master,31.50,0.00,2011-03-21,2075-12-31

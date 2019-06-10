@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_00000,OPEN RECEIVING 601,36029997,36029997,,,,a,Default,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
-_000000,OPEN RECEIVING 901,36029996,36029996,,,,a,Default,Each,1.00,,,,,Master,1.00,0.00,1900-01-01,2075-12-31
-_01000380043,CO2 TANK (FULL),46675,46675,,,,a,215 02 001,Each,1.00,,,,,Master,103.00,0.00,2018-12-10,2075-12-31
-_012000110542,MT DEW 4PK 16z CN,1053573,1053573,,,,a,Default,Case,24.00,,,,,Master,8.65,0.00,1900-01-01,2075-12-31

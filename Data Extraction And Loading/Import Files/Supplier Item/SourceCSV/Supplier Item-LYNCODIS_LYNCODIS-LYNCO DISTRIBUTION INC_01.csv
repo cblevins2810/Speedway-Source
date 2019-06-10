@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_076027003713,Z-GC COMPASS - SUCTION,1047021,1047021,,,,a,601 20 910,Each,1.00,,,,,Master,3.00,0.00,1900-01-01,2075-12-31
-_856224602050,4LED FLASHLIGHT - CAMO 2 AA,34800692,34800692,,,,a,601 24 100,Each,1.00,,,,,Master,4.50,0.00,1900-01-01,2075-12-31

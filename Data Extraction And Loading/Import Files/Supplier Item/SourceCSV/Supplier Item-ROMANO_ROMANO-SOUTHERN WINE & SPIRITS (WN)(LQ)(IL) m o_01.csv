@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_9674908350,ARISTOCAT VODKA 200ML,79756,79756,,,,a,401 04A 000,Each,1.00,,,,,Master,2.10,0.00,2015-06-01,2075-12-31
-_9674948750,CANADIAN SUPERIOR 200ML,80573,80573,,,,a,401 04A 000,Each,1.00,,,,,Master,2.12,0.00,2012-08-01,2075-12-31

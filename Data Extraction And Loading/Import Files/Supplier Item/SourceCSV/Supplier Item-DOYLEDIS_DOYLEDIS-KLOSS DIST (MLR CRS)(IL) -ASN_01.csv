@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_3410017344,MILLER GD 15PK 12z CN,183243,183243,,,,a,401 01E 000,Case,30.00,,,,,Master,17.40,0.00,2018-09-03,2075-12-31
-_34100728050,LEINENK OKTOBERFST 6PK 12z LN,1066546,1066546,,,,a,401 01B 000,Case,24.00,,,,,Master,26.30,0.00,2018-09-03,2075-12-31
-_444444444444,NOT YOUR FATHERS GINGER ALE 16z CN,1077188,1077188,,,,a,401 01J 000,Case,24.00,,,,,Master,31.00,0.00,2015-11-20,2075-12-31
-_x2-034100989545,i/aREDDS WICKED BLOOD ORANGE 24z CN,1083528,1083528,,,*INACTIVE*,a,401 01J 000,Case,12.00,,,,,Master,23.30,0.00,2018-09-03,2075-12-31

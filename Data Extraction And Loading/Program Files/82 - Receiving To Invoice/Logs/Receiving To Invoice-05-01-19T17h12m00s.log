@@ -1,0 +1,456 @@
+05-01-19T17:12:00: Start Log
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-03-28.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Invoice Line Item Rows: 30
+05-01-19T17:12:00: Transforming raw XML
+05-01-19T17:12:00: Finished Receiving to Invoice
+05-01-19T17:12:00: Total Items: 31
+05-01-19T17:12:00: File created in final xml folder: Receiving To Invoice-0004540-2019-03-28.xml
+05-01-19T17:12:00: ...
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-03-29.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Invoice Line Item Rows: 30
+05-01-19T17:12:00: Invoice Line Item Rows: 40
+05-01-19T17:12:00: Invoice Line Item Rows: 50
+05-01-19T17:12:00: Invoice Line Item Rows: 60
+05-01-19T17:12:00: Invoice Line Item Rows: 70
+05-01-19T17:12:00: Invoice Line Item Rows: 80
+05-01-19T17:12:00: Invoice Line Item Rows: 90
+05-01-19T17:12:00: Invoice Line Item Rows: 100
+05-01-19T17:12:00: Invoice Line Item Rows: 110
+05-01-19T17:12:00: Invoice Line Item Rows: 120
+05-01-19T17:12:00: Invoice Line Item Rows: 130
+05-01-19T17:12:00: Invoice Line Item Rows: 140
+05-01-19T17:12:00: Invoice Line Item Rows: 150
+05-01-19T17:12:00: Invoice Line Item Rows: 160
+05-01-19T17:12:00: Invoice Line Item Rows: 170
+05-01-19T17:12:00: Invoice Line Item Rows: 180
+05-01-19T17:12:00: Invoice Line Item Rows: 190
+05-01-19T17:12:00: Invoice Line Item Rows: 200
+05-01-19T17:12:00: Invoice Line Item Rows: 210
+05-01-19T17:12:00: Invoice Line Item Rows: 220
+05-01-19T17:12:00: Invoice Line Item Rows: 230
+05-01-19T17:12:00: Invoice Line Item Rows: 240
+05-01-19T17:12:00: Invoice Line Item Rows: 250
+05-01-19T17:12:00: Invoice Line Item Rows: 260
+05-01-19T17:12:00: Invoice Line Item Rows: 270
+05-01-19T17:12:00: Invoice Line Item Rows: 280
+05-01-19T17:12:00: Invoice Line Item Rows: 290
+05-01-19T17:12:00: Invoice Line Item Rows: 300
+05-01-19T17:12:00: Invoice Line Item Rows: 310
+05-01-19T17:12:00: Invoice Line Item Rows: 320
+05-01-19T17:12:00: Transforming raw XML
+05-01-19T17:12:00: Finished Receiving to Invoice
+05-01-19T17:12:00: Total Items: 328
+05-01-19T17:12:00: File created in final xml folder: Receiving To Invoice-0004540-2019-03-29.xml
+05-01-19T17:12:00: ...
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-02.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Invoice Line Item Rows: 30
+05-01-19T17:12:00: Invoice Line Item Rows: 40
+05-01-19T17:12:00: Invoice Line Item Rows: 50
+05-01-19T17:12:00: Invoice Line Item Rows: 60
+05-01-19T17:12:00: Invoice Line Item Rows: 70
+05-01-19T17:12:00: Invoice Line Item Rows: 80
+05-01-19T17:12:00: Invoice Line Item Rows: 90
+05-01-19T17:12:00: Invoice Line Item Rows: 100
+05-01-19T17:12:00: Invoice Line Item Rows: 110
+05-01-19T17:12:00: Invoice Line Item Rows: 120
+05-01-19T17:12:00: Invoice Line Item Rows: 130
+05-01-19T17:12:00: Invoice Line Item Rows: 140
+05-01-19T17:12:00: Invoice Line Item Rows: 150
+05-01-19T17:12:00: Invoice Line Item Rows: 160
+05-01-19T17:12:00: Invoice Line Item Rows: 170
+05-01-19T17:12:00: Invoice Line Item Rows: 180
+05-01-19T17:12:00: Invoice Line Item Rows: 190
+05-01-19T17:12:00: Invoice Line Item Rows: 200
+05-01-19T17:12:00: Invoice Line Item Rows: 210
+05-01-19T17:12:00: Invoice Line Item Rows: 220
+05-01-19T17:12:00: Invoice Line Item Rows: 230
+05-01-19T17:12:00: Invoice Line Item Rows: 240
+05-01-19T17:12:00: Invoice Line Item Rows: 250
+05-01-19T17:12:00: Invoice Line Item Rows: 260
+05-01-19T17:12:00: Invoice Line Item Rows: 270
+05-01-19T17:12:00: Invoice Line Item Rows: 280
+05-01-19T17:12:00: Invoice Line Item Rows: 290
+05-01-19T17:12:00: Invoice Line Item Rows: 300
+05-01-19T17:12:00: Invoice Line Item Rows: 310
+05-01-19T17:12:00: Invoice Line Item Rows: 320
+05-01-19T17:12:00: Invoice Line Item Rows: 330
+05-01-19T17:12:00: Invoice Line Item Rows: 340
+05-01-19T17:12:00: Invoice Line Item Rows: 350
+05-01-19T17:12:00: Invoice Line Item Rows: 360
+05-01-19T17:12:00: Invoice Line Item Rows: 370
+05-01-19T17:12:00: Invoice Line Item Rows: 380
+05-01-19T17:12:00: Invoice Line Item Rows: 390
+05-01-19T17:12:00: Transforming raw XML
+05-01-19T17:12:00: Finished Receiving to Invoice
+05-01-19T17:12:00: Total Items: 392
+05-01-19T17:12:00: File created in final xml folder: Receiving To Invoice-0004540-2019-04-02.xml
+05-01-19T17:12:00: ...
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-03.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Transforming raw XML
+05-01-19T17:12:00: Finished Receiving to Invoice
+05-01-19T17:12:00: Total Items: 29
+05-01-19T17:12:00: File created in final xml folder: Receiving To Invoice-0004540-2019-04-03.xml
+05-01-19T17:12:00: ...
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-05.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Invoice Line Item Rows: 30
+05-01-19T17:12:00: Invoice Line Item Rows: 40
+05-01-19T17:12:00: Invoice Line Item Rows: 50
+05-01-19T17:12:00: Invoice Line Item Rows: 60
+05-01-19T17:12:00: Invoice Line Item Rows: 70
+05-01-19T17:12:00: Invoice Line Item Rows: 80
+05-01-19T17:12:00: Invoice Line Item Rows: 90
+05-01-19T17:12:00: Invoice Line Item Rows: 100
+05-01-19T17:12:00: Invoice Line Item Rows: 110
+05-01-19T17:12:00: Invoice Line Item Rows: 120
+05-01-19T17:12:00: Invoice Line Item Rows: 130
+05-01-19T17:12:00: Invoice Line Item Rows: 140
+05-01-19T17:12:00: Invoice Line Item Rows: 150
+05-01-19T17:12:00: Invoice Line Item Rows: 160
+05-01-19T17:12:00: Invoice Line Item Rows: 170
+05-01-19T17:12:00: Invoice Line Item Rows: 180
+05-01-19T17:12:00: Invoice Line Item Rows: 190
+05-01-19T17:12:00: Invoice Line Item Rows: 200
+05-01-19T17:12:00: Invoice Line Item Rows: 210
+05-01-19T17:12:00: Invoice Line Item Rows: 220
+05-01-19T17:12:00: Invoice Line Item Rows: 230
+05-01-19T17:12:00: Invoice Line Item Rows: 240
+05-01-19T17:12:00: Invoice Line Item Rows: 250
+05-01-19T17:12:00: Invoice Line Item Rows: 260
+05-01-19T17:12:00: Invoice Line Item Rows: 270
+05-01-19T17:12:00: Invoice Line Item Rows: 280
+05-01-19T17:12:00: Invoice Line Item Rows: 290
+05-01-19T17:12:00: Invoice Line Item Rows: 300
+05-01-19T17:12:00: Invoice Line Item Rows: 310
+05-01-19T17:12:00: Invoice Line Item Rows: 320
+05-01-19T17:12:00: Invoice Line Item Rows: 330
+05-01-19T17:12:00: Invoice Line Item Rows: 340
+05-01-19T17:12:00: Invoice Line Item Rows: 350
+05-01-19T17:12:00: Invoice Line Item Rows: 360
+05-01-19T17:12:00: Transforming raw XML
+05-01-19T17:12:00: Finished Receiving to Invoice
+05-01-19T17:12:00: Total Items: 365
+05-01-19T17:12:00: File created in final xml folder: Receiving To Invoice-0004540-2019-04-05.xml
+05-01-19T17:12:00: ...
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-10.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Invoice Line Item Rows: 30
+05-01-19T17:12:00: Invoice Line Item Rows: 40
+05-01-19T17:12:00: Invoice Line Item Rows: 50
+05-01-19T17:12:00: Invoice Line Item Rows: 60
+05-01-19T17:12:00: Invoice Line Item Rows: 70
+05-01-19T17:12:00: Invoice Line Item Rows: 80
+05-01-19T17:12:00: Invoice Line Item Rows: 90
+05-01-19T17:12:00: Invoice Line Item Rows: 100
+05-01-19T17:12:00: Invoice Line Item Rows: 110
+05-01-19T17:12:00: Invoice Line Item Rows: 120
+05-01-19T17:12:00: Invoice Line Item Rows: 130
+05-01-19T17:12:00: Invoice Line Item Rows: 140
+05-01-19T17:12:00: Invoice Line Item Rows: 150
+05-01-19T17:12:00: Invoice Line Item Rows: 160
+05-01-19T17:12:00: Invoice Line Item Rows: 170
+05-01-19T17:12:00: Invoice Line Item Rows: 180
+05-01-19T17:12:00: Invoice Line Item Rows: 190
+05-01-19T17:12:00: Invoice Line Item Rows: 200
+05-01-19T17:12:00: Invoice Line Item Rows: 210
+05-01-19T17:12:00: Invoice Line Item Rows: 220
+05-01-19T17:12:00: Invoice Line Item Rows: 230
+05-01-19T17:12:00: Invoice Line Item Rows: 240
+05-01-19T17:12:00: Invoice Line Item Rows: 250
+05-01-19T17:12:00: Invoice Line Item Rows: 260
+05-01-19T17:12:00: Invoice Line Item Rows: 270
+05-01-19T17:12:00: Invoice Line Item Rows: 280
+05-01-19T17:12:00: Invoice Line Item Rows: 290
+05-01-19T17:12:00: Invoice Line Item Rows: 300
+05-01-19T17:12:00: Invoice Line Item Rows: 310
+05-01-19T17:12:00: Invoice Line Item Rows: 320
+05-01-19T17:12:00: Invoice Line Item Rows: 330
+05-01-19T17:12:00: Invoice Line Item Rows: 340
+05-01-19T17:12:00: Invoice Line Item Rows: 350
+05-01-19T17:12:00: Invoice Line Item Rows: 360
+05-01-19T17:12:00: Invoice Line Item Rows: 370
+05-01-19T17:12:00: Transforming raw XML
+05-01-19T17:12:00: Finished Receiving to Invoice
+05-01-19T17:12:00: Total Items: 373
+05-01-19T17:12:00: File created in final xml folder: Receiving To Invoice-0004540-2019-04-10.xml
+05-01-19T17:12:00: ...
+05-01-19T17:12:00: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-12.csv
+05-01-19T17:12:00: Invoice Line Item Rows: 10
+05-01-19T17:12:00: Invoice Line Item Rows: 20
+05-01-19T17:12:00: Invoice Line Item Rows: 30
+05-01-19T17:12:00: Invoice Line Item Rows: 40
+05-01-19T17:12:00: Invoice Line Item Rows: 50
+05-01-19T17:12:00: Invoice Line Item Rows: 60
+05-01-19T17:12:00: Invoice Line Item Rows: 70
+05-01-19T17:12:00: Invoice Line Item Rows: 80
+05-01-19T17:12:00: Invoice Line Item Rows: 90
+05-01-19T17:12:00: Invoice Line Item Rows: 100
+05-01-19T17:12:00: Invoice Line Item Rows: 110
+05-01-19T17:12:00: Invoice Line Item Rows: 120
+05-01-19T17:12:01: Invoice Line Item Rows: 130
+05-01-19T17:12:01: Invoice Line Item Rows: 140
+05-01-19T17:12:01: Invoice Line Item Rows: 150
+05-01-19T17:12:01: Invoice Line Item Rows: 160
+05-01-19T17:12:01: Invoice Line Item Rows: 170
+05-01-19T17:12:01: Invoice Line Item Rows: 180
+05-01-19T17:12:01: Invoice Line Item Rows: 190
+05-01-19T17:12:01: Invoice Line Item Rows: 200
+05-01-19T17:12:01: Invoice Line Item Rows: 210
+05-01-19T17:12:01: Invoice Line Item Rows: 220
+05-01-19T17:12:01: Invoice Line Item Rows: 230
+05-01-19T17:12:01: Invoice Line Item Rows: 240
+05-01-19T17:12:01: Invoice Line Item Rows: 250
+05-01-19T17:12:01: Invoice Line Item Rows: 260
+05-01-19T17:12:01: Invoice Line Item Rows: 270
+05-01-19T17:12:01: Invoice Line Item Rows: 280
+05-01-19T17:12:01: Invoice Line Item Rows: 290
+05-01-19T17:12:01: Invoice Line Item Rows: 300
+05-01-19T17:12:01: Invoice Line Item Rows: 310
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 318
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-12.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-16.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Invoice Line Item Rows: 40
+05-01-19T17:12:01: Invoice Line Item Rows: 50
+05-01-19T17:12:01: Invoice Line Item Rows: 60
+05-01-19T17:12:01: Invoice Line Item Rows: 70
+05-01-19T17:12:01: Invoice Line Item Rows: 80
+05-01-19T17:12:01: Invoice Line Item Rows: 90
+05-01-19T17:12:01: Invoice Line Item Rows: 100
+05-01-19T17:12:01: Invoice Line Item Rows: 110
+05-01-19T17:12:01: Invoice Line Item Rows: 120
+05-01-19T17:12:01: Invoice Line Item Rows: 130
+05-01-19T17:12:01: Invoice Line Item Rows: 140
+05-01-19T17:12:01: Invoice Line Item Rows: 150
+05-01-19T17:12:01: Invoice Line Item Rows: 160
+05-01-19T17:12:01: Invoice Line Item Rows: 170
+05-01-19T17:12:01: Invoice Line Item Rows: 180
+05-01-19T17:12:01: Invoice Line Item Rows: 190
+05-01-19T17:12:01: Invoice Line Item Rows: 200
+05-01-19T17:12:01: Invoice Line Item Rows: 210
+05-01-19T17:12:01: Invoice Line Item Rows: 220
+05-01-19T17:12:01: Invoice Line Item Rows: 230
+05-01-19T17:12:01: Invoice Line Item Rows: 240
+05-01-19T17:12:01: Invoice Line Item Rows: 250
+05-01-19T17:12:01: Invoice Line Item Rows: 260
+05-01-19T17:12:01: Invoice Line Item Rows: 270
+05-01-19T17:12:01: Invoice Line Item Rows: 280
+05-01-19T17:12:01: Invoice Line Item Rows: 290
+05-01-19T17:12:01: Invoice Line Item Rows: 300
+05-01-19T17:12:01: Invoice Line Item Rows: 310
+05-01-19T17:12:01: Invoice Line Item Rows: 320
+05-01-19T17:12:01: Invoice Line Item Rows: 330
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 337
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-16.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-17.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 25
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-17.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-19.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Invoice Line Item Rows: 40
+05-01-19T17:12:01: Invoice Line Item Rows: 50
+05-01-19T17:12:01: Invoice Line Item Rows: 60
+05-01-19T17:12:01: Invoice Line Item Rows: 70
+05-01-19T17:12:01: Invoice Line Item Rows: 80
+05-01-19T17:12:01: Invoice Line Item Rows: 90
+05-01-19T17:12:01: Invoice Line Item Rows: 100
+05-01-19T17:12:01: Invoice Line Item Rows: 110
+05-01-19T17:12:01: Invoice Line Item Rows: 120
+05-01-19T17:12:01: Invoice Line Item Rows: 130
+05-01-19T17:12:01: Invoice Line Item Rows: 140
+05-01-19T17:12:01: Invoice Line Item Rows: 150
+05-01-19T17:12:01: Invoice Line Item Rows: 160
+05-01-19T17:12:01: Invoice Line Item Rows: 170
+05-01-19T17:12:01: Invoice Line Item Rows: 180
+05-01-19T17:12:01: Invoice Line Item Rows: 190
+05-01-19T17:12:01: Invoice Line Item Rows: 200
+05-01-19T17:12:01: Invoice Line Item Rows: 210
+05-01-19T17:12:01: Invoice Line Item Rows: 220
+05-01-19T17:12:01: Invoice Line Item Rows: 230
+05-01-19T17:12:01: Invoice Line Item Rows: 240
+05-01-19T17:12:01: Invoice Line Item Rows: 250
+05-01-19T17:12:01: Invoice Line Item Rows: 260
+05-01-19T17:12:01: Invoice Line Item Rows: 270
+05-01-19T17:12:01: Invoice Line Item Rows: 280
+05-01-19T17:12:01: Invoice Line Item Rows: 290
+05-01-19T17:12:01: Invoice Line Item Rows: 300
+05-01-19T17:12:01: Invoice Line Item Rows: 310
+05-01-19T17:12:01: Invoice Line Item Rows: 320
+05-01-19T17:12:01: Invoice Line Item Rows: 330
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 338
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-19.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-23.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Invoice Line Item Rows: 40
+05-01-19T17:12:01: Invoice Line Item Rows: 50
+05-01-19T17:12:01: Invoice Line Item Rows: 60
+05-01-19T17:12:01: Invoice Line Item Rows: 70
+05-01-19T17:12:01: Invoice Line Item Rows: 80
+05-01-19T17:12:01: Invoice Line Item Rows: 90
+05-01-19T17:12:01: Invoice Line Item Rows: 100
+05-01-19T17:12:01: Invoice Line Item Rows: 110
+05-01-19T17:12:01: Invoice Line Item Rows: 120
+05-01-19T17:12:01: Invoice Line Item Rows: 130
+05-01-19T17:12:01: Invoice Line Item Rows: 140
+05-01-19T17:12:01: Invoice Line Item Rows: 150
+05-01-19T17:12:01: Invoice Line Item Rows: 160
+05-01-19T17:12:01: Invoice Line Item Rows: 170
+05-01-19T17:12:01: Invoice Line Item Rows: 180
+05-01-19T17:12:01: Invoice Line Item Rows: 190
+05-01-19T17:12:01: Invoice Line Item Rows: 200
+05-01-19T17:12:01: Invoice Line Item Rows: 210
+05-01-19T17:12:01: Invoice Line Item Rows: 220
+05-01-19T17:12:01: Invoice Line Item Rows: 230
+05-01-19T17:12:01: Invoice Line Item Rows: 240
+05-01-19T17:12:01: Invoice Line Item Rows: 250
+05-01-19T17:12:01: Invoice Line Item Rows: 260
+05-01-19T17:12:01: Invoice Line Item Rows: 270
+05-01-19T17:12:01: Invoice Line Item Rows: 280
+05-01-19T17:12:01: Invoice Line Item Rows: 290
+05-01-19T17:12:01: Invoice Line Item Rows: 300
+05-01-19T17:12:01: Invoice Line Item Rows: 310
+05-01-19T17:12:01: Invoice Line Item Rows: 320
+05-01-19T17:12:01: Invoice Line Item Rows: 330
+05-01-19T17:12:01: Invoice Line Item Rows: 340
+05-01-19T17:12:01: Invoice Line Item Rows: 350
+05-01-19T17:12:01: Invoice Line Item Rows: 360
+05-01-19T17:12:01: Invoice Line Item Rows: 370
+05-01-19T17:12:01: Invoice Line Item Rows: 380
+05-01-19T17:12:01: Invoice Line Item Rows: 390
+05-01-19T17:12:01: Invoice Line Item Rows: 400
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 409
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-23.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-24.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 39
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-24.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-26.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Invoice Line Item Rows: 40
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 42
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-26.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-27.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Invoice Line Item Rows: 40
+05-01-19T17:12:01: Invoice Line Item Rows: 50
+05-01-19T17:12:01: Invoice Line Item Rows: 60
+05-01-19T17:12:01: Invoice Line Item Rows: 70
+05-01-19T17:12:01: Invoice Line Item Rows: 80
+05-01-19T17:12:01: Invoice Line Item Rows: 90
+05-01-19T17:12:01: Invoice Line Item Rows: 100
+05-01-19T17:12:01: Invoice Line Item Rows: 110
+05-01-19T17:12:01: Invoice Line Item Rows: 120
+05-01-19T17:12:01: Invoice Line Item Rows: 130
+05-01-19T17:12:01: Invoice Line Item Rows: 140
+05-01-19T17:12:01: Invoice Line Item Rows: 150
+05-01-19T17:12:01: Invoice Line Item Rows: 160
+05-01-19T17:12:01: Invoice Line Item Rows: 170
+05-01-19T17:12:01: Invoice Line Item Rows: 180
+05-01-19T17:12:01: Invoice Line Item Rows: 190
+05-01-19T17:12:01: Invoice Line Item Rows: 200
+05-01-19T17:12:01: Invoice Line Item Rows: 210
+05-01-19T17:12:01: Invoice Line Item Rows: 220
+05-01-19T17:12:01: Invoice Line Item Rows: 230
+05-01-19T17:12:01: Invoice Line Item Rows: 240
+05-01-19T17:12:01: Invoice Line Item Rows: 250
+05-01-19T17:12:01: Invoice Line Item Rows: 260
+05-01-19T17:12:01: Invoice Line Item Rows: 270
+05-01-19T17:12:01: Invoice Line Item Rows: 280
+05-01-19T17:12:01: Invoice Line Item Rows: 290
+05-01-19T17:12:01: Invoice Line Item Rows: 300
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 300
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-27.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Receiving To Invoice-0004540-2019-04-30.csv
+05-01-19T17:12:01: Invoice Line Item Rows: 10
+05-01-19T17:12:01: Invoice Line Item Rows: 20
+05-01-19T17:12:01: Invoice Line Item Rows: 30
+05-01-19T17:12:01: Invoice Line Item Rows: 40
+05-01-19T17:12:01: Invoice Line Item Rows: 50
+05-01-19T17:12:01: Invoice Line Item Rows: 60
+05-01-19T17:12:01: Invoice Line Item Rows: 70
+05-01-19T17:12:01: Invoice Line Item Rows: 80
+05-01-19T17:12:01: Invoice Line Item Rows: 90
+05-01-19T17:12:01: Invoice Line Item Rows: 100
+05-01-19T17:12:01: Invoice Line Item Rows: 110
+05-01-19T17:12:01: Invoice Line Item Rows: 120
+05-01-19T17:12:01: Invoice Line Item Rows: 130
+05-01-19T17:12:01: Invoice Line Item Rows: 140
+05-01-19T17:12:01: Invoice Line Item Rows: 150
+05-01-19T17:12:01: Invoice Line Item Rows: 160
+05-01-19T17:12:01: Invoice Line Item Rows: 170
+05-01-19T17:12:01: Invoice Line Item Rows: 180
+05-01-19T17:12:01: Invoice Line Item Rows: 190
+05-01-19T17:12:01: Invoice Line Item Rows: 200
+05-01-19T17:12:01: Invoice Line Item Rows: 210
+05-01-19T17:12:01: Invoice Line Item Rows: 220
+05-01-19T17:12:01: Invoice Line Item Rows: 230
+05-01-19T17:12:01: Invoice Line Item Rows: 240
+05-01-19T17:12:01: Invoice Line Item Rows: 250
+05-01-19T17:12:01: Invoice Line Item Rows: 260
+05-01-19T17:12:01: Invoice Line Item Rows: 270
+05-01-19T17:12:01: Invoice Line Item Rows: 280
+05-01-19T17:12:01: Invoice Line Item Rows: 290
+05-01-19T17:12:01: Invoice Line Item Rows: 300
+05-01-19T17:12:01: Invoice Line Item Rows: 310
+05-01-19T17:12:01: Invoice Line Item Rows: 320
+05-01-19T17:12:01: Invoice Line Item Rows: 330
+05-01-19T17:12:01: Invoice Line Item Rows: 340
+05-01-19T17:12:01: Invoice Line Item Rows: 350
+05-01-19T17:12:01: Invoice Line Item Rows: 360
+05-01-19T17:12:01: Invoice Line Item Rows: 370
+05-01-19T17:12:01: Invoice Line Item Rows: 380
+05-01-19T17:12:01: Invoice Line Item Rows: 390
+05-01-19T17:12:01: Transforming raw XML
+05-01-19T17:12:01: Finished Receiving to Invoice
+05-01-19T17:12:01: Total Items: 399
+05-01-19T17:12:01: File created in final xml folder: Receiving To Invoice-0004540-2019-04-30.xml
+05-01-19T17:12:01: ...
+05-01-19T17:12:01: End Log

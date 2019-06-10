@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_119157,BOTTLE RETURN BAGS,119157,119157,,,,a,77 01 000,Each,1.00,,,,,Master,20.00,0.00,1900-01-01,2075-12-31
-_2156,CO2 CYLINDER DEPOSIT,21596,21596,,,,a,215 02 001,Each,1.00,,,,,Master,52.00,0.00,1900-01-01,2075-12-31
-_2500005880,MIN MD PNK LMND 12z CN,124530,124530,,,,a,901 01A 000,Case,24.00,,,,,Master,8.50,0.00,2012-10-01,2075-12-31
-_7701,COKE CAN BAG,46666,46666,,,*UNAVAILABLE*,a,77 01 000,Each,1.00,,,,,Master,20.00,0.00,1900-01-01,2075-12-31

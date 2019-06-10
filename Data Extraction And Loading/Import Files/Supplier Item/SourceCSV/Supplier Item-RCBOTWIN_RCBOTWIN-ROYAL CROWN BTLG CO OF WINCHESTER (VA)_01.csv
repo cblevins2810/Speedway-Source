@@ -1,7 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_012000110542,MT DEW 4PK 16z CN,1053573,1053573,,,,a,901 02 000,Case,24.00,,,,,Master,16.00,0.00,1900-01-01,2075-12-31
-_078000019797,DR PEP 4PK 16z CN,1053574,1053574,,,,a,901 02 000,Case,24.00,,,,,Master,10.00,0.00,1900-01-01,2075-12-31
-_7800000828,SUNDROP 16z CN,1076397,1076397,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,1900-01-01,2075-12-31
-_7800023023,SUNDROP 16z BTL NR,1076398,1076398,,,,a,901 02 000,Case,24.00,,,,,Master,14.35,0.00,1900-01-01,2075-12-31
-_899407003010,NEURO ORANGE PASSION 14.5z,1078839,1078839,,,,a,601 11 000,Case,12.00,,,,,Master,16.50,0.00,1900-01-01,2075-12-31

@@ -1,9 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_0172805,i/aSOUTHSIDE DONUT,172805,172805,,,,a,231 01 000,Each,1.00,,,,,Master,0.45,0.00,2008-05-01,2075-12-31
-_0172806,i/aSOUTHSIDE DOZEN DONUTS,172806,172806,,,,a,231 01 000,Each,1.00,,,,,Master,5.40,0.00,2008-05-01,2075-12-31
-_0172807,i/aSOUTHSIDE DANISH,172807,172807,,,,a,231 01 000,Each,1.00,,,,,Master,0.55,0.00,2009-04-15,2075-12-31
-_0172809,i/aSOUTHSIDE MUFFINS,172809,172809,,,,a,231 01 000,Each,1.00,,,,,Master,0.70,0.00,2009-04-15,2075-12-31
-_127431,DONUT .69,127431,127431,,,,a,231 03 000,Each,1.00,,,,,Master,0.45,0.00,1900-01-01,2075-12-31
-_14026,FILLED DONUT .65,14026,14026,,,,a,231 03 000,Each,1.00,,,,,Master,0.42,0.00,1900-01-01,2075-12-31
-_7324600014,i/aEASTER COOKIES $2.69,80619,80619,,,,a,231 01 000,Each,1.00,,,,,Master,0.69,0.00,1900-01-01,2075-12-31
