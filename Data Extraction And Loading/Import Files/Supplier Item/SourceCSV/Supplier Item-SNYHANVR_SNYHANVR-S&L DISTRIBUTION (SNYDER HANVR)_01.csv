@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_020685002670,CAPE COD WAVE WHTCHDR SC,35002449,35002449,,,,a,601 04A 290,Each,1.00,,,u,_020685002670,Master,2.73,0.00,1900-01-01,2075-12-31
+_020685002694,CAPE COD WAVE RED FAT SS,35002448,35002448,,,,a,601 04A 290,Each,1.00,,,u,_020685002694,Master,2.73,0.00,1900-01-01,2075-12-31
+_020685002908,CAPE COD JAL RNCH 12Z,1124397,1124397,,,,a,601 04A 290,Each,1.00,,,u,_020685002908,Master,2.73,0.00,1900-01-01,2075-12-31
+_077975091975,SNYDERS PIZZA SANDW 8OZ,38001236,38001236,,,,a,601 04A 290,Each,1.00,,,u,_077975091975,Master,2.66,0.00,1900-01-01,2075-12-31

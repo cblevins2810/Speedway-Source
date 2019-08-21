@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_076183001646,SNAPPLE RASPBERRY 64OZ/6,35000150,35000150,,,,a,Default,Case,8.00,,,u,_076183001646,Master,13.92,0.00,1900-01-01,2075-12-31
+_082000781424,SMIRNOFF SPKD SELTZ VRTY 12PK 12z CN,32000875,32000875,,,,a,401 01D 000,Case,24.00,,,u,_082000781424,Master,25.50,0.00,1900-01-01,2075-12-31
+_094922298904,VINEYARD CK WH ZIN 750ML,38001077,38001077,,,,a,401 03A 000,Case,12.00,,,u,_094922298904,Master,51.26,0.00,1900-01-01,2075-12-31
+_094922298928,VINEYARD CK PINO GRIGIO 750ML,38001076,38001076,,,,a,401 03A 000,Case,12.00,,,u,_094922298928,Master,51.26,0.00,1900-01-01,2075-12-31
+_094922298935,VINEYARD CK MERLOT 750ML,38001075,38001075,,,,a,401 03A 000,Case,12.00,,,u,_094922298935,Master,51.26,0.00,1900-01-01,2075-12-31

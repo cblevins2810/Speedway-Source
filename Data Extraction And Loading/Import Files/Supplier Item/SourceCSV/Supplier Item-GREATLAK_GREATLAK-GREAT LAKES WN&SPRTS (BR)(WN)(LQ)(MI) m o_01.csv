@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_08316119904,CHAT GRAND TRAV RIESLING 750ml,178906,178906,,,,a,Default,Case,12.00,,,u,_083161199042,Master,114.00,0.00,2019-06-27,2075-12-31
+_08316197003,GRAND TRAV SEL RIESLING 750ml,178901,178901,,,,a,Default,Case,12.00,,,u,_083161970030,Master,75.00,0.00,1900-01-01,2075-12-31
+_08316197004,GRAND TRAV SEL SWEET RED 750mL,178903,178903,,,,a,Default,Case,12.00,,,u,_083161970047,Master,75.00,0.00,1900-01-01,2075-12-31
+_084970001052,LEELANAU WINTER WHITE 750ML,178911,178911,,,,a,Default,Case,12.00,,,u,_084970001052,Master,54.00,0.00,1900-01-01,2075-12-31
+_084970070508,LEELANAU GREAT LAKES RED 750 ML,1124483,1124483,,,,a,Default,Case,12.00,,,u,_084970070508,Master,66.00,0.00,1900-01-01,2075-12-31

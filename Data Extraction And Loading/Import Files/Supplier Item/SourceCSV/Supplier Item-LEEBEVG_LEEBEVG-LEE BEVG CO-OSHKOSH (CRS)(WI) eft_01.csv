@@ -1,0 +1,3 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_635985260394,WHITE CLAW MANGO 19.2Z CN,1123104,1123104,,,,a,Default,Case,12.00,,,u,_635985260394,Master,23.25,0.00,2019-06-27,2075-12-31

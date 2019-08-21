@@ -1,5 +1,0 @@
-04-19-19T13:26:01: Start Log
-04-19-19T13:26:01: Processing File: Chuck.xlsx
-04-19-19T13:26:12: Item Rows: 10, External Id: 10901
-04-19-19T13:26:13: Error --> 'ActiveSheet.Cells(...).value.length' is null or not an object
-04-19-19T13:26:13: End Log

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_033544950609,MODELO CHELADA LIMON Y SAL 24z CN,1100594,1100594,,,,a,401 01J 000,Case,12.00,,,u,_033544950609,Master,25.15,0.00,1900-01-01,2075-12-31
+_080660957968,MODELO CHELADA 24z CN,1054421,1054421,,,,a,401 01J 000,Case,12.00,,,u,_080660957968,Master,25.15,0.00,1900-01-01,2075-12-31

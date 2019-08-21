@@ -18,7 +18,8 @@ DECLARE @DepartmentId INT
 -- Added for support of incremental extract
 DECLARE	@last_max_id	INT
 -- Set this to the max Item Id from the last extract
-SET		@last_max_id	= 0
+SET		@last_max_id	= 1120842
+
 -- END for additional changes
 
 /*
@@ -236,6 +237,11 @@ AND LEN(bc.barcode_number) = 7
 DELETE bc
 FROM #rmi_barcode AS bc
 WHERE LEN(bc.barcode_number) = 8
+AND bc.barcode_type_code = 'u'
+
+DELETE bc
+FROM #rmi_barcode AS bc
+WHERE LEN(bc.barcode_number) = 11
 AND bc.barcode_type_code = 'u'
 
 UPDATE rmibc

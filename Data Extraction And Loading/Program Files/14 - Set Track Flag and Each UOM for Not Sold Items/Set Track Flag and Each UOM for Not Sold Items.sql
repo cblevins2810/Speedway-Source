@@ -28,6 +28,8 @@ AND ihdept.name IN ('201 Alternative Food Service',
 '77 Store Supplies',
 '94 M&S Food',
 '95 M&S Petroleum')
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
 
 INSERT Inventory_Item_Count_UOM_List (
 inventory_item_id,
@@ -56,6 +58,8 @@ WHERE NOT EXISTS (SELECT 1
 				  WHERE ii.inventory_item_id = iicul.inventory_item_id
 				  AND   iicul.unit_of_measure_id = 3)
 AND i.unit_of_measure_class_id = 1
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = ii.inventory_item_id)
 
 INSERT Inventory_Item_Count_UOM_List (
 inventory_item_id,
@@ -84,7 +88,8 @@ WHERE NOT EXISTS (SELECT 1
 				  WHERE ii.inventory_item_id = iicul.inventory_item_id
 				  AND   iicul.unit_of_measure_id = 3)
 AND i.unit_of_measure_class_id = 2
-
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = ii.inventory_item_id)
 INSERT Inventory_Item_Count_UOM_List (
 inventory_item_id,
 unit_of_measure_id, 
@@ -112,7 +117,8 @@ WHERE NOT EXISTS (SELECT 1
 				  WHERE ii.inventory_item_id = iicul.inventory_item_id
 				  AND   iicul.unit_of_measure_id = 3)
 AND i.unit_of_measure_class_id = 3
-
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = ii.inventory_item_id)
 UPDATE i
 SET track_flag = 'y'
 FROM item AS i

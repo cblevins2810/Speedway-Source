@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_167191,FRANCHISE SUPPLY (KEEP),167191,167191,,,,a,77 01 000,Each,1.00,,,,,Master,0.01,0.00,1900-01-01,2075-12-31
+_38683,206 FRNCHSE TAXABLE,38683,38683,,,,a,206 01 000,Each,1.00,,,,,Master,0.01,0.00,1900-01-01,2075-12-31
+_64596,206 FRNCHSE NON-TAX,64596,64596,,,,a,206 05 000,Each,1.00,,,,,Master,0.01,0.00,1900-01-01,2075-12-31

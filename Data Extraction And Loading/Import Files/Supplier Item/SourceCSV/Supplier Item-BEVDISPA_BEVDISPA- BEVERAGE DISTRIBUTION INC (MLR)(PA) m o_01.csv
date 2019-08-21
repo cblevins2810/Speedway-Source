@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_610764264640,BANG MOCHA COFFEE 16Z,36009380,36009380,,,,a,Default,Case,12.00,,,u,_610764264640,Master,28.00,0.00,1900-01-01,2075-12-31
+_610764264688,BANG COOKIES N CREME 16Z,36014099,36014099,,,,a,Default,Case,12.00,,,u,_610764264688,Master,28.00,0.00,1900-01-01,2075-12-31
+_610764264701,BANG HAZELNUT COFFEE 16Z,36009379,36009379,,,,a,Default,Case,12.00,,,u,_610764264701,Master,28.00,0.00,1900-01-01,2075-12-31
+_613008754044,ARNOLD PALMER SPIKED ICED TEA 24Z CN,1124139,1124139,,,,a,Default,Case,12.00,,,u,_613008754044,Master,20.20,0.00,1900-01-01,2075-12-31
+_613008754075,ARNOLD PALMER SPIKED LEMONADE 24Z CN,1124140,1124140,,,,a,Default,Case,12.00,,,u,_613008754075,Master,20.20,0.00,1900-01-01,2075-12-31

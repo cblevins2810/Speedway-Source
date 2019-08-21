@@ -13,3 +13,4 @@ WHERE client_id = @ClientId
 UPDATE Retail_Item
 SET device_group_id = @DeviceGroupId
 WHERE client_id = @ClientId
+AND device_group_id IS NULL

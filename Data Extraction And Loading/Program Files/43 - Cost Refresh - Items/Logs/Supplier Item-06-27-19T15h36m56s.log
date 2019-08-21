@@ -1,0 +1,65 @@
+06-27-19T15:36:56: Start Log
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-HAMANBRO_HAMANBRO-HAMAN BROS PROD CO_01 (New).csv
+06-27-19T15:36:56: Supplier Name: HAMANBRO-HAMAN BROS PROD CO
+06-27-19T15:36:56: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:56: XSL Transform Completed.
+06-27-19T15:36:56: Supplier Item-HAMANBRO_HAMANBRO-HAMAN BROS PROD CO_01 (New) completed.
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-PEPSICOL_PEPSICOL-PEPSI COLUMBUS G&J (OH) (asn)_01.csv
+06-27-19T15:36:56: Supplier Name: PEPSICOL-PEPSI COLUMBUS G&J (OH) (asn)
+06-27-19T15:36:56: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:56: XSL Transform Completed.
+06-27-19T15:36:56: Supplier Item-PEPSICOL_PEPSICOL-PEPSI COLUMBUS G&J (OH) (asn)_01 completed.
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-PEPSLEXI_PEPSLEXI-PEPSI LEXINGTON G&J (KY)-asn_01.csv
+06-27-19T15:36:56: Supplier Name: PEPSLEXI-PEPSI LEXINGTON G&J (KY)-asn
+06-27-19T15:36:56: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:56: XSL Transform Completed.
+06-27-19T15:36:56: Supplier Item-PEPSLEXI_PEPSLEXI-PEPSI LEXINGTON G&J (KY)-asn_01 completed.
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-SHELTONS_SHELTONS-SHELTONS FARM MARKET_01 (New).csv
+06-27-19T15:36:56: Supplier Name: SHELTONS-SHELTONS FARM MARKET
+06-27-19T15:36:56: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:56: XSL Transform Completed.
+06-27-19T15:36:56: Supplier Item-SHELTONS_SHELTONS-SHELTONS FARM MARKET_01 (New) completed.
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-STEUBEN_STEUBEN-STEUBENVILLE FRUIT_01 (New).csv
+06-27-19T15:36:56: Supplier Name: STEUBEN-STEUBENVILLE FRUIT
+06-27-19T15:36:56: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:56: XSL Transform Completed.
+06-27-19T15:36:56: Supplier Item-STEUBEN_STEUBEN-STEUBENVILLE FRUIT_01 (New) completed.
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-STEVES_STEVES-STEVES PRODUCE_01 (New).csv
+06-27-19T15:36:56: Supplier Name: STEVES-STEVES PRODUCE
+06-27-19T15:36:56: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:56: XSL Transform Completed.
+06-27-19T15:36:56: Supplier Item-STEVES_STEVES-STEVES PRODUCE_01 (New) completed.
+06-27-19T15:36:56: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item\FinalCSV\Supplier Item-__HERR SNACKS.csv
+06-27-19T15:36:56: Supplier Name: 
+06-27-19T15:36:56: Supplier Items Rows: 10
+06-27-19T15:36:56: Supplier Items Rows: 20
+06-27-19T15:36:56: Supplier Items Rows: 30
+06-27-19T15:36:56: Supplier Items Rows: 40
+06-27-19T15:36:56: Supplier Items Rows: 50
+06-27-19T15:36:56: Supplier Items Rows: 60
+06-27-19T15:36:56: Supplier Items Rows: 70
+06-27-19T15:36:56: Supplier Items Rows: 80
+06-27-19T15:36:56: Supplier Items Rows: 90
+06-27-19T15:36:56: Supplier Items Rows: 100
+06-27-19T15:36:56: Supplier Items Rows: 110
+06-27-19T15:36:56: Supplier Items Rows: 120
+06-27-19T15:36:56: Supplier Items Rows: 130
+06-27-19T15:36:56: Supplier Items Rows: 140
+06-27-19T15:36:56: Supplier Items Rows: 150
+06-27-19T15:36:56: Supplier Items Rows: 160
+06-27-19T15:36:56: Supplier Items Rows: 170
+06-27-19T15:36:56: Supplier Items Rows: 180
+06-27-19T15:36:56: Supplier Items Rows: 190
+06-27-19T15:36:56: Supplier Items Rows: 200
+06-27-19T15:36:56: Supplier Items Rows: 210
+06-27-19T15:36:56: Supplier Items Rows: 220
+06-27-19T15:36:56: Supplier Items Rows: 230
+06-27-19T15:36:56: Supplier Items Rows: 240
+06-27-19T15:36:56: Supplier Items Rows: 250
+06-27-19T15:36:56: Supplier Items Rows: 260
+06-27-19T15:36:57: Supplier Items Rows: 270
+06-27-19T15:36:57: Supplier Items Rows: 280
+06-27-19T15:36:57: Starting XSL Transform, this may take awhile.
+06-27-19T15:36:57: XSL Transform Completed.
+06-27-19T15:36:57: Supplier Item-__HERR SNACKS completed.
+06-27-19T15:36:57: End Log

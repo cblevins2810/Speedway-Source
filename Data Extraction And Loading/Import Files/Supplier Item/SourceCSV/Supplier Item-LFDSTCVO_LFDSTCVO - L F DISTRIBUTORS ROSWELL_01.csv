@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_016571953829,SPARKLING ICE CAFFEINE TRIPLE CITRUS 16Z,1116476,1116476,,,,a,601 11 000,Case,12.00,,,u,_016571953829,Master,11.00,0.00,1900-01-01,2075-12-31
+_068274543326,NESTLE PURE LIFE FLAT CAP 700ML,37000406,37000406,,,,a,Default,Case,24.00,,,u,_068274543326,Master,16.60,0.00,1900-01-01,2075-12-31

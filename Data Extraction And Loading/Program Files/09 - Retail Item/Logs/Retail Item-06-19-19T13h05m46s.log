@@ -1,0 +1,467 @@
+06-19-19T13:05:46: Start Log
+06-19-19T13:05:46: Found Input File: Retail Item-201 Other Fast Food_01.csv
+06-19-19T13:05:46: Department: 201 Other Fast Food
+06-19-19T13:05:59: Finished Department: 201 Other Fast Food
+06-19-19T13:05:59: Total Items: 3
+06-19-19T13:05:59: File created in working xls folder: Retail Item-Retail Item-201 Other Fast Food_01.xlsx
+06-19-19T13:05:59: Moving file Retail Item-201 Other Fast Food_01.csv to Archive 
+06-19-19T13:05:59: ...
+06-19-19T13:05:59: Found Input File: Retail Item-206 Franchise Food_01.csv
+06-19-19T13:05:59: Department: 206 Franchise Food
+06-19-19T13:06:08: Item Rows: 10
+06-19-19T13:06:09: Item Rows: 20
+06-19-19T13:06:10: Item Rows: 30
+06-19-19T13:06:10: Item Rows: 40
+06-19-19T13:06:11: Item Rows: 50
+06-19-19T13:06:11: Item Rows: 60
+06-19-19T13:06:11: Item Rows: 70
+06-19-19T13:06:11: Item Rows: 80
+06-19-19T13:06:12: Item Rows: 90
+06-19-19T13:06:12: Item Rows: 100
+06-19-19T13:06:13: Item Rows: 110
+06-19-19T13:06:13: Item Rows: 120
+06-19-19T13:06:13: Item Rows: 130
+06-19-19T13:06:13: Item Rows: 140
+06-19-19T13:06:13: Item Rows: 150
+06-19-19T13:06:14: Item Rows: 160
+06-19-19T13:06:14: Item Rows: 170
+06-19-19T13:06:14: Item Rows: 180
+06-19-19T13:06:14: Item Rows: 190
+06-19-19T13:06:14: Item Rows: 200
+06-19-19T13:06:15: Item Rows: 210
+06-19-19T13:06:15: Item Rows: 220
+06-19-19T13:06:16: Item Rows: 230
+06-19-19T13:06:16: Item Rows: 240
+06-19-19T13:06:16: Finished Department: 206 Franchise Food
+06-19-19T13:06:16: Total Items: 236
+06-19-19T13:06:17: File created in working xls folder: Retail Item-Retail Item-206 Franchise Food_01.xlsx
+06-19-19T13:06:17: Moving file Retail Item-206 Franchise Food_01.csv to Archive 
+06-19-19T13:06:17: ...
+06-19-19T13:06:17: Found Input File: Retail Item-212 Hot Beverage_01.csv
+06-19-19T13:06:17: Department: 212 Hot Beverage
+06-19-19T13:06:25: Item Rows: 10
+06-19-19T13:06:26: Finished Department: 212 Hot Beverage
+06-19-19T13:06:26: Total Items: 11
+06-19-19T13:06:26: File created in working xls folder: Retail Item-Retail Item-212 Hot Beverage_01.xlsx
+06-19-19T13:06:26: Moving file Retail Item-212 Hot Beverage_01.csv to Archive 
+06-19-19T13:06:26: ...
+06-19-19T13:06:26: Found Input File: Retail Item-215 Cold Beverage_01.csv
+06-19-19T13:06:26: Department: 215 Cold Beverage
+06-19-19T13:06:34: Item Rows: 10
+06-19-19T13:06:35: Finished Department: 215 Cold Beverage
+06-19-19T13:06:35: Total Items: 11
+06-19-19T13:06:35: File created in working xls folder: Retail Item-Retail Item-215 Cold Beverage_01.xlsx
+06-19-19T13:06:35: Moving file Retail Item-215 Cold Beverage_01.csv to Archive 
+06-19-19T13:06:35: ...
+06-19-19T13:06:36: Found Input File: Retail Item-218 Hot Food_01.csv
+06-19-19T13:06:36: Department: 218 Hot Food
+06-19-19T13:06:43: Item Rows: 10
+06-19-19T13:06:44: Item Rows: 20
+06-19-19T13:06:45: Item Rows: 30
+06-19-19T13:06:46: Finished Department: 218 Hot Food
+06-19-19T13:06:46: Total Items: 26
+06-19-19T13:06:46: File created in working xls folder: Retail Item-Retail Item-218 Hot Food_01.xlsx
+06-19-19T13:06:46: Moving file Retail Item-218 Hot Food_01.csv to Archive 
+06-19-19T13:06:46: ...
+06-19-19T13:06:46: Found Input File: Retail Item-221 Sandwich_01.csv
+06-19-19T13:06:46: Department: 221 Sandwich
+06-19-19T13:06:54: Item Rows: 10
+06-19-19T13:06:54: Item Rows: 20
+06-19-19T13:06:55: Item Rows: 30
+06-19-19T13:06:55: Item Rows: 40
+06-19-19T13:06:55: Item Rows: 50
+06-19-19T13:06:55: Item Rows: 60
+06-19-19T13:06:55: Item Rows: 70
+06-19-19T13:06:56: Item Rows: 80
+06-19-19T13:06:56: Item Rows: 90
+06-19-19T13:06:57: Item Rows: 100
+06-19-19T13:06:57: Item Rows: 110
+06-19-19T13:06:57: Item Rows: 120
+06-19-19T13:06:58: Item Rows: 130
+06-19-19T13:06:58: Item Rows: 140
+06-19-19T13:06:58: Item Rows: 150
+06-19-19T13:06:58: Item Rows: 160
+06-19-19T13:06:59: Item Rows: 170
+06-19-19T13:06:59: Item Rows: 180
+06-19-19T13:07:00: Item Rows: 190
+06-19-19T13:07:00: Item Rows: 200
+06-19-19T13:07:00: Item Rows: 210
+06-19-19T13:07:00: Item Rows: 220
+06-19-19T13:07:01: Item Rows: 230
+06-19-19T13:07:01: Item Rows: 240
+06-19-19T13:07:01: Item Rows: 250
+06-19-19T13:07:01: Item Rows: 260
+06-19-19T13:07:01: Item Rows: 270
+06-19-19T13:07:01: Item Rows: 280
+06-19-19T13:07:02: Item Rows: 290
+06-19-19T13:07:02: Item Rows: 300
+06-19-19T13:07:02: Item Rows: 310
+06-19-19T13:07:03: Item Rows: 320
+06-19-19T13:07:03: Item Rows: 330
+06-19-19T13:07:03: Item Rows: 340
+06-19-19T13:07:03: Item Rows: 350
+06-19-19T13:07:03: Item Rows: 360
+06-19-19T13:07:04: Item Rows: 370
+06-19-19T13:07:04: Item Rows: 380
+06-19-19T13:07:04: Item Rows: 390
+06-19-19T13:07:05: Finished Department: 221 Sandwich
+06-19-19T13:07:05: Total Items: 393
+06-19-19T13:07:05: File created in working xls folder: Retail Item-Retail Item-221 Sandwich_01.xlsx
+06-19-19T13:07:05: Moving file Retail Item-221 Sandwich_01.csv to Archive 
+06-19-19T13:07:05: ...
+06-19-19T13:07:05: Found Input File: Retail Item-231 Fresh Bakery_01.csv
+06-19-19T13:07:05: Department: 231 Fresh Bakery
+06-19-19T13:07:13: Item Rows: 10
+06-19-19T13:07:13: Item Rows: 20
+06-19-19T13:07:14: Finished Department: 231 Fresh Bakery
+06-19-19T13:07:14: Total Items: 16
+06-19-19T13:07:14: File created in working xls folder: Retail Item-Retail Item-231 Fresh Bakery_01.xlsx
+06-19-19T13:07:14: Moving file Retail Item-231 Fresh Bakery_01.csv to Archive 
+06-19-19T13:07:14: ...
+06-19-19T13:07:14: Found Input File: Retail Item-401 Beer & Wine_01.csv
+06-19-19T13:07:14: Department: 401 Beer & Wine
+06-19-19T13:07:22: Item Rows: 10
+06-19-19T13:07:23: Item Rows: 20
+06-19-19T13:07:23: Item Rows: 30
+06-19-19T13:07:23: Item Rows: 40
+06-19-19T13:07:23: Item Rows: 50
+06-19-19T13:07:24: Item Rows: 60
+06-19-19T13:07:24: Item Rows: 70
+06-19-19T13:07:24: Item Rows: 80
+06-19-19T13:07:24: Item Rows: 90
+06-19-19T13:07:24: Item Rows: 100
+06-19-19T13:07:25: Item Rows: 110
+06-19-19T13:07:25: Item Rows: 120
+06-19-19T13:07:25: Item Rows: 130
+06-19-19T13:07:25: Item Rows: 140
+06-19-19T13:07:26: Item Rows: 150
+06-19-19T13:07:26: Item Rows: 160
+06-19-19T13:07:26: Item Rows: 170
+06-19-19T13:07:26: Item Rows: 180
+06-19-19T13:07:27: Finished Department: 401 Beer & Wine
+06-19-19T13:07:27: Total Items: 183
+06-19-19T13:07:27: File created in working xls folder: Retail Item-Retail Item-401 Beer & Wine_01.xlsx
+06-19-19T13:07:27: Moving file Retail Item-401 Beer & Wine_01.csv to Archive 
+06-19-19T13:07:27: ...
+06-19-19T13:07:27: Found Input File: Retail Item-501 Cigarettes_01.csv
+06-19-19T13:07:27: Department: 501 Cigarettes
+06-19-19T13:07:34: Finished Department: 501 Cigarettes
+06-19-19T13:07:34: Total Items: 5
+06-19-19T13:07:34: File created in working xls folder: Retail Item-Retail Item-501 Cigarettes_01.xlsx
+06-19-19T13:07:34: Moving file Retail Item-501 Cigarettes_01.csv to Archive 
+06-19-19T13:07:35: ...
+06-19-19T13:07:35: Found Input File: Retail Item-601 General Merchan_01.csv
+06-19-19T13:07:35: Department: 601 General Merchan
+06-19-19T13:07:43: Item Rows: 10
+06-19-19T13:07:44: Item Rows: 20
+06-19-19T13:07:44: Item Rows: 30
+06-19-19T13:07:45: Item Rows: 40
+06-19-19T13:07:45: Item Rows: 50
+06-19-19T13:07:45: Item Rows: 60
+06-19-19T13:07:45: Item Rows: 70
+06-19-19T13:07:46: Item Rows: 80
+06-19-19T13:07:46: Item Rows: 90
+06-19-19T13:07:46: Item Rows: 100
+06-19-19T13:07:48: Item Rows: 110
+06-19-19T13:07:48: Item Rows: 120
+06-19-19T13:07:48: Item Rows: 130
+06-19-19T13:07:48: Item Rows: 140
+06-19-19T13:07:48: Item Rows: 150
+06-19-19T13:07:49: Item Rows: 160
+06-19-19T13:07:49: Item Rows: 170
+06-19-19T13:07:49: Item Rows: 180
+06-19-19T13:07:49: Item Rows: 190
+06-19-19T13:07:49: Item Rows: 200
+06-19-19T13:07:50: Item Rows: 210
+06-19-19T13:07:50: Item Rows: 220
+06-19-19T13:07:50: Item Rows: 230
+06-19-19T13:07:50: Item Rows: 240
+06-19-19T13:07:51: Item Rows: 250
+06-19-19T13:07:51: Item Rows: 260
+06-19-19T13:07:51: Item Rows: 270
+06-19-19T13:07:51: Item Rows: 280
+06-19-19T13:07:51: Item Rows: 290
+06-19-19T13:07:52: Item Rows: 300
+06-19-19T13:07:52: Item Rows: 310
+06-19-19T13:07:52: Item Rows: 320
+06-19-19T13:07:52: Item Rows: 330
+06-19-19T13:07:52: Item Rows: 340
+06-19-19T13:07:53: Item Rows: 350
+06-19-19T13:07:53: Item Rows: 360
+06-19-19T13:07:53: Item Rows: 370
+06-19-19T13:07:54: Item Rows: 380
+06-19-19T13:07:55: Item Rows: 390
+06-19-19T13:07:55: Item Rows: 400
+06-19-19T13:07:55: Item Rows: 410
+06-19-19T13:07:55: Item Rows: 420
+06-19-19T13:07:56: Item Rows: 430
+06-19-19T13:07:56: Item Rows: 440
+06-19-19T13:07:56: Item Rows: 450
+06-19-19T13:07:56: Item Rows: 460
+06-19-19T13:07:56: Item Rows: 470
+06-19-19T13:07:57: Item Rows: 480
+06-19-19T13:07:57: Item Rows: 490
+06-19-19T13:07:57: Item Rows: 500
+06-19-19T13:07:57: Item Rows: 510
+06-19-19T13:07:57: Item Rows: 520
+06-19-19T13:07:58: Item Rows: 530
+06-19-19T13:07:58: Item Rows: 540
+06-19-19T13:07:58: Item Rows: 550
+06-19-19T13:07:58: Item Rows: 560
+06-19-19T13:07:59: Item Rows: 570
+06-19-19T13:07:59: Item Rows: 580
+06-19-19T13:07:59: Item Rows: 590
+06-19-19T13:07:59: Item Rows: 600
+06-19-19T13:07:59: Item Rows: 610
+06-19-19T13:08:00: Item Rows: 620
+06-19-19T13:08:00: Item Rows: 630
+06-19-19T13:08:00: Item Rows: 640
+06-19-19T13:08:01: Item Rows: 650
+06-19-19T13:08:01: Item Rows: 660
+06-19-19T13:08:01: Item Rows: 670
+06-19-19T13:08:01: Item Rows: 680
+06-19-19T13:08:01: Item Rows: 690
+06-19-19T13:08:01: Item Rows: 700
+06-19-19T13:08:02: Item Rows: 710
+06-19-19T13:08:03: Item Rows: 720
+06-19-19T13:08:03: Item Rows: 730
+06-19-19T13:08:04: Item Rows: 740
+06-19-19T13:08:04: Item Rows: 750
+06-19-19T13:08:04: Item Rows: 760
+06-19-19T13:08:04: Item Rows: 770
+06-19-19T13:08:04: Item Rows: 780
+06-19-19T13:08:05: Item Rows: 790
+06-19-19T13:08:05: Item Rows: 800
+06-19-19T13:08:05: Item Rows: 810
+06-19-19T13:08:05: Item Rows: 820
+06-19-19T13:08:06: Item Rows: 830
+06-19-19T13:08:06: Item Rows: 840
+06-19-19T13:08:06: Item Rows: 850
+06-19-19T13:08:06: Item Rows: 860
+06-19-19T13:08:07: Item Rows: 870
+06-19-19T13:08:07: Item Rows: 880
+06-19-19T13:08:07: Item Rows: 890
+06-19-19T13:08:07: Item Rows: 900
+06-19-19T13:08:07: Item Rows: 910
+06-19-19T13:08:08: Item Rows: 920
+06-19-19T13:08:08: Item Rows: 930
+06-19-19T13:08:08: Item Rows: 940
+06-19-19T13:08:08: Item Rows: 950
+06-19-19T13:08:08: Item Rows: 960
+06-19-19T13:08:09: Item Rows: 970
+06-19-19T13:08:09: Item Rows: 980
+06-19-19T13:08:09: Item Rows: 990
+06-19-19T13:08:09: Item Rows: 1000
+06-19-19T13:08:10: Item Rows: 1010
+06-19-19T13:08:10: Item Rows: 1020
+06-19-19T13:08:10: Item Rows: 1030
+06-19-19T13:08:10: Item Rows: 1040
+06-19-19T13:08:10: Item Rows: 1050
+06-19-19T13:08:11: Item Rows: 1060
+06-19-19T13:08:11: Item Rows: 1070
+06-19-19T13:08:11: Item Rows: 1080
+06-19-19T13:08:11: Item Rows: 1090
+06-19-19T13:08:12: Item Rows: 1100
+06-19-19T13:08:13: Item Rows: 1110
+06-19-19T13:08:13: Item Rows: 1120
+06-19-19T13:08:13: Item Rows: 1130
+06-19-19T13:08:13: Item Rows: 1140
+06-19-19T13:08:13: Item Rows: 1150
+06-19-19T13:08:14: Finished Department: 601 General Merchan
+06-19-19T13:08:14: Total Items: 1154
+06-19-19T13:08:14: File created in working xls folder: Retail Item-Retail Item-601 General Merchan_01.xlsx
+06-19-19T13:08:14: Moving file Retail Item-601 General Merchan_01.csv to Archive 
+06-19-19T13:08:14: ...
+06-19-19T13:08:14: Found Input File: Retail Item-601 General Merchan_02.csv
+06-19-19T13:08:14: Department: 601 General Merchan
+06-19-19T13:08:22: Item Rows: 10
+06-19-19T13:08:23: Item Rows: 20
+06-19-19T13:08:23: Item Rows: 30
+06-19-19T13:08:23: Item Rows: 40
+06-19-19T13:08:24: Item Rows: 50
+06-19-19T13:08:24: Item Rows: 60
+06-19-19T13:08:24: Item Rows: 70
+06-19-19T13:08:25: Item Rows: 80
+06-19-19T13:08:25: Item Rows: 90
+06-19-19T13:08:25: Item Rows: 100
+06-19-19T13:08:26: Item Rows: 110
+06-19-19T13:08:26: Item Rows: 120
+06-19-19T13:08:27: Item Rows: 130
+06-19-19T13:08:28: Item Rows: 140
+06-19-19T13:08:28: Item Rows: 150
+06-19-19T13:08:28: Item Rows: 160
+06-19-19T13:08:28: Item Rows: 170
+06-19-19T13:08:29: Item Rows: 180
+06-19-19T13:08:29: Item Rows: 190
+06-19-19T13:08:30: Item Rows: 200
+06-19-19T13:08:30: Item Rows: 210
+06-19-19T13:08:30: Item Rows: 220
+06-19-19T13:08:30: Item Rows: 230
+06-19-19T13:08:31: Item Rows: 240
+06-19-19T13:08:31: Item Rows: 250
+06-19-19T13:08:31: Item Rows: 260
+06-19-19T13:08:31: Item Rows: 270
+06-19-19T13:08:31: Item Rows: 280
+06-19-19T13:08:32: Item Rows: 290
+06-19-19T13:08:32: Item Rows: 300
+06-19-19T13:08:33: Item Rows: 310
+06-19-19T13:08:33: Item Rows: 320
+06-19-19T13:08:33: Item Rows: 330
+06-19-19T13:08:33: Item Rows: 340
+06-19-19T13:08:33: Item Rows: 350
+06-19-19T13:08:34: Item Rows: 360
+06-19-19T13:08:34: Item Rows: 370
+06-19-19T13:08:34: Item Rows: 380
+06-19-19T13:08:34: Item Rows: 390
+06-19-19T13:08:34: Item Rows: 400
+06-19-19T13:08:35: Item Rows: 410
+06-19-19T13:08:35: Item Rows: 420
+06-19-19T13:08:36: Item Rows: 430
+06-19-19T13:08:36: Item Rows: 440
+06-19-19T13:08:36: Item Rows: 450
+06-19-19T13:08:37: Item Rows: 460
+06-19-19T13:08:37: Item Rows: 470
+06-19-19T13:08:39: Item Rows: 480
+06-19-19T13:08:39: Item Rows: 490
+06-19-19T13:08:41: Item Rows: 500
+06-19-19T13:08:41: Item Rows: 510
+06-19-19T13:08:42: Item Rows: 520
+06-19-19T13:08:42: Item Rows: 530
+06-19-19T13:08:42: Item Rows: 540
+06-19-19T13:08:42: Item Rows: 550
+06-19-19T13:08:42: Item Rows: 560
+06-19-19T13:08:43: Item Rows: 570
+06-19-19T13:08:43: Item Rows: 580
+06-19-19T13:08:43: Item Rows: 590
+06-19-19T13:08:43: Item Rows: 600
+06-19-19T13:08:43: Item Rows: 610
+06-19-19T13:08:44: Item Rows: 620
+06-19-19T13:08:44: Item Rows: 630
+06-19-19T13:08:44: Item Rows: 640
+06-19-19T13:08:44: Item Rows: 650
+06-19-19T13:08:44: Item Rows: 660
+06-19-19T13:08:45: Item Rows: 670
+06-19-19T13:08:45: Item Rows: 680
+06-19-19T13:08:46: Item Rows: 690
+06-19-19T13:08:46: Item Rows: 700
+06-19-19T13:08:46: Item Rows: 710
+06-19-19T13:08:46: Item Rows: 720
+06-19-19T13:08:46: Item Rows: 730
+06-19-19T13:08:47: Item Rows: 740
+06-19-19T13:08:47: Item Rows: 750
+06-19-19T13:08:47: Item Rows: 760
+06-19-19T13:08:47: Item Rows: 770
+06-19-19T13:08:47: Item Rows: 780
+06-19-19T13:08:48: Item Rows: 790
+06-19-19T13:08:48: Item Rows: 800
+06-19-19T13:08:49: Item Rows: 810
+06-19-19T13:08:49: Item Rows: 820
+06-19-19T13:08:49: Item Rows: 830
+06-19-19T13:08:49: Item Rows: 840
+06-19-19T13:08:50: Item Rows: 850
+06-19-19T13:08:50: Item Rows: 860
+06-19-19T13:08:50: Item Rows: 870
+06-19-19T13:08:50: Item Rows: 880
+06-19-19T13:08:51: Item Rows: 890
+06-19-19T13:08:51: Item Rows: 900
+06-19-19T13:08:51: Item Rows: 910
+06-19-19T13:08:51: Item Rows: 920
+06-19-19T13:08:51: Item Rows: 930
+06-19-19T13:08:52: Item Rows: 940
+06-19-19T13:08:52: Item Rows: 950
+06-19-19T13:08:53: Item Rows: 960
+06-19-19T13:08:53: Item Rows: 970
+06-19-19T13:08:53: Item Rows: 980
+06-19-19T13:08:53: Item Rows: 990
+06-19-19T13:08:54: Item Rows: 1000
+06-19-19T13:08:55: Item Rows: 1010
+06-19-19T13:08:55: Item Rows: 1020
+06-19-19T13:08:56: Item Rows: 1030
+06-19-19T13:08:56: Item Rows: 1040
+06-19-19T13:08:56: Item Rows: 1050
+06-19-19T13:08:57: Item Rows: 1060
+06-19-19T13:08:57: Item Rows: 1070
+06-19-19T13:08:58: Item Rows: 1080
+06-19-19T13:08:58: Item Rows: 1090
+06-19-19T13:08:58: Item Rows: 1100
+06-19-19T13:08:58: Item Rows: 1110
+06-19-19T13:08:59: Item Rows: 1120
+06-19-19T13:08:59: Item Rows: 1130
+06-19-19T13:08:59: Item Rows: 1140
+06-19-19T13:09:00: Item Rows: 1150
+06-19-19T13:09:00: Item Rows: 1160
+06-19-19T13:09:01: Item Rows: 1170
+06-19-19T13:09:01: Finished Department: 601 General Merchan
+06-19-19T13:09:01: Total Items: 1169
+06-19-19T13:09:02: File created in working xls folder: Retail Item-Retail Item-601 General Merchan_02.xlsx
+06-19-19T13:09:02: Moving file Retail Item-601 General Merchan_02.csv to Archive 
+06-19-19T13:09:02: ...
+06-19-19T13:09:02: Found Input File: Retail Item-64 M&S Gift Card & Resale_01.csv
+06-19-19T13:09:02: Department: 64 M&S Gift Card & Resale
+06-19-19T13:09:12: Finished Department: 64 M&S Gift Card & Resale
+06-19-19T13:09:12: Total Items: 1
+06-19-19T13:09:12: File created in working xls folder: Retail Item-Retail Item-64 M&S Gift Card & Resale_01.xlsx
+06-19-19T13:09:12: Moving file Retail Item-64 M&S Gift Card & Resale_01.csv to Archive 
+06-19-19T13:09:12: ...
+06-19-19T13:09:12: Found Input File: Retail Item-706 Consignment - Gen Mdse_01.csv
+06-19-19T13:09:12: Department: 706 Consignment - Gen Mdse
+06-19-19T13:09:25: Item Rows: 10
+06-19-19T13:09:25: Item Rows: 20
+06-19-19T13:09:26: Item Rows: 30
+06-19-19T13:09:26: Item Rows: 40
+06-19-19T13:09:26: Item Rows: 50
+06-19-19T13:09:27: Item Rows: 60
+06-19-19T13:09:27: Item Rows: 70
+06-19-19T13:09:28: Item Rows: 80
+06-19-19T13:09:28: Item Rows: 90
+06-19-19T13:09:29: Item Rows: 100
+06-19-19T13:09:29: Item Rows: 110
+06-19-19T13:09:30: Item Rows: 120
+06-19-19T13:09:30: Item Rows: 130
+06-19-19T13:09:30: Item Rows: 140
+06-19-19T13:09:31: Item Rows: 150
+06-19-19T13:09:32: Finished Department: 706 Consignment - Gen Mdse
+06-19-19T13:09:32: Total Items: 147
+06-19-19T13:09:32: File created in working xls folder: Retail Item-Retail Item-706 Consignment - Gen Mdse_01.xlsx
+06-19-19T13:09:32: Moving file Retail Item-706 Consignment - Gen Mdse_01.csv to Archive 
+06-19-19T13:09:32: ...
+06-19-19T13:09:32: Found Input File: Retail Item-707 Consignment - Foodservice_01.csv
+06-19-19T13:09:32: Department: 707 Consignment - Foodservice
+06-19-19T13:09:43: Finished Department: 707 Consignment - Foodservice
+06-19-19T13:09:44: Total Items: 0
+06-19-19T13:09:45: File created in working xls folder: Retail Item-Retail Item-707 Consignment - Foodservice_01.xlsx
+06-19-19T13:09:45: Moving file Retail Item-707 Consignment - Foodservice_01.csv to Archive 
+06-19-19T13:09:45: ...
+06-19-19T13:09:45: Found Input File: Retail Item-77 Store Supplies_01.csv
+06-19-19T13:09:45: Department: 77 Store Supplies
+06-19-19T13:09:58: Item Rows: 10
+06-19-19T13:09:59: Item Rows: 20
+06-19-19T13:10:00: Finished Department: 77 Store Supplies
+06-19-19T13:10:00: Total Items: 18
+06-19-19T13:10:00: File created in working xls folder: Retail Item-Retail Item-77 Store Supplies_01.xlsx
+06-19-19T13:10:00: Moving file Retail Item-77 Store Supplies_01.csv to Archive 
+06-19-19T13:10:01: ...
+06-19-19T13:10:01: Found Input File: Retail Item-800 Miscellanous Sales_01.csv
+06-19-19T13:10:01: Department: 800 Miscellanous Sales
+06-19-19T13:10:09: Item Rows: 10
+06-19-19T13:10:10: Finished Department: 800 Miscellanous Sales
+06-19-19T13:10:10: Total Items: 10
+06-19-19T13:10:10: File created in working xls folder: Retail Item-Retail Item-800 Miscellanous Sales_01.xlsx
+06-19-19T13:10:10: Moving file Retail Item-800 Miscellanous Sales_01.csv to Archive 
+06-19-19T13:10:10: ...
+06-19-19T13:10:10: Found Input File: Retail Item-901 Soft Drinks_01.csv
+06-19-19T13:10:10: Department: 901 Soft Drinks
+06-19-19T13:10:19: Item Rows: 10
+06-19-19T13:10:21: Finished Department: 901 Soft Drinks
+06-19-19T13:10:21: Total Items: 15
+06-19-19T13:10:21: File created in working xls folder: Retail Item-Retail Item-901 Soft Drinks_01.xlsx
+06-19-19T13:10:21: Moving file Retail Item-901 Soft Drinks_01.csv to Archive 
+06-19-19T13:10:21: ...
+06-19-19T13:10:22: Found Input File: Retail Item-VC Vendor Credit_01.csv
+06-19-19T13:10:22: Department: VC Vendor Credit
+06-19-19T13:10:41: Finished Department: VC Vendor Credit
+06-19-19T13:10:41: Total Items: 1
+06-19-19T13:10:41: File created in working xls folder: Retail Item-Retail Item-VC Vendor Credit_01.xlsx
+06-19-19T13:10:42: Moving file Retail Item-VC Vendor Credit_01.csv to Archive 
+06-19-19T13:10:42: ...
+06-19-19T13:10:42: End Log

@@ -1,0 +1,289 @@
+06-27-19T14:23:33: Start Log
+06-27-19T14:23:33: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-401 Beer & Wine_01.csv
+06-27-19T14:23:33: Items Rows: 10
+06-27-19T14:23:33: Items Rows: 20
+06-27-19T14:23:33: Items Rows: 30
+06-27-19T14:23:33: Items Rows: 40
+06-27-19T14:23:33: Items Rows: 50
+06-27-19T14:23:33: Items Rows: 60
+06-27-19T14:23:33: Items Rows: 70
+06-27-19T14:23:33: Items Rows: 80
+06-27-19T14:23:33: Items Rows: 90
+06-27-19T14:23:33: Items Rows: 100
+06-27-19T14:23:33: Items Rows: 110
+06-27-19T14:23:33: Items Rows: 120
+06-27-19T14:23:33: Items Rows: 130
+06-27-19T14:23:33: Items Rows: 140
+06-27-19T14:23:33: Items Rows: 150
+06-27-19T14:23:33: Items Rows: 160
+06-27-19T14:23:33: Items Rows: 170
+06-27-19T14:23:33: Items Rows: 180
+06-27-19T14:23:33: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:33: XSL Transform Complete.
+06-27-19T14:23:33: Finished Items
+06-27-19T14:23:33: Total Items: 180
+06-27-19T14:23:33: File created in final xml folder: Retail Item-401 Beer & Wine_01.xml
+06-27-19T14:23:33: ...
+06-27-19T14:23:33: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-601 General Merchan_01.csv
+06-27-19T14:23:33: Items Rows: 10
+06-27-19T14:23:34: Items Rows: 20
+06-27-19T14:23:34: Items Rows: 30
+06-27-19T14:23:34: Items Rows: 40
+06-27-19T14:23:34: Items Rows: 50
+06-27-19T14:23:34: Items Rows: 60
+06-27-19T14:23:34: Items Rows: 70
+06-27-19T14:23:34: Items Rows: 80
+06-27-19T14:23:34: Items Rows: 90
+06-27-19T14:23:34: Items Rows: 100
+06-27-19T14:23:34: Items Rows: 110
+06-27-19T14:23:34: Items Rows: 120
+06-27-19T14:23:34: Items Rows: 130
+06-27-19T14:23:34: Items Rows: 140
+06-27-19T14:23:34: Items Rows: 150
+06-27-19T14:23:34: Items Rows: 160
+06-27-19T14:23:34: Items Rows: 170
+06-27-19T14:23:34: Items Rows: 180
+06-27-19T14:23:34: Items Rows: 190
+06-27-19T14:23:34: Items Rows: 200
+06-27-19T14:23:34: Items Rows: 210
+06-27-19T14:23:34: Items Rows: 220
+06-27-19T14:23:34: Items Rows: 230
+06-27-19T14:23:34: Items Rows: 240
+06-27-19T14:23:34: Items Rows: 250
+06-27-19T14:23:34: Items Rows: 260
+06-27-19T14:23:34: Items Rows: 270
+06-27-19T14:23:34: Items Rows: 280
+06-27-19T14:23:34: Items Rows: 290
+06-27-19T14:23:34: Items Rows: 300
+06-27-19T14:23:34: Items Rows: 310
+06-27-19T14:23:34: Items Rows: 320
+06-27-19T14:23:34: Items Rows: 330
+06-27-19T14:23:34: Items Rows: 340
+06-27-19T14:23:34: Items Rows: 350
+06-27-19T14:23:34: Items Rows: 360
+06-27-19T14:23:34: Items Rows: 370
+06-27-19T14:23:34: Items Rows: 380
+06-27-19T14:23:34: Items Rows: 390
+06-27-19T14:23:34: Items Rows: 400
+06-27-19T14:23:34: Items Rows: 410
+06-27-19T14:23:34: Items Rows: 420
+06-27-19T14:23:34: Items Rows: 430
+06-27-19T14:23:34: Items Rows: 440
+06-27-19T14:23:34: Items Rows: 450
+06-27-19T14:23:34: Items Rows: 460
+06-27-19T14:23:34: Items Rows: 470
+06-27-19T14:23:34: Items Rows: 480
+06-27-19T14:23:34: Items Rows: 490
+06-27-19T14:23:34: Items Rows: 500
+06-27-19T14:23:34: Items Rows: 510
+06-27-19T14:23:34: Items Rows: 520
+06-27-19T14:23:34: Items Rows: 530
+06-27-19T14:23:34: Items Rows: 540
+06-27-19T14:23:34: Items Rows: 550
+06-27-19T14:23:34: Items Rows: 560
+06-27-19T14:23:34: Items Rows: 570
+06-27-19T14:23:34: Items Rows: 580
+06-27-19T14:23:34: Items Rows: 590
+06-27-19T14:23:34: Items Rows: 600
+06-27-19T14:23:34: Items Rows: 610
+06-27-19T14:23:34: Items Rows: 620
+06-27-19T14:23:34: Items Rows: 630
+06-27-19T14:23:34: Items Rows: 640
+06-27-19T14:23:34: Items Rows: 650
+06-27-19T14:23:34: Items Rows: 660
+06-27-19T14:23:34: Items Rows: 670
+06-27-19T14:23:34: Items Rows: 680
+06-27-19T14:23:34: Items Rows: 690
+06-27-19T14:23:34: Items Rows: 700
+06-27-19T14:23:34: Items Rows: 710
+06-27-19T14:23:34: Items Rows: 720
+06-27-19T14:23:34: Items Rows: 730
+06-27-19T14:23:34: Items Rows: 740
+06-27-19T14:23:34: Items Rows: 750
+06-27-19T14:23:34: Items Rows: 760
+06-27-19T14:23:34: Items Rows: 770
+06-27-19T14:23:34: Items Rows: 780
+06-27-19T14:23:34: Items Rows: 790
+06-27-19T14:23:34: Items Rows: 800
+06-27-19T14:23:34: Items Rows: 810
+06-27-19T14:23:34: Items Rows: 820
+06-27-19T14:23:34: Items Rows: 830
+06-27-19T14:23:34: Items Rows: 840
+06-27-19T14:23:34: Items Rows: 850
+06-27-19T14:23:34: Items Rows: 860
+06-27-19T14:23:34: Items Rows: 870
+06-27-19T14:23:34: Items Rows: 880
+06-27-19T14:23:34: Items Rows: 890
+06-27-19T14:23:34: Items Rows: 900
+06-27-19T14:23:34: Items Rows: 910
+06-27-19T14:23:34: Items Rows: 920
+06-27-19T14:23:34: Items Rows: 930
+06-27-19T14:23:34: Items Rows: 940
+06-27-19T14:23:34: Items Rows: 950
+06-27-19T14:23:34: Items Rows: 960
+06-27-19T14:23:34: Items Rows: 970
+06-27-19T14:23:34: Items Rows: 980
+06-27-19T14:23:34: Items Rows: 990
+06-27-19T14:23:34: Items Rows: 1000
+06-27-19T14:23:34: Items Rows: 1010
+06-27-19T14:23:34: Items Rows: 1020
+06-27-19T14:23:34: Items Rows: 1030
+06-27-19T14:23:34: Items Rows: 1040
+06-27-19T14:23:34: Items Rows: 1050
+06-27-19T14:23:34: Items Rows: 1060
+06-27-19T14:23:34: Items Rows: 1070
+06-27-19T14:23:34: Items Rows: 1080
+06-27-19T14:23:34: Items Rows: 1090
+06-27-19T14:23:34: Items Rows: 1100
+06-27-19T14:23:34: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:34: XSL Transform Complete.
+06-27-19T14:23:34: Finished Items
+06-27-19T14:23:34: Total Items: 1100
+06-27-19T14:23:34: File created in final xml folder: Retail Item-601 General Merchan_01.xml
+06-27-19T14:23:34: ...
+06-27-19T14:23:34: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-601 General Merchan_02.csv
+06-27-19T14:23:34: Items Rows: 10
+06-27-19T14:23:34: Items Rows: 20
+06-27-19T14:23:34: Items Rows: 30
+06-27-19T14:23:34: Items Rows: 40
+06-27-19T14:23:34: Items Rows: 50
+06-27-19T14:23:34: Items Rows: 60
+06-27-19T14:23:34: Items Rows: 70
+06-27-19T14:23:34: Items Rows: 80
+06-27-19T14:23:34: Items Rows: 90
+06-27-19T14:23:34: Items Rows: 100
+06-27-19T14:23:34: Items Rows: 110
+06-27-19T14:23:34: Items Rows: 120
+06-27-19T14:23:34: Items Rows: 130
+06-27-19T14:23:34: Items Rows: 140
+06-27-19T14:23:34: Items Rows: 150
+06-27-19T14:23:35: Items Rows: 160
+06-27-19T14:23:35: Items Rows: 170
+06-27-19T14:23:35: Items Rows: 180
+06-27-19T14:23:35: Items Rows: 190
+06-27-19T14:23:35: Items Rows: 200
+06-27-19T14:23:35: Items Rows: 210
+06-27-19T14:23:35: Items Rows: 220
+06-27-19T14:23:35: Items Rows: 230
+06-27-19T14:23:35: Items Rows: 240
+06-27-19T14:23:35: Items Rows: 250
+06-27-19T14:23:35: Items Rows: 260
+06-27-19T14:23:35: Items Rows: 270
+06-27-19T14:23:35: Items Rows: 280
+06-27-19T14:23:35: Items Rows: 290
+06-27-19T14:23:35: Items Rows: 300
+06-27-19T14:23:35: Items Rows: 310
+06-27-19T14:23:35: Items Rows: 320
+06-27-19T14:23:35: Items Rows: 330
+06-27-19T14:23:35: Items Rows: 340
+06-27-19T14:23:35: Items Rows: 350
+06-27-19T14:23:35: Items Rows: 360
+06-27-19T14:23:35: Items Rows: 370
+06-27-19T14:23:35: Items Rows: 380
+06-27-19T14:23:35: Items Rows: 390
+06-27-19T14:23:35: Items Rows: 400
+06-27-19T14:23:35: Items Rows: 410
+06-27-19T14:23:35: Items Rows: 420
+06-27-19T14:23:35: Items Rows: 430
+06-27-19T14:23:35: Items Rows: 440
+06-27-19T14:23:35: Items Rows: 450
+06-27-19T14:23:35: Items Rows: 460
+06-27-19T14:23:35: Items Rows: 470
+06-27-19T14:23:35: Items Rows: 480
+06-27-19T14:23:35: Items Rows: 490
+06-27-19T14:23:35: Items Rows: 500
+06-27-19T14:23:35: Items Rows: 510
+06-27-19T14:23:35: Items Rows: 520
+06-27-19T14:23:35: Items Rows: 530
+06-27-19T14:23:35: Items Rows: 540
+06-27-19T14:23:35: Items Rows: 550
+06-27-19T14:23:35: Items Rows: 560
+06-27-19T14:23:35: Items Rows: 570
+06-27-19T14:23:35: Items Rows: 580
+06-27-19T14:23:35: Items Rows: 590
+06-27-19T14:23:35: Items Rows: 600
+06-27-19T14:23:35: Items Rows: 610
+06-27-19T14:23:35: Items Rows: 620
+06-27-19T14:23:35: Items Rows: 630
+06-27-19T14:23:35: Items Rows: 640
+06-27-19T14:23:35: Items Rows: 650
+06-27-19T14:23:35: Items Rows: 660
+06-27-19T14:23:35: Items Rows: 670
+06-27-19T14:23:35: Items Rows: 680
+06-27-19T14:23:35: Items Rows: 690
+06-27-19T14:23:35: Items Rows: 700
+06-27-19T14:23:35: Items Rows: 710
+06-27-19T14:23:35: Items Rows: 720
+06-27-19T14:23:35: Items Rows: 730
+06-27-19T14:23:35: Items Rows: 740
+06-27-19T14:23:35: Items Rows: 750
+06-27-19T14:23:35: Items Rows: 760
+06-27-19T14:23:35: Items Rows: 770
+06-27-19T14:23:35: Items Rows: 780
+06-27-19T14:23:35: Items Rows: 790
+06-27-19T14:23:35: Items Rows: 800
+06-27-19T14:23:35: Items Rows: 810
+06-27-19T14:23:35: Items Rows: 820
+06-27-19T14:23:35: Items Rows: 830
+06-27-19T14:23:35: Items Rows: 840
+06-27-19T14:23:35: Items Rows: 850
+06-27-19T14:23:35: Items Rows: 860
+06-27-19T14:23:35: Items Rows: 870
+06-27-19T14:23:35: Items Rows: 880
+06-27-19T14:23:35: Items Rows: 890
+06-27-19T14:23:35: Items Rows: 900
+06-27-19T14:23:35: Items Rows: 910
+06-27-19T14:23:35: Items Rows: 920
+06-27-19T14:23:35: Items Rows: 930
+06-27-19T14:23:35: Items Rows: 940
+06-27-19T14:23:35: Items Rows: 950
+06-27-19T14:23:35: Items Rows: 960
+06-27-19T14:23:35: Items Rows: 970
+06-27-19T14:23:35: Items Rows: 980
+06-27-19T14:23:35: Items Rows: 990
+06-27-19T14:23:35: Items Rows: 1000
+06-27-19T14:23:35: Items Rows: 1010
+06-27-19T14:23:35: Items Rows: 1020
+06-27-19T14:23:35: Items Rows: 1030
+06-27-19T14:23:35: Items Rows: 1040
+06-27-19T14:23:35: Items Rows: 1050
+06-27-19T14:23:35: Items Rows: 1060
+06-27-19T14:23:35: Items Rows: 1070
+06-27-19T14:23:35: Items Rows: 1080
+06-27-19T14:23:35: Items Rows: 1090
+06-27-19T14:23:35: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:35: XSL Transform Complete.
+06-27-19T14:23:35: Finished Items
+06-27-19T14:23:35: Total Items: 1098
+06-27-19T14:23:35: File created in final xml folder: Retail Item-601 General Merchan_02.xml
+06-27-19T14:23:35: ...
+06-27-19T14:23:35: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-64 M&S Gift Card & Resale_01.csv
+06-27-19T14:23:35: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:35: XSL Transform Complete.
+06-27-19T14:23:35: Finished Items
+06-27-19T14:23:35: Total Items: 1
+06-27-19T14:23:35: File created in final xml folder: Retail Item-64 M&S Gift Card & Resale_01.xml
+06-27-19T14:23:35: ...
+06-27-19T14:23:35: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-800 Miscellanous Sales_01.csv
+06-27-19T14:23:35: Items Rows: 10
+06-27-19T14:23:35: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:35: XSL Transform Complete.
+06-27-19T14:23:35: Finished Items
+06-27-19T14:23:35: Total Items: 10
+06-27-19T14:23:35: File created in final xml folder: Retail Item-800 Miscellanous Sales_01.xml
+06-27-19T14:23:35: ...
+06-27-19T14:23:35: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-901 Soft Drinks_01.csv
+06-27-19T14:23:35: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:35: XSL Transform Complete.
+06-27-19T14:23:35: Finished Items
+06-27-19T14:23:35: Total Items: 9
+06-27-19T14:23:35: File created in final xml folder: Retail Item-901 Soft Drinks_01.xml
+06-27-19T14:23:35: ...
+06-27-19T14:23:35: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-VC Vendor Credit_01.csv
+06-27-19T14:23:35: Starting XSL Transform, this may take awhile.
+06-27-19T14:23:35: XSL Transform Complete.
+06-27-19T14:23:35: Finished Items
+06-27-19T14:23:35: Total Items: 1
+06-27-19T14:23:35: File created in final xml folder: Retail Item-VC Vendor Credit_01.xml
+06-27-19T14:23:35: ...
+06-27-19T14:23:35: End Log

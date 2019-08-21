@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_610764264640,BANG MOCHA COFFEE 16Z,36009380,36009380,,,,a,601 13A 000,Case,12.00,,,u,_610764264640,Master,28.00,0.00,1900-01-01,2075-12-31
+_610764264688,BANG COOKIES N CREME 16Z,36014099,36014099,,,,a,601 13A 000,Case,12.00,,,u,_610764264688,Master,28.00,0.00,1900-01-01,2075-12-31
+_610764264701,BANG HAZELNUT COFFEE 16Z,36009379,36009379,,,,a,601 13A 000,Case,12.00,,,u,_610764264701,Master,28.00,0.00,1900-01-01,2075-12-31
+_849806002678,FOUR LOKO SOUR GRAPE 14 ABV 23.5Z CN,1100489,1100489,,,,a,401 01J 000,Case,12.00,,,u,_849806002678,Master,19.15,0.00,1900-01-01,2075-12-31
+_897853002936,CIGAR CITY JAI ALAI IPA 6PK 12z CN,1064168,1064168,,,,a,Default,Case,24.00,,,u,_897853002936,Master,35.18,0.00,1900-01-01,2075-12-31

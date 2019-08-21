@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_793573820020,MI PUEBLITO LARGE TORTILLAS,37003324,37003324,,,,a,Default,Each,1.00,,,u,_793573820020,Master,2.69,0.00,1900-01-01,2075-12-31
+_793573828026,MI PUEBLITO MEDIUM TORTILLAS,37003325,37003325,,,,a,Default,Each,1.00,,,u,_793573828026,Master,2.43,0.00,1900-01-01,2075-12-31

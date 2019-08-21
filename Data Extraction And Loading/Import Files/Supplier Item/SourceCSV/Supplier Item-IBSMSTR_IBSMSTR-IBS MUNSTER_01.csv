@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_076183003305,SNAPPLE MANGO 16z,1082430,1082430,,,,a,601 14 000,Case,24.00,,,u,_076183002933,Master,21.60,0.00,1900-01-01,2075-12-31
+_076183003305,,,,,,,,,,,,,u,_076183003305,,,,,

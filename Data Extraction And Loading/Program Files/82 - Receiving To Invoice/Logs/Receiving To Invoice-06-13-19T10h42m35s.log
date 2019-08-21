@@ -1,0 +1,19 @@
+06-13-19T10:42:35: Start Log
+06-13-19T10:42:35: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Inovice 000106170068.csv
+06-13-19T10:42:35: Invoice Line Item Rows: 10
+06-13-19T10:42:35: Invoice Line Item Rows: 20
+06-13-19T10:42:35: Transforming raw XML
+06-13-19T10:42:35: Finished Receiving to Invoice
+06-13-19T10:42:35: Total Items: 21
+06-13-19T10:42:35: File created in final xml folder: Inovice 000106170068.xml
+06-13-19T10:42:35: ...
+06-13-19T10:42:35: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Receiving To Invoice\FinalCSV\Inovice 106170069.csv
+06-13-19T10:42:35: Invoice Line Item Rows: 10
+06-13-19T10:42:35: Invoice Line Item Rows: 20
+06-13-19T10:42:35: Invoice Line Item Rows: 30
+06-13-19T10:42:35: Transforming raw XML
+06-13-19T10:42:35: Finished Receiving to Invoice
+06-13-19T10:42:35: Total Items: 30
+06-13-19T10:42:35: File created in final xml folder: Inovice 106170069.xml
+06-13-19T10:42:35: ...
+06-13-19T10:42:35: End Log

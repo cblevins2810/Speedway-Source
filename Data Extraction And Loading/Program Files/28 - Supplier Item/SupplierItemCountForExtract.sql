@@ -6,11 +6,9 @@ SET		@MerchCostChangeEffectiveDate = CONVERT(smalldatetime, SYSDATETIME())
 DECLARE @supplier TABLE (supplier_id INT, name nvarchar(128))
 DECLARE @business_unit TABLE (business_unit_id INT)
 
--- Added for support of incremental extract
 DECLARE	@last_max_id	INT
 -- Set this to the max Item Id from the last extract
-SET		@last_max_id	= 0
--- END for additional changes
+SET		@last_max_id	= 0 --2321664
 
 INSERT @business_unit
 SELECT data_accessor_id
@@ -3061,36 +3059,27 @@ WHERE rsda.name IN (
 '0004583')
 
 INSERT @supplier (supplier_id, name)
-SELECT s.supplier_id, s.name
-FROM   supplier_da_effective_date_list as l
-JOIN   supplier AS s
-ON     l.supplier_id = s.supplier_id
-JOIN   rad_sys_data_accessor as rsda
-ON     l.data_accessor_id = rsda.data_accessor_id
-JOIN   business_unit_group as bug
-ON     bug.business_unit_group_id = rsda.data_accessor_id
-WHERE  EXISTS (SELECT 1
-              FROM Business_Unit_Group_List as bugl
-              JOIN @Business_Unit AS bu
-              ON   bug.business_unit_group_id = bugl.business_unit_group_id
-			  AND  bugl.business_unit_id = bu.business_unit_id)
-AND	   s.status_code <> 'i'
--- Added per request to exclude Franchise suppliers
-AND	   SUBSTRING(s.name, 1, 2) <> 'F_'
--- End additional code
-UNION 			  
-SELECT s.supplier_id, s.name
-FROM   supplier_da_effective_date_list as l
-JOIN   supplier AS s
-ON     l.supplier_id = s.supplier_id
-JOIN   rad_sys_data_accessor as rsda
-ON     l.data_accessor_id = rsda.data_accessor_id
-JOIN   @business_unit as bu
-ON     bu.business_unit_id = rsda.data_accessor_id
+SELECT DISTINCT s.supplier_id, s.name
+FROM   supplier AS s
+WHERE EXISTS (	SELECT 1
+				FROM supplier_da_effective_date_list dalst
+				JOIN da_list_dro dro
+				ON   dalst.supplier_id = s.supplier_id
+				AND  dalst.data_accessor_id = dro.assigned_data_accessor_id
+				JOIN @business_unit AS bu
+				ON   dro.current_org_hierarchy_id = bu.business_unit_id
+				WHERE GETDATE() BETWEEN dalst.start_date and dalst.end_date)				
+AND    s.status_code <> 'i'
+AND	   SUBSTRING(s.name, 1, 2) <> 'F_'	
+UNION 
+SELECT DISTINCT s.supplier_id, s.name
+FROM   supplier AS s
+JOIN   Supplier_Audit AS a
+ON     s.supplier_id = a.supplier_id
+AND    a.audit_type_code = 'i'
+AND    a.last_modified_timestamp > '2018-10-01'
 WHERE  s.status_code <> 'i'
--- Added per request to exclude Franchise suppliers
 AND	   SUBSTRING(s.name, 1, 2) <> 'F_'
--- End additional code
 
 IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
     DROP TABLE #supplier_item_counts
@@ -3352,9 +3341,7 @@ ON si.item_id = i.item_id
 WHERE	s.status_code IN ('a')
 AND s.supplier_type_code IN ('m') 
 AND si.status_code in ('a','u')
--- Added for support of incremental extract
 AND si.supplier_item_id > @last_max_id
--- END for additional changes
 AND i.purge_flag IN ('n')
 AND (CASE 
 	WHEN	(ISNUMERIC(i.xref_code) = 1 
@@ -3365,8 +3352,6 @@ AND (CASE
 			WHEN i.xref_code IS NULL THEN 0
 			ELSE	-1
 			END	) >= 0
---AND s.xref_code = 'ABBEVRGE'
---AND s.xref_code IN ('PEPSINT3')
 		
 GROUP BY ISNULL(s.xref_code, 'xref-' + CONVERT(NVARCHAR(15),s.supplier_id)), s.name
 ORDER BY 3 DESC

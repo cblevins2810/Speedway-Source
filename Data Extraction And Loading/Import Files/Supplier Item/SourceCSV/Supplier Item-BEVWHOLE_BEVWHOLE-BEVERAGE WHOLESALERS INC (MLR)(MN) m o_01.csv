@@ -1,0 +1,6 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_072890000118,HEINEKEN 6PK 12z LN,15260,15260,,,,a,401 01B 000,Case,24.00,,,u,_072890000019,Master,29.55,0.00,1900-01-01,2075-12-31
+_072890000118,,,,,,,,,,,,,u,_072890000118,,,,,
+_072890000118,,,,,,,,,,,,,u,_072890000217,,,,,
+_072890000118,,,,,,,,,,,,,u,_728900002176,,,,,

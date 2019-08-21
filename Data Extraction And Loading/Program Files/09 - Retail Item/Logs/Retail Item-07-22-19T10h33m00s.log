@@ -1,0 +1,110 @@
+07-22-19T10:33:00: Start Log
+07-22-19T10:33:00: Processing File: Retail Item-206 Franchise Food_01.xlsx
+07-22-19T10:33:02: Item Rows: 10, External Id: 1124386
+07-22-19T10:33:02: Finished File: Retail Item-206 Franchise Food_01.xlsx
+07-22-19T10:33:02: File created in final csv folder: Retail Item-206 Franchise Food_01.csv
+07-22-19T10:33:02: ...
+07-22-19T10:33:02: Processing File: Retail Item-212 Hot Beverage_01.xlsx
+07-22-19T10:33:04: Finished File: Retail Item-212 Hot Beverage_01.xlsx
+07-22-19T10:33:04: File created in final csv folder: Retail Item-212 Hot Beverage_01.csv
+07-22-19T10:33:04: ...
+07-22-19T10:33:04: Processing File: Retail Item-215 Cold Beverage_01.xlsx
+07-22-19T10:33:06: Item Rows: 10, External Id: 1124916
+07-22-19T10:33:06: Finished File: Retail Item-215 Cold Beverage_01.xlsx
+07-22-19T10:33:06: File created in final csv folder: Retail Item-215 Cold Beverage_01.csv
+07-22-19T10:33:06: ...
+07-22-19T10:33:06: Processing File: Retail Item-218 Hot Food_01.xlsx
+07-22-19T10:33:08: Finished File: Retail Item-218 Hot Food_01.xlsx
+07-22-19T10:33:08: File created in final csv folder: Retail Item-218 Hot Food_01.csv
+07-22-19T10:33:08: ...
+07-22-19T10:33:08: Processing File: Retail Item-221 Sandwich_01.xlsx
+07-22-19T10:33:10: Item Rows: 10, External Id: 37003097
+07-22-19T10:33:10: Item Rows: 20, External Id: 37003229
+07-22-19T10:33:11: Item Rows: 30, External Id: 37003262
+07-22-19T10:33:12: Item Rows: 40, External Id: 37003276
+07-22-19T10:33:12: Finished File: Retail Item-221 Sandwich_01.xlsx
+07-22-19T10:33:12: File created in final csv folder: Retail Item-221 Sandwich_01.csv
+07-22-19T10:33:12: ...
+07-22-19T10:33:12: Processing File: Retail Item-231 Fresh Bakery_01.xlsx
+07-22-19T10:33:15: Item Rows: 10, External Id: 37003246
+07-22-19T10:33:15: Item Rows: 20, External Id: 37003259
+07-22-19T10:33:15: Finished File: Retail Item-231 Fresh Bakery_01.xlsx
+07-22-19T10:33:15: File created in final csv folder: Retail Item-231 Fresh Bakery_01.csv
+07-22-19T10:33:15: ...
+07-22-19T10:33:15: Processing File: Retail Item-401 Beer & Wine_01.xlsx
+07-22-19T10:33:17: Item Rows: 10, External Id: 37003182
+07-22-19T10:33:18: Item Rows: 20, External Id: 37003203
+07-22-19T10:33:18: Item Rows: 30, External Id: 37003230
+07-22-19T10:33:18: Item Rows: 40, External Id: 37003289
+07-22-19T10:33:19: Item Rows: 50, External Id: 1124664
+07-22-19T10:33:19: Item Rows: 60, External Id: 37003281
+07-22-19T10:33:20: Item Rows: 70, External Id: 37003303
+07-22-19T10:33:21: Item Rows: 80, External Id: 37003336
+07-22-19T10:33:21: Item Rows: 90, External Id: 37003346
+07-22-19T10:33:23: Item Rows: 100, External Id: 37003358
+07-22-19T10:33:23: Item Rows: 110, External Id: 37003365
+07-22-19T10:33:23: Item Rows: 120, External Id: 1124864
+07-22-19T10:33:24: Finished File: Retail Item-401 Beer & Wine_01.xlsx
+07-22-19T10:33:24: File created in final csv folder: Retail Item-401 Beer & Wine_01.csv
+07-22-19T10:33:24: ...
+07-22-19T10:33:24: Processing File: Retail Item-601 General Merchan_01.xlsx
+07-22-19T10:33:26: Item Rows: 10, External Id: 37003161
+07-22-19T10:33:27: Item Rows: 20, External Id: 1124448
+07-22-19T10:33:27: Item Rows: 30, External Id: 1124458
+07-22-19T10:33:27: Item Rows: 40, External Id: 1124468
+07-22-19T10:33:28: Item Rows: 50, External Id: 37003165
+07-22-19T10:33:28: Item Rows: 60, External Id: 1124521
+07-22-19T10:33:28: Item Rows: 70, External Id: 37003190
+07-22-19T10:33:29: Item Rows: 80, External Id: 37003206
+07-22-19T10:33:29: Item Rows: 90, External Id: 1124638
+07-22-19T10:33:30: Item Rows: 100, External Id: 1124714
+07-22-19T10:33:30: Item Rows: 110, External Id: 1124747
+07-22-19T10:33:31: Item Rows: 120, External Id: 37003318
+07-22-19T10:33:31: Item Rows: 130, External Id: 1124829
+07-22-19T10:33:31: Item Rows: 140, External Id: 1124870
+07-22-19T10:33:32: Item Rows: 150, External Id: 1124881
+07-22-19T10:33:32: Item Rows: 160, External Id: 1124902
+07-22-19T10:33:33: Item Rows: 170, External Id: 1124912
+07-22-19T10:33:33: Item Rows: 180, External Id: 1124969
+07-22-19T10:33:34: Finished File: Retail Item-601 General Merchan_01.xlsx
+07-22-19T10:33:34: File created in final csv folder: Retail Item-601 General Merchan_01.csv
+07-22-19T10:33:34: ...
+07-22-19T10:33:34: Processing File: Retail Item-706 Consignment - Gen Mdse_01.xlsx
+07-22-19T10:33:35: Item Rows: 10, External Id: 1124409
+07-22-19T10:33:36: Item Rows: 20, External Id: 1124473
+07-22-19T10:33:36: Item Rows: 30, External Id: 1124867
+07-22-19T10:33:36: Finished File: Retail Item-706 Consignment - Gen Mdse_01.xlsx
+07-22-19T10:33:36: File created in final csv folder: Retail Item-706 Consignment - Gen Mdse_01.csv
+07-22-19T10:33:36: ...
+07-22-19T10:33:36: Processing File: Retail Item-77 Store Supplies_01.xlsx
+07-22-19T10:33:38: Finished File: Retail Item-77 Store Supplies_01.xlsx
+07-22-19T10:33:38: File created in final csv folder: Retail Item-77 Store Supplies_01.csv
+07-22-19T10:33:38: ...
+07-22-19T10:33:38: Processing File: Retail Item-800 Miscellanous Sales_01.xlsx
+07-22-19T10:33:40: Item Rows: 10, External Id: 28200002
+07-22-19T10:33:40: Item Rows: 20, External Id: 28200014
+07-22-19T10:33:41: Item Rows: 30, External Id: 28200038
+07-22-19T10:33:41: Item Rows: 40, External Id: 28200001
+07-22-19T10:33:41: Item Rows: 50, External Id: 28200046
+07-22-19T10:33:42: Item Rows: 60, External Id: 28200074
+07-22-19T10:33:42: Item Rows: 70, External Id: 28200075
+07-22-19T10:33:43: Item Rows: 80, External Id: 28200112
+07-22-19T10:33:43: Item Rows: 90, External Id: 28200130
+07-22-19T10:33:44: Item Rows: 100, External Id: 28200125
+07-22-19T10:33:44: Item Rows: 110, External Id: 28200036
+07-22-19T10:33:45: Item Rows: 120, External Id: 28200047
+07-22-19T10:33:45: Item Rows: 130, External Id: 28200105
+07-22-19T10:33:46: Item Rows: 140, External Id: 28200085
+07-22-19T10:33:46: Finished File: Retail Item-800 Miscellanous Sales_01.xlsx
+07-22-19T10:33:46: File created in final csv folder: Retail Item-800 Miscellanous Sales_01.csv
+07-22-19T10:33:46: ...
+07-22-19T10:33:46: Processing File: Retail Item-810 Carwash_01.xlsx
+07-22-19T10:33:49: Item Rows: 10, External Id: 1124763
+07-22-19T10:33:49: Finished File: Retail Item-810 Carwash_01.xlsx
+07-22-19T10:33:49: File created in final csv folder: Retail Item-810 Carwash_01.csv
+07-22-19T10:33:49: ...
+07-22-19T10:33:49: Processing File: Retail Item-901 Soft Drinks_01.xlsx
+07-22-19T10:33:51: Finished File: Retail Item-901 Soft Drinks_01.xlsx
+07-22-19T10:33:51: File created in final csv folder: Retail Item-901 Soft Drinks_01.csv
+07-22-19T10:33:51: ...
+07-22-19T10:33:51: End Log

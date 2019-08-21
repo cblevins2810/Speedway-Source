@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_7800001806,SQUIRT RBY RED 12PK 12z CN,166510,166510,,,,a,901 01 000,Case,24.00,,,u,_078000018066,Master,8.40,0.00,1900-01-01,2075-12-31
+_7800001806,,,,,,,,,,,,,u,_078000018165,,,,,

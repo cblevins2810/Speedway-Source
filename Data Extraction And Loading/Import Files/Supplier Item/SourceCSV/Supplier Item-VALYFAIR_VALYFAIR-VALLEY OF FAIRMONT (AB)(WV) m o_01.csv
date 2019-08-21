@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_018200259401,MICHELOB ULTRA LIME 25Z CN,1117439,1117439,,,,a,401 01J 000,Case,15.00,,,u,_018200259401,Master,32.90,0.00,1900-01-01,2075-12-31
+_817904006843,ELYSIAN SPACE DUST 4PK 16Z CN,1124898,1124898,,,,a,401 01A 000,Case,24.00,,,u,_817904006843,Master,50.36,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_048500008607,TROPICANA ORANGE 15.2z,190318,190318,,,,a,Default,Case,12.00,,,u,_048500008607,Master,12.00,0.00,1900-01-01,2075-12-31
+_072350000115,YOO-HOO FF CHOCOLATE 15.5z,15188,15188,,,,a,601 11A 000,Case,24.00,,,u,_072350000115,Master,20.50,0.00,1900-01-01,2075-12-31

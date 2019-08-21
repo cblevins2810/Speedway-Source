@@ -1,0 +1,10 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_03410000672,MILW BEST 32z,37001078,37001078,,,,a,Default,Case,12.00,,,u,_034100006723,Master,17.40,0.00,1900-01-01,2075-12-31
+_034100008567,REDDS WICKED LEMONADE 24Z CN,1087852,1087852,,,,a,Default,Case,12.00,,,u,_034100008567,Master,24.75,0.00,1900-01-01,2075-12-31
+_063791001335,WYDERS PEAR CIDER 6PK 12Z LN,37003187,37003187,,,,a,Default,Case,24.00,,,u,_063791001335,Master,32.50,0.00,1900-01-01,2075-12-31
+_072311230216,SOL 12PK 12Z LN,37003184,37003184,,,,a,Default,Case,24.00,,,u,_072311230216,Master,30.30,0.00,1900-01-01,2075-12-31
+_085777500700,SAINT ARCHER IPA 19.2Z CN,37003189,37003189,,,,a,Default,Case,24.00,,,u,_085777500700,Master,42.00,0.00,1900-01-01,2075-12-31
+_089826900244,TECATE LT 20PK 7Z LN,37003186,37003186,,,,a,Default,Case,20.00,,,u,_089826900244,Master,12.00,0.00,1900-01-01,2075-12-31
+_85203600601,DRAGOON IPA 4P 16Z CN,37003030,37003030,,,,a,Default,Case,24.00,,,u,_852036006019,Master,54.00,0.00,1900-01-01,2075-12-31
+_856229002130,SAN TAN HOP SHOCK 6PK 12Z CN,37003188,37003188,,,,a,Default,Case,24.00,,,u,_856229002130,Master,29.50,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,3 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_034100989590,HENRYS HARD SPKLG TROPICAL VARIETY 6PK 12Z CN,1097780,1097780,,,,a,401 01B 000,Case,24.00,,,u,_034100989590,Master,30.80,0.00,2019-06-28,2075-12-31

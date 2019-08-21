@@ -1,0 +1,11 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_082000000501,POPOV 80 375ML,125667,125667,,,,a,Default,Case,24.00,,,u,_082000000501,Master,77.76,0.00,1900-01-01,2075-12-31
+_082000125259,YUKON JACK 750ML,32000811,32000811,,,,a,Default,Case,12.00,,,u,_082000125259,Master,202.56,0.00,1900-01-01,2075-12-31
+_082000125945,POPOV 80 PLASTIC 750ML,125671,125671,,,,a,Default,Case,12.00,,,u,_082000125945,Master,75.48,0.00,1900-01-01,2075-12-31
+_082000721666,YUKON JACK 375ML,35000989,35000989,,,,a,Default,Case,24.00,,,u,_082000125389,Master,202.56,0.00,1900-01-01,2075-12-31
+_082000721666,,,,,,,,,,,,,u,_082000721666,,,,,
+_082000770299,YUKON JACK 100 PROOF 50M,35000988,35000988,,,,a,Default,Case,120.00,,,u,_082000005483,Master,70.80,0.00,1900-01-01,2075-12-31
+_082000770299,,,,,,,,,,,,,u,_082000770299,,,,,
+_086767500120,GOLDSCHLAGER CINN SCHNAPPS 50ML,1079767,1079767,,,,a,Default,Case,120.00,,,u,_086767500120,Master,142.80,0.00,1900-01-01,2075-12-31
+_086767508799,GOLDSCHLAGER 87PF 375ML,37003195,37003195,,,,a,Default,Case,12.00,,,u,_086767508799,Master,132.48,0.00,1900-01-01,2075-12-31

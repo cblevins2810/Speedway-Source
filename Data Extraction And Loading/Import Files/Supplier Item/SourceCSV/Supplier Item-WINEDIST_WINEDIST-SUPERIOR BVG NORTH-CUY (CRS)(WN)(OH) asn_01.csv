@@ -1,0 +1,3 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_816014020800,SOUTHERN TIER OVERPACKED 15PK 12Z CN,1085455,1085455,,,,a,Default,Case,15.00,,,u,_816014020800,Master,14.62,0.00,1900-01-01,2075-12-31

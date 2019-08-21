@@ -67,6 +67,8 @@ AND			ihdept.name IN
 				'94 M&S Food',
 				'95 M&S Petroleum'
 			)
+AND 		NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+						WHERE r.recipe_item_id = i.item_id)
 
 
 

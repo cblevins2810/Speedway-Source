@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_074690049410,OD BIRTHDAY CAKE POPCORN 6Z,1125083,1125083,,,,a,601 04A 320,Each,1.00,,,u,_074690049410,Master,2.18,0.00,1900-01-01,2075-12-31
+_074690063928,OD HABANERO BLUE CHEESE SITCKS 2.5z,1122661,1122661,,,,a,601 04A 320,Each,1.00,,,u,_074690063928,Master,0.70,0.00,1900-01-01,2075-12-31

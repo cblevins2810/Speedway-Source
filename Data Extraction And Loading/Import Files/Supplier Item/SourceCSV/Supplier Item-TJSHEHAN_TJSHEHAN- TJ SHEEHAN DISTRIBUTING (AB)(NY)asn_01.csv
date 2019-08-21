@@ -1,0 +1,3 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_684746801819,JOHNNY BOOTLEGGER GRAPE 6.8Z BTL,1116356,1116356,,,,a,401 01J 000,Case,24.00,,,u,_684746801819,Master,34.57,0.00,1900-01-01,2075-12-31

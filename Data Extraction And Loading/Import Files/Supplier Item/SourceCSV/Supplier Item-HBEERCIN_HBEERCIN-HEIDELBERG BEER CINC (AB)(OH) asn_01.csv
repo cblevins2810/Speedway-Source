@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_018200200595,MICHELOB ULTRA 8PK 16z ALUM,1077122-12pk,1077122,,,,a,Default,Case,24.00,,,u,_018200006654,Master,25.59,0.00,1900-01-01,2075-12-31
+_018200200595,,,,,,,,,,,,,u,_018200200113,,,,,
+_018200200595,,,,,,,,,,,,,u,_018200200595,,,,,

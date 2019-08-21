@@ -3,6 +3,7 @@ SET NOCOUNT ON
 DECLARE @supplier TABLE (supplier_id INT, name nvarchar(128))
 DECLARE @business_unit TABLE (business_unit_id INT)
 
+
 INSERT @business_unit
 SELECT data_accessor_id
 FROM rad_sys_data_accessor AS rsda
@@ -3052,36 +3053,27 @@ WHERE rsda.name IN (
 '0004583')
 
 INSERT @supplier (supplier_id, name)
-SELECT s.supplier_id, s.name
-FROM   supplier_da_effective_date_list as l
-JOIN   supplier AS s
-ON     l.supplier_id = s.supplier_id
-JOIN   rad_sys_data_accessor as rsda
-ON     l.data_accessor_id = rsda.data_accessor_id
-JOIN   business_unit_group as bug
-ON     bug.business_unit_group_id = rsda.data_accessor_id
-WHERE  EXISTS (SELECT 1
-              FROM Business_Unit_Group_List as bugl
-              JOIN @Business_Unit AS bu
-              ON   bug.business_unit_group_id = bugl.business_unit_group_id
-			  AND  bugl.business_unit_id = bu.business_unit_id)
-AND	   s.status_code <> 'i'
--- Added per request to exclude Franchise suppliers
-AND	   SUBSTRING(s.name, 1, 2) <> 'F_'
--- End additional code
-UNION 			  
-SELECT s.supplier_id, s.name
-FROM   supplier_da_effective_date_list as l
-JOIN   supplier AS s
-ON     l.supplier_id = s.supplier_id
-JOIN   rad_sys_data_accessor as rsda
-ON     l.data_accessor_id = rsda.data_accessor_id
-JOIN   @business_unit as bu
-ON     bu.business_unit_id = rsda.data_accessor_id
+SELECT DISTINCT s.supplier_id, s.name
+FROM   supplier AS s
+WHERE EXISTS (	SELECT 1
+				FROM supplier_da_effective_date_list dalst
+				JOIN da_list_dro dro
+				ON   dalst.supplier_id = s.supplier_id
+				AND  dalst.data_accessor_id = dro.assigned_data_accessor_id
+				JOIN @business_unit AS bu
+				ON   dro.current_org_hierarchy_id = bu.business_unit_id
+				WHERE GETDATE() BETWEEN dalst.start_date and dalst.end_date)				
+AND    s.status_code <> 'i'
+AND	   SUBSTRING(s.name, 1, 2) <> 'F_'	
+UNION 
+SELECT DISTINCT s.supplier_id, s.name
+FROM   supplier AS s
+JOIN   Supplier_Audit AS a
+ON     s.supplier_id = a.supplier_id
+AND    a.audit_type_code = 'i'
+AND    a.last_modified_timestamp > '2018-10-01'
 WHERE  s.status_code <> 'i'
--- Added per request to exclude Franchise suppliers
 AND	   SUBSTRING(s.name, 1, 2) <> 'F_'
--- End additional code
 
 SELECT ISNULL(xref_code, 'xref-' + CONVERT(NVARCHAR(15),s.supplier_id)) AS XRefCode,
 REPLACe(s.name,',','~') AS Name,

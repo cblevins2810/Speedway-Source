@@ -1,0 +1,4 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_34100006228,OLD ENGLISH 800 42z LN,23073,23073,,,,a,401 01J 000,Case,12.00,,,u,_034100006228,Master,23.44,0.00,1900-01-01,2075-12-31
+_34100006228,,,,,,,,,,,,,u,_341000062286,,,,,

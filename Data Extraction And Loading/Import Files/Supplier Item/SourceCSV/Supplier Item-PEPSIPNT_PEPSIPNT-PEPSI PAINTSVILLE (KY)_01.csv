@@ -1,0 +1,11 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_048500008607,TROPICANA ORANGE 15.2z,190318,190318,,,,a,601 12 000,Case,12.00,,,u,_048500008607,Master,12.00,0.00,1900-01-01,2075-12-31
+_048500008607,,,,,,,,,,,,,,,PEPSIPNT-CCC PEPSI PAINTSVILLE (KY),12.00,0.00,1900-01-01,2075-12-31
+_048500008607,,,,,,,,,,,,,,,Consolidated WV/KY,12.00,0.00,1900-01-01,2075-12-31
+_048500008614,TROPICANA APPLE 15.2z,190324,190324,,,,a,601 12 000,Case,12.00,,,u,_031700008614,Master,12.00,0.00,1900-01-01,2075-12-31
+_048500008614,,,,,,,,,,,,,u,_048500008614,PEPSIPNT-CCC PEPSI PAINTSVILLE (KY),12.00,0.00,1900-01-01,2075-12-31
+_048500008614,,,,,,,,,,,,,,,Consolidated WV/KY,12.00,0.00,1900-01-01,2075-12-31
+_078000113082,SUNKIST 18PK 12Z CN,1051604,1051604,,,,a,901 01 000,Case,36.00,,,u,_078000113082,Master,11.68,0.00,1900-01-01,2075-12-31
+_078000113082,,,,,,,,,,,,,,,PEPSIPNT-CCC PEPSI PAINTSVILLE (KY),11.68,0.00,1900-01-01,2075-12-31
+_078000113082,,,,,,,,,,,,,,,Consolidated WV/KY,11.68,0.00,1900-01-01,2075-12-31

@@ -1,0 +1,7 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_016571952105,SPRK ICE BLCK CHERRY/17O,35000038,35000038,,,,a,Default,Case,12.00,,,u,_016571952105,Master,10.00,0.00,1900-01-01,2075-12-31
+_613008719524,GC ARIZONIA PEACH TEA,190794,190794,,,,a,601 14 000,Case,24.00,,,u,_613008719524,Master,14.99,0.00,1900-01-01,2075-12-31
+_613008721756,ARIZONA LEMON 34z,190787,190787,,,,a,601 14 000,Case,24.00,,,u,_613008721756,Master,14.99,0.00,1900-01-01,2075-12-31
+_613008722210,ARIZONA SWEET TEA 34z,10167170,10167170,,,,a,601 14 000,Case,24.00,,,u,_613008722210,Master,14.99,0.00,1900-01-01,2075-12-31
+_613008749552,ARIZONA RX ENERGY 34Z,38001585,38001585,,,,a,601 14 000,Case,24.00,,,u,_613008749552,Master,14.99,0.00,1900-01-01,2075-12-31

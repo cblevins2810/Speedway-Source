@@ -1,0 +1,5 @@
+07-09-19T13:19:53: Start Log
+07-09-19T13:19:53: Found Input File: Supplier Item Cost Refresh - Items-PEPGATR2_PEPGATR2-PEPSI-INDY-DEL TO KOKOMO GATR_1.csv
+07-09-19T13:19:53: Processing Supplier: PEPGATR2-PEPSI-INDY-DEL TO KOKOMO GATR Xref: PEPGATR2
+07-09-19T13:19:55: Error --> Sorry, we couldn't find C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Supplier Item Cost Refresh - Items\Supplier Item Cost Refresh - Items Import Template.xlsx. Is it possible it was moved, renamed or deleted?
+07-09-19T13:19:55: End Log

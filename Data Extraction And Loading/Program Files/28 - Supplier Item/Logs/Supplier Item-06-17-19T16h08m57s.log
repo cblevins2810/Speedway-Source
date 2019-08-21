@@ -1,0 +1,36 @@
+06-17-19T16:08:57: Start Log
+06-17-19T16:08:57: Found Input File: HERR SNACKS.csv
+06-17-19T16:08:57: Processing Supplier:  Xref: 
+06-17-19T16:09:02: Supplier Item Rows: 10
+06-17-19T16:09:03: Supplier Item Rows: 20
+06-17-19T16:09:03: Supplier Item Rows: 30
+06-17-19T16:09:03: Supplier Item Rows: 40
+06-17-19T16:09:03: Supplier Item Rows: 50
+06-17-19T16:09:03: Supplier Item Rows: 60
+06-17-19T16:09:03: Supplier Item Rows: 70
+06-17-19T16:09:03: Supplier Item Rows: 80
+06-17-19T16:09:03: Supplier Item Rows: 90
+06-17-19T16:09:04: Supplier Item Rows: 100
+06-17-19T16:09:04: Supplier Item Rows: 110
+06-17-19T16:09:04: Supplier Item Rows: 120
+06-17-19T16:09:04: Supplier Item Rows: 130
+06-17-19T16:09:04: Supplier Item Rows: 140
+06-17-19T16:09:04: Supplier Item Rows: 150
+06-17-19T16:09:04: Supplier Item Rows: 160
+06-17-19T16:09:04: Supplier Item Rows: 170
+06-17-19T16:09:04: Supplier Item Rows: 180
+06-17-19T16:09:04: Supplier Item Rows: 190
+06-17-19T16:09:05: Supplier Item Rows: 200
+06-17-19T16:09:05: Supplier Item Rows: 210
+06-17-19T16:09:05: Supplier Item Rows: 220
+06-17-19T16:09:05: Supplier Item Rows: 230
+06-17-19T16:09:05: Supplier Item Rows: 240
+06-17-19T16:09:05: Supplier Item Rows: 250
+06-17-19T16:09:05: Supplier Item Rows: 260
+06-17-19T16:09:06: Supplier Item Rows: 270
+06-17-19T16:09:06: Supplier Item Rows: 280
+06-17-19T16:09:06: Finished Supplier:  Xref: 
+06-17-19T16:09:06: Total Items: 284
+06-17-19T16:09:06: File created in working xls folder: Supplier Item-__HERR SNACKS.xlsx
+06-17-19T16:09:06: ...
+06-17-19T16:09:06: End Log

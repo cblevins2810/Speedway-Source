@@ -1,0 +1,15 @@
+07-09-19T13:34:03: Start Log
+07-09-19T13:34:03: Found Input File: Supplier Item Cost Refresh - Items-PEPGATR2_PEPGATR2-PEPSI-INDY-DEL TO KOKOMO GATR_1.csv
+07-09-19T13:34:03: Processing Supplier: PEPGATR2-PEPSI-INDY-DEL TO KOKOMO GATR Xref: PEPGATR2
+07-09-19T13:34:08: Supplier Item Rows: 10
+07-09-19T13:34:08: Supplier Item Rows: 20
+07-09-19T13:34:08: Supplier Item Rows: 30
+07-09-19T13:34:09: Supplier Item Rows: 40
+07-09-19T13:34:09: Supplier Item Rows: 50
+07-09-19T13:34:09: Supplier Item Rows: 60
+07-09-19T13:34:09: Supplier Item Rows: 70
+07-09-19T13:38:45: Finished Supplier: PEPGATR2-PEPSI-INDY-DEL TO KOKOMO GATR Xref: PEPGATR2
+07-09-19T13:38:45: Total Items: 73
+07-09-19T13:38:45: File created in working xls folder: Supplier Item Cost Refresh - Items-PEPGATR2-PEPSI-INDY-DEL TO KOKOMO GATR_PEPGATR2_1.xlsx
+07-09-19T13:38:45: ...
+07-09-19T13:38:45: End Log

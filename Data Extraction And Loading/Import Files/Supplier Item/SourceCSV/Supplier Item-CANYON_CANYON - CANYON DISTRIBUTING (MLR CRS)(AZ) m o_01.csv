@@ -1,0 +1,8 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_022100004122,PABST EASY 12PK 12Z CN,1100602,1100602,,,,a,401 01D 000,Case,24.00,,,u,_022100004122,Master,18.30,0.00,1900-01-01,2075-12-31
+_022100004122,,,,,,,,,,,,,u,_221000041224,,,,,
+_34100006679,MILW BEST ICE 6PK 12z CN,51626,51626,,,,a,Default,Case,24.00,,,u,_034100006679,Master,14.05,0.00,1900-01-01,2075-12-31
+_71990770051,COORS NA 6PK 12z LN,032000369,32000369,,,,a,Default,Case,24.00,,,u,_071990770051,Master,18.80,0.00,1900-01-01,2075-12-31
+_71990770082,COORS NA 12PK 12z CN,032000370,32000370,,,,a,Default,Case,24.00,,,u,_071990770082,Master,18.80,0.00,1900-01-01,2075-12-31
+_80660957555,MODELO ESPECIAL 6PK 12z CN,038402,38402,,,,a,Default,Case,24.00,,,u,_080660957555,Master,24.65,0.00,1900-01-01,2075-12-31

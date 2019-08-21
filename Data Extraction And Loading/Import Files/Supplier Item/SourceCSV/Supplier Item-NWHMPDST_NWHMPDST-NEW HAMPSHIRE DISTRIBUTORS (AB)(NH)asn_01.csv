@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_610764264640,BANG MOCHA COFFEE 16Z,36009380,36009380,,,,a,601 13a 000,Case,12.00,,,u,_610764264640,Master,28.00,0.00,1900-01-01,2075-12-31
+_610764264688,BANG COOKIES N CREME 16Z,36014099,36014099,,,,a,601 13a 000,Case,12.00,,,u,_610764264688,Master,28.00,0.00,1900-01-01,2075-12-31
+_610764264701,BANG HAZELNUT COFFEE 16Z,36009379,36009379,,,,a,601 13a 000,Case,12.00,,,u,_610764264701,Master,28.00,0.00,1900-01-01,2075-12-31

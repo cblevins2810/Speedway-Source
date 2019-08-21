@@ -1,0 +1,5 @@
+ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
+-----------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
+_087692006862,TRULY BERRY VARIETY PACK 12PK 12Z CN,32001802,32001802,,,,a,401 01D 000,Case,24.00,,,u,_087692006862,Master,26.38,0.00,1900-01-01,2075-12-31
+_087692006862,,,,,,,,,,,,,u,_876921068623,,,,,
+_2800032620,NESCAFE CLSICO 3.5z,123290,123290,,,*UNAVAILABLE*,a,601 33 17,Each,1.00,,,u,_028000326203,Master,2.29,0.00,1900-01-01,2075-12-31
