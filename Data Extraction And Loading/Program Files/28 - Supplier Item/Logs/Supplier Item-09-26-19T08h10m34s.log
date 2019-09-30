@@ -1,0 +1,386 @@
+09-26-19T08:10:34: Start Log
+09-26-19T08:10:34: Processing File: Supplier Item-ACEICECO_F ACEICECO - ACE ICE COMPANY_01.xlsx
+09-26-19T08:10:35: Finished File: Supplier Item-ACEICECO_F ACEICECO - ACE ICE COMPANY_01.xlsx
+09-26-19T08:10:35: File created in final csv folder: Supplier Item-ACEICECO_F ACEICECO - ACE ICE COMPANY_01.csv
+09-26-19T08:10:35: ...
+09-26-19T08:10:35: Processing File: Supplier Item-AMERMFG_F AMERMFG - MID AMERICA MFG & DIST_01.xlsx
+09-26-19T08:10:37: Finished File: Supplier Item-AMERMFG_F AMERMFG - MID AMERICA MFG & DIST_01.xlsx
+09-26-19T08:10:37: File created in final csv folder: Supplier Item-AMERMFG_F AMERMFG - MID AMERICA MFG & DIST_01.csv
+09-26-19T08:10:37: ...
+09-26-19T08:10:37: Processing File: Supplier Item-AMEXPRES_F AMEXPRES - AM EXPRESS DYNAMEX_01.xlsx
+09-26-19T08:10:38: Finished File: Supplier Item-AMEXPRES_F AMEXPRES - AM EXPRESS DYNAMEX_01.xlsx
+09-26-19T08:10:38: File created in final csv folder: Supplier Item-AMEXPRES_F AMEXPRES - AM EXPRESS DYNAMEX_01.csv
+09-26-19T08:10:38: ...
+09-26-19T08:10:38: Processing File: Supplier Item-AMRICE_F AMRICE - AMERICAN ICE_01.xlsx
+09-26-19T08:10:40: Finished File: Supplier Item-AMRICE_F AMRICE - AMERICAN ICE_01.xlsx
+09-26-19T08:10:40: File created in final csv folder: Supplier Item-AMRICE_F AMRICE - AMERICAN ICE_01.csv
+09-26-19T08:10:40: ...
+09-26-19T08:10:40: Processing File: Supplier Item-ANOKA_F ANOKA - ANOKA COUNTY_01.xlsx
+09-26-19T08:10:41: Finished File: Supplier Item-ANOKA_F ANOKA - ANOKA COUNTY_01.xlsx
+09-26-19T08:10:41: File created in final csv folder: Supplier Item-ANOKA_F ANOKA - ANOKA COUNTY_01.csv
+09-26-19T08:10:41: ...
+09-26-19T08:10:41: Processing File: Supplier Item-ARGUS_F ARGUS - ARGUS LEADER_01.xlsx
+09-26-19T08:10:43: Finished File: Supplier Item-ARGUS_F ARGUS - ARGUS LEADER_01.xlsx
+09-26-19T08:10:43: File created in final csv folder: Supplier Item-ARGUS_F ARGUS - ARGUS LEADER_01.csv
+09-26-19T08:10:43: ...
+09-26-19T08:10:43: Processing File: Supplier Item-ARNESON_F ARNESON - ARNESON DISTRIBUTING CO_01.xlsx
+09-26-19T08:10:44: Finished File: Supplier Item-ARNESON_F ARNESON - ARNESON DISTRIBUTING CO_01.xlsx
+09-26-19T08:10:44: File created in final csv folder: Supplier Item-ARNESON_F ARNESON - ARNESON DISTRIBUTING CO_01.csv
+09-26-19T08:10:44: ...
+09-26-19T08:10:44: Processing File: Supplier Item-BADGER_F BADGER - BADGER WEST_01.xlsx
+09-26-19T08:10:46: Finished File: Supplier Item-BADGER_F BADGER - BADGER WEST_01.xlsx
+09-26-19T08:10:46: File created in final csv folder: Supplier Item-BADGER_F BADGER - BADGER WEST_01.csv
+09-26-19T08:10:46: ...
+09-26-19T08:10:46: Processing File: Supplier Item-BEERCENT_F BEERCENT - BEER CENTRAL_01.xlsx
+09-26-19T08:10:47: Finished File: Supplier Item-BEERCENT_F BEERCENT - BEER CENTRAL_01.xlsx
+09-26-19T08:10:47: File created in final csv folder: Supplier Item-BEERCENT_F BEERCENT - BEER CENTRAL_01.csv
+09-26-19T08:10:47: ...
+09-26-19T08:10:47: Processing File: Supplier Item-BERNICK_BERNICK_TEST.xlsx
+09-26-19T08:10:49: Finished File: Supplier Item-BERNICK_BERNICK_TEST.xlsx
+09-26-19T08:10:49: File created in final csv folder: Supplier Item-BERNICK_BERNICK_TEST.csv
+09-26-19T08:10:49: ...
+09-26-19T08:10:49: Processing File: Supplier Item-BLUERHINO_F BLUERHINO - BLUE RHINO_01.xlsx
+09-26-19T08:10:50: Finished File: Supplier Item-BLUERHINO_F BLUERHINO - BLUE RHINO_01.xlsx
+09-26-19T08:10:50: File created in final csv folder: Supplier Item-BLUERHINO_F BLUERHINO - BLUE RHINO_01.csv
+09-26-19T08:10:50: ...
+09-26-19T08:10:50: Processing File: Supplier Item-BRAINERD_F BRAINERD - BRAINERD DISPATCH_01.xlsx
+09-26-19T08:10:52: Finished File: Supplier Item-BRAINERD_F BRAINERD - BRAINERD DISPATCH_01.xlsx
+09-26-19T08:10:52: File created in final csv folder: Supplier Item-BRAINERD_F BRAINERD - BRAINERD DISPATCH_01.csv
+09-26-19T08:10:52: ...
+09-26-19T08:10:52: Processing File: Supplier Item-BULLETIN_F BULLETIN - POST-BULLETIN CO_01.xlsx
+09-26-19T08:10:54: Finished File: Supplier Item-BULLETIN_F BULLETIN - POST-BULLETIN CO_01.xlsx
+09-26-19T08:10:54: File created in final csv folder: Supplier Item-BULLETIN_F BULLETIN - POST-BULLETIN CO_01.csv
+09-26-19T08:10:54: ...
+09-26-19T08:10:54: Processing File: Supplier Item-BUNDLES_F BUNDLES - BUNDLES OF NEWS_01.xlsx
+09-26-19T08:10:55: Finished File: Supplier Item-BUNDLES_F BUNDLES - BUNDLES OF NEWS_01.xlsx
+09-26-19T08:10:55: File created in final csv folder: Supplier Item-BUNDLES_F BUNDLES - BUNDLES OF NEWS_01.csv
+09-26-19T08:10:55: ...
+09-26-19T08:10:55: Processing File: Supplier Item-BURNETT_F BURNETT - BURNETT DAIRY_01.xlsx
+09-26-19T08:10:56: Finished File: Supplier Item-BURNETT_F BURNETT - BURNETT DAIRY_01.xlsx
+09-26-19T08:10:56: File created in final csv folder: Supplier Item-BURNETT_F BURNETT - BURNETT DAIRY_01.csv
+09-26-19T08:10:56: ...
+09-26-19T08:10:56: Processing File: Supplier Item-BUSTED_F BUSTED - BUSTED_01.xlsx
+09-26-19T08:10:58: Finished File: Supplier Item-BUSTED_F BUSTED - BUSTED_01.xlsx
+09-26-19T08:10:58: File created in final csv folder: Supplier Item-BUSTED_F BUSTED - BUSTED_01.csv
+09-26-19T08:10:58: ...
+09-26-19T08:10:58: Processing File: Supplier Item-CARGILL_F CARGILL - CARGILL INC-SALT DIVISION_01.xlsx
+09-26-19T08:10:59: Finished File: Supplier Item-CARGILL_F CARGILL - CARGILL INC-SALT DIVISION_01.xlsx
+09-26-19T08:10:59: File created in final csv folder: Supplier Item-CARGILL_F CARGILL - CARGILL INC-SALT DIVISION_01.csv
+09-26-19T08:10:59: ...
+09-26-19T08:10:59: Processing File: Supplier Item-CARHARTT_F CARHARTT - CARHARTT_01.xlsx
+09-26-19T08:11:01: Finished File: Supplier Item-CARHARTT_F CARHARTT - CARHARTT_01.xlsx
+09-26-19T08:11:01: File created in final csv folder: Supplier Item-CARHARTT_F CARHARTT - CARHARTT_01.csv
+09-26-19T08:11:01: ...
+09-26-19T08:11:01: Processing File: Supplier Item-CASEYNEW_F CASEYNEW - CASEY NEWS_01.xlsx
+09-26-19T08:11:02: Finished File: Supplier Item-CASEYNEW_F CASEYNEW - CASEY NEWS_01.xlsx
+09-26-19T08:11:02: File created in final csv folder: Supplier Item-CASEYNEW_F CASEYNEW - CASEY NEWS_01.csv
+09-26-19T08:11:02: ...
+09-26-19T08:11:03: Processing File: Supplier Item-CBDIST_F CBDIST - CB DISTRIBUTORS INC_01.xlsx
+09-26-19T08:11:04: Finished File: Supplier Item-CBDIST_F CBDIST - CB DISTRIBUTORS INC_01.xlsx
+09-26-19T08:11:04: File created in final csv folder: Supplier Item-CBDIST_F CBDIST - CB DISTRIBUTORS INC_01.csv
+09-26-19T08:11:04: ...
+09-26-19T08:11:04: Processing File: Supplier Item-CENTRLWD_F CENTRLWD - CENTRAL WOOD PRODUCTS_01.xlsx
+09-26-19T08:11:05: Finished File: Supplier Item-CENTRLWD_F CENTRLWD - CENTRAL WOOD PRODUCTS_01.xlsx
+09-26-19T08:11:05: File created in final csv folder: Supplier Item-CENTRLWD_F CENTRLWD - CENTRAL WOOD PRODUCTS_01.csv
+09-26-19T08:11:05: ...
+09-26-19T08:11:05: Processing File: Supplier Item-CLDSPRNG_F CLDSPRNG - COLD SPRING_01.xlsx
+09-26-19T08:11:07: Finished File: Supplier Item-CLDSPRNG_F CLDSPRNG - COLD SPRING_01.xlsx
+09-26-19T08:11:07: File created in final csv folder: Supplier Item-CLDSPRNG_F CLDSPRNG - COLD SPRING_01.csv
+09-26-19T08:11:07: ...
+09-26-19T08:11:07: Processing File: Supplier Item-CNRTYMT_F CNRTYMT - COUNTRY FRESH MEATS_01.xlsx
+09-26-19T08:11:08: Finished File: Supplier Item-CNRTYMT_F CNRTYMT - COUNTRY FRESH MEATS_01.xlsx
+09-26-19T08:11:08: File created in final csv folder: Supplier Item-CNRTYMT_F CNRTYMT - COUNTRY FRESH MEATS_01.csv
+09-26-19T08:11:08: ...
+09-26-19T08:11:08: Processing File: Supplier Item-DALENEWS_F DALENEWS - DALE'S NEWS SERVICE_01.xlsx
+09-26-19T08:11:10: Finished File: Supplier Item-DALENEWS_F DALENEWS - DALE'S NEWS SERVICE_01.xlsx
+09-26-19T08:11:10: File created in final csv folder: Supplier Item-DALENEWS_F DALENEWS - DALE'S NEWS SERVICE_01.csv
+09-26-19T08:11:10: ...
+09-26-19T08:11:10: Processing File: Supplier Item-DOOLEYS_F DOOLEYS - DOOLEY'S PROPANE_01.xlsx
+09-26-19T08:11:11: Finished File: Supplier Item-DOOLEYS_F DOOLEYS - DOOLEY'S PROPANE_01.xlsx
+09-26-19T08:11:11: File created in final csv folder: Supplier Item-DOOLEYS_F DOOLEYS - DOOLEY'S PROPANE_01.csv
+09-26-19T08:11:11: ...
+09-26-19T08:11:11: Processing File: Supplier Item-DUNLAY_F DUNLAY - DUNLAY DISTRIBUTION_01.xlsx
+09-26-19T08:11:13: Finished File: Supplier Item-DUNLAY_F DUNLAY - DUNLAY DISTRIBUTION_01.xlsx
+09-26-19T08:11:13: File created in final csv folder: Supplier Item-DUNLAY_F DUNLAY - DUNLAY DISTRIBUTION_01.csv
+09-26-19T08:11:13: ...
+09-26-19T08:11:13: Processing File: Supplier Item-ECHOPUB_F ECHOPUB - ECHO PUBLISHING_01.xlsx
+09-26-19T08:11:14: Finished File: Supplier Item-ECHOPUB_F ECHOPUB - ECHO PUBLISHING_01.xlsx
+09-26-19T08:11:14: File created in final csv folder: Supplier Item-ECHOPUB_F ECHOPUB - ECHO PUBLISHING_01.csv
+09-26-19T08:11:14: ...
+09-26-19T08:11:14: Processing File: Supplier Item-EILEENS_F EILEENS - EILEEN'S CANDIES_01.xlsx
+09-26-19T08:11:16: Finished File: Supplier Item-EILEENS_F EILEENS - EILEEN'S CANDIES_01.xlsx
+09-26-19T08:11:16: File created in final csv folder: Supplier Item-EILEENS_F EILEENS - EILEEN'S CANDIES_01.csv
+09-26-19T08:11:16: ...
+09-26-19T08:11:16: Processing File: Supplier Item-FACMOTOR_F FACMOTOR - FACTORY MOTOR PARTS_01.xlsx
+09-26-19T08:11:17: Finished File: Supplier Item-FACMOTOR_F FACMOTOR - FACTORY MOTOR PARTS_01.xlsx
+09-26-19T08:11:17: File created in final csv folder: Supplier Item-FACMOTOR_F FACMOTOR - FACTORY MOTOR PARTS_01.csv
+09-26-19T08:11:18: ...
+09-26-19T08:11:18: Processing File: Supplier Item-FAIRNEWS_F FAIRNEWS - FARIBAULT DAILY NEWS_01.xlsx
+09-26-19T08:11:19: Finished File: Supplier Item-FAIRNEWS_F FAIRNEWS - FARIBAULT DAILY NEWS_01.xlsx
+09-26-19T08:11:19: File created in final csv folder: Supplier Item-FAIRNEWS_F FAIRNEWS - FARIBAULT DAILY NEWS_01.csv
+09-26-19T08:11:19: ...
+09-26-19T08:11:19: Processing File: Supplier Item-FIREHOUS_F FIREHOUS - FIREHOUSE PIZZA_01.xlsx
+09-26-19T08:11:21: Finished File: Supplier Item-FIREHOUS_F FIREHOUS - FIREHOUSE PIZZA_01.xlsx
+09-26-19T08:11:21: File created in final csv folder: Supplier Item-FIREHOUS_F FIREHOUS - FIREHOUSE PIZZA_01.csv
+09-26-19T08:11:21: ...
+09-26-19T08:11:21: Processing File: Supplier Item-GRANDY_F GRANDY - GRANDY DAIRY INC_01.xlsx
+09-26-19T08:11:22: Finished File: Supplier Item-GRANDY_F GRANDY - GRANDY DAIRY INC_01.xlsx
+09-26-19T08:11:22: File created in final csv folder: Supplier Item-GRANDY_F GRANDY - GRANDY DAIRY INC_01.csv
+09-26-19T08:11:22: ...
+09-26-19T08:11:22: Processing File: Supplier Item-HAPPYGR_F HAPPYGR - HAPPY GREETINGS_01.xlsx
+09-26-19T08:11:24: Finished File: Supplier Item-HAPPYGR_F HAPPYGR - HAPPY GREETINGS_01.xlsx
+09-26-19T08:11:24: File created in final csv folder: Supplier Item-HAPPYGR_F HAPPYGR - HAPPY GREETINGS_01.csv
+09-26-19T08:11:24: ...
+09-26-19T08:11:24: Processing File: Supplier Item-HEGERS_F HEGERS - HEGER'S DAIRY_01.xlsx
+09-26-19T08:11:25: Finished File: Supplier Item-HEGERS_F HEGERS - HEGER'S DAIRY_01.xlsx
+09-26-19T08:11:25: File created in final csv folder: Supplier Item-HEGERS_F HEGERS - HEGER'S DAIRY_01.csv
+09-26-19T08:11:25: ...
+09-26-19T08:11:25: Processing File: Supplier Item-HOPBAREL_F HOPBAREL - HOP & BARREL BREWING COMPANY_01.xlsx
+09-26-19T08:11:27: Finished File: Supplier Item-HOPBAREL_F HOPBAREL - HOP & BARREL BREWING COMPANY_01.xlsx
+09-26-19T08:11:27: File created in final csv folder: Supplier Item-HOPBAREL_F HOPBAREL - HOP & BARREL BREWING COMPANY_01.csv
+09-26-19T08:11:27: ...
+09-26-19T08:11:27: Processing File: Supplier Item-INDPNDNT_F INDPNDNT - INDEPENDENT REVIEW_01.xlsx
+09-26-19T08:11:29: Finished File: Supplier Item-INDPNDNT_F INDPNDNT - INDEPENDENT REVIEW_01.xlsx
+09-26-19T08:11:29: File created in final csv folder: Supplier Item-INDPNDNT_F INDPNDNT - INDEPENDENT REVIEW_01.csv
+09-26-19T08:11:29: ...
+09-26-19T08:11:29: Processing File: Supplier Item-JEROMES_F JEROMES - JEROMES_01.xlsx
+09-26-19T08:11:30: Finished File: Supplier Item-JEROMES_F JEROMES - JEROMES_01.xlsx
+09-26-19T08:11:30: File created in final csv folder: Supplier Item-JEROMES_F JEROMES - JEROMES_01.csv
+09-26-19T08:11:30: ...
+09-26-19T08:11:30: Processing File: Supplier Item-JIMCHEES_F JIMCHEES - JIM'S CHEESE PANTRY INC_01.xlsx
+09-26-19T08:11:32: Finished File: Supplier Item-JIMCHEES_F JIMCHEES - JIM'S CHEESE PANTRY INC_01.xlsx
+09-26-19T08:11:32: File created in final csv folder: Supplier Item-JIMCHEES_F JIMCHEES - JIM'S CHEESE PANTRY INC_01.csv
+09-26-19T08:11:32: ...
+09-26-19T08:11:32: Processing File: Supplier Item-JOHNFEED_F JOHNFEED - JOHNSON FEED CO_01.xlsx
+09-26-19T08:11:33: Finished File: Supplier Item-JOHNFEED_F JOHNFEED - JOHNSON FEED CO_01.xlsx
+09-26-19T08:11:33: File created in final csv folder: Supplier Item-JOHNFEED_F JOHNFEED - JOHNSON FEED CO_01.csv
+09-26-19T08:11:33: ...
+09-26-19T08:11:33: Processing File: Supplier Item-JPRDIST_F JPRDIST - JPR DISTRIBUTION_01.xlsx
+09-26-19T08:11:35: Finished File: Supplier Item-JPRDIST_F JPRDIST - JPR DISTRIBUTION_01.xlsx
+09-26-19T08:11:35: File created in final csv folder: Supplier Item-JPRDIST_F JPRDIST - JPR DISTRIBUTION_01.csv
+09-26-19T08:11:35: ...
+09-26-19T08:11:35: Processing File: Supplier Item-KATHFUEL_F KATHFUEL - KATH FUEL OIL SERVICE_01.xlsx
+09-26-19T08:11:36: Finished File: Supplier Item-KATHFUEL_F KATHFUEL - KATH FUEL OIL SERVICE_01.xlsx
+09-26-19T08:11:36: File created in final csv folder: Supplier Item-KATHFUEL_F KATHFUEL - KATH FUEL OIL SERVICE_01.csv
+09-26-19T08:11:36: ...
+09-26-19T08:11:37: Processing File: Supplier Item-KINCO_F KINCO - KINCO LLC_01.xlsx
+09-26-19T08:11:38: Finished File: Supplier Item-KINCO_F KINCO - KINCO LLC_01.xlsx
+09-26-19T08:11:38: File created in final csv folder: Supplier Item-KINCO_F KINCO - KINCO LLC_01.csv
+09-26-19T08:11:38: ...
+09-26-19T08:11:38: Processing File: Supplier Item-KRIEGER_F KRIEGER - KRIEGER BEVERAGE_01.xlsx
+09-26-19T08:11:40: Finished File: Supplier Item-KRIEGER_F KRIEGER - KRIEGER BEVERAGE_01.xlsx
+09-26-19T08:11:40: File created in final csv folder: Supplier Item-KRIEGER_F KRIEGER - KRIEGER BEVERAGE_01.csv
+09-26-19T08:11:40: ...
+09-26-19T08:11:40: Processing File: Supplier Item-LAIDLAW_F LAIDLAW - LAIDLAW SALES_01.xlsx
+09-26-19T08:11:41: Finished File: Supplier Item-LAIDLAW_F LAIDLAW - LAIDLAW SALES_01.xlsx
+09-26-19T08:11:41: File created in final csv folder: Supplier Item-LAIDLAW_F LAIDLAW - LAIDLAW SALES_01.csv
+09-26-19T08:11:41: ...
+09-26-19T08:11:41: Processing File: Supplier Item-LAKEDIST_F LAKEDIST - LAKES DIST._01.xlsx
+09-26-19T08:11:43: Finished File: Supplier Item-LAKEDIST_F LAKEDIST - LAKES DIST._01.xlsx
+09-26-19T08:11:43: File created in final csv folder: Supplier Item-LAKEDIST_F LAKEDIST - LAKES DIST._01.csv
+09-26-19T08:11:43: ...
+09-26-19T08:11:43: Processing File: Supplier Item-LEDGER_F LEDGER - THE LEDGER_01.xlsx
+09-26-19T08:11:44: Finished File: Supplier Item-LEDGER_F LEDGER - THE LEDGER_01.xlsx
+09-26-19T08:11:44: File created in final csv folder: Supplier Item-LEDGER_F LEDGER - THE LEDGER_01.csv
+09-26-19T08:11:44: ...
+09-26-19T08:11:45: Processing File: Supplier Item-LESUER_F LESUER - LESUER NEWS_01.xlsx
+09-26-19T08:11:46: Finished File: Supplier Item-LESUER_F LESUER - LESUER NEWS_01.xlsx
+09-26-19T08:11:46: File created in final csv folder: Supplier Item-LESUER_F LESUER - LESUER NEWS_01.csv
+09-26-19T08:11:46: ...
+09-26-19T08:11:46: Processing File: Supplier Item-LINKSNCK_F LINKSNCK - LINKS SNACKS_01.xlsx
+09-26-19T08:11:47: Finished File: Supplier Item-LINKSNCK_F LINKSNCK - LINKS SNACKS_01.xlsx
+09-26-19T08:11:47: File created in final csv folder: Supplier Item-LINKSNCK_F LINKSNCK - LINKS SNACKS_01.csv
+09-26-19T08:11:47: ...
+09-26-19T08:11:47: Processing File: Supplier Item-LIQUIDMN_F LIQUIDMN - LIQUID MANAGEMENT_01.xlsx
+09-26-19T08:11:49: Finished File: Supplier Item-LIQUIDMN_F LIQUIDMN - LIQUID MANAGEMENT_01.xlsx
+09-26-19T08:11:49: File created in final csv folder: Supplier Item-LIQUIDMN_F LIQUIDMN - LIQUID MANAGEMENT_01.csv
+09-26-19T08:11:49: ...
+09-26-19T08:11:49: Processing File: Supplier Item-LIVEWIRE_F LIVEWIRE - LIVEWIRE PRINTING_01.xlsx
+09-26-19T08:11:51: Finished File: Supplier Item-LIVEWIRE_F LIVEWIRE - LIVEWIRE PRINTING_01.xlsx
+09-26-19T08:11:51: File created in final csv folder: Supplier Item-LIVEWIRE_F LIVEWIRE - LIVEWIRE PRINTING_01.csv
+09-26-19T08:11:51: ...
+09-26-19T08:11:51: Processing File: Supplier Item-MIDWEST_F MIDWEST - MIDWEST SUPPLY_01.xlsx
+09-26-19T08:11:52: Finished File: Supplier Item-MIDWEST_F MIDWEST - MIDWEST SUPPLY_01.xlsx
+09-26-19T08:11:52: File created in final csv folder: Supplier Item-MIDWEST_F MIDWEST - MIDWEST SUPPLY_01.csv
+09-26-19T08:11:52: ...
+09-26-19T08:11:52: Processing File: Supplier Item-MSDISTR_F MSDISTR - M&S UP NORTH DISTRIBUTING LLC_01.xlsx
+09-26-19T08:11:54: Finished File: Supplier Item-MSDISTR_F MSDISTR - M&S UP NORTH DISTRIBUTING LLC_01.xlsx
+09-26-19T08:11:54: File created in final csv folder: Supplier Item-MSDISTR_F MSDISTR - M&S UP NORTH DISTRIBUTING LLC_01.csv
+09-26-19T08:11:54: ...
+09-26-19T08:11:54: Processing File: Supplier Item-NEBOLGHT_F NEBOLGHT - NEBO LIGHTS_01.xlsx
+09-26-19T08:11:55: Finished File: Supplier Item-NEBOLGHT_F NEBOLGHT - NEBO LIGHTS_01.xlsx
+09-26-19T08:11:55: File created in final csv folder: Supplier Item-NEBOLGHT_F NEBOLGHT - NEBO LIGHTS_01.csv
+09-26-19T08:11:55: ...
+09-26-19T08:11:55: Processing File: Supplier Item-NEEDHAM_F NEEDHAM - NEEDHAM DISTRIBUTING CO._01.xlsx
+09-26-19T08:11:57: Finished File: Supplier Item-NEEDHAM_F NEEDHAM - NEEDHAM DISTRIBUTING CO._01.xlsx
+09-26-19T08:11:57: File created in final csv folder: Supplier Item-NEEDHAM_F NEEDHAM - NEEDHAM DISTRIBUTING CO._01.csv
+09-26-19T08:11:57: ...
+09-26-19T08:11:57: Processing File: Supplier Item-NRTHNBAT_F NRTHNBAT - NORTHERN BATTERY_01.xlsx
+09-26-19T08:11:59: Finished File: Supplier Item-NRTHNBAT_F NRTHNBAT - NORTHERN BATTERY_01.xlsx
+09-26-19T08:11:59: File created in final csv folder: Supplier Item-NRTHNBAT_F NRTHNBAT - NORTHERN BATTERY_01.csv
+09-26-19T08:11:59: ...
+09-26-19T08:11:59: Processing File: Supplier Item-PEPCHAM_F PEPCHAM - PEPSI-COLA CHAMBERLAIN_01.xlsx
+09-26-19T08:12:00: Finished File: Supplier Item-PEPCHAM_F PEPCHAM - PEPSI-COLA CHAMBERLAIN_01.xlsx
+09-26-19T08:12:00: File created in final csv folder: Supplier Item-PEPCHAM_F PEPCHAM - PEPSI-COLA CHAMBERLAIN_01.csv
+09-26-19T08:12:00: ...
+09-26-19T08:12:00: Processing File: Supplier Item-PEPESTHR_F PEPESTHR - PEPSI BOTTLING CO OF ESTHERVILLE_01.xlsx
+09-26-19T08:12:02: Finished File: Supplier Item-PEPESTHR_F PEPESTHR - PEPSI BOTTLING CO OF ESTHERVILLE_01.xlsx
+09-26-19T08:12:02: File created in final csv folder: Supplier Item-PEPESTHR_F PEPESTHR - PEPSI BOTTLING CO OF ESTHERVILLE_01.csv
+09-26-19T08:12:02: ...
+09-26-19T08:12:02: Processing File: Supplier Item-PEPMANK_F PEPMANK - PEPSI-COLA COMPANY OF MANKATO GILLETTE_01.xlsx
+09-26-19T08:12:04: Finished File: Supplier Item-PEPMANK_F PEPMANK - PEPSI-COLA COMPANY OF MANKATO GILLETTE_01.xlsx
+09-26-19T08:12:04: File created in final csv folder: Supplier Item-PEPMANK_F PEPMANK - PEPSI-COLA COMPANY OF MANKATO GILLETTE_01.csv
+09-26-19T08:12:04: ...
+09-26-19T08:12:04: Processing File: Supplier Item-PEPPBC_F PEPPBC - PEPSI PBC ORTONVILLE_01.xlsx
+09-26-19T08:12:05: Finished File: Supplier Item-PEPPBC_F PEPPBC - PEPSI PBC ORTONVILLE_01.xlsx
+09-26-19T08:12:05: File created in final csv folder: Supplier Item-PEPPBC_F PEPPBC - PEPSI PBC ORTONVILLE_01.csv
+09-26-19T08:12:05: ...
+09-26-19T08:12:05: Processing File: Supplier Item-PEPROCH_F PEPROCH - PEPSI-COLA BOTTLING CO. OF ROCHESTER_01.xlsx
+09-26-19T08:12:07: Finished File: Supplier Item-PEPROCH_F PEPROCH - PEPSI-COLA BOTTLING CO. OF ROCHESTER_01.xlsx
+09-26-19T08:12:07: File created in final csv folder: Supplier Item-PEPROCH_F PEPROCH - PEPSI-COLA BOTTLING CO. OF ROCHESTER_01.csv
+09-26-19T08:12:07: ...
+09-26-19T08:12:07: Processing File: Supplier Item-PEPTWIN_F PEPTWIN - PEPSI TWIN CITIES_02.xlsx
+09-26-19T08:12:09: Finished File: Supplier Item-PEPTWIN_F PEPTWIN - PEPSI TWIN CITIES_02.xlsx
+09-26-19T08:12:09: File created in final csv folder: Supplier Item-PEPTWIN_F PEPTWIN - PEPSI TWIN CITIES_02.csv
+09-26-19T08:12:09: ...
+09-26-19T08:12:09: Processing File: Supplier Item-PEPTWIN_F PEPTWIN - PEPSI TWIN CITIES_03.xlsx
+09-26-19T08:12:11: Finished File: Supplier Item-PEPTWIN_F PEPTWIN - PEPSI TWIN CITIES_03.xlsx
+09-26-19T08:12:11: File created in final csv folder: Supplier Item-PEPTWIN_F PEPTWIN - PEPSI TWIN CITIES_03.csv
+09-26-19T08:12:11: ...
+09-26-19T08:12:11: Processing File: Supplier Item-PIONEER_F PIONEER - ST PAUL PIONEER PRESS_01.xlsx
+09-26-19T08:12:12: Finished File: Supplier Item-PIONEER_F PIONEER - ST PAUL PIONEER PRESS_01.xlsx
+09-26-19T08:12:12: File created in final csv folder: Supplier Item-PIONEER_F PIONEER - ST PAUL PIONEER PRESS_01.csv
+09-26-19T08:12:12: ...
+09-26-19T08:12:12: Processing File: Supplier Item-PLMADIST_F PLMADIST - PALMA DISTRIBUTION - TAKIS_01.xlsx
+09-26-19T08:12:14: Finished File: Supplier Item-PLMADIST_F PLMADIST - PALMA DISTRIBUTION - TAKIS_01.xlsx
+09-26-19T08:12:14: File created in final csv folder: Supplier Item-PLMADIST_F PLMADIST - PALMA DISTRIBUTION - TAKIS_01.csv
+09-26-19T08:12:14: ...
+09-26-19T08:12:14: Processing File: Supplier Item-POLKADOT_F POLKADOT - POLKA DOT DAIRY_01.xlsx
+09-26-19T08:12:16: Finished File: Supplier Item-POLKADOT_F POLKADOT - POLKA DOT DAIRY_01.xlsx
+09-26-19T08:12:16: File created in final csv folder: Supplier Item-POLKADOT_F POLKADOT - POLKA DOT DAIRY_01.csv
+09-26-19T08:12:16: ...
+09-26-19T08:12:16: Processing File: Supplier Item-PRESSTME_F PRESSTME - PRESS TIME DELIVERY LLC_01.xlsx
+09-26-19T08:12:17: Finished File: Supplier Item-PRESSTME_F PRESSTME - PRESS TIME DELIVERY LLC_01.xlsx
+09-26-19T08:12:17: File created in final csv folder: Supplier Item-PRESSTME_F PRESSTME - PRESS TIME DELIVERY LLC_01.csv
+09-26-19T08:12:17: ...
+09-26-19T08:12:18: Processing File: Supplier Item-PRGUETIM_F PRGUETIM - NEW PRAGUE TIMES_01.xlsx
+09-26-19T08:12:19: Finished File: Supplier Item-PRGUETIM_F PRGUETIM - NEW PRAGUE TIMES_01.xlsx
+09-26-19T08:12:19: File created in final csv folder: Supplier Item-PRGUETIM_F PRGUETIM - NEW PRAGUE TIMES_01.csv
+09-26-19T08:12:19: ...
+09-26-19T08:12:19: Processing File: Supplier Item-QUALITY_F QUALITY - QUALITY BRANDS_01.xlsx
+09-26-19T08:12:21: Finished File: Supplier Item-QUALITY_F QUALITY - QUALITY BRANDS_01.xlsx
+09-26-19T08:12:21: File created in final csv folder: Supplier Item-QUALITY_F QUALITY - QUALITY BRANDS_01.csv
+09-26-19T08:12:21: ...
+09-26-19T08:12:21: Processing File: Supplier Item-REDWING_F REDWING - RED WING SHOES_01.xlsx
+09-26-19T08:12:22: Finished File: Supplier Item-REDWING_F REDWING - RED WING SHOES_01.xlsx
+09-26-19T08:12:22: File created in final csv folder: Supplier Item-REDWING_F REDWING - RED WING SHOES_01.csv
+09-26-19T08:12:22: ...
+09-26-19T08:12:22: Processing File: Supplier Item-REPEAGLE_F REPEAGLE - DAILY REPUBLICAN EAGLE_01.xlsx
+09-26-19T08:12:24: Finished File: Supplier Item-REPEAGLE_F REPEAGLE - DAILY REPUBLICAN EAGLE_01.xlsx
+09-26-19T08:12:24: File created in final csv folder: Supplier Item-REPEAGLE_F REPEAGLE - DAILY REPUBLICAN EAGLE_01.csv
+09-26-19T08:12:24: ...
+09-26-19T08:12:24: Processing File: Supplier Item-RICHMOND_F RICHMOND - NEW RICHMOND NEWS_01.xlsx
+09-26-19T08:12:25: Finished File: Supplier Item-RICHMOND_F RICHMOND - NEW RICHMOND NEWS_01.xlsx
+09-26-19T08:12:25: File created in final csv folder: Supplier Item-RICHMOND_F RICHMOND - NEW RICHMOND NEWS_01.csv
+09-26-19T08:12:25: ...
+09-26-19T08:12:26: Processing File: Supplier Item-RJOUTDOR_F RJOUTDOR - R&J OUTDOOR SERVICES_01.xlsx
+09-26-19T08:12:27: Finished File: Supplier Item-RJOUTDOR_F RJOUTDOR - R&J OUTDOOR SERVICES_01.xlsx
+09-26-19T08:12:27: File created in final csv folder: Supplier Item-RJOUTDOR_F RJOUTDOR - R&J OUTDOOR SERVICES_01.csv
+09-26-19T08:12:27: ...
+09-26-19T08:12:27: Processing File: Supplier Item-RONNOCO_F RONNOCO - RONNOCO_01.xlsx
+09-26-19T08:12:29: Finished File: Supplier Item-RONNOCO_F RONNOCO - RONNOCO_01.xlsx
+09-26-19T08:12:29: File created in final csv folder: Supplier Item-RONNOCO_F RONNOCO - RONNOCO_01.csv
+09-26-19T08:12:29: ...
+09-26-19T08:12:29: Processing File: Supplier Item-SARALEE_F SARALEE - SARA LEE BAKERY GROUP_01.xlsx
+09-26-19T08:12:30: Finished File: Supplier Item-SARALEE_F SARALEE - SARA LEE BAKERY GROUP_01.xlsx
+09-26-19T08:12:30: File created in final csv folder: Supplier Item-SARALEE_F SARALEE - SARA LEE BAKERY GROUP_01.csv
+09-26-19T08:12:30: ...
+09-26-19T08:12:30: Processing File: Supplier Item-SCHROEDR_F SCHROEDR - SCHROEDER MILK_01.xlsx
+09-26-19T08:12:32: Finished File: Supplier Item-SCHROEDR_F SCHROEDR - SCHROEDER MILK_01.xlsx
+09-26-19T08:12:32: File created in final csv folder: Supplier Item-SCHROEDR_F SCHROEDR - SCHROEDER MILK_01.csv
+09-26-19T08:12:32: ...
+09-26-19T08:12:32: Processing File: Supplier Item-SENTINEL_F SENTINEL - SENTINEL NEWS_01.xlsx
+09-26-19T08:12:34: Finished File: Supplier Item-SENTINEL_F SENTINEL - SENTINEL NEWS_01.xlsx
+09-26-19T08:12:34: File created in final csv folder: Supplier Item-SENTINEL_F SENTINEL - SENTINEL NEWS_01.csv
+09-26-19T08:12:34: ...
+09-26-19T08:12:34: Processing File: Supplier Item-SMOMALL_F SMOMALL - SMOM ALL PRODUCTS_01.xlsx
+09-26-19T08:12:35: Finished File: Supplier Item-SMOMALL_F SMOMALL - SMOM ALL PRODUCTS_01.xlsx
+09-26-19T08:12:35: File created in final csv folder: Supplier Item-SMOMALL_F SMOMALL - SMOM ALL PRODUCTS_01.csv
+09-26-19T08:12:35: ...
+09-26-19T08:12:35: Processing File: Supplier Item-STAROBSR_F STAROBSR - STAR OBSERVER_01.xlsx
+09-26-19T08:12:37: Finished File: Supplier Item-STAROBSR_F STAROBSR - STAR OBSERVER_01.xlsx
+09-26-19T08:12:37: File created in final csv folder: Supplier Item-STAROBSR_F STAROBSR - STAR OBSERVER_01.csv
+09-26-19T08:12:37: ...
+09-26-19T08:12:37: Processing File: Supplier Item-STARTRIB_F STARTRIB - STAR TRIBUNE_01.xlsx
+09-26-19T08:12:39: Finished File: Supplier Item-STARTRIB_F STARTRIB - STAR TRIBUNE_01.xlsx
+09-26-19T08:12:39: File created in final csv folder: Supplier Item-STARTRIB_F STARTRIB - STAR TRIBUNE_01.csv
+09-26-19T08:12:39: ...
+09-26-19T08:12:39: Processing File: Supplier Item-STCLOUD_F STCLOUD - ST CLOUD TIMES_01.xlsx
+09-26-19T08:12:40: Finished File: Supplier Item-STCLOUD_F STCLOUD - ST CLOUD TIMES_01.xlsx
+09-26-19T08:12:40: File created in final csv folder: Supplier Item-STCLOUD_F STCLOUD - ST CLOUD TIMES_01.csv
+09-26-19T08:12:40: ...
+09-26-19T08:12:40: Processing File: Supplier Item-SWIFTCO_F SWIFTCO - SWIFT COUNTY MONITOR_01.xlsx
+09-26-19T08:12:42: Finished File: Supplier Item-SWIFTCO_F SWIFTCO - SWIFT COUNTY MONITOR_01.xlsx
+09-26-19T08:12:42: File created in final csv folder: Supplier Item-SWIFTCO_F SWIFTCO - SWIFT COUNTY MONITOR_01.csv
+09-26-19T08:12:42: ...
+09-26-19T08:12:42: Processing File: Supplier Item-TOWDISTR_F TOWDISTR - TOW DISTRICT_01.xlsx
+09-26-19T08:12:43: Finished File: Supplier Item-TOWDISTR_F TOWDISTR - TOW DISTRICT_01.xlsx
+09-26-19T08:12:43: File created in final csv folder: Supplier Item-TOWDISTR_F TOWDISTR - TOW DISTRICT_01.csv
+09-26-19T08:12:43: ...
+09-26-19T08:12:43: Processing File: Supplier Item-TREATPL_F TREATPL - TREAT PLANET_01.xlsx
+09-26-19T08:12:45: Finished File: Supplier Item-TREATPL_F TREATPL - TREAT PLANET_01.xlsx
+09-26-19T08:12:45: File created in final csv folder: Supplier Item-TREATPL_F TREATPL - TREAT PLANET_01.csv
+09-26-19T08:12:45: ...
+09-26-19T08:12:45: Processing File: Supplier Item-TRIANGLE_F TRIANGLE - TRIANGLE OIL CO_01.xlsx
+09-26-19T08:12:47: Finished File: Supplier Item-TRIANGLE_F TRIANGLE - TRIANGLE OIL CO_01.xlsx
+09-26-19T08:12:47: File created in final csv folder: Supplier Item-TRIANGLE_F TRIANGLE - TRIANGLE OIL CO_01.csv
+09-26-19T08:12:47: ...
+09-26-19T08:12:47: Processing File: Supplier Item-TRISTAR_F TRISTAR - TRISTAR FOODS CIN_01.xlsx
+09-26-19T08:12:48: Finished File: Supplier Item-TRISTAR_F TRISTAR - TRISTAR FOODS CIN_01.xlsx
+09-26-19T08:12:48: File created in final csv folder: Supplier Item-TRISTAR_F TRISTAR - TRISTAR FOODS CIN_01.csv
+09-26-19T08:12:48: ...
+09-26-19T08:12:48: Processing File: Supplier Item-TWINDIST_F TWINDIST - TWIN CITIES DISTRIBUTION_01.xlsx
+09-26-19T08:12:50: Finished File: Supplier Item-TWINDIST_F TWINDIST - TWIN CITIES DISTRIBUTION_01.xlsx
+09-26-19T08:12:50: File created in final csv folder: Supplier Item-TWINDIST_F TWINDIST - TWIN CITIES DISTRIBUTION_01.csv
+09-26-19T08:12:50: ...
+09-26-19T08:12:50: Processing File: Supplier Item-USATODAY_F USATODAY - USA TODAY_01.xlsx
+09-26-19T08:12:52: Finished File: Supplier Item-USATODAY_F USATODAY - USA TODAY_01.xlsx
+09-26-19T08:12:52: File created in final csv folder: Supplier Item-USATODAY_F USATODAY - USA TODAY_01.csv
+09-26-19T08:12:52: ...
+09-26-19T08:12:52: Processing File: Supplier Item-VALLYNEW_F VALLYNEW - VALLEY NEWS COMPANY_02.xlsx
+09-26-19T08:12:53: Finished File: Supplier Item-VALLYNEW_F VALLYNEW - VALLEY NEWS COMPANY_02.xlsx
+09-26-19T08:12:53: File created in final csv folder: Supplier Item-VALLYNEW_F VALLYNEW - VALLEY NEWS COMPANY_02.csv
+09-26-19T08:12:53: ...
+09-26-19T08:12:53: Processing File: Supplier Item-VONHANSN_F VONHANSN - VON HANSON'S_01.xlsx
+09-26-19T08:12:55: Finished File: Supplier Item-VONHANSN_F VONHANSN - VON HANSON'S_01.xlsx
+09-26-19T08:12:55: File created in final csv folder: Supplier Item-VONHANSN_F VONHANSN - VON HANSON'S_01.csv
+09-26-19T08:12:55: ...
+09-26-19T08:12:55: Processing File: Supplier Item-WESTCENT_F WESTCENT - WEST CENTRAL TRIBUNE_01.xlsx
+09-26-19T08:12:57: Finished File: Supplier Item-WESTCENT_F WESTCENT - WEST CENTRAL TRIBUNE_01.xlsx
+09-26-19T08:12:57: File created in final csv folder: Supplier Item-WESTCENT_F WESTCENT - WEST CENTRAL TRIBUNE_01.csv
+09-26-19T08:12:57: ...
+09-26-19T08:12:57: Processing File: Supplier Item-WILLOW_F WILLOW - WILLOW RIVER TREE FARM_01.xlsx
+09-26-19T08:12:58: Finished File: Supplier Item-WILLOW_F WILLOW - WILLOW RIVER TREE FARM_01.xlsx
+09-26-19T08:12:58: File created in final csv folder: Supplier Item-WILLOW_F WILLOW - WILLOW RIVER TREE FARM_01.csv
+09-26-19T08:12:58: ...
+09-26-19T08:12:58: Processing File: Supplier Item-WILLSON_F WILLSON - WILL & SONÆS DISTRIBUTING CO_01.xlsx
+09-26-19T08:13:00: Finished File: Supplier Item-WILLSON_F WILLSON - WILL & SONÆS DISTRIBUTING CO_01.xlsx
+09-26-19T08:13:00: File created in final csv folder: Supplier Item-WILLSON_F WILLSON - WILL & SONÆS DISTRIBUTING CO_01.csv
+09-26-19T08:13:00: ...
+09-26-19T08:13:00: Processing File: Supplier Item-WNTRCRNV_F WNTRCRNV - WINTER CARNIVAL_01.xlsx
+09-26-19T08:13:02: Finished File: Supplier Item-WNTRCRNV_F WNTRCRNV - WINTER CARNIVAL_01.xlsx
+09-26-19T08:13:02: File created in final csv folder: Supplier Item-WNTRCRNV_F WNTRCRNV - WINTER CARNIVAL_01.csv
+09-26-19T08:13:02: ...
+09-26-19T08:13:02: Processing File: Supplier Item-WOODWICK_F WOODWICK - WOODWICK CANDLE_01.xlsx
+09-26-19T08:13:04: Finished File: Supplier Item-WOODWICK_F WOODWICK - WOODWICK CANDLE_01.xlsx
+09-26-19T08:13:04: File created in final csv folder: Supplier Item-WOODWICK_F WOODWICK - WOODWICK CANDLE_01.csv
+09-26-19T08:13:04: ...
+09-26-19T08:13:04: Processing File: Supplier Item-WRTHNGTN_F WRTHNGTN - WORTHINGTON DAILY GLOBE_01.xlsx
+09-26-19T08:13:05: Finished File: Supplier Item-WRTHNGTN_F WRTHNGTN - WORTHINGTON DAILY GLOBE_01.xlsx
+09-26-19T08:13:05: File created in final csv folder: Supplier Item-WRTHNGTN_F WRTHNGTN - WORTHINGTON DAILY GLOBE_01.csv
+09-26-19T08:13:05: ...
+09-26-19T08:13:05: Processing File: Supplier Item-XTREME_F XTREME - XTREME ENTERPRISES INC_01.xlsx
+09-26-19T08:13:07: Finished File: Supplier Item-XTREME_F XTREME - XTREME ENTERPRISES INC_01.xlsx
+09-26-19T08:13:07: File created in final csv folder: Supplier Item-XTREME_F XTREME - XTREME ENTERPRISES INC_01.csv
+09-26-19T08:13:07: ...
+09-26-19T08:13:07: End Log

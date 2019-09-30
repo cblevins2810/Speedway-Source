@@ -1,0 +1,390 @@
+09-11-19T13:25:20: Start Log
+09-11-19T13:25:20: Processing File: Retail Item Fix Missing Attributes 09-10-2019.xlsx
+09-11-19T13:25:21: Item Rows: 10, External Id: 10424
+09-11-19T13:25:21: Item Rows: 20, External Id: 122355
+09-11-19T13:25:22: Item Rows: 30, External Id: 126198
+09-11-19T13:25:22: Item Rows: 40, External Id: 138696
+09-11-19T13:25:22: Item Rows: 50, External Id: 14523
+09-11-19T13:25:22: Item Rows: 60, External Id: 152691
+09-11-19T13:25:22: Item Rows: 70, External Id: 152764
+09-11-19T13:25:23: Item Rows: 80, External Id: 159519
+09-11-19T13:25:23: Item Rows: 90, External Id: 30564
+09-11-19T13:25:23: Item Rows: 100, External Id: 33677
+09-11-19T13:25:23: Item Rows: 110, External Id: 36833
+09-11-19T13:25:23: Item Rows: 120, External Id: 53699
+09-11-19T13:25:23: Item Rows: 130, External Id: 77408
+09-11-19T13:25:24: Item Rows: 140, External Id: 81337
+09-11-19T13:25:24: Item Rows: 150, External Id: 173982
+09-11-19T13:25:24: Item Rows: 160, External Id: 178406
+09-11-19T13:25:24: Item Rows: 170, External Id: 180846
+09-11-19T13:25:24: Item Rows: 180, External Id: 180967
+09-11-19T13:25:25: Item Rows: 190, External Id: 181053
+09-11-19T13:25:25: Item Rows: 200, External Id: 182250
+09-11-19T13:25:25: Item Rows: 210, External Id: 183444
+09-11-19T13:25:25: Item Rows: 220, External Id: 184223
+09-11-19T13:25:26: Item Rows: 230, External Id: 185323
+09-11-19T13:25:26: Item Rows: 240, External Id: 185697
+09-11-19T13:25:26: Item Rows: 250, External Id: 185700
+09-11-19T13:25:26: Item Rows: 260, External Id: 185703
+09-11-19T13:25:27: Item Rows: 270, External Id: 1050097
+09-11-19T13:25:27: Item Rows: 280, External Id: 1050941
+09-11-19T13:25:27: Item Rows: 290, External Id: 1051053
+09-11-19T13:25:27: Item Rows: 300, External Id: 1052291
+09-11-19T13:25:28: Item Rows: 310, External Id: 1053238
+09-11-19T13:25:28: Item Rows: 320, External Id: 1055438
+09-11-19T13:25:28: Item Rows: 330, External Id: 1057434
+09-11-19T13:25:29: Item Rows: 340, External Id: 1058018
+09-11-19T13:25:29: Item Rows: 350, External Id: 1058062
+09-11-19T13:25:29: Item Rows: 360, External Id: 10152283
+09-11-19T13:25:30: Item Rows: 370, External Id: 10192060
+09-11-19T13:25:30: Item Rows: 380, External Id: 10162933
+09-11-19T13:25:30: Item Rows: 390, External Id: 1076695
+09-11-19T13:25:30: Item Rows: 400, External Id: 1077943
+09-11-19T13:25:31: Item Rows: 410, External Id: 1077990
+09-11-19T13:25:31: Item Rows: 420, External Id: 1078047
+09-11-19T13:25:31: Item Rows: 430, External Id: 1080154
+09-11-19T13:25:31: Item Rows: 440, External Id: 1080293
+09-11-19T13:25:32: Item Rows: 450, External Id: 1080687
+09-11-19T13:25:32: Item Rows: 460, External Id: 1080959
+09-11-19T13:25:32: Item Rows: 470, External Id: 1081101
+09-11-19T13:25:32: Item Rows: 480, External Id: 1081126
+09-11-19T13:25:32: Item Rows: 490, External Id: 1081229
+09-11-19T13:25:33: Item Rows: 500, External Id: 1081585
+09-11-19T13:25:33: Item Rows: 510, External Id: 1082138
+09-11-19T13:25:33: Item Rows: 520, External Id: 1082425
+09-11-19T13:25:34: Item Rows: 530, External Id: 1083245
+09-11-19T13:25:34: Item Rows: 540, External Id: 1083310
+09-11-19T13:25:34: Item Rows: 550, External Id: 1083421
+09-11-19T13:25:34: Item Rows: 560, External Id: 1083576
+09-11-19T13:25:35: Item Rows: 570, External Id: 1083985
+09-11-19T13:25:35: Item Rows: 580, External Id: 1084043
+09-11-19T13:25:36: Item Rows: 590, External Id: 1086285
+09-11-19T13:25:36: Item Rows: 600, External Id: 1086802
+09-11-19T13:25:37: Item Rows: 610, External Id: 1089166
+09-11-19T13:25:37: Item Rows: 620, External Id: 1099942
+09-11-19T13:25:37: Item Rows: 630, External Id: 1120708
+09-11-19T13:25:38: Item Rows: 640, External Id: 1120724
+09-11-19T13:25:38: Item Rows: 650, External Id: 1122582
+09-11-19T13:25:38: Item Rows: 660, External Id: 113733
+09-11-19T13:25:39: Item Rows: 670, External Id: 13899
+09-11-19T13:25:39: Item Rows: 680, External Id: 13903
+09-11-19T13:25:39: Item Rows: 690, External Id: 13928
+09-11-19T13:25:39: Item Rows: 700, External Id: 139291
+09-11-19T13:25:39: Item Rows: 710, External Id: 160692
+09-11-19T13:25:39: Item Rows: 720, External Id: 1083649
+09-11-19T13:25:40: Item Rows: 730, External Id: 13458
+09-11-19T13:25:40: Item Rows: 740, External Id: 13482
+09-11-19T13:25:40: Item Rows: 750, External Id: 13517
+09-11-19T13:25:40: Item Rows: 760, External Id: 13531
+09-11-19T13:25:40: Item Rows: 770, External Id: 14090
+09-11-19T13:25:40: Item Rows: 780, External Id: 14096
+09-11-19T13:25:41: Item Rows: 790, External Id: 156299
+09-11-19T13:25:41: Item Rows: 800, External Id: 164321
+09-11-19T13:25:41: Item Rows: 810, External Id: 165225
+09-11-19T13:25:41: Item Rows: 820, External Id: 17591
+09-11-19T13:25:41: Item Rows: 830, External Id: 18512
+09-11-19T13:25:41: Item Rows: 840, External Id: 18781
+09-11-19T13:25:42: Item Rows: 850, External Id: 24131
+09-11-19T13:25:42: Item Rows: 860, External Id: 24494
+09-11-19T13:25:42: Item Rows: 870, External Id: 30307
+09-11-19T13:25:42: Item Rows: 880, External Id: 38353
+09-11-19T13:25:42: Item Rows: 890, External Id: 44065
+09-11-19T13:25:42: Item Rows: 900, External Id: 56219
+09-11-19T13:25:43: Item Rows: 910, External Id: 85462
+09-11-19T13:25:43: Item Rows: 920, External Id: 169731
+09-11-19T13:25:43: Item Rows: 930, External Id: 171951
+09-11-19T13:25:43: Item Rows: 940, External Id: 181142
+09-11-19T13:25:43: Item Rows: 950, External Id: 185464
+09-11-19T13:25:43: Item Rows: 960, External Id: 1051284
+09-11-19T13:25:44: Item Rows: 970, External Id: 1052944
+09-11-19T13:25:44: Item Rows: 980, External Id: 1054194
+09-11-19T13:25:44: Item Rows: 990, External Id: 1057703
+09-11-19T13:25:44: Item Rows: 1000, External Id: 1057826
+09-11-19T13:25:44: Item Rows: 1010, External Id: 1058036
+09-11-19T13:25:45: Item Rows: 1020, External Id: 1058043
+09-11-19T13:25:45: Item Rows: 1030, External Id: 1061917
+09-11-19T13:25:45: Item Rows: 1040, External Id: 1064572
+09-11-19T13:25:45: Item Rows: 1050, External Id: 1065148
+09-11-19T13:25:45: Item Rows: 1060, External Id: 1066843
+09-11-19T13:25:46: Item Rows: 1070, External Id: 1075749
+09-11-19T13:25:46: Item Rows: 1080, External Id: 1082389
+09-11-19T13:25:46: Item Rows: 1090, External Id: 1083623
+09-11-19T13:25:46: Item Rows: 1100, External Id: 1086032
+09-11-19T13:25:46: Item Rows: 1110, External Id: 1086733
+09-11-19T13:25:46: Item Rows: 1120, External Id: 1088471
+09-11-19T13:25:47: Item Rows: 1130, External Id: 1125418
+09-11-19T13:25:47: Item Rows: 1140, External Id: 10056
+09-11-19T13:25:47: Item Rows: 1150, External Id: 10063
+09-11-19T13:25:47: Item Rows: 1160, External Id: 10073
+09-11-19T13:25:47: Item Rows: 1170, External Id: 10080
+09-11-19T13:25:48: Item Rows: 1180, External Id: 10083
+09-11-19T13:25:48: Item Rows: 1190, External Id: 10087
+09-11-19T13:25:48: Item Rows: 1200, External Id: 10090
+09-11-19T13:25:48: Item Rows: 1210, External Id: 10092
+09-11-19T13:25:48: Item Rows: 1220, External Id: 10102
+09-11-19T13:25:49: Item Rows: 1230, External Id: 10111
+09-11-19T13:25:49: Item Rows: 1240, External Id: 101132
+09-11-19T13:25:49: Item Rows: 1250, External Id: 10117
+09-11-19T13:25:49: Item Rows: 1260, External Id: 10123
+09-11-19T13:25:49: Item Rows: 1270, External Id: 10134
+09-11-19T13:25:50: Item Rows: 1280, External Id: 10145
+09-11-19T13:25:50: Item Rows: 1290, External Id: 101531
+09-11-19T13:25:50: Item Rows: 1300, External Id: 101550
+09-11-19T13:25:50: Item Rows: 1310, External Id: 10160
+09-11-19T13:25:50: Item Rows: 1320, External Id: 10166
+09-11-19T13:25:51: Item Rows: 1330, External Id: 108109
+09-11-19T13:25:51: Item Rows: 1340, External Id: 10169
+09-11-19T13:25:51: Item Rows: 1350, External Id: 10177
+09-11-19T13:25:51: Item Rows: 1360, External Id: 10182
+09-11-19T13:25:51: Item Rows: 1370, External Id: 10194
+09-11-19T13:25:51: Item Rows: 1380, External Id: 10202
+09-11-19T13:25:51: Item Rows: 1390, External Id: 10207
+09-11-19T13:25:52: Item Rows: 1400, External Id: 10210
+09-11-19T13:25:52: Item Rows: 1410, External Id: 10239
+09-11-19T13:25:52: Item Rows: 1420, External Id: 10269
+09-11-19T13:25:52: Item Rows: 1430, External Id: 10276
+09-11-19T13:25:52: Item Rows: 1440, External Id: 123705
+09-11-19T13:25:52: Item Rows: 1450, External Id: 120387
+09-11-19T13:25:53: Item Rows: 1460, External Id: 140929
+09-11-19T13:25:53: Item Rows: 1470, External Id: 14236
+09-11-19T13:25:53: Item Rows: 1480, External Id: 14544
+09-11-19T13:25:54: Item Rows: 1490, External Id: 145892
+09-11-19T13:25:54: Item Rows: 1500, External Id: 145911
+09-11-19T13:25:54: Item Rows: 1510, External Id: 147866
+09-11-19T13:25:54: Item Rows: 1520, External Id: 150421
+09-11-19T13:25:55: Item Rows: 1530, External Id: 15126
+09-11-19T13:25:55: Item Rows: 1540, External Id: 15266
+09-11-19T13:25:55: Item Rows: 1550, External Id: 15268
+09-11-19T13:25:55: Item Rows: 1560, External Id: 15401
+09-11-19T13:25:55: Item Rows: 1570, External Id: 15965
+09-11-19T13:25:56: Item Rows: 1580, External Id: 161264
+09-11-19T13:25:56: Item Rows: 1590, External Id: 16175
+09-11-19T13:25:56: Item Rows: 1600, External Id: 163634
+09-11-19T13:25:56: Item Rows: 1610, External Id: 163637
+09-11-19T13:25:56: Item Rows: 1620, External Id: 163642
+09-11-19T13:25:56: Item Rows: 1630, External Id: 163645
+09-11-19T13:25:56: Item Rows: 1640, External Id: 163646
+09-11-19T13:25:57: Item Rows: 1650, External Id: 163649
+09-11-19T13:25:57: Item Rows: 1660, External Id: 17606
+09-11-19T13:25:57: Item Rows: 1670, External Id: 18152
+09-11-19T13:25:57: Item Rows: 1680, External Id: 24170
+09-11-19T13:25:57: Item Rows: 1690, External Id: 28347
+09-11-19T13:25:58: Item Rows: 1700, External Id: 37182
+09-11-19T13:25:58: Item Rows: 1710, External Id: 42361
+09-11-19T13:25:58: Item Rows: 1720, External Id: 44822
+09-11-19T13:25:58: Item Rows: 1730, External Id: 45249
+09-11-19T13:25:58: Item Rows: 1740, External Id: 55702
+09-11-19T13:25:59: Item Rows: 1750, External Id: 72167
+09-11-19T13:25:59: Item Rows: 1760, External Id: 76316
+09-11-19T13:25:59: Item Rows: 1770, External Id: 79169
+09-11-19T13:25:59: Item Rows: 1780, External Id: 87473
+09-11-19T13:25:59: Item Rows: 1790, External Id: 92590
+09-11-19T13:25:59: Item Rows: 1800, External Id: 97675
+09-11-19T13:26:00: Item Rows: 1810, External Id: 168227
+09-11-19T13:26:00: Item Rows: 1820, External Id: 169640
+09-11-19T13:26:00: Item Rows: 1830, External Id: 169642
+09-11-19T13:26:00: Item Rows: 1840, External Id: 173769
+09-11-19T13:26:00: Item Rows: 1850, External Id: 174291
+09-11-19T13:26:00: Item Rows: 1860, External Id: 175910
+09-11-19T13:26:01: Item Rows: 1870, External Id: 178942
+09-11-19T13:26:01: Item Rows: 1880, External Id: 181113
+09-11-19T13:26:02: Item Rows: 1890, External Id: 184017
+09-11-19T13:26:02: Item Rows: 1900, External Id: 184708
+09-11-19T13:26:02: Item Rows: 1910, External Id: 185131
+09-11-19T13:26:02: Item Rows: 1920, External Id: 192051
+09-11-19T13:26:03: Item Rows: 1930, External Id: 192920
+09-11-19T13:26:03: Item Rows: 1940, External Id: 1050549
+09-11-19T13:26:03: Item Rows: 1950, External Id: 1050561
+09-11-19T13:26:03: Item Rows: 1960, External Id: 1050569
+09-11-19T13:26:03: Item Rows: 1970, External Id: 1050576
+09-11-19T13:26:03: Item Rows: 1980, External Id: 1051170
+09-11-19T13:26:04: Item Rows: 1990, External Id: 1053512
+09-11-19T13:26:04: Item Rows: 2000, External Id: 1054772
+09-11-19T13:26:04: Item Rows: 2010, External Id: 1056753
+09-11-19T13:26:04: Item Rows: 2020, External Id: 1058030
+09-11-19T13:26:05: Item Rows: 2030, External Id: 1058060
+09-11-19T13:26:05: Item Rows: 2040, External Id: 10190004
+09-11-19T13:26:06: Item Rows: 2050, External Id: 1065083
+09-11-19T13:26:06: Item Rows: 2060, External Id: 20002531
+09-11-19T13:26:06: Item Rows: 2070, External Id: 20002539
+09-11-19T13:26:07: Item Rows: 2080, External Id: 20002555
+09-11-19T13:26:07: Item Rows: 2090, External Id: 20002546
+09-11-19T13:26:07: Item Rows: 2100, External Id: 1076540
+09-11-19T13:26:07: Item Rows: 2110, External Id: 1081020
+09-11-19T13:26:08: Item Rows: 2120, External Id: 1081701
+09-11-19T13:26:08: Item Rows: 2130, External Id: 1082838
+09-11-19T13:26:08: Item Rows: 2140, External Id: 1083557
+09-11-19T13:26:08: Item Rows: 2150, External Id: 1084538
+09-11-19T13:26:08: Item Rows: 2160, External Id: 1088127
+09-11-19T13:26:09: Item Rows: 2170, External Id: 1088838
+09-11-19T13:26:09: Item Rows: 2180, External Id: 1116631
+09-11-19T13:26:09: Finished File: Retail Item Fix Missing Attributes 09-10-2019.xlsx
+09-11-19T13:26:09: File created in final csv folder: Retail Item Fix Missing Attributes 09-10-2019.csv
+09-11-19T13:26:09: ...
+09-11-19T13:26:09: Processing File: Retail Item-06 Eby Tote_01.xlsx
+09-11-19T13:26:11: Finished File: Retail Item-06 Eby Tote_01.xlsx
+09-11-19T13:26:11: File created in final csv folder: Retail Item-06 Eby Tote_01.csv
+09-11-19T13:26:11: ...
+09-11-19T13:26:11: Processing File: Retail Item-201 Other Fast Food_01.xlsx
+09-11-19T13:26:12: Finished File: Retail Item-201 Other Fast Food_01.xlsx
+09-11-19T13:26:12: File created in final csv folder: Retail Item-201 Other Fast Food_01.csv
+09-11-19T13:26:12: ...
+09-11-19T13:26:12: Processing File: Retail Item-206 Franchise Food_01.xlsx
+09-11-19T13:26:14: Finished File: Retail Item-206 Franchise Food_01.xlsx
+09-11-19T13:26:14: File created in final csv folder: Retail Item-206 Franchise Food_01.csv
+09-11-19T13:26:14: ...
+09-11-19T13:26:14: Processing File: Retail Item-212 Hot Beverage_01.xlsx
+09-11-19T13:26:15: Finished File: Retail Item-212 Hot Beverage_01.xlsx
+09-11-19T13:26:15: File created in final csv folder: Retail Item-212 Hot Beverage_01.csv
+09-11-19T13:26:15: ...
+09-11-19T13:26:16: Processing File: Retail Item-215 Cold Beverage_01.xlsx
+09-11-19T13:26:17: Item Rows: 10, External Id: 37003380
+09-11-19T13:26:17: Finished File: Retail Item-215 Cold Beverage_01.xlsx
+09-11-19T13:26:17: File created in final csv folder: Retail Item-215 Cold Beverage_01.csv
+09-11-19T13:26:17: ...
+09-11-19T13:26:17: Processing File: Retail Item-218 Hot Food_01.xlsx
+09-11-19T13:26:19: Item Rows: 10, External Id: 1125833
+09-11-19T13:26:19: Item Rows: 20, External Id: 1125886
+09-11-19T13:26:20: Item Rows: 30, External Id: 1125903
+09-11-19T13:26:20: Item Rows: 40, External Id: 1125926
+09-11-19T13:26:20: Finished File: Retail Item-218 Hot Food_01.xlsx
+09-11-19T13:26:20: File created in final csv folder: Retail Item-218 Hot Food_01.csv
+09-11-19T13:26:20: ...
+09-11-19T13:26:20: Processing File: Retail Item-221 Sandwich_01.xlsx
+09-11-19T13:26:22: Item Rows: 10, External Id: 1125312
+09-11-19T13:26:22: Item Rows: 20, External Id: 1125786
+09-11-19T13:26:22: Finished File: Retail Item-221 Sandwich_01.xlsx
+09-11-19T13:26:22: File created in final csv folder: Retail Item-221 Sandwich_01.csv
+09-11-19T13:26:22: ...
+09-11-19T13:26:22: Processing File: Retail Item-231 Fresh Bakery_01.xlsx
+09-11-19T13:26:24: Item Rows: 10, External Id: 37003373
+09-11-19T13:26:24: Item Rows: 20, External Id: 1125574
+09-11-19T13:26:24: Item Rows: 30, External Id: 1126150
+09-11-19T13:26:25: Item Rows: 40, External Id: 1126160
+09-11-19T13:26:25: Item Rows: 50, External Id: 1126170
+09-11-19T13:26:25: Finished File: Retail Item-231 Fresh Bakery_01.xlsx
+09-11-19T13:26:25: File created in final csv folder: Retail Item-231 Fresh Bakery_01.csv
+09-11-19T13:26:25: ...
+09-11-19T13:26:25: Processing File: Retail Item-401 Beer & Wine_01.xlsx
+09-11-19T13:26:27: Item Rows: 10, External Id: 1125328
+09-11-19T13:26:27: Item Rows: 20, External Id: 38002010
+09-11-19T13:26:28: Item Rows: 30, External Id: 1125425
+09-11-19T13:26:28: Item Rows: 40, External Id: 1125537
+09-11-19T13:26:29: Item Rows: 50, External Id: 1125555
+09-11-19T13:26:29: Item Rows: 60, External Id: 1125565
+09-11-19T13:26:30: Item Rows: 70, External Id: 1125607
+09-11-19T13:26:30: Item Rows: 80, External Id: 1125617
+09-11-19T13:26:31: Item Rows: 90, External Id: 1125653
+09-11-19T13:26:31: Item Rows: 100, External Id: 1125674
+09-11-19T13:26:32: Item Rows: 110, External Id: 1125701
+09-11-19T13:26:32: Item Rows: 120, External Id: 1125719
+09-11-19T13:26:32: Item Rows: 130, External Id: 1125936
+09-11-19T13:26:33: Item Rows: 140, External Id: 1126090
+09-11-19T13:26:33: Item Rows: 150, External Id: 1126118
+09-11-19T13:26:34: Item Rows: 160, External Id: 1126129
+09-11-19T13:26:34: Item Rows: 170, External Id: 1126138
+09-11-19T13:26:34: Item Rows: 180, External Id: 1014865
+09-11-19T13:26:35: Item Rows: 190, External Id: 1116196
+09-11-19T13:26:35: Item Rows: 200, External Id: 1116277
+09-11-19T13:26:35: Item Rows: 210, External Id: 1116305
+09-11-19T13:26:36: Item Rows: 220, External Id: 1116320
+09-11-19T13:26:36: Item Rows: 230, External Id: 1116354
+09-11-19T13:26:37: Item Rows: 240, External Id: 1116376
+09-11-19T13:26:37: Item Rows: 250, External Id: 1116389
+09-11-19T13:26:37: Item Rows: 260, External Id: 1116459
+09-11-19T13:26:38: Item Rows: 270, External Id: 1116490
+09-11-19T13:26:38: Finished File: Retail Item-401 Beer & Wine_01.xlsx
+09-11-19T13:26:38: File created in final csv folder: Retail Item-401 Beer & Wine_01.csv
+09-11-19T13:26:38: ...
+09-11-19T13:26:38: Processing File: Retail Item-501 Cigarettes_01.xlsx
+09-11-19T13:26:40: Item Rows: 10, External Id: 1126186
+09-11-19T13:26:40: Finished File: Retail Item-501 Cigarettes_01.xlsx
+09-11-19T13:26:40: File created in final csv folder: Retail Item-501 Cigarettes_01.csv
+09-11-19T13:26:40: ...
+09-11-19T13:26:40: Processing File: Retail Item-601 General Merchan_01.xlsx
+09-11-19T13:26:41: Item Rows: 10, External Id: 1125099
+09-11-19T13:26:42: Item Rows: 20, External Id: 1125109
+09-11-19T13:26:42: Item Rows: 30, External Id: 1125119
+09-11-19T13:26:43: Item Rows: 40, External Id: 1125129
+09-11-19T13:26:43: Item Rows: 50, External Id: 1125139
+09-11-19T13:26:43: Item Rows: 60, External Id: 1125153
+09-11-19T13:26:44: Item Rows: 70, External Id: 1125163
+09-11-19T13:26:44: Item Rows: 80, External Id: 1125173
+09-11-19T13:26:44: Item Rows: 90, External Id: 1125183
+09-11-19T13:26:45: Item Rows: 100, External Id: 1125198
+09-11-19T13:26:45: Item Rows: 110, External Id: 1125208
+09-11-19T13:26:45: Item Rows: 120, External Id: 1125225
+09-11-19T13:26:46: Item Rows: 130, External Id: 1125244
+09-11-19T13:26:46: Item Rows: 140, External Id: 1125263
+09-11-19T13:26:46: Item Rows: 150, External Id: 1125273
+09-11-19T13:26:46: Item Rows: 160, External Id: 1125315
+09-11-19T13:26:47: Item Rows: 170, External Id: 1125335
+09-11-19T13:26:47: Item Rows: 180, External Id: 1125347
+09-11-19T13:26:47: Item Rows: 190, External Id: 1125378
+09-11-19T13:26:48: Item Rows: 200, External Id: 1125445
+09-11-19T13:26:48: Item Rows: 210, External Id: 1125474
+09-11-19T13:26:48: Item Rows: 220, External Id: 1125490
+09-11-19T13:26:48: Item Rows: 230, External Id: 1125520
+09-11-19T13:26:49: Item Rows: 240, External Id: 1125533
+09-11-19T13:26:49: Item Rows: 250, External Id: 1125570
+09-11-19T13:26:49: Item Rows: 260, External Id: 1125620
+09-11-19T13:26:50: Item Rows: 270, External Id: 1125636
+09-11-19T13:26:50: Item Rows: 280, External Id: 1125656
+09-11-19T13:26:50: Item Rows: 290, External Id: 1125688
+09-11-19T13:26:51: Item Rows: 300, External Id: 1125725
+09-11-19T13:26:51: Item Rows: 310, External Id: 1125749
+09-11-19T13:26:51: Item Rows: 320, External Id: 1125840
+09-11-19T13:26:51: Item Rows: 330, External Id: 1125851
+09-11-19T13:26:52: Item Rows: 340, External Id: 1125863
+09-11-19T13:26:52: Item Rows: 350, External Id: 1125919
+09-11-19T13:26:52: Item Rows: 360, External Id: 1125943
+09-11-19T13:26:52: Item Rows: 370, External Id: 1126064
+09-11-19T13:26:53: Item Rows: 380, External Id: 1126249
+09-11-19T13:26:53: Item Rows: 390, External Id: 1126258
+09-11-19T13:26:53: Item Rows: 400, External Id: 1126268
+09-11-19T13:26:54: Item Rows: 410, External Id: 1126278
+09-11-19T13:26:54: Item Rows: 420, External Id: 1126289
+09-11-19T13:26:54: Item Rows: 430, External Id: 1126299
+09-11-19T13:26:55: Finished File: Retail Item-601 General Merchan_01.xlsx
+09-11-19T13:26:55: File created in final csv folder: Retail Item-601 General Merchan_01.csv
+09-11-19T13:26:55: ...
+09-11-19T13:26:55: Processing File: Retail Item-706 Consignment - Gen Mdse_01.xlsx
+09-11-19T13:26:56: Item Rows: 10, External Id: 1125360
+09-11-19T13:26:57: Item Rows: 20, External Id: 1125403
+09-11-19T13:26:57: Item Rows: 30, External Id: 1125413
+09-11-19T13:26:57: Item Rows: 40, External Id: 1125510
+09-11-19T13:26:58: Item Rows: 50, External Id: 1125709
+09-11-19T13:26:58: Item Rows: 60, External Id: 1126016
+09-11-19T13:26:58: Item Rows: 70, External Id: 1126027
+09-11-19T13:26:59: Item Rows: 80, External Id: 1126203
+09-11-19T13:26:59: Item Rows: 90, External Id: 1126224
+09-11-19T13:27:00: Item Rows: 100, External Id: 1068078
+09-11-19T13:27:00: Finished File: Retail Item-706 Consignment - Gen Mdse_01.xlsx
+09-11-19T13:27:00: File created in final csv folder: Retail Item-706 Consignment - Gen Mdse_01.csv
+09-11-19T13:27:00: ...
+09-11-19T13:27:00: Processing File: Retail Item-77 Store Supplies_01.xlsx
+09-11-19T13:27:01: Finished File: Retail Item-77 Store Supplies_01.xlsx
+09-11-19T13:27:01: File created in final csv folder: Retail Item-77 Store Supplies_01.csv
+09-11-19T13:27:01: ...
+09-11-19T13:27:01: Processing File: Retail Item-901 Soft Drinks_01.xlsx
+09-11-19T13:27:03: Item Rows: 10, External Id: 1126235
+09-11-19T13:27:03: Finished File: Retail Item-901 Soft Drinks_01.xlsx
+09-11-19T13:27:03: File created in final csv folder: Retail Item-901 Soft Drinks_01.csv
+09-11-19T13:27:03: ...
+09-11-19T13:27:03: Processing File: Retail Item-Missing Items Based on Spreadsheet.xlsx
+09-11-19T13:27:05: Item Rows: 10, External Id: 182333
+09-11-19T13:27:05: Item Rows: 20, External Id: 182344
+09-11-19T13:27:05: Item Rows: 30, External Id: 182356
+09-11-19T13:27:05: Item Rows: 40, External Id: 182368
+09-11-19T13:27:06: Item Rows: 50, External Id: 182378
+09-11-19T13:27:06: Item Rows: 60, External Id: 182388
+09-11-19T13:27:06: Item Rows: 70, External Id: 182398
+09-11-19T13:27:07: Item Rows: 80, External Id: 182408
+09-11-19T13:27:07: Item Rows: 90, External Id: 32900036
+09-11-19T13:27:07: Item Rows: 100, External Id: 34801184
+09-11-19T13:27:07: Item Rows: 110, External Id: 1100261
+09-11-19T13:27:08: Item Rows: 120, External Id: 37003178
+09-11-19T13:27:08: Finished File: Retail Item-Missing Items Based on Spreadsheet.xlsx
+09-11-19T13:27:08: File created in final csv folder: Retail Item-Missing Items Based on Spreadsheet.csv
+09-11-19T13:27:08: ...
+09-11-19T13:27:08: End Log

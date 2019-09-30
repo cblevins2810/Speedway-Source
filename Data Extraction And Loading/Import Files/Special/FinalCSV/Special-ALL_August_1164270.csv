@@ -1,0 +1,5 @@
+X Ref,Name,Receipt Text,Ranking,Loyality Required,Start Date,End Date,Active,Qualifiers,,,,,
+,,,,,,,,Retail Item Group,Minimum Identifier,Minimum Value,Discount Type,Discount Value,Reduces Tax
+1164270,GC6- PBAR & DD 10Z COFFEE & D,PBAR & DD 10Z COFFEE & DON,49,n,2019-09-29,2019-09-29,y,fd srv- DD Co-op Coffee 10z,Quantity,1,Set Retail,1.2,y
+1164270,GC6- PBAR & DD 10Z COFFEE & D,,,,,,,fd srv- DD DONUT,Quantity,1,Set Retail,0.79,y
+1164270,GC6- PBAR & DD 10Z COFFEE & D,,,,,,,consum-POWERBAR PRO+ 0919,Quantity,1,Price Discount,0.5,y

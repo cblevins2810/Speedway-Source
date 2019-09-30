@@ -1,0 +1,56 @@
+09-10-19T16:54:49: Start Log
+09-10-19T16:54:49: Processing File: Retail Item Fix Missing Attributes (Test) 09-10-2019.xlsx
+09-10-19T16:54:51: Finished File: Retail Item Fix Missing Attributes (Test) 09-10-2019.xlsx
+09-10-19T16:54:51: File created in final csv folder: Retail Item Fix Missing Attributes (Test) 09-10-2019.csv
+09-10-19T16:54:51: ...
+09-10-19T16:54:51: Processing File: Retail Item Fix Missing Attributes (Test2) 09-10-2019.xlsx
+09-10-19T16:54:53: Finished File: Retail Item Fix Missing Attributes (Test2) 09-10-2019.xlsx
+09-10-19T16:54:53: File created in final csv folder: Retail Item Fix Missing Attributes (Test2) 09-10-2019.csv
+09-10-19T16:54:53: ...
+09-10-19T16:54:53: Processing File: Retail Item Fix Missing Attributes 09-10-2019.xlsx
+09-10-19T16:54:55: Finished File: Retail Item Fix Missing Attributes 09-10-2019.xlsx
+09-10-19T16:54:55: File created in final csv folder: Retail Item Fix Missing Attributes 09-10-2019.csv
+09-10-19T16:54:55: ...
+09-10-19T16:54:55: Processing File: Retail Item-06 Eby Tote_01.xlsx
+09-10-19T16:54:57: Finished File: Retail Item-06 Eby Tote_01.xlsx
+09-10-19T16:54:57: File created in final csv folder: Retail Item-06 Eby Tote_01.csv
+09-10-19T16:54:57: ...
+09-10-19T16:54:57: Processing File: Retail Item-201 Other Fast Food_01.xlsx
+09-10-19T16:54:59: Finished File: Retail Item-201 Other Fast Food_01.xlsx
+09-10-19T16:54:59: File created in final csv folder: Retail Item-201 Other Fast Food_01.csv
+09-10-19T16:54:59: ...
+09-10-19T16:54:59: Processing File: Retail Item-206 Franchise Food_01.xlsx
+09-10-19T16:55:01: Finished File: Retail Item-206 Franchise Food_01.xlsx
+09-10-19T16:55:01: File created in final csv folder: Retail Item-206 Franchise Food_01.csv
+09-10-19T16:55:01: ...
+09-10-19T16:55:01: Processing File: Retail Item-212 Hot Beverage_01.xlsx
+09-10-19T16:55:03: Finished File: Retail Item-212 Hot Beverage_01.xlsx
+09-10-19T16:55:03: File created in final csv folder: Retail Item-212 Hot Beverage_01.csv
+09-10-19T16:55:03: ...
+09-10-19T16:55:03: Processing File: Retail Item-215 Cold Beverage_01.xlsx
+09-10-19T16:55:05: Finished File: Retail Item-215 Cold Beverage_01.xlsx
+09-10-19T16:55:05: File created in final csv folder: Retail Item-215 Cold Beverage_01.csv
+09-10-19T16:55:05: ...
+09-10-19T16:55:05: Processing File: Retail Item-218 Hot Food_01.xlsx
+09-10-19T16:55:07: Finished File: Retail Item-218 Hot Food_01.xlsx
+09-10-19T16:55:07: File created in final csv folder: Retail Item-218 Hot Food_01.csv
+09-10-19T16:55:07: ...
+09-10-19T16:55:07: Processing File: Retail Item-221 Sandwich_01.xlsx
+09-10-19T16:55:09: Finished File: Retail Item-221 Sandwich_01.xlsx
+09-10-19T16:55:09: File created in final csv folder: Retail Item-221 Sandwich_01.csv
+09-10-19T16:55:09: ...
+09-10-19T16:55:09: Processing File: Retail Item-231 Fresh Bakery_01.xlsx
+09-10-19T16:55:11: Finished File: Retail Item-231 Fresh Bakery_01.xlsx
+09-10-19T16:55:11: File created in final csv folder: Retail Item-231 Fresh Bakery_01.csv
+09-10-19T16:55:11: ...
+09-10-19T16:55:11: Processing File: Retail Item-401 Beer & Wine_01.xlsx
+09-10-19T16:55:13: Finished File: Retail Item-401 Beer & Wine_01.xlsx
+09-10-19T16:55:13: File created in final csv folder: Retail Item-401 Beer & Wine_01.csv
+09-10-19T16:55:13: ...
+09-10-19T16:55:14: Processing File: Retail Item-501 Cigarettes_01.xlsx
+09-10-19T16:55:16: Finished File: Retail Item-501 Cigarettes_01.xlsx
+09-10-19T16:55:16: File created in final csv folder: Retail Item-501 Cigarettes_01.csv
+09-10-19T16:55:16: ...
+09-10-19T16:55:16: Processing File: Retail Item-601 General Merchan_01.xlsx
+09-10-19T16:55:18: Error --> Cannot access 'Retail Item-601 General Merchan_01.csv'.
+09-10-19T16:55:18: End Log

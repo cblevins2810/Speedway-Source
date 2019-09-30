@@ -1,3 +1,5 @@
+BEGIN TRANSACTION
+
 DECLARE @NotTrackedItems TABLE (item_id INT NOT NULL)
 
 INSERT @NotTrackedItems
@@ -30,6 +32,9 @@ AND ihdept.name IN ('201 Alternative Food Service',
 '95 M&S Petroleum')
 AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
 				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
 
 INSERT Inventory_Item_Count_UOM_List (
 inventory_item_id,
@@ -60,6 +65,9 @@ WHERE NOT EXISTS (SELECT 1
 AND i.unit_of_measure_class_id = 1
 AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
 				WHERE r.recipe_item_id = ii.inventory_item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = ii.inventory_item_id
+				AND   r.retail_item_type_code = 'i')
 
 INSERT Inventory_Item_Count_UOM_List (
 inventory_item_id,
@@ -90,6 +98,11 @@ WHERE NOT EXISTS (SELECT 1
 AND i.unit_of_measure_class_id = 2
 AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
 				WHERE r.recipe_item_id = ii.inventory_item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = ii.inventory_item_id
+				AND   r.retail_item_type_code = 'i')
+
+
 INSERT Inventory_Item_Count_UOM_List (
 inventory_item_id,
 unit_of_measure_id, 
@@ -119,10 +132,121 @@ WHERE NOT EXISTS (SELECT 1
 AND i.unit_of_measure_class_id = 3
 AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
 				WHERE r.recipe_item_id = ii.inventory_item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = ii.inventory_item_id
+				AND   r.retail_item_type_code = 'i')
+				
 UPDATE i
 SET track_flag = 'y'
 FROM item AS i
 JOIN  @NotTrackedItems AS nt
 ON    i.item_id = nt.item_id
 WHERE track_flag = 'n'
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
+				
+UPDATE ii
+SET default_transfer_uom_id = 3,
+default_adjustment_uom_id = 3
+FROM inventory_item AS ii
+JOIN  @NotTrackedItems AS nt
+ON    ii.inventory_item_id = nt.item_id
+JOIN  item AS i
+ON    i.item_id = ii.inventory_item_id
+WHERE i.unit_of_measure_class_id = 3
+AND (default_transfer_uom_id IS NULL
+	OR    default_adjustment_uom_id IS NULL)
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
+				
+UPDATE ii
+SET default_transfer_uom_id = 4,
+default_adjustment_uom_id = 4
+FROM inventory_item AS ii
+JOIN  @NotTrackedItems AS nt
+ON    ii.inventory_item_id = nt.item_id
+JOIN  item AS i
+ON    i.item_id = ii.inventory_item_id
+WHERE i.unit_of_measure_class_id = 2
+AND (default_transfer_uom_id IS NULL
+	OR    default_adjustment_uom_id IS NULL)
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
+				
+UPDATE ii
+SET default_transfer_uom_id = 5,
+default_adjustment_uom_id = 5
+FROM inventory_item AS ii
+JOIN  @NotTrackedItems AS nt
+ON    ii.inventory_item_id = nt.item_id
+JOIN  item AS i
+ON    i.item_id = ii.inventory_item_id
+WHERE i.unit_of_measure_class_id = 1
+AND (default_transfer_uom_id IS NULL
+	OR    default_adjustment_uom_id IS NULL)
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
 
+
+UPDATE ii
+SET default_transfer_uom_id = 3,
+default_adjustment_uom_id = 3
+FROM inventory_item AS ii
+JOIN  item AS i
+ON    i.item_id = ii.inventory_item_id
+WHERE i.unit_of_measure_class_id = 3
+AND   i.track_flag = 'y'
+AND (default_transfer_uom_id IS NULL
+	OR    default_adjustment_uom_id IS NULL)
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
+				
+UPDATE ii
+SET default_transfer_uom_id = 4,
+default_adjustment_uom_id = 4
+FROM inventory_item AS ii
+JOIN  item AS i
+ON    i.item_id = ii.inventory_item_id
+WHERE i.unit_of_measure_class_id = 2
+AND   i.track_flag = 'y'
+AND (default_transfer_uom_id IS NULL
+	OR    default_adjustment_uom_id IS NULL)
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
+				
+UPDATE ii
+SET default_transfer_uom_id = 5,
+default_adjustment_uom_id = 5
+FROM inventory_item AS ii
+JOIN  item AS i
+ON    i.item_id = ii.inventory_item_id
+WHERE i.unit_of_measure_class_id = 1
+AND   i.track_flag = 'y'
+AND (default_transfer_uom_id IS NULL
+	OR    default_adjustment_uom_id IS NULL)
+AND NOT  EXISTS (SELECT 1 FROM recipe_item AS r
+				WHERE r.recipe_item_id = i.item_id)
+AND NOT  EXISTS (SELECT 1 FROM retail_item AS r
+				WHERE r.retail_item_id = i.item_id
+				AND   r.retail_item_type_code = 'i')
+
+
+COMMIT TRANSACTION

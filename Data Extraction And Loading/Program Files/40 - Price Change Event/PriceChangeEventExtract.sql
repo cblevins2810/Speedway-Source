@@ -4,8 +4,6 @@ DECLARE @Modulus INT
 DECLARE @Remainder INT
 DECLARE @StartDate NVARCHAR(10)
 DECLARE @EndDate NVARCHAR(10)
-DECLARE @StartDate2 SMALLDATETIME
-DECLARE @EndDate2 SMALLDATETIME
 DECLARE @PromoFlag NVARCHAR(1)
 DECLARE @BatchNumber NVARCHAR(6)
 
@@ -24,9 +22,10 @@ SET @PromoFlag = '$(PromoFlag)'
 SET @BatchNumber = '$(BatchNumber)'
 
 /*
+--1,0,2019-07-20,2075-12-31,n,1
 SET @Modulus = 1
 SET @Remainder = 0
-SET @StartDate = '2018-12-22'
+SET @StartDate = '2019-07-20'
 SET @EndDate = '2075-12-31'
 SET @PromoFlag = 'n'
 SET @BatchNumber = '1'
@@ -38,19 +37,19 @@ ELSE
    SET @BatchNumber = '(' + @BatchNumber + ')' 
 
 SELECT DISTINCT
-CASE WHEN @PromoFlag = 'n' THEN 'Perm Price Event ' + @StartDate + @BatchNumber ELSE
-'Temp Price Event ' + @StartDate + ' - ' + @EndDate + @BatchNumber  END AS EventName, 
+CASE WHEN @PromoFlag = 'n' THEN 'Perm ' + @StartDate + @BatchNumber ELSE
+'Temp ' + @StartDate + ' - ' + @EndDate + @BatchNumber  END AS EventName, 
 @StartDate AS StartDate,
 CASE WHEN @PromoFlag = 'n' THEN '' ELSE @EndDate END AS EndDate,
---mrc.end_date,
 i.xref_code AS itemXRefId ,
 REPLACE(i.name,',','~') AS ItemName,
-REPLACE(mg.Name,',','~') AS RetailStrategy,
+REPLACE(rse.mg_Name,',','~') AS RetailStrategy,
 
 COALESCE (eso_xref_code, i.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor))) AS RMIXrefId,
 
-REPLACE(mgm.name,',','~') AS RetailLevelGroup,
+REPLACE(rse.mgm_name,',','~') AS RetailLevelGroup,
 REPLACE(ml.name,',','~') AS RetailLevelName,
+
 mrc.retail_price AS ListPrice 
 FROM Merch_Retail_Change AS mrc
 JOIN Retail_Modified_Item as rmi
@@ -75,17 +74,15 @@ ON rmidl.dimension_member_id = ridm.dimension_member_id
 LEFT JOIN unit_of_measure as ridmuom
 ON ridm.unit_of_measure_id = ridmuom.unit_of_measure_id
 
--- Added to check if retail level is used in order to include price event
--- Table bcssa_custom_integration..bc_extract_retail_strategy is created as part of the Retail Strategy extract
--- which should be executed prior to the price event extract
-JOIN bcssa_custom_integration..bc_extract_retail_strategy AS bcrs
-ON	mg.merch_group_id = bcrs.orig_merch_group_id
-AND mgm.merch_group_member_id = bcrs.orig_merch_group_member_id
-AND ml.merch_level_id = bcrs.orig_merch_level_id
--- End for additional code
-
+-- There are some items in BC that have been split into a separate item in ESO, 
+-- an entry in the mapping table will result in the ESO rmi external id replacing the
+-- BC rmi external id.  This table is created based upon a spreadsheet provided
+-- by the pricebook team.
 LEFT JOIN bcssa_custom_integration..bc_extract_item_split_mapping AS m
 ON i.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor)) = m.bc_xref_code
+
+JOIN bcssa_custom_integration..bc_extract_retail_strategy_from_eso AS rse
+ON   rse.rmi_xref_code = COALESCE (eso_xref_code, i.xref_code + '-' + CONVERT(NVARCHAR(15), CONVERT(INT, ridmuom.factor)))
 
 WHERE CASE WHEN mrc.start_date < @Today THEN @Today ELSE mrc.start_date END = @StartDate
 AND   mrc.End_Date = @EndDate
@@ -97,10 +94,15 @@ AND   ml.supplier_id IS NULL
 AND   ml.default_ranking > 0
 AND   mrc.retail_modified_item_id % @Modulus = @Remainder
 
+-- This is used if we want to exclude and item because it does not exist in ESO
+-- As of 08/19, there are no items that meet this condition.
 AND NOT EXISTS (SELECT 1
                 FROM bcssa_custom_integration..bc_extract_item_split_mapping AS m
 				WHERE i.xref_code + '-' + CONVERT(NVARCHAR(15),CONVERT(INT, ridmuom.factor)) = m.bc_xref_code
 				AND   m.eso_xref_code IS NULL)
+				
 
 ORDER BY itemXRefId, RMIXrefId
+
+
 

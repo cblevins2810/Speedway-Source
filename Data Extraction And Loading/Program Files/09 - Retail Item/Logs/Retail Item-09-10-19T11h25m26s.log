@@ -1,0 +1,190 @@
+09-10-19T11:25:26: Start Log
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-06 Eby Tote_01.csv
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 1
+09-10-19T11:25:26: File created in final xml folder: Retail Item-06 Eby Tote_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-201 Other Fast Food_01.csv
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 1
+09-10-19T11:25:26: File created in final xml folder: Retail Item-201 Other Fast Food_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-206 Franchise Food_01.csv
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 5
+09-10-19T11:25:26: File created in final xml folder: Retail Item-206 Franchise Food_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-212 Hot Beverage_01.csv
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 3
+09-10-19T11:25:26: File created in final xml folder: Retail Item-212 Hot Beverage_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-215 Cold Beverage_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 11
+09-10-19T11:25:26: File created in final xml folder: Retail Item-215 Cold Beverage_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-218 Hot Food_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Items Rows: 20
+09-10-19T11:25:26: Items Rows: 30
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 36
+09-10-19T11:25:26: File created in final xml folder: Retail Item-218 Hot Food_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-221 Sandwich_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 19
+09-10-19T11:25:26: File created in final xml folder: Retail Item-221 Sandwich_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-231 Fresh Bakery_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Items Rows: 20
+09-10-19T11:25:26: Items Rows: 30
+09-10-19T11:25:26: Items Rows: 40
+09-10-19T11:25:26: Items Rows: 50
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 54
+09-10-19T11:25:26: File created in final xml folder: Retail Item-231 Fresh Bakery_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-401 Beer & Wine_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Items Rows: 20
+09-10-19T11:25:26: Items Rows: 30
+09-10-19T11:25:26: Items Rows: 40
+09-10-19T11:25:26: Items Rows: 50
+09-10-19T11:25:26: Items Rows: 60
+09-10-19T11:25:26: Items Rows: 70
+09-10-19T11:25:26: Items Rows: 80
+09-10-19T11:25:26: Items Rows: 90
+09-10-19T11:25:26: Items Rows: 100
+09-10-19T11:25:26: Items Rows: 110
+09-10-19T11:25:26: Items Rows: 120
+09-10-19T11:25:26: Items Rows: 130
+09-10-19T11:25:26: Items Rows: 140
+09-10-19T11:25:26: Items Rows: 150
+09-10-19T11:25:26: Items Rows: 160
+09-10-19T11:25:26: Items Rows: 170
+09-10-19T11:25:26: Items Rows: 180
+09-10-19T11:25:26: Items Rows: 190
+09-10-19T11:25:26: Items Rows: 200
+09-10-19T11:25:26: Items Rows: 210
+09-10-19T11:25:26: Items Rows: 220
+09-10-19T11:25:26: Items Rows: 230
+09-10-19T11:25:26: Items Rows: 240
+09-10-19T11:25:26: Items Rows: 250
+09-10-19T11:25:26: Items Rows: 260
+09-10-19T11:25:26: Items Rows: 270
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 275
+09-10-19T11:25:26: File created in final xml folder: Retail Item-401 Beer & Wine_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-501 Cigarettes_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:26: XSL Transform Complete.
+09-10-19T11:25:26: Finished Items
+09-10-19T11:25:26: Total Items: 11
+09-10-19T11:25:26: File created in final xml folder: Retail Item-501 Cigarettes_01.xml
+09-10-19T11:25:26: ...
+09-10-19T11:25:26: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-601 General Merchan_01.csv
+09-10-19T11:25:26: Items Rows: 10
+09-10-19T11:25:26: Items Rows: 20
+09-10-19T11:25:26: Items Rows: 30
+09-10-19T11:25:26: Items Rows: 40
+09-10-19T11:25:26: Items Rows: 50
+09-10-19T11:25:26: Items Rows: 60
+09-10-19T11:25:26: Items Rows: 70
+09-10-19T11:25:26: Items Rows: 80
+09-10-19T11:25:26: Items Rows: 90
+09-10-19T11:25:26: Items Rows: 100
+09-10-19T11:25:26: Items Rows: 110
+09-10-19T11:25:26: Items Rows: 120
+09-10-19T11:25:26: Items Rows: 130
+09-10-19T11:25:26: Items Rows: 140
+09-10-19T11:25:26: Items Rows: 150
+09-10-19T11:25:26: Items Rows: 160
+09-10-19T11:25:26: Items Rows: 170
+09-10-19T11:25:26: Items Rows: 180
+09-10-19T11:25:26: Items Rows: 190
+09-10-19T11:25:26: Items Rows: 200
+09-10-19T11:25:26: Items Rows: 210
+09-10-19T11:25:26: Items Rows: 220
+09-10-19T11:25:26: Items Rows: 230
+09-10-19T11:25:26: Items Rows: 240
+09-10-19T11:25:26: Items Rows: 250
+09-10-19T11:25:26: Items Rows: 260
+09-10-19T11:25:26: Items Rows: 270
+09-10-19T11:25:26: Items Rows: 280
+09-10-19T11:25:26: Items Rows: 290
+09-10-19T11:25:26: Items Rows: 300
+09-10-19T11:25:26: Items Rows: 310
+09-10-19T11:25:26: Items Rows: 320
+09-10-19T11:25:26: Items Rows: 330
+09-10-19T11:25:26: Items Rows: 340
+09-10-19T11:25:26: Items Rows: 350
+09-10-19T11:25:26: Items Rows: 360
+09-10-19T11:25:26: Items Rows: 370
+09-10-19T11:25:26: Items Rows: 380
+09-10-19T11:25:26: Items Rows: 390
+09-10-19T11:25:26: Items Rows: 400
+09-10-19T11:25:26: Items Rows: 410
+09-10-19T11:25:26: Items Rows: 420
+09-10-19T11:25:26: Items Rows: 430
+09-10-19T11:25:26: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:27: XSL Transform Complete.
+09-10-19T11:25:27: Finished Items
+09-10-19T11:25:27: Total Items: 435
+09-10-19T11:25:27: File created in final xml folder: Retail Item-601 General Merchan_01.xml
+09-10-19T11:25:27: ...
+09-10-19T11:25:27: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-706 Consignment - Gen Mdse_01.csv
+09-10-19T11:25:27: Items Rows: 10
+09-10-19T11:25:27: Items Rows: 20
+09-10-19T11:25:27: Items Rows: 30
+09-10-19T11:25:27: Items Rows: 40
+09-10-19T11:25:27: Items Rows: 50
+09-10-19T11:25:27: Items Rows: 60
+09-10-19T11:25:27: Items Rows: 70
+09-10-19T11:25:27: Items Rows: 80
+09-10-19T11:25:27: Items Rows: 90
+09-10-19T11:25:27: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:27: XSL Transform Complete.
+09-10-19T11:25:27: Finished Items
+09-10-19T11:25:27: Total Items: 97
+09-10-19T11:25:27: File created in final xml folder: Retail Item-706 Consignment - Gen Mdse_01.xml
+09-10-19T11:25:27: ...
+09-10-19T11:25:27: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-77 Store Supplies_01.csv
+09-10-19T11:25:27: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:27: XSL Transform Complete.
+09-10-19T11:25:27: Finished Items
+09-10-19T11:25:27: Total Items: 5
+09-10-19T11:25:27: File created in final xml folder: Retail Item-77 Store Supplies_01.xml
+09-10-19T11:25:27: ...
+09-10-19T11:25:27: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Retail Item-901 Soft Drinks_01.csv
+09-10-19T11:25:27: Starting XSL Transform, this may take awhile.
+09-10-19T11:25:27: XSL Transform Complete.
+09-10-19T11:25:27: Finished Items
+09-10-19T11:25:27: Total Items: 7
+09-10-19T11:25:27: File created in final xml folder: Retail Item-901 Soft Drinks_01.xml
+09-10-19T11:25:27: ...
+09-10-19T11:25:27: End Log

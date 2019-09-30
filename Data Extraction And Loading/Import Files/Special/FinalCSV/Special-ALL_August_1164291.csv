@@ -1,0 +1,4 @@
+X Ref,Name,Receipt Text,Ranking,Loyality Required,Start Date,End Date,Active,Qualifiers,,,,,
+,,,,,,,,Retail Item Group,Minimum Identifier,Minimum Value,Discount Type,Discount Value,Reduces Tax
+1164291,FS2- $1.99 DD COFFEE DONUT,$1.99 DD COFFEE DONUT,50,n,2019-09-03,2020-01-01,y,fd srv- DD Co-op Coffee 10z,Quantity,1,Set Retail,1.19,y
+1164291,FS2- $1.99 DD COFFEE DONUT,,,,,,,fd srv- DD DONUT,Quantity,1,Set Retail,0.8,y

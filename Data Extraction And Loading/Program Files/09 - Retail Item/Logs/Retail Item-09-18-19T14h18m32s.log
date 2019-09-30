@@ -1,0 +1,144 @@
+09-18-19T14:18:32: Start Log
+09-18-19T14:18:32: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\401 Missing Attributes.csv
+09-18-19T14:18:32: Items Rows: 10
+09-18-19T14:18:32: Items Rows: 20
+09-18-19T14:18:32: Items Rows: 30
+09-18-19T14:18:32: Items Rows: 40
+09-18-19T14:18:32: Items Rows: 50
+09-18-19T14:18:32: Items Rows: 60
+09-18-19T14:18:32: Items Rows: 70
+09-18-19T14:18:32: Items Rows: 80
+09-18-19T14:18:32: Items Rows: 90
+09-18-19T14:18:32: Items Rows: 100
+09-18-19T14:18:32: Items Rows: 110
+09-18-19T14:18:32: Items Rows: 120
+09-18-19T14:18:32: Items Rows: 130
+09-18-19T14:18:32: Items Rows: 140
+09-18-19T14:18:32: Items Rows: 150
+09-18-19T14:18:32: Items Rows: 160
+09-18-19T14:18:32: Items Rows: 170
+09-18-19T14:18:32: Starting XSL Transform, this may take awhile.
+09-18-19T14:18:32: XSL Transform Complete.
+09-18-19T14:18:32: Finished Items
+09-18-19T14:18:32: Total Items: 173
+09-18-19T14:18:32: File created in final xml folder: 401 Missing Attributes.xml
+09-18-19T14:18:32: ...
+09-18-19T14:18:32: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\501 Missing Attributes.csv
+09-18-19T14:18:32: Items Rows: 10
+09-18-19T14:18:32: Items Rows: 20
+09-18-19T14:18:32: Items Rows: 30
+09-18-19T14:18:32: Items Rows: 40
+09-18-19T14:18:32: Items Rows: 50
+09-18-19T14:18:32: Items Rows: 60
+09-18-19T14:18:32: Items Rows: 70
+09-18-19T14:18:32: Items Rows: 80
+09-18-19T14:18:32: Items Rows: 90
+09-18-19T14:18:32: Items Rows: 100
+09-18-19T14:18:32: Items Rows: 110
+09-18-19T14:18:32: Items Rows: 120
+09-18-19T14:18:32: Items Rows: 130
+09-18-19T14:18:33: Items Rows: 140
+09-18-19T14:18:33: Items Rows: 150
+09-18-19T14:18:33: Items Rows: 160
+09-18-19T14:18:33: Items Rows: 170
+09-18-19T14:18:33: Items Rows: 180
+09-18-19T14:18:33: Items Rows: 190
+09-18-19T14:18:33: Items Rows: 200
+09-18-19T14:18:33: Items Rows: 210
+09-18-19T14:18:33: Items Rows: 220
+09-18-19T14:18:33: Items Rows: 230
+09-18-19T14:18:33: Items Rows: 240
+09-18-19T14:18:33: Items Rows: 250
+09-18-19T14:18:33: Items Rows: 260
+09-18-19T14:18:33: Items Rows: 270
+09-18-19T14:18:33: Items Rows: 280
+09-18-19T14:18:33: Items Rows: 290
+09-18-19T14:18:33: Items Rows: 300
+09-18-19T14:18:33: Items Rows: 310
+09-18-19T14:18:33: Items Rows: 320
+09-18-19T14:18:33: Items Rows: 330
+09-18-19T14:18:33: Items Rows: 340
+09-18-19T14:18:33: Items Rows: 350
+09-18-19T14:18:33: Items Rows: 360
+09-18-19T14:18:33: Items Rows: 370
+09-18-19T14:18:33: Items Rows: 380
+09-18-19T14:18:33: Items Rows: 390
+09-18-19T14:18:33: Items Rows: 400
+09-18-19T14:18:33: Items Rows: 410
+09-18-19T14:18:33: Items Rows: 420
+09-18-19T14:18:33: Items Rows: 430
+09-18-19T14:18:33: Items Rows: 440
+09-18-19T14:18:33: Items Rows: 450
+09-18-19T14:18:33: Items Rows: 460
+09-18-19T14:18:33: Items Rows: 470
+09-18-19T14:18:33: Items Rows: 480
+09-18-19T14:18:33: Items Rows: 490
+09-18-19T14:18:33: Items Rows: 500
+09-18-19T14:18:33: Items Rows: 510
+09-18-19T14:18:33: Items Rows: 520
+09-18-19T14:18:33: Items Rows: 530
+09-18-19T14:18:33: Starting XSL Transform, this may take awhile.
+09-18-19T14:18:33: XSL Transform Complete.
+09-18-19T14:18:33: Finished Items
+09-18-19T14:18:33: Total Items: 530
+09-18-19T14:18:33: File created in final xml folder: 501 Missing Attributes.xml
+09-18-19T14:18:33: ...
+09-18-19T14:18:33: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\601 Missing Attributes.csv
+09-18-19T14:18:33: Items Rows: 10
+09-18-19T14:18:33: Items Rows: 20
+09-18-19T14:18:33: Items Rows: 30
+09-18-19T14:18:33: Items Rows: 40
+09-18-19T14:18:33: Items Rows: 50
+09-18-19T14:18:33: Items Rows: 60
+09-18-19T14:18:33: Items Rows: 70
+09-18-19T14:18:33: Items Rows: 80
+09-18-19T14:18:33: Items Rows: 90
+09-18-19T14:18:33: Items Rows: 100
+09-18-19T14:18:33: Items Rows: 110
+09-18-19T14:18:33: Items Rows: 120
+09-18-19T14:18:33: Items Rows: 130
+09-18-19T14:18:33: Items Rows: 140
+09-18-19T14:18:34: Items Rows: 150
+09-18-19T14:18:34: Items Rows: 160
+09-18-19T14:18:34: Items Rows: 170
+09-18-19T14:18:34: Items Rows: 180
+09-18-19T14:18:34: Items Rows: 190
+09-18-19T14:18:34: Items Rows: 200
+09-18-19T14:18:34: Items Rows: 210
+09-18-19T14:18:34: Items Rows: 220
+09-18-19T14:18:34: Items Rows: 230
+09-18-19T14:18:34: Items Rows: 240
+09-18-19T14:18:34: Items Rows: 250
+09-18-19T14:18:34: Items Rows: 260
+09-18-19T14:18:34: Items Rows: 270
+09-18-19T14:18:34: Items Rows: 280
+09-18-19T14:18:34: Items Rows: 290
+09-18-19T14:18:34: Items Rows: 300
+09-18-19T14:18:34: Items Rows: 310
+09-18-19T14:18:34: Items Rows: 320
+09-18-19T14:18:34: Items Rows: 330
+09-18-19T14:18:34: Items Rows: 340
+09-18-19T14:18:34: Starting XSL Transform, this may take awhile.
+09-18-19T14:18:34: XSL Transform Complete.
+09-18-19T14:18:34: Finished Items
+09-18-19T14:18:34: Total Items: 346
+09-18-19T14:18:34: File created in final xml folder: 601 Missing Attributes.xml
+09-18-19T14:18:34: ...
+09-18-19T14:18:34: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\901 Missing Attributes.csv
+09-18-19T14:18:34: Items Rows: 10
+09-18-19T14:18:34: Items Rows: 20
+09-18-19T14:18:34: Items Rows: 30
+09-18-19T14:18:34: Starting XSL Transform, this may take awhile.
+09-18-19T14:18:34: XSL Transform Complete.
+09-18-19T14:18:34: Finished Items
+09-18-19T14:18:34: Total Items: 31
+09-18-19T14:18:34: File created in final xml folder: 901 Missing Attributes.xml
+09-18-19T14:18:34: ...
+09-18-19T14:18:34: Found Input File: C:\Users\chuck\Documents\ROC\Speedway-Source\Data Extraction And Loading\Import Files\Retail Item\FinalCSV\Test of Barcode Search Issue.csv
+09-18-19T14:18:34: Starting XSL Transform, this may take awhile.
+09-18-19T14:18:34: XSL Transform Complete.
+09-18-19T14:18:34: Finished Items
+09-18-19T14:18:34: Total Items: 2
+09-18-19T14:18:34: File created in final xml folder: Test of Barcode Search Issue.xml
+09-18-19T14:18:34: ...
+09-18-19T14:18:34: End Log

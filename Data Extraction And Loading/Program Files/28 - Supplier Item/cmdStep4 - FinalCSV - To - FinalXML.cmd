@@ -1,2 +1,2 @@
-GenerateSupplierItemXML.js
+CScript GenerateSupplierItemXML.js //NoLogo
 pause
