@@ -1,7 +1,7 @@
-/****** Object:  Table [bc_extract_retail_level_from_eso]    Script Date: 9/20/2019 7:47:58 PM ******/
+/****** Object:  Table [bc_extract_retail_level_from_eso]    Script Date: 9/23/2019 9:22:06 PM ******/
 DROP TABLE [bc_extract_retail_level_from_eso]
 GO
-/****** Object:  Table [bc_extract_retail_level_from_eso]    Script Date: 9/20/2019 7:47:58 PM ******/
+/****** Object:  Table [bc_extract_retail_level_from_eso]    Script Date: 9/23/2019 9:22:06 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -949,7 +949,7 @@ INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VAL
 GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'yG and J Pepsi')
 GO
-INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'yFranchise')
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'zFranchise')
 GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'Default')
 GO
@@ -961,11 +961,11 @@ INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VAL
 GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'yPhiladelphia')
 GO
-INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'yFranchise')
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'zFranchise')
 GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'Default')
 GO
-INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'yFranchise')
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'zFranchise')
 GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'Default')
 GO
@@ -984,4 +984,348 @@ GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'Services Lottery', N'Default')
 GO
 INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'Services Car Wash', N'Default')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'yPhiladelphia')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'ySkoglund Oil Co')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Dairy', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'yArizona')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'601 CVO Non Dairy', N'yRiver Country Coop')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'yLogansport')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'yReservations')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'CVO', N'901 CVO', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Auto', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Auto', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Auto', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bags/Stickers', N'zDempsey Waste')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bags/Stickers', N'zRumpke Waste')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bags/Stickers', N'zSwansea')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bags/Stickers', N'zTown of Somerset')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bait', N'zJEFFBAIT')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bait', N'zQUICKBT')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bait', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Bait', N'zWHTMTN')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Confections', N'yCalifornia')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Confections', N'yNorthern')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Confections', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Confections', N'zNortheast')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Confections', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Confections', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Cookie/Cracker', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Cookie/Cracker', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Cookie/Cracker', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Cookie/Cracker', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'DSD Cookie/Cracker/Pastry', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'DSD Salty/Meat Snacks', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'DSD Salty/Meat Snacks', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'DSD Salty/Meat Snacks', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'DSD Salty/Meat Snacks', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zALWAYS FRESH FT AND FLOWERS')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zBOCK FLORIST')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zEXCLUSIVELY ROSES')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zFRESH FLOWER STOP')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zMAY FLOWERS EXPRESS')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zROSE EXPRESS INC')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zROSES AND MORE')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Flowers', N'zTRUE LOVE ROSES')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Grocery', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Grocery', N'yHollco')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Grocery', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Grocery', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Grocery', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'HBA', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'HBA', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'HBA', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'HBA', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Meat Snacks', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Meat Snacks', N'zCompany1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Meat Snacks', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Meat Snacks', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Newspapers', N'yLocal Oil Distributing, Inc')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Newspapers', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Newspapers', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Newspapers', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Non-Food', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Non-Food', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Non-Food', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Non-Food', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Non-Food', N'zWHTMTN')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Novelty', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Novelty', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'yE&K')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'yRiver Country Coop')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'zCompany1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'zMulch Manufacturing')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Outside', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Pastry', N'yAmys Mini Mart')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Pastry', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Pastry', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Salty', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Salty', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'General Merchandise', N'Salty', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Miscellaneous Sales', N'Charity', N'zFranchise')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Miscellaneous Sales', N'Services', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Miscellaneous Sales', N'Services', N'zFranchise')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Miscellaneous Sales', N'Services', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'xMN Shoreview')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zArizona')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zCalifornia')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zColorado')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zNew Mexico')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zTexas CRMK')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zTexas MCLN')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'yMassachusetts high cigar')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zArizona')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zCalifornia')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zColorado')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zNew Mexico')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zTexas CRMK')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zTexas MCLN')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB E-Cigs', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zArizona')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zCalifornia')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zColorado')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zDonner Service Inc')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zErickson Oil Products')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zNew Mexico')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Moist', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'vMa orleans high cigar')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'xMa filtered cigar')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'yMassachusetts high cigar')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zArizona')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zColorado')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zFranchise Zone 2')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zNew Mexico')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zTexas CRMK')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zTexas MCLN')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Roll Your Own and Misc', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'wFr MLP1 2PK BEF')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'wFr MLP1 State Min')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'wFr MLP2 Gold BEF')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yChanhassen Stop LLC Eliasco')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yDana Marathon')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yEliasco Inc')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yErickson Oil Products')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yHasbrouck of Rosemount Inc')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'ySkoglund Oil Co')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yVets2')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'zFranchise State Min')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'zFranchise Wisconsin ')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'zFranchise Zone 1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB zCigarettes', N'zFranchise Zone 2')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Bakery', N'yNeptune')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Bakery', N'yPhilly Tax')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Bakery', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Bakery', N'zAtlantic')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Bakery', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Deli Case', N'Cafe Pricing Test')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Deli Case', N'yRiver Country')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Deli Case', N'yVetsSD')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Deli Case', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Deli Case', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'yLocal Oil Distributing Inc')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zIL Champaign Sprngfld Decatur')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zMN Duluth Superior')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zMN La Crosse Eau Claire')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zMN Mankato')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zMN Minneapolis St Paul')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zSD Sioux Falls')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Dispensed Beverages', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Fruit', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Ice', N'zNOCO')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Ice', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Ice', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Other Franchise', N'yCTB 9892')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Prepared Foods', N'yCardinal')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Prepared Foods', N'zCafe Pricing Test')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Prepared Foods', N'zPacific')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Food Service and Technology', N'Prepared Foods', N'zVets1')
+GO
+INSERT [bc_extract_retail_level_from_eso] ([mg_name], [mgm_name], [ml_name]) VALUES (N'Tobacco and Services', N'TOB Cigars', N'ySan Leandro CA High Cigar')
 GO

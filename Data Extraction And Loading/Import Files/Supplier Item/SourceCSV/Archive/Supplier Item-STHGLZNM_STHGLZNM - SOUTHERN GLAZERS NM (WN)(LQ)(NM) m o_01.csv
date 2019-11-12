@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_085200000098,SUTTER HOME WHT ZIN 187M,35002602,35002602,,,,a,401 03A 000,Case,24.00,,,u,_085200000098,Master,29.36,0.00,1900-01-01,2075-12-31
-_85200000067,SUTTER HOME CHARD PET 187ML,35002595,35002595,,,,a,401 03A 000,Case,24.00,,,u,_085200000067,Master,29.36,0.00,1900-01-01,2075-12-31
-_85200000067,,,,,,,,,,,,,u,_852000000678,,,,,

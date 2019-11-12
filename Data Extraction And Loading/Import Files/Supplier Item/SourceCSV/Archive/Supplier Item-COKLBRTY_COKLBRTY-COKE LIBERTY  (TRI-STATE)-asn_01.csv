@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_049000042849,COKE ZERO 24PK 12z CN,183662,183662,,,,a,901 01 000,Case,24.00,,,u,_049000042849,Master,8.10,0.00,1900-01-01,2075-12-31
-_049000042849,,,,,,,,,,,,,u,_049000043006,,,,,

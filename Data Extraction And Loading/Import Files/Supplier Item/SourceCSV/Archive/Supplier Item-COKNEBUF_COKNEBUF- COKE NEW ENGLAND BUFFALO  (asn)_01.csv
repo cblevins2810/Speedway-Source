@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_073861020012,CRYSTAL BEACH LOGANBRY 2L,38001649,38001649,,,,a,Default,Case,8.00,,,u,_073861020012,Master,13.00,0.00,1900-01-01,2075-12-31
-_073861200018,CB LOGANBERRY 20OZ/20OZ,35000312,35000312,,,,a,Default,Case,24.00,,,u,_073861200018,Master,27.00,0.00,1900-01-01,2075-12-31

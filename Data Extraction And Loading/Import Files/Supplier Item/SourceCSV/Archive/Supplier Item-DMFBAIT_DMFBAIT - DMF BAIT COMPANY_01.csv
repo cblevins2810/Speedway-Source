@@ -1,8 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_084403001512,DMF WAX WORM,38000444,38000444,,,,a,Default,Each,1.00,,,u,_084403001512,Master,1.65,0.00,1900-01-01,2075-12-31
-_084403001864,DMF GREEN WORMS,38000800,38000800,,,,a,Default,Each,1.00,,,u,_084403001864,Master,2.55,0.00,1900-01-01,2075-12-31
-_084403003301,DMF MEAL WORMS,38000801,38000801,,,,a,Default,Each,1.00,,,u,_084403003301,Master,1.65,0.00,1900-01-01,2075-12-31
-_084403180019,DMF NIGHTCRAWLERS,38000802,38000802,,,,a,Default,Each,1.00,,,u,_084403180019,Master,2.55,0.00,1900-01-01,2075-12-31
-_084403200120,DMF BUTTER WORMS,38002000,38002000,,,,a,Default,Each,1.00,,,u,_084403200120,Master,2.85,0.00,1900-01-01,2075-12-31
-_084403300103,DMF BIG RED WORMS,38000799,38000799,,,,a,Default,Each,1.00,,,u,_084403300103,Master,2.55,0.00,1900-01-01,2075-12-31

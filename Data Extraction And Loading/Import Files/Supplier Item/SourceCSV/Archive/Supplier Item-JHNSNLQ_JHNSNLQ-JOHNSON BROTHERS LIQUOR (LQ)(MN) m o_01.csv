@@ -1,8 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_070491212329,MASTER OF MIXES SWEET AND SOUR 1L,1124862,1124862,,,,a,401 06A 000,Case,12.00,,,u,_070491212329,Master,38.51,0.00,1900-01-01,2075-12-31
-_070491212824,MASTER OF MIXES PINA COLADA 1L,1124864,1124864,,,,a,401 06A 000,Case,12.00,,,u,_070491212824,Master,36.00,0.00,1900-01-01,2075-12-31
-_084279914732,MCADAMS CANADIAN 750ML,1124851,1124851,,,,a,401 03A 000,Case,12.00,,,u,_084279914732,Master,75.00,0.00,1900-01-01,2075-12-31
-_084279915548,CALIFORNIA CREST 1.75ML,1124848,1124848,,,,a,401 03A 000,Case,6.00,,,u,_084279915548,Master,79.00,0.00,1900-01-01,2075-12-31
-_084279978369,DURNAGO GOLD TEQUILA 1L,1124853,1124853,,,,a,401 04A 000,Case,12.00,,,u,_084279978369,Master,143.15,0.00,1900-01-01,2075-12-31
-_811538011211,JOSE CUERVO CLASSIC MARGARITA MIX 750ML,1124863,1124863,,,,a,401 06A 000,Case,12.00,,,u,_811538011211,Master,41.28,0.00,1900-01-01,2075-12-31

@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_91124380,MTC PREMIUM ANGUS BURGER,1124380,1124380,,,,a,221 04 102,Each,1.00,,,u,_841112105074,Master,0.00,0.00,1900-01-01,2075-12-31
-_91124823,ISMB SALTED CARAMEL COOKIE,1124823,1124823,,,,a,231 05 005,Each,1.00,,,u,_841112105081,Master,0.00,0.00,1900-01-01,2075-12-31
-_938002002,DONUT KRAZE SINGLE DONUT,38002002,38002002,,,,a,231 02 005,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31
-_938002003,DONUT KRAZE HALF DOZEN DONUTS,38002003,38002003,,,,a,231 02 005,Each,1.00,,,,,Master,0.00,0.00,1900-01-01,2075-12-31

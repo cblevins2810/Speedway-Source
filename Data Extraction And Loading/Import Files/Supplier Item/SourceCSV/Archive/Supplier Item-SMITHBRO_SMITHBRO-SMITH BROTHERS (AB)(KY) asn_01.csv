@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_018200025990,BUD LT ORANGE 16Z ALUM,1103031,1103031,,,,a,401 01J 000,Case,24.00,,,u,_018200025990,Master,30.80,0.00,1900-01-01,2075-12-31
-_018200025990,,,,,,,,,,,,,u,_018200259999,,,,,

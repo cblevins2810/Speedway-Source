@@ -1,7 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_018200005336,HURRICANE HI GRAVTY 40z LN,172420,172420,,,,a,401 01J 000,Case,12.00,,,u,_018200005336,Master,28.75,0.00,1900-01-01,2075-12-31
-_018200005442,NATURAL LT 4PK 16z CN,181142,181142,,,,a,401 01A 000,Case,24.00,,,u,_018200005442,Master,26.25,0.00,1900-01-01,2075-12-31
-_071439348063,ROLLING ROCK 6PK 12z LN,33823,33823,,,,a,401 01B 000,Case,24.00,,,u,_071439000336,Master,20.25,0.00,1900-01-01,2075-12-31
-_071439348063,,,,,,,,,,,,,u,_071439120065,,,,,
-_071439348063,,,,,,,,,,,,,u,_071439348063,,,,,

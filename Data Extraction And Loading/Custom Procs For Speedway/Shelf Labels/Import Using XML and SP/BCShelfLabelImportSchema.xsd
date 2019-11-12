@@ -1,0 +1,117 @@
+<!-- edited with XMLSpy v2006 sp2 U (http://www.altova.com) by BlueCube Software -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!--       Shelf Label Batch D o c u m e n t  -->
+	<!--       E n t e r p r i s e D o c u m e n t   A t t r i b u t e s  -->
+	<xs:element name="EnterpriseDocument">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="EnterpriseDocumentType"/>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="EnterpriseDocumentType">
+		<xs:sequence>
+			<xs:element name="ShelfLabelBatchList" type="ShelfLabelBatchList"/>
+		</xs:sequence>
+		<xs:attribute name="InterfaceName" type="String_50" use="required" fixed="ShelfLabelBatchImport"/>
+		<xs:attribute name="Version" type="VersionType" use="required"/>
+		<xs:attribute name="CreationTimestamp" type="xs:dateTime" use="required"/>
+		<xs:attribute name="CreationSource" type="String_50" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ShelfLabelBatchList">
+		<xs:sequence>
+			<xs:element name="ShelfLabelBatch" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="ShelfLabelBatchType">
+							<xs:sequence>
+								<xs:element name="RetailItemList" type="RetailItemList" minOccurs="0"/>
+								<xs:element name="InventoryItemList" type="InventoryItemList" minOccurs="0"/>
+							</xs:sequence>
+						</xs:extension>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<!--      ShelfLabelBatch   A t t r i b u t e s  -->
+	<xs:complexType name="ShelfLabelBatchType">
+		<xs:attribute name="batchName" type="String_100" use="optional"/>
+		<xs:attribute name="businessUnitCode" type="String_50" use="required"/>
+		<xs:attribute name="businessUnitName" type="String_50" use="optional"/>
+	</xs:complexType>
+	<!--       Retail I t e m L i s t   A t t r i b u t e s  -->
+	<xs:complexType name="RetailItemList">
+		<xs:sequence>
+			<xs:element name="RetailItem" type="RetailItemType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--     Retail  Item   A t t r i b u t e s  -->
+	<xs:complexType name="RetailItemType">
+		<xs:attribute name="retailItemName" type="String_255" use="optional"/>
+		<xs:attribute name="retailPackExternalID" type="String_255" use="required"/>
+		<xs:attribute name="shelfLabelPrintQuantity" type="PositiveInteger" use="optional" default="1"/>
+	</xs:complexType>
+	<!--       Inventory I t e m L i s t   A t t r i b u t e s  -->
+	<xs:complexType name="InventoryItemList">
+		<xs:sequence>
+			<xs:element name="InventoryItem" type="InventoryItemType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<!--    Inventory Item   A t t r i b u t e s  -->
+	<xs:complexType name="InventoryItemType">
+		<xs:attribute name="itemName" type="String_50" use="optional"/>
+		<xs:attribute name="ItemExternalID" type="String_255" use="required"/>
+		<xs:attribute name="shelfLabelPrintQuantity" type="PositiveInteger" use="optional" default="1"/>
+	</xs:complexType>
+	<!--       M i s c e l l a n e o u s   T y p e   D e f i n i t i o n s  -->
+	<xs:simpleType name="CustomDateTime">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="23"/>
+			<xs:pattern value="\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String_50">
+		<xs:annotation>
+			<xs:documentation>Fifty maximum character string.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"/>
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String_100">
+		<xs:annotation>
+			<xs:documentation>100 maximum character string.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"/>
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="String_255">
+		<xs:annotation>
+			<xs:documentation>255 maximum character string.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="255"/>
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="VersionType">
+		<xs:annotation>
+			<xs:documentation>Versions allowed for schema</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1.0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PositiveInteger">
+		<xs:annotation>
+			<xs:documentation>Value greater than or equal to 1.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

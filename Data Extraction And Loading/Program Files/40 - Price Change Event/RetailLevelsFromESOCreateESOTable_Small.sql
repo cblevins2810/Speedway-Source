@@ -27,7 +27,6 @@ ON   ml.merch_group_id = mgm.merch_group_id
 AND  ml.merch_group_member_id = mgm.merch_group_member_id
 WHERE ml.default_ranking > 0
 
---select * from bc_extract_retail_level_from_eso
 
 
 

@@ -1,8 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_012000100246,MT DEW DT 15PK 12z CN,1089052,1089052,,,,a,901 01 000,Case,30.00,,,u,_012000100246,Master,8.98,0.00,1900-01-01,2075-12-31
-_012000107528,PEPSI 15PK 12z CN,183482,183482,,,,a,901 01 000,Case,30.00,,,u,_012000107528,Master,8.98,0.00,2019-07-03,2075-12-31
-_012000171901,PEPSI DT 15PK 12z CN,183548,183548,,,,a,901 01 000,Case,30.00,,,u,_012000107535,Master,8.98,0.00,2019-07-03,2075-12-31
-_012000171901,,,,,,,,,,,,,u,_012000171901,,,,,
-_048500008607,TROPICANA ORANGE 15.2z,190318,190318,,,,a,601 12 000,Case,12.00,,,u,_048500008607,Master,12.00,0.00,1900-01-01,2075-12-31
-_078000113082,SUNKIST 18PK 12Z CN,1051604,1051604,,,,a,901 01 000,Case,36.00,,,u,_078000113082,Master,11.68,0.00,1900-01-01,2075-12-31

@@ -1,4 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_86609,HOT STUFF DOUGH DISC 12'' THIN,37003331,37003331,,,,a,221 05 101,Case,30.00,,,,,Master,34.74,0.00,1900-01-01,2075-12-31
-_88907,HOT STUFF MED PIZZA LABEL,37003332,37003332,,,,a,221 05 100,Case,250.00,,,,,Master,6.50,0.00,1900-01-01,2075-12-31

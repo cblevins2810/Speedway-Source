@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_070061170202,BALLREICH MUNCH RIGHTS BAR-B-QUE PUFFS 3z,1124499,1124499,,,,a,706 11 000,Each,1.00,,,u,_070061170202,Master,1.39,0.00,1900-01-01,2075-12-31
-_070061170219,BALLREICH MUNCH RIGHTS WHITE CHEDDAR PUFFS 3z,1124497,1124497,,,,a,706 11 000,Each,1.00,,,u,_070061170219,Master,1.39,0.00,1900-01-01,2075-12-31
-_070061170226,BALLREICH MUNCH RIGHTS CINNAMON APPLE PUFFS 3z,1124498,1124498,,,,a,706 11 000,Each,1.00,,,u,_070061170226,Master,1.39,0.00,2019-06-27,2075-12-31
-_070061170233,BALLREICH MUNCH RIGHTS CHEDDAR N SOUR CREAM PUFFS,1124500,1124500,,,,a,706 11 000,Each,1.00,,,u,_070061170233,Master,1.39,0.00,1900-01-01,2075-12-31

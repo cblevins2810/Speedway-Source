@@ -1,6 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_049000069846,HUBERTS LEMONADE ORIGINAL 16z,1052643,1052643,,,,a,Default,Case,12.00,,,u,_049000069846,Master,14.40,0.00,1900-01-01,2075-12-31
-_049000069846,,,,,,,,,,,,,u,_070847000532,,,,,
-_049000070354,HUBERTS LEMONADE STRAWBERRY 16z,1052642,1052642,,,,a,Default,Case,12.00,,,u,_049000070354,Master,14.40,0.00,1900-01-01,2075-12-31
-_049000070354,,,,,,,,,,,,,u,_070847004400,,,,,

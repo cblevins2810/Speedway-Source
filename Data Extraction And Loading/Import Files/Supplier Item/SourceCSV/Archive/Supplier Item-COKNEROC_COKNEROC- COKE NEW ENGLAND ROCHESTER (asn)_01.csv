@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_049000001297,SPRITE 24PK 12z CN,166421,166421,,,,a,901 01 000,Case,24.00,,,u,_049000001297,Master,8.10,0.00,1900-01-01,2075-12-31
-_049000001297,,,,,,,,,,,,,u,_049000019384,,,,,
-_078000218183,DR PEP DARK BERRY 20Z,1120545,1120545,,,,a,901 04 000,Case,24.00,,,u,_078000218183,Master,27.00,0.00,1900-01-01,2075-12-31

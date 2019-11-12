@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_088004029296,FIREBALL CINN WHSKY 20PK 50ML BCKT,37003366,37003366,,,,a,401 01G 000,Case,120.00,,,u,_088004029296,Master,84.00,0.00,1900-01-01,2075-12-31
-_088004034221,99 SCH PARTY BUCKET 20PK 50ML,37003367,37003367,,,,a,401 01G 000,Case,120.00,,,u,_088004034221,Master,96.00,0.00,1900-01-01,2075-12-31
-_089000018796,CHI CHI MARGARITA 200ML,1124392,37003158,,,,a,401 04A 00,Case,24.00,,,u,_089000018796,Master,33.43,0.00,1900-01-01,2075-12-31

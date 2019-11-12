@@ -3,7 +3,6 @@
 	This will allow the index to be re-applied.
 */
  
-
 IF OBJECT_ID('tempdb..#Discount') IS NOT NULL
     DROP TABLE #Discount
 GO

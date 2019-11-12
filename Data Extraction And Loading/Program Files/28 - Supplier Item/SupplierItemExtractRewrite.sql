@@ -1,7 +1,34 @@
 SET NOCOUNT ON
 
-select * from supplier_packaged_item where supplier_item_code = '000307'
-and supplier_id in (1002617, 1003836)
+IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
+    DROP TABLE #supplier_item_counts
+CREATE TABLE #supplier_item_counts
+(supplier_item_code nvarchar(100),
+ cost_level_count int,
+ barcode_count int)
+ 
+IF OBJECT_ID('tempdb..#supplier_item_extract') IS NOT NULL
+    DROP TABLE #supplier_item_extract
+CREATE TABLE #supplier_item_extract
+(supplier_item_row_number int not null,
+ supplier_item_code nvarchar(50) not null,
+ barcode_type nvarchar(1) null,
+ barcode_number nvarchar(255) null,
+ cost_level_name nvarchar(50) null,
+ package_cost smallmoney null,
+ package_allowance smallmoney null,
+ start_date smalldatetime null,
+ end_date smalldatetime null)
+ 
+IF OBJECT_ID('tempdb..#merch_cost_change') IS NOT NULL
+    DROP TABLE #merch_cost_change
+CREATE TABLE #merch_cost_change
+(supplier_item_code nvarchar(50) not null,
+ merch_cost_level_id INT NOT NULL,
+ start_date smalldatetime NOT NULL,
+ end_date smalldatetime NULL,
+ supplier_price smallmoney NOT NULL,
+ supplier_allowance smallmoney NOT NULL)
 
 DECLARE @MerchCostChangeEffectiveDate AS smalldatetime
 SET		@MerchCostChangeEffectiveDate = CONVERT(smalldatetime, SYSDATETIME())
@@ -40,36 +67,6 @@ FROM supplier AS s
 JOIN bcssa_custom_integration..bc_extract_supplier_merge AS m
 ON   m.merge_to_supplier_xref = @SupplierXRef
 AND  m.merge_from_supplier_xref = s.xref_code
-
-IF @linked_supplier_id > 0 
-
-	SELECT st.supplier_id, spit.supplier_item_id, spit.packaged_item_id, '_' + spit.supplier_item_code supplier_item_code,
-	sf.supplier_id linked_supplier_id, spif.supplier_item_id linked_supplier_item_id,
-	spif.packaged_item_id linked_packaged_item_id, '_' + spif.supplier_item_code linked_supplier_item_code,
-	CASE WHEN LEN(spit.supplier_item_code) > LEN(spif.supplier_item_code)
-		THEN '_' + spit.supplier_item_code ELSE '_' + spif.supplier_item_code END AS corrected_supplier_item_code
-	INTO #supplier_item_product_code_update      
-	--st.name, st.xref_code, sf.name, sf.xref_code, sit.name, '_' + spit.supplier_item_code, sif.name, '_' + spif.supplier_item_code
-	FROM supplier as st
-	CROSS JOIN supplier as sf
-	JOIN Supplier_Item AS sit (NOLOCK)
-	ON   st.supplier_id = sit.supplier_id
-	JOIN Supplier_Item AS sif (NOLOCK)
-	ON   sf.supplier_id = sif.supplier_id
-	JOIN Supplier_Packaged_Item AS spit (NOLOCK)
-	ON   st.supplier_id = spit.supplier_id
-	AND  sit.supplier_item_id = spit.supplier_item_id
-	JOIN Supplier_Packaged_Item AS spif (NOLOCK)
-	ON   sf.supplier_id = spif.supplier_id
-	AND  sif.supplier_item_id = spif.supplier_item_id
-	WHERE sif.status_code in ('a','u')
-	AND   sif.exception_status_code = 'n'
-	AND   ((RTRIM(SUBSTRING(spit.supplier_item_code,2,50)) = spif.supplier_item_code
-	AND   SUBSTRING(spit.supplier_item_code,1,1) = '0')
-		OR (RTRIM(SUBSTRING(spif.supplier_item_code,2,50)) = spit.supplier_item_code
-	AND   SUBSTRING(spif.supplier_item_code,1,1) = '0'))
-	AND   st.supplier_id = @supplier_id
-	AND   sf.supplier_id = @linked_supplier_id
 
 INSERT @cost_level
 SELECT @supplier_id, 0,
@@ -206,126 +203,102 @@ ELSE
    WHERE  supplier_Id <> @supplier_id 
    AND    supplier_id <> @linked_supplier_id
 
---SELECT * FROM @cost_level
-
-IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
-    DROP TABLE #supplier_item_counts
-CREATE TABLE #supplier_item_counts
-(--supplier_item_code nvarchar(100),
-supplier_id int,
- supplier_item_id int,
- cost_level_count int,
- barcode_count int)
- 
-IF OBJECT_ID('tempdb..#supplier_item_extract') IS NOT NULL
-    DROP TABLE #supplier_item_extract
-CREATE TABLE #supplier_item_extract
-(supplier_id int not null,
- supplier_item_id int not null,
- supplier_item_row_number int not null,
- supplier_item_code nvarchar(50) not null,
- barcode_type nvarchar(1) null,
- barcode_number nvarchar(255) null,
- cost_level_name nvarchar(50) null,
- package_cost smallmoney null,
- package_allowance smallmoney null,
- start_date smalldatetime null,
- end_date smalldatetime null)
- 
-CREATE INDEX IX1 ON #supplier_item_extract (supplier_id, supplier_item_id, supplier_item_row_number)
-
-IF OBJECT_ID('tempdb..#merch_cost_change') IS NOT NULL
-    DROP TABLE #merch_cost_change_pre
-CREATE TABLE #merch_cost_change_pre
-(merch_cost_change_id INT,
- supplier_id INT NOT NULL,
- supplier_item_id INT NOT NULL,
- merch_cost_level_id INT NOT NULL,
- start_date smalldatetime NOT NULL,
- end_date smalldatetime NULL,
- supplier_price smallmoney NOT NULL,
- supplier_allowance smallmoney NOT NULL)
-
-IF OBJECT_ID('tempdb..#merch_cost_change') IS NOT NULL
-    DROP TABLE #merch_cost_change
-CREATE TABLE #merch_cost_change
-(supplier_id INT NOT NULL,
- supplier_item_id INT NOT NULL,
- merch_cost_level_id INT NOT NULL,
- start_date smalldatetime NOT NULL,
- end_date smalldatetime NULL,
- supplier_price smallmoney NOT NULL,
- supplier_allowance smallmoney NOT NULL)
-
-/*
-INSERT #merch_cost_change_pre
-(merch_cost_change_id,
-supplier_id,
-supplier_item_id,
-merch_cost_level_id,
-start_date,
-end_date,
-supplier_price,
-supplier_allowance)
-SELECT DISTINCT 0,
-mcc1.supplier_id,
-mcc1.supplier_item_id,
-0,
-'1900-01-01',
-'2075-12-31',
-0,
-0
-FROM merch_cost_change mcc1
-JOIN Merch_Cost_Level mcl
-ON   mcc1.merch_cost_level_id = mcl.merch_cost_level_id
-AND  mcc1.supplier_id = mcl.supplier_id
-AND  mcl.default_ranking = 999
-WHERE start_date <= @MerchCostChangeEffectiveDate
-AND (end_date > @MerchCostChangeEffectiveDate
-OR	end_date IS NULL)
-AND supplier_Item_Id % @Modulus = @Remainder
-AND promo_flag IN ('n')
-AND change_type_code IN ('a','c')
-AND mcc1.supplier_id = @supplier_id
-UNION
-SELECT DISTINCT mcc1.merch_cost_change_id,
-mcc1.supplier_id,
-mcc1.supplier_item_id,
-mcc1.merch_cost_level_id,
-mcc1.start_date,
-mcc1.end_date,
-mcc1.supplier_price,
-mcc1.supplier_allowance
-FROM merch_cost_change mcc1 (NOLOCK)
-WHERE start_date <= @MerchCostChangeEffectiveDate
-AND (end_date > @MerchCostChangeEffectiveDate
-OR	end_date IS NULL)
-AND supplier_Item_Id % @Modulus = @Remainder
-AND promo_flag IN ('n')
-AND change_type_code IN ('a','c')
-AND (supplier_id = @linked_supplier_id OR supplier_id = @supplier_id)
-*/
+SELECT st.supplier_id,
+spit.supplier_item_id,
+spit.packaged_item_id,
+'_' + spit.supplier_item_code supplier_item_code,
+sf.supplier_id linked_supplier_id,
+spif.supplier_item_id linked_supplier_item_id,
+spif.packaged_item_id linked_packaged_item_id,
+'_' + spif.supplier_item_code linked_supplier_item_code,
+CASE WHEN LEN(spit.supplier_item_code) > LEN(spif.supplier_item_code)
+THEN '_' + spit.supplier_item_code ELSE '_' + spif.supplier_item_code END AS corrected_supplier_item_code
+INTO #linked_supplier_item_map
+FROM supplier as st
+CROSS JOIN supplier as sf
+JOIN Supplier_Item AS sit (NOLOCK)
+ON   st.supplier_id = sit.supplier_id
+JOIN Supplier_Item AS sif (NOLOCK)
+ON   sf.supplier_id = sif.supplier_id
+JOIN Supplier_Packaged_Item AS spit (NOLOCK)
+ON   st.supplier_id = spit.supplier_id
+AND  sit.supplier_item_id = spit.supplier_item_id
+JOIN Supplier_Packaged_Item AS spif (NOLOCK)
+ON   sf.supplier_id = spif.supplier_id
+AND  sif.supplier_item_id = spif.supplier_item_id
+WHERE sif.status_code in ('a','u')
+AND   sif.exception_status_code = 'n'
+AND   ((RTRIM(SUBSTRING(spit.supplier_item_code,2,50)) = spif.supplier_item_code
+AND   SUBSTRING(spit.supplier_item_code,1,1) = '0')
+		OR (RTRIM(SUBSTRING(spif.supplier_item_code,2,50)) = spit.supplier_item_code
+AND   SUBSTRING(spif.supplier_item_code,1,1) = '0'))
+AND   st.supplier_id = @supplier_id
+AND   sf.supplier_id = @linked_supplier_id
 
 INSERT #merch_cost_change
-(supplier_id,
-supplier_item_id,
+(supplier_item_code,
 merch_cost_level_id,
 start_date,
 end_date,
 supplier_price,
 supplier_allowance)
 
-SELECT DISTINCT mcc1.supplier_id,
-mcc1.supplier_item_id,
+SELECT DISTINCT corrected_supplier_item_code
 mcc1.merch_cost_level_id,
 mcc1.start_date,
 mcc1.end_date,
 mcc1.supplier_price,
 mcc1.supplier_allowance
 
-FROM merch_cost_change AS mcc1 (NOLOCK)
+FROM #linked_supplier_item_map AS m
+JOIN merch_cost_change AS mcc1 (NOLOCK)
+ON   m.supplier_Id = mcc1.supplier_Id
+AND  m.supplier_Item_Id = mcc1.supplier_Item_Id
 JOIN @cost_level as cl
 ON    mcc1.merch_cost_level_id = cl.merch_cost_level_id
+ANd   mcc1.supplier_Id = cl.supplier_Id
+WHERE start_date <= @MerchCostChangeEffectiveDate
+AND (end_date > @MerchCostChangeEffectiveDate
+OR	end_date IS NULL)
+AND supplier_Item_Id % @Modulus = @Remainder
+AND promo_flag IN ('n')
+AND change_type_code IN ('a','c')
+AND NOT EXISTS (SELECT 1 FROM merch_cost_change AS mcc2 (NOLOCK)
+                WHERE mcc1.supplier_id = mcc2.supplier_id
+                AND   mcc1.supplier_item_id = mcc2.supplier_item_id
+                AND   mcc1.merch_cost_level_id = mcc2.merch_cost_level_id
+                AND mcc2.start_date <= @MerchCostChangeEffectiveDate
+                AND (mcc2.end_date > @MerchCostChangeEffectiveDate
+                OR	mcc2.end_date IS NULL)
+                AND mcc2.start_date > mcc1.start_date
+                AND mcc2.promo_flag IN ('n')
+                AND mcc2.change_type_code IN ('a','c'))
+AND NOT EXISTS (SELECT 1 FROM merch_cost_change AS mcc2 (NOLOCK)
+                WHERE mcc1.supplier_id = mcc2.supplier_id
+                AND   mcc1.supplier_item_id = mcc2.supplier_item_id
+                AND   mcc1.merch_cost_level_id = mcc2.merch_cost_level_id
+                AND mcc2.start_date = mcc1.start_date
+                AND (mcc2.end_date = mcc1.end_date
+                OR	mcc2.end_date IS NULL)
+                AND mcc2.merch_cost_change_id > mcc1.merch_cost_change_id
+                AND mcc2.promo_flag IN ('n')
+                AND mcc2.change_type_code IN ('a','c'))
+
+UNION
+SELECT DISTINCT corrected_supplier_item_code
+mcc1.merch_cost_level_id,
+mcc1.start_date,
+mcc1.end_date,
+mcc1.supplier_price,
+mcc1.supplier_allowance
+
+FROM #linked_supplier_item_map AS m
+JOIN merch_cost_change AS mcc1 (NOLOCK)
+ON   m.linked_supplier_Id = mcc1.supplier_Id
+AND  m.linked_supplier_Item_Id = mcc1.supplier_Item_Id
+JOIN @cost_level as cl
+ON    mcc1.merch_cost_level_id = cl.merch_cost_level_id
+ANd   mcc1.supplier_Id = cl.supplier_Id
 WHERE start_date <= @MerchCostChangeEffectiveDate
 AND (end_date > @MerchCostChangeEffectiveDate
 OR	end_date IS NULL)
@@ -370,6 +343,38 @@ mcc1.supplier_item_id,
 0,
 0
 FROM #merch_cost_change mcc1
+
+
+IF OBJECT_ID('tempdb..#unique_barcode') IS NOT NULL
+    DROP TABLE #unique_barcode
+
+IF OBJECT_ID('tempdb..##linked_supplier_item_map') IS NOT NULL
+    DROP TABLE ##linked_supplier_item_map
+
+IF OBJECT_ID('tempdb..#supplier_item_extract3') IS NOT NULL
+    DROP TABLE #supplier_item_extract3
+
+IF OBJECT_ID('tempdb..#supplier_item_extract2') IS NOT NULL
+    DROP TABLE #supplier_item_extract2
+
+IF OBJECT_ID('tempdb..#supplier_item_counts') IS NOT NULL
+    DROP TABLE #supplier_item_counts
+    
+IF OBJECT_ID('tempdb..#supplier_item_extract') IS NOT NULL
+    DROP TABLE #supplier_item_extract
+
+IF OBJECT_ID('tempdb..#merch_cost_change') IS NOT NULL
+    DROP TABLE #merch_cost_change
+
+IF OBJECT_ID('tempdb..#merch_cost_change_pre') IS NOT NULL
+    DROP TABLE #merch_cost_change_pre
+
+
+
+
+
+
+
 --WHERE EXISTS (SELECT 1
 --                  FROM  #merch_cost_change mcc2
 --                  WHERE mcc1.supplier_id = mcc2.supplier_id

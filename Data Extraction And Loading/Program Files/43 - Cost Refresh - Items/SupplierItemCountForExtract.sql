@@ -1,13 +1,16 @@
 SET NOCOUNT ON
 
-SELECT DISTINCT i.SupplierXrefCode, si.SequenceNumber
-FROM	VP60_Spwy..bc_extract_cost_import_supplier_item as si
-JOIN    VP60_Spwy..bc_extract_cost_import AS i
-ON      si.ImportId = i.ImportId
-WHERE   i.StatusCode = 'r'
+SELECT DISTINCT ci.SupplierXrefCode, REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(s.name,'/',' '),',',' '),'_',' '),'[',' '), ']',' '),
+cisi.SequenceNumber
+FROM	VP60_Spwy..bc_extract_cost_import_supplier_item as cisi
+JOIN    VP60_Spwy..bc_extract_cost_import AS ci
+ON      cisi.ImportId = ci.ImportId
+JOIN    VP60_eso..Supplier AS s
+ON      s.supplier_id = ci.ResolvedSupplierId
+WHERE   ci.StatusCode = 'r'
+AND     cisi.SequenceNumber IS NOT NULL
 
-UPDATE VP60_Spwy..bc_extract_cost_import
-SET    StatusCode = 'e'
-WHERE  StatusCode = 'r'
+
+
 
 

@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_2840011541,FL CHEETOS FLAMIN HOT CRUNCHY PARTY SZ 17.5z,1124773,1124773,,,,a,601 04A 100,Each,1.00,,,u,_028400115414,Master,3.89,0.00,1900-01-01,2075-12-31
-_2840018391,FL XL CHEETOS BAKED FLAMIN HOT,1054021,1054021,,,,a,Default,Each,1.00,,,u,_028400183918,Master,2.42,0.00,1900-01-01,2075-12-31
-_2840058931,FL XL FRITOS FLAMIN HOT,37002319,37002319,,,,a,601 04A 100,Each,1.00,,,u,_028400589314,Master,2.65,0.00,1900-01-01,2075-12-31

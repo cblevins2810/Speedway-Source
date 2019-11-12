@@ -1,5 +1,0 @@
-ProductCode,Name,XRefID,ItemXRefID,SpreadSheetPlaceholder1,SpreadSheetPlaceholder2,Description,Status,SupplierItemGroupName,SupplierPackageUOM,QuantityFactor,AvailabilityStartDate,AvailabilityEndDate,TypeCode,Number,CostLevel,PackageCost,PackageAllowance,CostStartDate,CostEndDate
------------,----,------,----------,-----------------------,-----------------------,-----------,------,---------------------,------------------,--------------,---------------------,-------------------,--------,------,---------,-----------,----------------,-------------,-----------
-_033544950906,MODELO 32Z LN,1097751,1097751,,,,a,Default,Case,12.00,,,u,_033544950906,Master,35.50,0.00,1900-01-01,2075-12-31
-_033544950906,,,,,,,,,,,,,u,_335449509068,,,,,
-_635985260394,WHITE CLAW MANGO 19.2Z CN,1123104,1123104,,,,a,Default,Case,12.00,,,u,_635985260394,Master,23.25,0.00,2019-06-27,2075-12-31
